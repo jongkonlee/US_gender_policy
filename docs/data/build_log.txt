@@ -1,0 +1,39 @@
+07:51:23 legislators: 12770 people
+07:51:23 === Congress 119 ===
+07:51:29 listing failed 119 hr Expecting value: line 1 column 1 (char 0)
+07:51:29 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119-hr.zip
+07:52:09 listing failed 119 s Expecting value: line 1 column 1 (char 0)
+07:52:09 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119-s.zip
+07:52:25 listing failed 119 hjres Expecting value: line 1 column 1 (char 0)
+07:52:25 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hjres/BILLSTATUS-119-hjres.zip
+07:52:26 listing failed 119 sjres Expecting value: line 1 column 1 (char 0)
+07:52:26 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/sjres/BILLSTATUS-119-sjres.zip
+07:52:27 listing failed 119 hconres Expecting value: line 1 column 1 (char 0)
+07:52:27 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hconres/BILLSTATUS-119-hconres.zip
+07:52:27 listing failed 119 sconres Expecting value: line 1 column 1 (char 0)
+07:52:27 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/sconres/BILLSTATUS-119-sconres.zip
+07:52:29 listing failed 119 hres Expecting value: line 1 column 1 (char 0)
+07:52:29 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hres/BILLSTATUS-119-hres.zip
+07:52:34 listing failed 119 sres Expecting value: line 1 column 1 (char 0)
+07:52:34 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/sres/BILLSTATUS-119-sres.zip
+07:52:37 bills 119: 19826
+07:52:37 bills loaded: 19826
+07:52:59 women's policy bills: 1064 (core 724)
+07:52:59 state urban/rural 2020: total col 3 '2020 total pop 5024279 733391 7151502 30', rural col 6 '2020 
+rural pop 2123399 257424 766272 13'
+07:53:00 Downballot 2024: 435 districts from Vote totals(votes), Percentages(pct)
+07:53:00 FEC 2024: sheet 'OFFICIAL 2024 PRES GE RESULTS', D col 12, R col 24, 51 states, total error 0.00000
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/openpyxl/worksheet/header_footer.py:48: UserWarning: Cannot parse header or footer so it will be ignored
+  warn("""Cannot parse header or footer so it will be ignored""")
+07:53:12 FEC 2020: sheet '3. Table 2 Electoral & Pop Vote', D col 3, R col 4, 51 states, total error 0.00000
+/home/runner/work/genderpolitics/genderpolitics/pipeline/build.py:92: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  out = dict(congress=congress, built=dt.datetime.utcnow().isoformat(timespec="seconds") + "Z",
+07:53:13 voteview H119: 674 roll calls, 452 members
+07:53:14 H119: 49 women's policy votes, roster 451
+07:53:14 voteview S119: 915 roll calls, 104 members
+07:53:15 S119: 59 women's policy votes, roster 104
+/home/runner/work/genderpolitics/genderpolitics/pipeline/build.py:314: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  data = dict(congress=congress, generated=dt.datetime.utcnow().isoformat(timespec="seconds") + "Z",
+/home/runner/work/genderpolitics/genderpolitics/pipeline/build.py:332: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  generated=dt.datetime.utcnow().isoformat(timespec="seconds") + "Z",
+07:53:15 done [{'c': 119, 'bills': 1064, 'votes': {'H': 49, 'S': 59}, 'members': {'H': 451, 'S': 104}, 'generated': '2026-11-04T07:53:15Z'}]

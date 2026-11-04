@@ -1,0 +1,168 @@
+{
+ "generated": "2026-11-04T07:53:15Z",
+ "current": 119,
+ "congresses": [
+  {
+   "c": 119,
+   "bills": 1064,
+   "votes": {
+    "H": 49,
+    "S": 59
+   },
+   "members": {
+    "H": 451,
+    "S": 104
+   },
+   "generated": "2026-11-04T07:53:15Z"
+  }
+ ],
+ "topics": [
+  {
+   "code": "repro_abortion",
+   "group": "reproduction",
+   "label": "임신중지",
+   "plus": "접근 확대",
+   "minus": "접근 제한"
+  },
+  {
+   "code": "repro_contraception",
+   "group": "reproduction",
+   "label": "피임·가족계획",
+   "plus": "지원 확대",
+   "minus": "지원 축소"
+  },
+  {
+   "code": "repro_ivf",
+   "group": "reproduction",
+   "label": "난임·체외수정",
+   "plus": "보호·지원 확대",
+   "minus": "제한"
+  },
+  {
+   "code": "health_maternal",
+   "group": "health",
+   "label": "임신·출산 건강",
+   "plus": "지원 확대",
+   "minus": "지원 축소"
+  },
+  {
+   "code": "health_women",
+   "group": "health",
+   "label": "여성 질병·연구",
+   "plus": "지원 확대",
+   "minus": "지원 축소"
+  },
+  {
+   "code": "violence_dv",
+   "group": "violence",
+   "label": "가정폭력·여성폭력방지법",
+   "plus": "보호 강화",
+   "minus": "보호 축소"
+  },
+  {
+   "code": "violence_sexual",
+   "group": "violence",
+   "label": "성폭력·성희롱",
+   "plus": "보호 강화",
+   "minus": "보호 축소"
+  },
+  {
+   "code": "econ_pay",
+   "group": "economy",
+   "label": "동일임금·고용 차별",
+   "plus": "보호 강화",
+   "minus": "보호 축소"
+  },
+  {
+   "code": "econ_pregnant_workers",
+   "group": "economy",
+   "label": "임신 노동자·수유",
+   "plus": "보호 강화",
+   "minus": "보호 축소"
+  },
+  {
+   "code": "econ_business",
+   "group": "economy",
+   "label": "여성 창업",
+   "plus": "지원 확대",
+   "minus": "지원 축소"
+  },
+  {
+   "code": "rights_era",
+   "group": "rights",
+   "label": "남녀평등 헌법 수정안",
+   "plus": "비준 추진",
+   "minus": "반대"
+  },
+  {
+   "code": "rights_education_sports",
+   "group": "rights",
+   "label": "교육·운동경기",
+   "plus": "지원 확대",
+   "minus": "지원 축소"
+  },
+  {
+   "code": "rights_military_veterans",
+   "group": "rights",
+   "label": "여성 군인·참전군인",
+   "plus": "지원 확대",
+   "minus": "지원 축소"
+  },
+  {
+   "code": "rights_international",
+   "group": "rights",
+   "label": "국제 여성",
+   "plus": "지원 확대",
+   "minus": "지원 축소"
+  },
+  {
+   "code": "rights_other",
+   "group": "rights",
+   "label": "기타 성평등",
+   "plus": "지원 확대",
+   "minus": "지원 축소"
+  },
+  {
+   "code": "broad_care",
+   "group": "broad",
+   "label": "돌봄·가족(넓은 범위)",
+   "plus": "지원 확대",
+   "minus": "지원 축소"
+  },
+  {
+   "code": "broad_trafficking",
+   "group": "broad",
+   "label": "인신매매(넓은 범위)",
+   "plus": "대응 강화",
+   "minus": "대응 약화"
+  }
+ ],
+ "groups": [
+  {
+   "code": "reproduction",
+   "label": "재생산"
+  },
+  {
+   "code": "health",
+   "label": "모성·여성 건강"
+  },
+  {
+   "code": "violence",
+   "label": "여성 폭력"
+  },
+  {
+   "code": "economy",
+   "label": "일·경제"
+  },
+  {
+   "code": "rights",
+   "label": "성평등·권리"
+  },
+  {
+   "code": "broad",
+   "label": "넓은 범위"
+  }
+ ],
+ "abortion_law": [],
+ "caucus_lists": []
+}
