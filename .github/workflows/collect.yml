@@ -3,7 +3,7 @@ name: collect raw data (women candidates tracker, temporary)
 on:
   push:
     branches: [wc-collect]
-    paths: ["pipeline/**", "collect_args.txt", ".github/workflows/collect.yml"]
+    paths: ["collect_args.txt"]
 
 permissions:
   contents: write
