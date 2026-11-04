@@ -1068,1650 +1068,6 @@
   "note": "application/pdf"
  },
  {
-  "path": "wiki/2022/house/Alabama.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Alabama",
-  "bytes": 90809,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Alaska.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_election_in_Alaska",
-  "bytes": 62857,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Arizona.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Arizona",
-  "bytes": 138603,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Arkansas.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Arkansas",
-  "bytes": 114640,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/California.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_California",
-  "bytes": 541664,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Colorado.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Colorado",
-  "bytes": 195322,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Connecticut.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Connecticut",
-  "bytes": 62937,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Delaware.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_elections",
-  "bytes": 306397,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Florida.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Florida",
-  "bytes": 445465,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Georgia.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Georgia",
-  "bytes": 200061,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Hawaii.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Hawaii",
-  "bytes": 40767,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Idaho.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Idaho",
-  "bytes": 24048,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Illinois.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Illinois",
-  "bytes": 275240,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Indiana.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Indiana",
-  "bytes": 91435,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Iowa.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Iowa",
-  "bytes": 85904,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Kansas.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Kansas",
-  "bytes": 43082,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Kentucky.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Kentucky",
-  "bytes": 60820,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Louisiana.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Louisiana",
-  "bytes": 42117,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Maine.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Maine",
-  "bytes": 44028,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Maryland.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Maryland",
-  "bytes": 187063,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Massachusetts.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Massachusetts",
-  "bytes": 83950,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Michigan.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Michigan",
-  "bytes": 209215,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Minnesota.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Minnesota",
-  "bytes": 112637,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Mississippi.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Mississippi",
-  "bytes": 92729,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Missouri.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Missouri",
-  "bytes": 98167,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Montana.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Montana",
-  "bytes": 63923,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Nebraska.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Nebraska",
-  "bytes": 65845,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Nevada.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Nevada",
-  "bytes": 94998,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/New_Hampshire.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_New_Hampshire",
-  "bytes": 86760,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/New_Jersey.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_New_Jersey",
-  "bytes": 232217,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/New_Mexico.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_New_Mexico",
-  "bytes": 97645,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/New_York.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_New_York",
-  "bytes": 482837,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/North_Carolina.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_North_Carolina",
-  "bytes": 186840,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/North_Dakota.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_election_in_North_Dakota",
-  "bytes": 41292,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Ohio.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Ohio",
-  "bytes": 172617,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Oklahoma.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Oklahoma",
-  "bytes": 76227,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Oregon.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Oregon",
-  "bytes": 162047,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Pennsylvania.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Pennsylvania",
-  "bytes": 223794,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Rhode_Island.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Rhode_Island",
-  "bytes": 72429,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/South_Carolina.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_South_Carolina",
-  "bytes": 125000,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/South_Dakota.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_election_in_South_Dakota",
-  "bytes": 40176,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Tennessee.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Tennessee",
-  "bytes": 120705,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Texas.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Texas",
-  "bytes": 465340,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Utah.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Utah",
-  "bytes": 59945,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Vermont.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_election_in_Vermont",
-  "bytes": 57037,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Virginia.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Virginia",
-  "bytes": 301161,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Washington.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Washington",
-  "bytes": 209172,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/West_Virginia.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_West_Virginia",
-  "bytes": 65153,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Wisconsin.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Wisconsin",
-  "bytes": 94795,
-  "note": ""
- },
- {
-  "path": "wiki/2022/house/Wyoming.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_election_in_Wyoming",
-  "bytes": 116411,
-  "note": ""
- },
- {
-  "path": "wiki/2022/district/2022_Alaska_s_at_large_congressional_district_special_election.json",
-  "url": "https://en.wikipedia.org/wiki/2022_Alaska%27s_at-large_congressional_district_special_election",
-  "bytes": 96341,
-  "note": ""
- },
- {
-  "path": "wiki/2022/district/2022_California_s_22nd_congressional_district_special_election.json",
-  "url": "https://en.wikipedia.org/wiki/2022_California%27s_22nd_congressional_district_special_election",
-  "bytes": 28416,
-  "note": ""
- },
- {
-  "path": "wiki/2022/district/2022_Florida_s_20th_congressional_district_special_election.json",
-  "url": "https://en.wikipedia.org/wiki/2022_Florida%27s_20th_congressional_district_special_election",
-  "bytes": 56235,
-  "note": ""
- },
- {
-  "path": "wiki/2022/district/2022_Indiana_s_2nd_congressional_district_special_election.json",
-  "url": "https://en.wikipedia.org/wiki/2022_Indiana%27s_2nd_congressional_district_special_election",
-  "bytes": 17904,
-  "note": ""
- },
- {
-  "path": "wiki/2022/district/2022_Minnesota_s_1st_congressional_district_special_election.json",
-  "url": "https://en.wikipedia.org/wiki/2022_Minnesota%27s_1st_congressional_district_special_election",
-  "bytes": 50014,
-  "note": ""
- },
- {
-  "path": "wiki/2022/district/2022_Nebraska_s_1st_congressional_district_special_election.json",
-  "url": "https://en.wikipedia.org/wiki/2022_Nebraska%27s_1st_congressional_district_special_election",
-  "bytes": 31713,
-  "note": ""
- },
- {
-  "path": "wiki/2022/district/2022_New_York_s_19th_congressional_district_special_election.json",
-  "url": "https://en.wikipedia.org/wiki/2022_New_York%27s_19th_congressional_district_special_election",
-  "bytes": 26950,
-  "note": ""
- },
- {
-  "path": "wiki/2022/district/2022_New_York_s_23rd_congressional_district_special_election.json",
-  "url": "https://en.wikipedia.org/wiki/2022_New_York%27s_23rd_congressional_district_special_election",
-  "bytes": 20920,
-  "note": ""
- },
- {
-  "path": "wiki/2022/district/2022_Texas_s_34th_congressional_district_special_election.json",
-  "url": "https://en.wikipedia.org/wiki/2022_Texas%27s_34th_congressional_district_special_election",
-  "bytes": 19592,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/_overview.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_elections",
-  "bytes": 360609,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Alabama.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Alabama",
-  "bytes": 145335,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Alaska.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Alaska",
-  "bytes": 68765,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Arizona.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Arizona",
-  "bytes": 132564,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Arkansas.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Arkansas",
-  "bytes": 60412,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Colorado.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Colorado",
-  "bytes": 120819,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Connecticut.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Connecticut",
-  "bytes": 41838,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Florida.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Florida",
-  "bytes": 150132,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Georgia.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Georgia",
-  "bytes": 308396,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Hawaii.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Hawaii",
-  "bytes": 25654,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Idaho.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Idaho",
-  "bytes": 45983,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Illinois.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Illinois",
-  "bytes": 97770,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Indiana.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Indiana",
-  "bytes": 77493,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Iowa.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Iowa",
-  "bytes": 122697,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Kansas.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Kansas",
-  "bytes": 75024,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Kentucky.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Kentucky",
-  "bytes": 41249,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Louisiana.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Louisiana",
-  "bytes": 64234,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Maryland.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Maryland",
-  "bytes": 53044,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Missouri.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Missouri",
-  "bytes": 191151,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Nevada.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Nevada",
-  "bytes": 109971,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_New_Hampshire.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_New_Hampshire",
-  "bytes": 90575,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_New_York.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_New_York",
-  "bytes": 82796,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_North_Carolina.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_North_Carolina",
-  "bytes": 160765,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_North_Dakota.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_North_Dakota",
-  "bytes": 47948,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Ohio.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Ohio",
-  "bytes": 264192,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Oklahoma.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Oklahoma",
-  "bytes": 105413,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Oregon.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Oregon",
-  "bytes": 47283,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Pennsylvania.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Pennsylvania",
-  "bytes": 327801,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_South_Carolina.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_South_Carolina",
-  "bytes": 47580,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_South_Dakota.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_South_Dakota",
-  "bytes": 56705,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Utah.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Utah",
-  "bytes": 100504,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Vermont.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Vermont",
-  "bytes": 57313,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Washington.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Washington",
-  "bytes": 67404,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Wisconsin.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Wisconsin",
-  "bytes": 158989,
-  "note": ""
- },
- {
-  "path": "wiki/2022/senate/2022_United_States_Senate_special_election_in_Oklahoma.json",
-  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_special_election_in_Oklahoma",
-  "bytes": 94735,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Alabama.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Alabama",
-  "bytes": 202752,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Alaska.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_election_in_Alaska",
-  "bytes": 51289,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Arizona.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Arizona",
-  "bytes": 195517,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Arkansas.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Arkansas",
-  "bytes": 108604,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/California.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_California",
-  "bytes": 689218,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Colorado.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Colorado",
-  "bytes": 203108,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Connecticut.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Connecticut",
-  "bytes": 48777,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Delaware.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_election_in_Delaware",
-  "bytes": 40403,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Florida.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Florida",
-  "bytes": 272274,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Georgia.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Georgia",
-  "bytes": 150736,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Hawaii.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Hawaii",
-  "bytes": 26680,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Idaho.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Idaho",
-  "bytes": 24952,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Illinois.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Illinois",
-  "bytes": 182119,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Indiana.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Indiana",
-  "bytes": 117773,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Iowa.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Iowa",
-  "bytes": 113513,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Kansas.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Kansas",
-  "bytes": 53464,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Kentucky.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Kentucky",
-  "bytes": 50099,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Louisiana.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Louisiana",
-  "bytes": 57587,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Maine.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Maine",
-  "bytes": 41681,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Maryland.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Maryland",
-  "bytes": 160949,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Massachusetts.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Massachusetts",
-  "bytes": 65389,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Michigan.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Michigan",
-  "bytes": 183039,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Minnesota.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Minnesota",
-  "bytes": 106256,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Mississippi.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Mississippi",
-  "bytes": 62806,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Missouri.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Missouri",
-  "bytes": 105552,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Montana.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Montana",
-  "bytes": 101976,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Nebraska.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Nebraska",
-  "bytes": 63038,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Nevada.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Nevada",
-  "bytes": 88130,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/New_Hampshire.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_New_Hampshire",
-  "bytes": 69187,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/New_Jersey.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_New_Jersey",
-  "bytes": 281423,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/New_Mexico.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_New_Mexico",
-  "bytes": 78773,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/New_York.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_New_York",
-  "bytes": 352091,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/North_Carolina.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_North_Carolina",
-  "bytes": 161194,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/North_Dakota.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_election_in_North_Dakota",
-  "bytes": 66599,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Ohio.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Ohio",
-  "bytes": 232401,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Oklahoma.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Oklahoma",
-  "bytes": 43758,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Oregon.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Oregon",
-  "bytes": 162025,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Pennsylvania.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Pennsylvania",
-  "bytes": 253943,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Rhode_Island.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Rhode_Island",
-  "bytes": 24047,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/South_Carolina.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_South_Carolina",
-  "bytes": 83223,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/South_Dakota.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_election_in_South_Dakota",
-  "bytes": 37227,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Tennessee.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Tennessee",
-  "bytes": 127730,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Texas.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas",
-  "bytes": 586461,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Utah.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Utah",
-  "bytes": 68229,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Vermont.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_election_in_Vermont",
-  "bytes": 19680,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Virginia.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Virginia",
-  "bytes": 348289,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Washington.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Washington",
-  "bytes": 265921,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/West_Virginia.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_West_Virginia",
-  "bytes": 61491,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Wisconsin.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Wisconsin",
-  "bytes": 135132,
-  "note": ""
- },
- {
-  "path": "wiki/2024/house/Wyoming.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_election_in_Wyoming",
-  "bytes": 23975,
-  "note": ""
- },
- {
-  "path": "wiki/2024/district/2024_California_s_20th_congressional_district_special_election.json",
-  "url": "https://en.wikipedia.org/wiki/2024_California%27s_20th_congressional_district_special_election",
-  "bytes": 42133,
-  "note": ""
- },
- {
-  "path": "wiki/2024/district/2024_Colorado_s_4th_congressional_district_special_election.json",
-  "url": "https://en.wikipedia.org/wiki/2024_Colorado%27s_4th_congressional_district_special_election",
-  "bytes": 32627,
-  "note": ""
- },
- {
-  "path": "wiki/2024/district/2024_New_Jersey_s_10th_congressional_district_special_election.json",
-  "url": "https://en.wikipedia.org/wiki/2024_New_Jersey%27s_10th_congressional_district_special_election",
-  "bytes": 28866,
-  "note": ""
- },
- {
-  "path": "wiki/2024/district/2024_New_York_s_3rd_congressional_district_special_election.json",
-  "url": "https://en.wikipedia.org/wiki/2024_New_York%27s_3rd_congressional_district_special_election",
-  "bytes": 49200,
-  "note": ""
- },
- {
-  "path": "wiki/2024/district/2024_Ohio_s_6th_congressional_district_special_election.json",
-  "url": "https://en.wikipedia.org/wiki/2024_Ohio%27s_6th_congressional_district_special_election",
-  "bytes": 14449,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/_overview.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_elections",
-  "bytes": 345307,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Arizona.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Arizona",
-  "bytes": 161807,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Connecticut.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Connecticut",
-  "bytes": 26660,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Delaware.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Delaware",
-  "bytes": 25146,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Florida.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Florida",
-  "bytes": 115821,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Hawaii.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Hawaii",
-  "bytes": 22360,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Indiana.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Indiana",
-  "bytes": 91989,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Maine.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Maine",
-  "bytes": 32956,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Maryland.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Maryland",
-  "bytes": 235407,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Massachusetts.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Massachusetts",
-  "bytes": 52499,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Michigan.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Michigan",
-  "bytes": 215473,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Minnesota.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Minnesota",
-  "bytes": 98734,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Mississippi.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Mississippi",
-  "bytes": 56172,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Missouri.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Missouri",
-  "bytes": 115964,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Montana.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Montana",
-  "bytes": 130917,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Nebraska.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Nebraska",
-  "bytes": 81025,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Nevada.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Nevada",
-  "bytes": 103756,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_New_Jersey.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_New_Jersey",
-  "bytes": 243738,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_New_Mexico.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_New_Mexico",
-  "bytes": 42345,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_New_York.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_New_York",
-  "bytes": 83694,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_North_Dakota.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_North_Dakota",
-  "bytes": 44730,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Ohio.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Ohio",
-  "bytes": 151306,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Pennsylvania.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Pennsylvania",
-  "bytes": 182505,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Rhode_Island.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Rhode_Island",
-  "bytes": 23876,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Tennessee.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Tennessee",
-  "bytes": 80130,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Texas.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Texas",
-  "bytes": 222369,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Utah.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Utah",
-  "bytes": 73199,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Vermont.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Vermont",
-  "bytes": 22907,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Virginia.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Virginia",
-  "bytes": 115272,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Washington.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Washington",
-  "bytes": 61356,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_West_Virginia.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_West_Virginia",
-  "bytes": 93270,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Wisconsin.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Wisconsin",
-  "bytes": 136408,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Wyoming.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Wyoming",
-  "bytes": 27973,
-  "note": ""
- },
- {
-  "path": "wiki/2024/senate/2024_United_States_Senate_special_election_in_Nebraska.json",
-  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_special_election_in_Nebraska",
-  "bytes": 46913,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Alabama.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Alabama",
-  "bytes": 107378,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Alaska.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_in_Alaska",
-  "bytes": 65355,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Arizona.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Arizona",
-  "bytes": 169095,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Arkansas.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Arkansas",
-  "bytes": 47646,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/California.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_California",
-  "bytes": 36554,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Colorado.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Colorado",
-  "bytes": 144849,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Connecticut.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Connecticut",
-  "bytes": 65655,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Delaware.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_in_Delaware",
-  "bytes": 16098,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Florida.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Florida",
-  "bytes": 614471,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Georgia.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Georgia",
-  "bytes": 159912,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Hawaii.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Hawaii",
-  "bytes": 31419,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Idaho.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Idaho",
-  "bytes": 31904,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Illinois.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Illinois",
-  "bytes": 348397,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Indiana.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Indiana",
-  "bytes": 102339,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Iowa.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Iowa",
-  "bytes": 107356,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Kansas.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Kansas",
-  "bytes": 48147,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Kentucky.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Kentucky",
-  "bytes": 121360,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Louisiana.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Louisiana",
-  "bytes": 69525,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Maine.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Maine",
-  "bytes": 71206,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Maryland.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Maryland",
-  "bytes": 143503,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Massachusetts.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Massachusetts",
-  "bytes": 124311,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Michigan.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Michigan",
-  "bytes": 262229,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Minnesota.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Minnesota",
-  "bytes": 126795,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Mississippi.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Mississippi",
-  "bytes": 44990,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Missouri.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Missouri",
-  "bytes": 111191,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Montana.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Montana",
-  "bytes": 57359,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Nebraska.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Nebraska",
-  "bytes": 67807,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Nevada.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Nevada",
-  "bytes": 94529,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/New_Hampshire.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_Hampshire",
-  "bytes": 85602,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/New_Jersey.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_Jersey",
-  "bytes": 294632,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/New_Mexico.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_Mexico",
-  "bytes": 36567,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/New_York.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_York",
-  "bytes": 469536,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/North_Carolina.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_North_Carolina",
-  "bytes": 228724,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/North_Dakota.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_in_North_Dakota",
-  "bytes": 12128,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Ohio.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Ohio",
-  "bytes": 205974,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Oklahoma.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Oklahoma",
-  "bytes": 59839,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Oregon.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Oregon",
-  "bytes": 62392,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Pennsylvania.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Pennsylvania",
-  "bytes": 282773,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Rhode_Island.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Rhode_Island",
-  "bytes": 21119,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/South_Carolina.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_South_Carolina",
-  "bytes": 90884,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/South_Dakota.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_in_South_Dakota",
-  "bytes": 20360,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Tennessee.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Tennessee",
-  "bytes": 124104,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Texas.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas",
-  "bytes": 591789,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Utah.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Utah",
-  "bytes": 93042,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Vermont.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_in_Vermont",
-  "bytes": 19707,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Virginia.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Virginia",
-  "bytes": 208417,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Washington.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Washington",
-  "bytes": 172668,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/West_Virginia.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_West_Virginia",
-  "bytes": 31841,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Wisconsin.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Wisconsin",
-  "bytes": 127521,
-  "note": ""
- },
- {
-  "path": "wiki/2026/house/Wyoming.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_in_Wyoming",
-  "bytes": 36139,
-  "note": ""
- },
- {
-  "path": "wiki/2026/district/2026_California_s_14th_congressional_district_special_election.json",
-  "url": "https://en.wikipedia.org/wiki/2026_California%27s_14th_congressional_district_special_election",
-  "bytes": 23867,
-  "note": ""
- },
- {
-  "path": "wiki/2026/district/2026_California_s_1st_congressional_district_special_election.json",
-  "url": "https://en.wikipedia.org/wiki/2026_California%27s_1st_congressional_district_special_election",
-  "bytes": 22750,
-  "note": ""
- },
- {
-  "path": "wiki/2026/district/2026_Georgia_s_13th_congressional_district_special_election.json",
-  "url": "https://en.wikipedia.org/wiki/2026_Georgia%27s_13th_congressional_district_special_election",
-  "bytes": 16929,
-  "note": ""
- },
- {
-  "path": "wiki/2026/district/2026_Georgia_s_14th_congressional_district_special_election.json",
-  "url": "https://en.wikipedia.org/wiki/2026_Georgia%27s_14th_congressional_district_special_election",
-  "bytes": 39425,
-  "note": ""
- },
- {
-  "path": "wiki/2026/district/2026_New_Jersey_s_11th_congressional_district_special_election.json",
-  "url": "https://en.wikipedia.org/wiki/2026_New_Jersey%27s_11th_congressional_district_special_election",
-  "bytes": 92058,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/_overview.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
-  "bytes": 272246,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Alabama.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alabama",
-  "bytes": 68997,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Alaska.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska",
-  "bytes": 111089,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Arkansas.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Arkansas",
-  "bytes": 29879,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Colorado.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Colorado",
-  "bytes": 42467,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Delaware.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Delaware",
-  "bytes": 22924,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Georgia.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia",
-  "bytes": 109306,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Idaho.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Idaho",
-  "bytes": 36835,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Illinois.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Illinois",
-  "bytes": 125103,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Iowa.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Iowa",
-  "bytes": 119787,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Kansas.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Kansas",
-  "bytes": 68142,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Kentucky.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Kentucky",
-  "bytes": 76886,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Louisiana.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Louisiana",
-  "bytes": 82010,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Maine.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Maine",
-  "bytes": 254551,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Massachusetts.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Massachusetts",
-  "bytes": 87262,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Michigan.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Michigan",
-  "bytes": 274814,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Minnesota.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Minnesota",
-  "bytes": 130789,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Mississippi.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Mississippi",
-  "bytes": 31702,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Montana.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Montana",
-  "bytes": 86392,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Nebraska.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Nebraska",
-  "bytes": 68816,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_New_Hampshire.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_New_Hampshire",
-  "bytes": 96623,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_New_Jersey.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_New_Jersey",
-  "bytes": 53783,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_New_Mexico.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_New_Mexico",
-  "bytes": 29752,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_North_Carolina.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_North_Carolina",
-  "bytes": 116449,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Oklahoma.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Oklahoma",
-  "bytes": 44145,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Oregon.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Oregon",
-  "bytes": 21758,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Rhode_Island.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Rhode_Island",
-  "bytes": 24216,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_South_Carolina.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_South_Carolina",
-  "bytes": 142059,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_South_Dakota.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_South_Dakota",
-  "bytes": 35762,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Tennessee.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Tennessee",
-  "bytes": 21043,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Texas.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas",
-  "bytes": 363456,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Virginia.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Virginia",
-  "bytes": 35831,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_West_Virginia.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_West_Virginia",
-  "bytes": 28937,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Wyoming.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Wyoming",
-  "bytes": 26221,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_special_election_in_Florida.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_special_election_in_Florida",
-  "bytes": 115883,
-  "note": ""
- },
- {
-  "path": "wiki/2026/senate/2026_United_States_Senate_special_election_in_Ohio.json",
-  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_special_election_in_Ohio",
-  "bytes": 107981,
-  "note": ""
- },
- {
   "path": "dataverse/medsl_house/_dataset.json",
   "url": "doi:10.7910/DVN/IG0UN2",
   "bytes": 7522,
@@ -3028,6 +1384,12 @@
   "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
   "bytes": 272252,
   "note": ""
+ },
+ {
+  "path": "ssa/names.zip",
+  "url": "https://www.ssa.gov/oact/babynames/names.zip",
+  "bytes": 0,
+  "error": "HTTPError: HTTP Error 403: Forbidden"
  },
  {
   "path": "wiki/1990/senate/_overview.json",
@@ -4320,9 +2682,1659 @@
   "note": ""
  },
  {
-  "path": "ssa/names.zip",
-  "url": "https://www.ssa.gov/oact/babynames/names.zip",
-  "bytes": 0,
-  "error": "HTTPError: HTTP Error 403: Forbidden"
+  "path": "wiki/2022/house/Alabama.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Alabama",
+  "bytes": 90809,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Alaska.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_election_in_Alaska",
+  "bytes": 62857,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Arizona.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Arizona",
+  "bytes": 138603,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Arkansas.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Arkansas",
+  "bytes": 114640,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/California.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_California",
+  "bytes": 541664,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Colorado.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Colorado",
+  "bytes": 195322,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Connecticut.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Connecticut",
+  "bytes": 62937,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Delaware.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_election_in_Delaware",
+  "bytes": 16845,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Florida.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Florida",
+  "bytes": 445465,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Georgia.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Georgia",
+  "bytes": 200061,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Hawaii.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Hawaii",
+  "bytes": 40767,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Idaho.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Idaho",
+  "bytes": 24048,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Illinois.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Illinois",
+  "bytes": 275240,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Indiana.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Indiana",
+  "bytes": 91435,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Iowa.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Iowa",
+  "bytes": 85904,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Kansas.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Kansas",
+  "bytes": 43082,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Kentucky.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Kentucky",
+  "bytes": 60820,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Louisiana.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Louisiana",
+  "bytes": 42117,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Maine.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Maine",
+  "bytes": 44028,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Maryland.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Maryland",
+  "bytes": 187063,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Massachusetts.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Massachusetts",
+  "bytes": 83950,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Michigan.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Michigan",
+  "bytes": 209215,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Minnesota.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Minnesota",
+  "bytes": 112637,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Mississippi.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Mississippi",
+  "bytes": 92729,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Missouri.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Missouri",
+  "bytes": 98167,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Montana.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Montana",
+  "bytes": 63923,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Nebraska.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Nebraska",
+  "bytes": 65845,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Nevada.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Nevada",
+  "bytes": 94998,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/New_Hampshire.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_New_Hampshire",
+  "bytes": 86760,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/New_Jersey.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_New_Jersey",
+  "bytes": 232217,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/New_Mexico.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_New_Mexico",
+  "bytes": 97645,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/New_York.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_New_York",
+  "bytes": 482837,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/North_Carolina.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_North_Carolina",
+  "bytes": 186840,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/North_Dakota.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_election_in_North_Dakota",
+  "bytes": 41292,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Ohio.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Ohio",
+  "bytes": 172617,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Oklahoma.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Oklahoma",
+  "bytes": 76227,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Oregon.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Oregon",
+  "bytes": 162047,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Pennsylvania.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Pennsylvania",
+  "bytes": 223794,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Rhode_Island.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Rhode_Island",
+  "bytes": 72429,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/South_Carolina.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_South_Carolina",
+  "bytes": 125000,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/South_Dakota.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_election_in_South_Dakota",
+  "bytes": 40176,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Tennessee.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Tennessee",
+  "bytes": 120705,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Texas.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Texas",
+  "bytes": 465340,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Utah.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Utah",
+  "bytes": 59945,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Vermont.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_election_in_Vermont",
+  "bytes": 57037,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Virginia.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Virginia",
+  "bytes": 301161,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Washington.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Washington",
+  "bytes": 209172,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/West_Virginia.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_West_Virginia",
+  "bytes": 65153,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Wisconsin.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Wisconsin",
+  "bytes": 94795,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Wyoming.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_election_in_Wyoming",
+  "bytes": 116411,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/district/2022_Alaska_s_at_large_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2022_Alaska%27s_at-large_congressional_district_special_election",
+  "bytes": 96341,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/district/2022_California_s_22nd_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2022_California%27s_22nd_congressional_district_special_election",
+  "bytes": 28416,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/district/2022_Florida_s_20th_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2022_Florida%27s_20th_congressional_district_special_election",
+  "bytes": 56235,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/district/2022_Indiana_s_2nd_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2022_Indiana%27s_2nd_congressional_district_special_election",
+  "bytes": 17904,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/district/2022_Minnesota_s_1st_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2022_Minnesota%27s_1st_congressional_district_special_election",
+  "bytes": 50014,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/district/2022_Nebraska_s_1st_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2022_Nebraska%27s_1st_congressional_district_special_election",
+  "bytes": 31713,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/district/2022_New_York_s_19th_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2022_New_York%27s_19th_congressional_district_special_election",
+  "bytes": 26950,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/district/2022_New_York_s_23rd_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2022_New_York%27s_23rd_congressional_district_special_election",
+  "bytes": 20920,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/district/2022_Texas_s_34th_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2022_Texas%27s_34th_congressional_district_special_election",
+  "bytes": 19592,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/_overview.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_elections",
+  "bytes": 360609,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Alabama.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Alabama",
+  "bytes": 145335,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Alaska.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Alaska",
+  "bytes": 68765,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Arizona.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Arizona",
+  "bytes": 132564,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Arkansas.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Arkansas",
+  "bytes": 60412,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Colorado.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Colorado",
+  "bytes": 120819,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Connecticut.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Connecticut",
+  "bytes": 41838,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Florida.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Florida",
+  "bytes": 150132,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Georgia.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Georgia",
+  "bytes": 308396,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Hawaii.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Hawaii",
+  "bytes": 25654,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Idaho.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Idaho",
+  "bytes": 45983,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Illinois.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Illinois",
+  "bytes": 97770,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Indiana.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Indiana",
+  "bytes": 77493,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Iowa.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Iowa",
+  "bytes": 122697,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Kansas.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Kansas",
+  "bytes": 75024,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Kentucky.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Kentucky",
+  "bytes": 41249,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Louisiana.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Louisiana",
+  "bytes": 64234,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Maryland.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Maryland",
+  "bytes": 53044,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Missouri.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Missouri",
+  "bytes": 191151,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Nevada.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Nevada",
+  "bytes": 109971,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_New_Hampshire.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_New_Hampshire",
+  "bytes": 90575,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_New_York.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_New_York",
+  "bytes": 82796,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_North_Carolina.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_North_Carolina",
+  "bytes": 160765,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_North_Dakota.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_North_Dakota",
+  "bytes": 47948,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Ohio.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Ohio",
+  "bytes": 264192,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Oklahoma.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Oklahoma",
+  "bytes": 105413,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Oregon.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Oregon",
+  "bytes": 47283,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Pennsylvania.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Pennsylvania",
+  "bytes": 327801,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_South_Carolina.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_South_Carolina",
+  "bytes": 47580,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_South_Dakota.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_South_Dakota",
+  "bytes": 56705,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Utah.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Utah",
+  "bytes": 100504,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Vermont.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Vermont",
+  "bytes": 57313,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Washington.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Washington",
+  "bytes": 67404,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Wisconsin.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Wisconsin",
+  "bytes": 158989,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_elections_in_California.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_elections_in_California",
+  "bytes": 114209,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_special_election_in_Oklahoma.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_special_election_in_Oklahoma",
+  "bytes": 94735,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Alabama.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Alabama",
+  "bytes": 202752,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Alaska.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_election_in_Alaska",
+  "bytes": 51289,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Arizona.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Arizona",
+  "bytes": 195517,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Arkansas.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Arkansas",
+  "bytes": 108604,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/California.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_California",
+  "bytes": 689218,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Colorado.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Colorado",
+  "bytes": 203108,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Connecticut.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Connecticut",
+  "bytes": 48777,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Delaware.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_election_in_Delaware",
+  "bytes": 40403,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Florida.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Florida",
+  "bytes": 272274,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Georgia.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Georgia",
+  "bytes": 150736,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Hawaii.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Hawaii",
+  "bytes": 26680,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Idaho.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Idaho",
+  "bytes": 24952,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Illinois.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Illinois",
+  "bytes": 182119,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Indiana.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Indiana",
+  "bytes": 117773,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Iowa.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Iowa",
+  "bytes": 113513,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Kansas.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Kansas",
+  "bytes": 53464,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Kentucky.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Kentucky",
+  "bytes": 50099,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Louisiana.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Louisiana",
+  "bytes": 57587,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Maine.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Maine",
+  "bytes": 41681,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Maryland.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Maryland",
+  "bytes": 160949,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Massachusetts.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Massachusetts",
+  "bytes": 65389,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Michigan.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Michigan",
+  "bytes": 183039,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Minnesota.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Minnesota",
+  "bytes": 106256,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Mississippi.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Mississippi",
+  "bytes": 62806,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Missouri.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Missouri",
+  "bytes": 105552,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Montana.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Montana",
+  "bytes": 101976,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Nebraska.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Nebraska",
+  "bytes": 63038,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Nevada.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Nevada",
+  "bytes": 88130,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/New_Hampshire.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_New_Hampshire",
+  "bytes": 69187,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/New_Jersey.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_New_Jersey",
+  "bytes": 281423,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/New_Mexico.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_New_Mexico",
+  "bytes": 78773,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/New_York.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_New_York",
+  "bytes": 352091,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/North_Carolina.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_North_Carolina",
+  "bytes": 161194,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/North_Dakota.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_election_in_North_Dakota",
+  "bytes": 66599,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Ohio.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Ohio",
+  "bytes": 232401,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Oklahoma.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Oklahoma",
+  "bytes": 43758,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Oregon.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Oregon",
+  "bytes": 162025,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Pennsylvania.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Pennsylvania",
+  "bytes": 253943,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Rhode_Island.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Rhode_Island",
+  "bytes": 24047,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/South_Carolina.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_South_Carolina",
+  "bytes": 83223,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/South_Dakota.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_election_in_South_Dakota",
+  "bytes": 37227,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Tennessee.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Tennessee",
+  "bytes": 127730,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Texas.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas",
+  "bytes": 586461,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Utah.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Utah",
+  "bytes": 68229,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Vermont.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_election_in_Vermont",
+  "bytes": 19680,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Virginia.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Virginia",
+  "bytes": 348289,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Washington.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Washington",
+  "bytes": 265921,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/West_Virginia.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_West_Virginia",
+  "bytes": 61491,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Wisconsin.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Wisconsin",
+  "bytes": 135132,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Wyoming.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_election_in_Wyoming",
+  "bytes": 23975,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/district/2024_California_s_20th_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2024_California%27s_20th_congressional_district_special_election",
+  "bytes": 42133,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/district/2024_Colorado_s_4th_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2024_Colorado%27s_4th_congressional_district_special_election",
+  "bytes": 32627,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/district/2024_New_Jersey_s_10th_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2024_New_Jersey%27s_10th_congressional_district_special_election",
+  "bytes": 28866,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/district/2024_New_York_s_3rd_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2024_New_York%27s_3rd_congressional_district_special_election",
+  "bytes": 49200,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/district/2024_Ohio_s_6th_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2024_Ohio%27s_6th_congressional_district_special_election",
+  "bytes": 14449,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/_overview.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_elections",
+  "bytes": 345257,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Arizona.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Arizona",
+  "bytes": 161807,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Connecticut.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Connecticut",
+  "bytes": 26660,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Delaware.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Delaware",
+  "bytes": 25146,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Florida.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Florida",
+  "bytes": 115821,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Hawaii.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Hawaii",
+  "bytes": 22360,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Indiana.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Indiana",
+  "bytes": 91989,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Maine.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Maine",
+  "bytes": 32956,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Maryland.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Maryland",
+  "bytes": 235407,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Massachusetts.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Massachusetts",
+  "bytes": 52499,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Michigan.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Michigan",
+  "bytes": 215473,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Minnesota.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Minnesota",
+  "bytes": 98734,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Mississippi.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Mississippi",
+  "bytes": 56172,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Missouri.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Missouri",
+  "bytes": 115964,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Montana.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Montana",
+  "bytes": 130917,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Nebraska.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Nebraska",
+  "bytes": 81025,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Nevada.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Nevada",
+  "bytes": 103756,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_New_Jersey.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_New_Jersey",
+  "bytes": 243738,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_New_Mexico.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_New_Mexico",
+  "bytes": 42345,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_New_York.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_New_York",
+  "bytes": 83694,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_North_Dakota.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_North_Dakota",
+  "bytes": 44730,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Ohio.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Ohio",
+  "bytes": 151306,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Pennsylvania.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Pennsylvania",
+  "bytes": 182505,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Rhode_Island.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Rhode_Island",
+  "bytes": 23876,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Tennessee.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Tennessee",
+  "bytes": 80130,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Texas.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Texas",
+  "bytes": 222369,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Utah.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Utah",
+  "bytes": 73199,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Vermont.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Vermont",
+  "bytes": 22907,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Virginia.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Virginia",
+  "bytes": 115272,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Washington.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Washington",
+  "bytes": 61356,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_West_Virginia.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_West_Virginia",
+  "bytes": 93270,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Wisconsin.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Wisconsin",
+  "bytes": 136408,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Wyoming.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Wyoming",
+  "bytes": 27973,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_elections_in_California.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_elections_in_California",
+  "bytes": 478311,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_special_election_in_Nebraska.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_special_election_in_Nebraska",
+  "bytes": 46913,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Alabama.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Alabama",
+  "bytes": 107378,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Alaska.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_in_Alaska",
+  "bytes": 65355,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Arizona.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Arizona",
+  "bytes": 169095,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Arkansas.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Arkansas",
+  "bytes": 47646,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/California.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_California",
+  "bytes": 36554,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Colorado.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Colorado",
+  "bytes": 144842,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Connecticut.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Connecticut",
+  "bytes": 65655,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Delaware.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_in_Delaware",
+  "bytes": 16098,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Florida.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Florida",
+  "bytes": 614471,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Georgia.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Georgia",
+  "bytes": 159912,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Hawaii.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Hawaii",
+  "bytes": 31419,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Idaho.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Idaho",
+  "bytes": 31904,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Illinois.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Illinois",
+  "bytes": 348397,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Indiana.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Indiana",
+  "bytes": 102339,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Iowa.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Iowa",
+  "bytes": 107356,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Kansas.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Kansas",
+  "bytes": 48147,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Kentucky.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Kentucky",
+  "bytes": 121360,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Louisiana.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Louisiana",
+  "bytes": 69525,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Maine.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Maine",
+  "bytes": 71206,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Maryland.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Maryland",
+  "bytes": 143503,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Massachusetts.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Massachusetts",
+  "bytes": 124311,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Michigan.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Michigan",
+  "bytes": 262229,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Minnesota.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Minnesota",
+  "bytes": 126795,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Mississippi.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Mississippi",
+  "bytes": 44990,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Missouri.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Missouri",
+  "bytes": 111191,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Montana.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Montana",
+  "bytes": 57359,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Nebraska.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Nebraska",
+  "bytes": 67807,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Nevada.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Nevada",
+  "bytes": 94529,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/New_Hampshire.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_Hampshire",
+  "bytes": 85602,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/New_Jersey.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_Jersey",
+  "bytes": 294630,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/New_Mexico.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_Mexico",
+  "bytes": 36567,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/New_York.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_York",
+  "bytes": 469536,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/North_Carolina.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_North_Carolina",
+  "bytes": 228724,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/North_Dakota.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_in_North_Dakota",
+  "bytes": 12128,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Ohio.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Ohio",
+  "bytes": 205974,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Oklahoma.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Oklahoma",
+  "bytes": 59839,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Oregon.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Oregon",
+  "bytes": 62392,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Pennsylvania.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Pennsylvania",
+  "bytes": 282773,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Rhode_Island.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Rhode_Island",
+  "bytes": 21119,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/South_Carolina.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_South_Carolina",
+  "bytes": 90884,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/South_Dakota.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_in_South_Dakota",
+  "bytes": 20360,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Tennessee.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Tennessee",
+  "bytes": 124104,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Texas.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas",
+  "bytes": 591789,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Utah.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Utah",
+  "bytes": 93042,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Vermont.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_in_Vermont",
+  "bytes": 19707,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Virginia.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Virginia",
+  "bytes": 208417,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Washington.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Washington",
+  "bytes": 172668,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/West_Virginia.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_West_Virginia",
+  "bytes": 31841,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Wisconsin.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Wisconsin",
+  "bytes": 127521,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Wyoming.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_in_Wyoming",
+  "bytes": 36139,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/district/2026_California_s_14th_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2026_California%27s_14th_congressional_district_special_election",
+  "bytes": 23867,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/district/2026_California_s_1st_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2026_California%27s_1st_congressional_district_special_election",
+  "bytes": 22750,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/district/2026_Georgia_s_13th_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2026_Georgia%27s_13th_congressional_district_special_election",
+  "bytes": 16929,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/district/2026_Georgia_s_14th_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2026_Georgia%27s_14th_congressional_district_special_election",
+  "bytes": 39425,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/district/2026_New_Jersey_s_11th_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2026_New_Jersey%27s_11th_congressional_district_special_election",
+  "bytes": 92058,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/_overview.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+  "bytes": 272256,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Alabama.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alabama",
+  "bytes": 68997,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Alaska.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska",
+  "bytes": 111000,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Arkansas.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Arkansas",
+  "bytes": 29879,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Colorado.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Colorado",
+  "bytes": 42467,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Delaware.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Delaware",
+  "bytes": 22924,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Georgia.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia",
+  "bytes": 109306,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Idaho.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Idaho",
+  "bytes": 36835,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Illinois.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Illinois",
+  "bytes": 125103,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Iowa.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Iowa",
+  "bytes": 119787,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Kansas.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Kansas",
+  "bytes": 68142,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Kentucky.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Kentucky",
+  "bytes": 76886,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Louisiana.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Louisiana",
+  "bytes": 82010,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Maine.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Maine",
+  "bytes": 254537,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Massachusetts.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Massachusetts",
+  "bytes": 87262,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Michigan.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Michigan",
+  "bytes": 274879,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Minnesota.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Minnesota",
+  "bytes": 130789,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Mississippi.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Mississippi",
+  "bytes": 31702,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Montana.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Montana",
+  "bytes": 85851,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Nebraska.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Nebraska",
+  "bytes": 68544,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_New_Hampshire.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_New_Hampshire",
+  "bytes": 96623,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_New_Jersey.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_New_Jersey",
+  "bytes": 53783,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_New_Mexico.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_New_Mexico",
+  "bytes": 29752,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_North_Carolina.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_North_Carolina",
+  "bytes": 116449,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Oklahoma.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Oklahoma",
+  "bytes": 44145,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Oregon.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Oregon",
+  "bytes": 21758,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Rhode_Island.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Rhode_Island",
+  "bytes": 24216,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_South_Carolina.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_South_Carolina",
+  "bytes": 142059,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_South_Dakota.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_South_Dakota",
+  "bytes": 35762,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Tennessee.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Tennessee",
+  "bytes": 21043,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Texas.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas",
+  "bytes": 363454,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Virginia.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Virginia",
+  "bytes": 36130,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_West_Virginia.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_West_Virginia",
+  "bytes": 28937,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Wyoming.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Wyoming",
+  "bytes": 26221,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_special_election_in_Florida.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_special_election_in_Florida",
+  "bytes": 115883,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_special_election_in_Ohio.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_special_election_in_Ohio",
+  "bytes": 107974,
+  "note": ""
  }
 ]
