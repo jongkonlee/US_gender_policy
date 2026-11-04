@@ -1,0 +1,699 @@
+[
+ {
+  "id": "119-hjres-9",
+  "c": 119,
+  "t": "hjres",
+  "n": 9,
+  "intro": "2025-01-03",
+  "title": "Proposing an amendment to the Constitution of the United States prohibiting the United States Government from increasing its debt except for a specific purpose by law adopted by three-fourths of the membership of each House of Congress.",
+  "titles": [
+   "Proposing an amendment to the Constitution of the United States prohibiting the United States Government from increasing its debt except for a specific purpose by law adopted by three-fourths of the membership of each House of Congress."
+  ],
+  "pa": "Economics and Public Finance",
+  "subj": [
+   "Budget deficits and national debt",
+   "Constitution and constitutional amendments",
+   "Legislative rules and procedure"
+  ],
+  "sp": {
+   "b": "M001177",
+   "p": "R",
+   "s": "CA",
+   "d": "5",
+   "n": "Rep. McClintock, Tom [R-CA-5]"
+  },
+  "cs": [
+   [
+    "W000814",
+    "2025-01-03",
+    1,
+    "",
+    "R",
+    "TX",
+    "14"
+   ],
+   [
+    "G000576",
+    "2025-12-01",
+    0,
+    "",
+    "R",
+    "WI",
+    "6"
+   ],
+   [
+    "H001096",
+    "2025-12-03",
+    0,
+    "",
+    "R",
+    "WY",
+    "0"
+   ]
+  ],
+  "votes": [],
+  "amdts": [],
+  "latest": [
+   "2025-01-03",
+   "Referred to the House Committee on the Judiciary."
+  ],
+  "law": "",
+  "rel": []
+ },
+ {
+  "id": "119-hjres-2",
+  "c": 119,
+  "t": "hjres",
+  "n": 2,
+  "intro": "2025-01-03",
+  "title": "Proposing a balanced budget amendment to the Constitution of the United States.",
+  "titles": [
+   "Proposing a balanced budget amendment to the Constitution of the United States."
+  ],
+  "pa": "Economics and Public Finance",
+  "subj": [
+   "Budget deficits and national debt",
+   "Constitution and constitutional amendments",
+   "Legislative rules and procedure"
+  ],
+  "sp": {
+   "b": "B001302",
+   "p": "R",
+   "s": "AZ",
+   "d": "5",
+   "n": "Rep. Biggs, Andy [R-AZ-5]"
+  },
+  "cs": [],
+  "votes": [],
+  "amdts": [],
+  "latest": [
+   "2025-01-03",
+   "Referred to the House Committee on the Judiciary."
+  ],
+  "law": "",
+  "rel": [
+   [
+    "119-hjres-11",
+    "Related bill"
+   ],
+   [
+    "119-hjres-10",
+    "Related bill"
+   ]
+  ]
+ },
+ {
+  "id": "119-hjres-8",
+  "c": 119,
+  "t": "hjres",
+  "n": 8,
+  "intro": "2025-01-03",
+  "title": "Proposing an amendment to the Constitution of the United States to provide certain line item veto authority to the President.",
+  "titles": [
+   "Proposing an amendment to the Constitution of the United States to provide certain line item veto authority to the President."
+  ],
+  "pa": "Economics and Public Finance",
+  "subj": [],
+  "sp": {
+   "b": "M001177",
+   "p": "R",
+   "s": "CA",
+   "d": "5",
+   "n": "Rep. McClintock, Tom [R-CA-5]"
+  },
+  "cs": [
+   [
+    "W000814",
+    "2025-01-03",
+    1,
+    "",
+    "R",
+    "TX",
+    "14"
+   ]
+  ],
+  "votes": [],
+  "amdts": [],
+  "latest": [
+   "2025-01-03",
+   "Referred to the House Committee on the Judiciary."
+  ],
+  "law": "",
+  "rel": []
+ },
+ {
+  "id": "119-hjres-1",
+  "c": 119,
+  "t": "hjres",
+  "n": 1,
+  "intro": "2025-01-03",
+  "title": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices.",
+  "titles": [
+   "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices."
+  ],
+  "pa": "Law",
+  "subj": [
+   "Constitution and constitutional amendments",
+   "Judges",
+   "Supreme Court"
+  ],
+  "sp": {
+   "b": "B001302",
+   "p": "R",
+   "s": "AZ",
+   "d": "5",
+   "n": "Rep. Biggs, Andy [R-AZ-5]"
+  },
+  "cs": [
+   [
+    "A000372",
+    "2025-07-16",
+    0,
+    "",
+    "R",
+    "GA",
+    "12"
+   ],
+   [
+    "S001228",
+    "2026-06-02",
+    0,
+    "",
+    "R",
+    "KS",
+    "2"
+   ]
+  ],
+  "votes": [
+   {
+    "ch": "H",
+    "roll": 293,
+    "date": "2026-09-02",
+    "sess": 2,
+    "text": "On motion to suspend the rules and pass Failed by the Yeas and Nays: (2/3 required): 212 - 206 (Roll no. 293)."
+   }
+  ],
+  "amdts": [],
+  "latest": [
+   "2026-09-02",
+   "On motion to suspend the rules and pass Failed by the Yeas and Nays: (2/3 required): 212 - 206 (Roll no. 293)."
+  ],
+  "law": "",
+  "rel": [
+   [
+    "118-hjres-1",
+    "Cross-Congress related bill"
+   ],
+   [
+    "117-hjres-40",
+    "Cross-Congress related bill"
+   ],
+   [
+    "119-sjres-16",
+    "Related bill"
+   ]
+  ]
+ },
+ {
+  "id": "119-hjres-25",
+  "c": 119,
+  "t": "hjres",
+  "n": 25,
+  "intro": "2025-01-21",
+  "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Internal Revenue Service relating to \"Gross Proceeds Reporting by Brokers That Regularly Provide Services Effectuating Digital Asset Sales\".",
+  "titles": [
+   "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Internal Revenue Service relating to \"Gross Proceeds Reporting by Brokers That Regularly Provide Services Effectuating Digital Asset Sales\"."
+  ],
+  "pa": "Taxation",
+  "subj": [
+   "Administrative law and regulatory procedures",
+   "Congressional oversight",
+   "Currency",
+   "Digital media",
+   "Financial services and investments",
+   "Internal Revenue Service (IRS)",
+   "Tax administration and collection, taxpayers"
+  ],
+  "sp": {
+   "b": "C001126",
+   "p": "R",
+   "s": "OH",
+   "d": "15",
+   "n": "Rep. Carey, Mike [R-OH-15]"
+  },
+  "cs": [
+   [
+    "E000294",
+    "2025-01-28",
+    0,
+    "",
+    "R",
+    "MN",
+    "6"
+   ],
+   [
+    "D000626",
+    "2025-01-28",
+    0,
+    "",
+    "R",
+    "OH",
+    "8"
+   ],
+   [
+    "C001137",
+    "2025-02-04",
+    0,
+    "",
+    "R",
+    "CO",
+    "5"
+   ],
+   [
+    "T000478",
+    "2025-02-07",
+    0,
+    "",
+    "R",
+    "NY",
+    "24"
+   ],
+   [
+    "T000488",
+    "2025-02-24",
+    0,
+    "",
+    "D",
+    "MI",
+    "13"
+   ],
+   [
+    "N000193",
+    "2025-02-24",
+    0,
+    "",
+    "R",
+    "IA",
+    "3"
+   ],
+   [
+    "K000392",
+    "2025-02-24",
+    0,
+    "",
+    "R",
+    "TN",
+    "8"
+   ],
+   [
+    "T000480",
+    "2025-02-25",
+    0,
+    "",
+    "R",
+    "SC",
+    "4"
+   ],
+   [
+    "D000634",
+    "2025-02-27",
+    0,
+    "",
+    "R",
+    "MT",
+    "2"
+   ]
+  ],
+  "votes": [
+   {
+    "ch": "S",
+    "roll": 151,
+    "date": "2025-03-27",
+    "sess": 1,
+    "text": "Passed Senate without amendment by Yea-Nay Vote. 70 - 28. Record Vote Number: 151."
+   },
+   {
+    "ch": "S",
+    "roll": 150,
+    "date": "2025-03-26",
+    "sess": 1,
+    "text": "Motion to proceed to consideration of measure agreed to in Senate by Yea-Nay Vote. 70 - 28. Record Vote Number: 150."
+   },
+   {
+    "ch": "H",
+    "roll": 71,
+    "date": "2025-03-11",
+    "sess": 1,
+    "text": "On passage Passed by the Yeas and Nays: 292 - 132, 1 Present (Roll no. 71). (text: CR H1099)"
+   }
+  ],
+  "amdts": [],
+  "latest": [
+   "2025-04-10",
+   "Became Public Law No: 119-5."
+  ],
+  "law": "Public Law 119-5",
+  "rel": [
+   [
+    "119-sjres-3",
+    "Related bill"
+   ],
+   [
+    "119-hres-212",
+    "Public law contains the text"
+   ],
+   [
+    "119-hres-211",
+    "Related bill"
+   ]
+  ]
+ },
+ {
+  "id": "119-hjres-20",
+  "c": 119,
+  "t": "hjres",
+  "n": 20,
+  "intro": "2025-01-15",
+  "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to \"Energy Conservation Program: Energy Conservation Standards for Consumer Gas-fired Instantaneous Water Heaters\".",
+  "titles": [
+   "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to \"Energy Conservation Program: Energy Conservation Standards for Consumer Gas-fired Instantaneous Water Heaters\"."
+  ],
+  "pa": "Energy",
+  "subj": [
+   "Administrative law and regulatory procedures",
+   "Department of Energy",
+   "Energy efficiency and conservation",
+   "Lighting, heating, cooling",
+   "Oil and gas"
+  ],
+  "sp": {
+   "b": "P000609",
+   "p": "R",
+   "s": "AL",
+   "d": "6",
+   "n": "Rep. Palmer, Gary J. [R-AL-6]"
+  },
+  "cs": [
+   [
+    "B001316",
+    "2025-01-15",
+    1,
+    "",
+    "R",
+    "MO",
+    "7"
+   ],
+   [
+    "L000595",
+    "2025-01-15",
+    1,
+    "",
+    "R",
+    "LA",
+    "5"
+   ],
+   [
+    "C001129",
+    "2025-01-15",
+    1,
+    "",
+    "R",
+    "GA",
+    "10"
+   ],
+   [
+    "W000814",
+    "2025-01-15",
+    1,
+    "",
+    "R",
+    "TX",
+    "14"
+   ],
+   [
+    "B000740",
+    "2025-01-15",
+    1,
+    "",
+    "R",
+    "OK",
+    "5"
+   ],
+   [
+    "M001212",
+    "2025-01-15",
+    1,
+    "",
+    "R",
+    "AL",
+    "1"
+   ],
+   [
+    "O000175",
+    "2025-01-15",
+    1,
+    "",
+    "R",
+    "TN",
+    "5"
+   ],
+   [
+    "T000478",
+    "2025-01-15",
+    1,
+    "",
+    "R",
+    "NY",
+    "24"
+   ],
+   [
+    "F000469",
+    "2025-01-15",
+    1,
+    "",
+    "R",
+    "ID",
+    "1"
+   ],
+   [
+    "B001301",
+    "2025-01-15",
+    1,
+    "",
+    "R",
+    "MI",
+    "1"
+   ],
+   [
+    "C001120",
+    "2025-01-15",
+    1,
+    "",
+    "R",
+    "TX",
+    "2"
+   ],
+   [
+    "F000470",
+    "2025-01-15",
+    1,
+    "",
+    "R",
+    "MN",
+    "7"
+   ],
+   [
+    "H001100",
+    "2025-01-15",
+    1,
+    "",
+    "R",
+    "CO",
+    "3"
+   ],
+   [
+    "B001307",
+    "2025-01-15",
+    1,
+    "",
+    "R",
+    "IN",
+    "4"
+   ],
+   [
+    "G000576",
+    "2025-01-28",
+    0,
+    "",
+    "R",
+    "WI",
+    "6"
+   ],
+   [
+    "S001228",
+    "2025-02-05",
+    0,
+    "",
+    "R",
+    "KS",
+    "2"
+   ],
+   [
+    "C001118",
+    "2025-02-07",
+    0,
+    "",
+    "R",
+    "VA",
+    "6"
+   ],
+   [
+    "R000619",
+    "2025-02-07",
+    0,
+    "",
+    "R",
+    "OH",
+    "6"
+   ],
+   [
+    "C001103",
+    "2025-02-07",
+    0,
+    "",
+    "R",
+    "GA",
+    "1"
+   ],
+   [
+    "J000311",
+    "2025-02-10",
+    0,
+    "",
+    "R",
+    "GA",
+    "3"
+   ],
+   [
+    "G000603",
+    "2025-02-10",
+    0,
+    "",
+    "R",
+    "TX",
+    "26"
+   ],
+   [
+    "G000596",
+    "2025-02-12",
+    0,
+    "",
+    "R",
+    "GA",
+    "14"
+   ],
+   [
+    "L000600",
+    "2025-02-13",
+    0,
+    "",
+    "R",
+    "NY",
+    "23"
+   ],
+   [
+    "P000605",
+    "2025-02-18",
+    0,
+    "",
+    "R",
+    "PA",
+    "10"
+   ],
+   [
+    "B000668",
+    "2025-02-18",
+    0,
+    "",
+    "R",
+    "OR",
+    "2"
+   ],
+   [
+    "S001189",
+    "2025-02-18",
+    0,
+    "",
+    "R",
+    "GA",
+    "8"
+   ],
+   [
+    "L000583",
+    "2025-02-21",
+    0,
+    "",
+    "R",
+    "GA",
+    "11"
+   ],
+   [
+    "M001233",
+    "2025-02-24",
+    0,
+    "",
+    "R",
+    "IN",
+    "8"
+   ],
+   [
+    "Y000067",
+    "2025-02-25",
+    0,
+    "",
+    "R",
+    "IN",
+    "2"
+   ]
+  ],
+  "votes": [
+   {
+    "ch": "S",
+    "roll": 207,
+    "date": "2025-04-10",
+    "sess": 1,
+    "text": "Passed Senate without amendment by Yea-Nay Vote. 53 - 44. Record Vote Number: 207."
+   },
+   {
+    "ch": "S",
+    "roll": 206,
+    "date": "2025-04-10",
+    "sess": 1,
+    "text": "Motion to proceed to consideration of measure agreed to in Senate by Yea-Nay Vote. 52 - 42. Record Vote Number: 206."
+   },
+   {
+    "ch": "H",
+    "roll": 53,
+    "date": "2025-02-27",
+    "sess": 1,
+    "text": "On passage Passed by the Yeas and Nays: 221 - 198, 2 Present (Roll no. 53). (text: CR H884)"
+   }
+  ],
+  "amdts": [],
+  "latest": [
+   "2025-05-09",
+   "Became Public Law No: 119-6."
+  ],
+  "law": "Public Law 119-6",
+  "rel": [
+   [
+    "119-sjres-4",
+    "Identical bill"
+   ],
+   [
+    "119-hres-161",
+    "Related bill"
+   ]
+  ]
+ }
+]

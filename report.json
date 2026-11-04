@@ -1,0 +1,1560 @@
+{
+ "voteview_H119": {
+  "ok": true,
+  "sec": 1.8,
+  "result": {
+   "rolls": 674,
+   "members": 452,
+   "votes": 291398,
+   "sample_roll": {
+    "roll": 674,
+    "clerk": 314,
+    "date": "2026-09-16",
+    "sess": 2,
+    "yea": 401,
+    "nay": 14,
+    "bill": "S2403",
+    "result": "Passed",
+    "desc": "Retire through Ownership Act",
+    "question": "On Motion to Suspend the Rules and Pass",
+    "dtl": "",
+    "mid1": 0.888,
+    "mid2": 0.265,
+    "sp1": 0.843,
+    "sp2": -1.019
+   },
+   "sample_member": {
+    "icpsr": 20301,
+    "bioguide": "R000575",
+    "state": "AL",
+    "district": 3,
+    "party": 200,
+    "name": "ROGERS, Mike Dennis",
+    "born": 1958,
+    "dw1": 0.379,
+    "dw2": 0.377,
+    "np1": 0.398,
+    "occupancy": null
+   }
+  }
+ },
+ "billstatus_listing": {
+  "ok": false,
+  "sec": 0.2,
+  "error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "tb": "Traceback (most recent call last):\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/probe.py\", line 22, in step\n    res = fn()\n          ^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/probe.py\", line 36, in bs_listing\n    js = billstatus.listing(119, \"hjres\")\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/billstatus.py\", line 149, in listing\n    return json.loads(raw)\n           ^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/decoder.py\", line 338, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+ },
+ "billstatus_zip_hjres": {
+  "ok": true,
+  "sec": 1.0,
+  "result": {
+   "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hjres/BILLSTATUS-119-hjres.zip",
+   "size": 681952,
+   "bills": 221,
+   "with_votes": 25,
+   "with_cosponsors": 139,
+   "with_subjects": 60,
+   "sample": {
+    "id": "119-hjres-1",
+    "c": 119,
+    "t": "hjres",
+    "n": 1,
+    "intro": "2025-01-03",
+    "title": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices.",
+    "titles": [
+     "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices."
+    ],
+    "pa": "Law",
+    "subj": [
+     "Constitution and constitutional amendments",
+     "Judges",
+     "Supreme Court"
+    ],
+    "sp": {
+     "b": "B001302",
+     "p": "R",
+     "s": "AZ",
+     "d": "5",
+     "n": "Rep. Biggs, Andy [R-AZ-5]"
+    },
+    "cs": [
+     [
+      "A000372",
+      "2025-07-16",
+      0,
+      "",
+      "R",
+      "GA",
+      "12"
+     ],
+     [
+      "S001228",
+      "2026-06-02",
+      0,
+      "",
+      "R",
+      "KS",
+      "2"
+     ]
+    ],
+    "votes": [
+     {
+      "ch": "H",
+      "roll": 293,
+      "date": "2026-09-02",
+      "sess": 2,
+      "text": "On motion to suspend the rules and pass Failed by the Yeas and Nays: (2/3 required): 212 - 206 (Roll no. 293)."
+     }
+    ],
+    "amdts": [],
+    "latest": [
+     "2026-09-02",
+     "On motion to suspend the rules and pass Failed by the Yeas and Nays: (2/3 required): 212 - 206 (Roll no. 293)."
+    ],
+    "law": "",
+    "rel": [
+     [
+      "118-hjres-1",
+      "Cross-Congress related bill"
+     ],
+     [
+      "117-hjres-40",
+      "Cross-Congress related bill"
+     ],
+     [
+      "119-sjres-16",
+      "Related bill"
+     ]
+    ]
+   }
+  }
+ },
+ "billstatus_118hr7": {
+  "ok": true,
+  "sec": 1.5,
+  "result": {
+   "id": "118-hr-7",
+   "c": 118,
+   "t": "hr",
+   "n": 7,
+   "intro": "2023-01-09",
+   "title": "No Taxpayer Funding for Abortion and Abortion Insurance Full Disclosure Act of 2023",
+   "titles": [
+    "No Taxpayer Funding for Abortion and Abortion Insurance Full Disclosure Act of 2023",
+    "To prohibit taxpayer funded abortions."
+   ],
+   "pa": "Health",
+   "subj": [
+    "Abortion",
+    "Appropriations",
+    "Assault and harassment offenses",
+    "Comprehensive health care",
+    "Consumer affairs",
+    "Crimes against women",
+    "Employee benefits and pensions",
+    "Government buildings, facilities, and property",
+    "Health care costs and insurance",
+    "Health care coverage and access",
+    "Health facilities and institutions",
+    "Health programs administration and funding",
+    "Income tax credits",
+    "Sex offenses",
+    "Small business"
+   ],
+   "sp": {
+    "b": "S000522",
+    "p": "R",
+    "s": "NJ",
+    "d": "4",
+    "n": "Rep. Smith, Christopher H. [R-NJ-4]"
+   },
+   "cs": [
+    [
+     "F000470",
+     "2023-01-09",
+     1,
+     "",
+     "R",
+     "MN",
+     "7"
+    ],
+    [
+     "S001196",
+     "2023-01-09",
+     1,
+     "",
+     "R",
+     "NY",
+     "21"
+    ],
+    [
+     "M001159",
+     "2023-01-09",
+     1,
+     "",
+     "R",
+     "WA",
+     "5"
+    ]
+   ],
+   "votes": [],
+   "amdts": [],
+   "latest": [
+    "2024-12-17",
+    "Referred to the Subcommittee on Health."
+   ],
+   "law": "",
+   "rel": [
+    [
+     "118-s-62",
+     "Identical bill"
+    ]
+   ]
+  }
+ },
+ "legislators": {
+  "ok": true,
+  "sec": 7.7,
+  "result": {
+   "n": 12770
+  }
+ },
+ "rural_cd_111": {
+  "ok": false,
+  "sec": 0.3,
+  "error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "tb": "<lambda>\n    step(f\"rural_cd_{c}\", lambda c=c: rural(c))\n                                      ^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/probe.py\", line 80, in rural\n    d = districts.rural_districts(c)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/districts.py\", line 120, in rural_districts\n    rows = census_get(ds, [\"NAME\", tot, urb, rur], \"congressional district:*\", \"state:*\")\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/districts.py\", line 96, in census_get\n    rows = json.load(f)\n           ^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/__init__.py\", line 293, in load\n    return loads(fp.read(),\n           ^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/decoder.py\", line 338, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+ },
+ "rural_cd_113": {
+  "ok": false,
+  "sec": 0.2,
+  "error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "tb": "<lambda>\n    step(f\"rural_cd_{c}\", lambda c=c: rural(c))\n                                      ^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/probe.py\", line 80, in rural\n    d = districts.rural_districts(c)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/districts.py\", line 120, in rural_districts\n    rows = census_get(ds, [\"NAME\", tot, urb, rur], \"congressional district:*\", \"state:*\")\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/districts.py\", line 96, in census_get\n    rows = json.load(f)\n           ^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/__init__.py\", line 293, in load\n    return loads(fp.read(),\n           ^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/decoder.py\", line 338, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+ },
+ "rural_cd_115": {
+  "ok": false,
+  "sec": 0.3,
+  "error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "tb": "<lambda>\n    step(f\"rural_cd_{c}\", lambda c=c: rural(c))\n                                      ^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/probe.py\", line 80, in rural\n    d = districts.rural_districts(c)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/districts.py\", line 120, in rural_districts\n    rows = census_get(ds, [\"NAME\", tot, urb, rur], \"congressional district:*\", \"state:*\")\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/districts.py\", line 96, in census_get\n    rows = json.load(f)\n           ^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/__init__.py\", line 293, in load\n    return loads(fp.read(),\n           ^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/decoder.py\", line 338, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+ },
+ "rural_cd_116": {
+  "ok": false,
+  "sec": 0.2,
+  "error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "tb": "<lambda>\n    step(f\"rural_cd_{c}\", lambda c=c: rural(c))\n                                      ^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/probe.py\", line 80, in rural\n    d = districts.rural_districts(c)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/districts.py\", line 120, in rural_districts\n    rows = census_get(ds, [\"NAME\", tot, urb, rur], \"congressional district:*\", \"state:*\")\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/districts.py\", line 96, in census_get\n    rows = json.load(f)\n           ^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/__init__.py\", line 293, in load\n    return loads(fp.read(),\n           ^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/decoder.py\", line 338, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+ },
+ "rural_cd_118": {
+  "ok": false,
+  "sec": 0.3,
+  "error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "tb": "<lambda>\n    step(f\"rural_cd_{c}\", lambda c=c: rural(c))\n                                      ^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/probe.py\", line 80, in rural\n    d = districts.rural_districts(c)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/districts.py\", line 120, in rural_districts\n    rows = census_get(ds, [\"NAME\", tot, urb, rur], \"congressional district:*\", \"state:*\")\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/districts.py\", line 96, in census_get\n    rows = json.load(f)\n           ^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/__init__.py\", line 293, in load\n    return loads(fp.read(),\n           ^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/decoder.py\", line 338, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+ },
+ "rural_cd_119": {
+  "ok": false,
+  "sec": 0.2,
+  "error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "tb": "<lambda>\n    step(f\"rural_cd_{c}\", lambda c=c: rural(c))\n                                      ^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/probe.py\", line 80, in rural\n    d = districts.rural_districts(c)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/districts.py\", line 120, in rural_districts\n    rows = census_get(ds, [\"NAME\", tot, urb, rur], \"congressional district:*\", \"state:*\")\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/districts.py\", line 96, in census_get\n    rows = json.load(f)\n           ^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/__init__.py\", line 293, in load\n    return loads(fp.read(),\n           ^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/decoder.py\", line 338, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+ },
+ "rural_state_111": {
+  "ok": false,
+  "sec": 0.2,
+  "error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "tb": "olitics/genderpolitics/pipeline/probe.py\", line 121, in <lambda>\n    step(\"rural_state_111\", lambda: rural_st(111))\n                                    ^^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/probe.py\", line 85, in rural_st\n    d = districts.rural_states(c)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/districts.py\", line 134, in rural_states\n    rows = census_get(ds, [\"NAME\", tot, urb, rur], \"state:*\")\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/districts.py\", line 96, in census_get\n    rows = json.load(f)\n           ^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/__init__.py\", line 293, in load\n    return loads(fp.read(),\n           ^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/decoder.py\", line 338, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+ },
+ "rural_state_119": {
+  "ok": false,
+  "sec": 0.3,
+  "error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "tb": "olitics/genderpolitics/pipeline/probe.py\", line 122, in <lambda>\n    step(\"rural_state_119\", lambda: rural_st(119))\n                                    ^^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/probe.py\", line 85, in rural_st\n    d = districts.rural_states(c)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/districts.py\", line 134, in rural_states\n    rows = census_get(ds, [\"NAME\", tot, urb, rur], \"state:*\")\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/districts.py\", line 96, in census_get\n    rows = json.load(f)\n           ^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/__init__.py\", line 293, in load\n    return loads(fp.read(),\n           ^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/decoder.py\", line 338, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+ },
+ "acs_cd_111": {
+  "ok": false,
+  "sec": 0.3,
+  "error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "tb": "ine/probe.py\", line 124, in <lambda>\n    step(f\"acs_cd_{c}\", lambda c=c: acs(c, \"cd\"))\n                                    ^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/probe.py\", line 90, in acs\n    d = districts.acs(c, level)\n        ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/districts.py\", line 179, in acs\n    rows = census_get(f\"{year}/acs/acs1\", get, \"congressional district:*\", \"state:*\")\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/districts.py\", line 96, in census_get\n    rows = json.load(f)\n           ^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/__init__.py\", line 293, in load\n    return loads(fp.read(),\n           ^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/decoder.py\", line 338, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+ },
+ "acs_cd_113": {
+  "ok": false,
+  "sec": 0.2,
+  "error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "tb": "ine/probe.py\", line 124, in <lambda>\n    step(f\"acs_cd_{c}\", lambda c=c: acs(c, \"cd\"))\n                                    ^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/probe.py\", line 90, in acs\n    d = districts.acs(c, level)\n        ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/districts.py\", line 179, in acs\n    rows = census_get(f\"{year}/acs/acs1\", get, \"congressional district:*\", \"state:*\")\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/districts.py\", line 96, in census_get\n    rows = json.load(f)\n           ^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/__init__.py\", line 293, in load\n    return loads(fp.read(),\n           ^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/decoder.py\", line 338, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+ },
+ "acs_cd_119": {
+  "ok": false,
+  "sec": 0.3,
+  "error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "tb": "ine/probe.py\", line 124, in <lambda>\n    step(f\"acs_cd_{c}\", lambda c=c: acs(c, \"cd\"))\n                                    ^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/probe.py\", line 90, in acs\n    d = districts.acs(c, level)\n        ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/districts.py\", line 179, in acs\n    rows = census_get(f\"{year}/acs/acs1\", get, \"congressional district:*\", \"state:*\")\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/districts.py\", line 96, in census_get\n    rows = json.load(f)\n           ^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/__init__.py\", line 293, in load\n    return loads(fp.read(),\n           ^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/decoder.py\", line 338, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+ },
+ "acs_state_119": {
+  "ok": false,
+  "sec": 0.3,
+  "error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "tb": "me/runner/work/genderpolitics/genderpolitics/pipeline/probe.py\", line 125, in <lambda>\n    step(\"acs_state_119\", lambda: acs(119, \"state\"))\n                                  ^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/probe.py\", line 90, in acs\n    d = districts.acs(c, level)\n        ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/districts.py\", line 186, in acs\n    rows = census_get(f\"{year}/acs/acs1\", get, \"state:*\")\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/districts.py\", line 96, in census_get\n    rows = json.load(f)\n           ^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/__init__.py\", line 293, in load\n    return loads(fp.read(),\n           ^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/decoder.py\", line 338, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+ },
+ "downballot_2006": {
+  "ok": false,
+  "sec": 1.8,
+  "error": "RuntimeError('Downballot 2006: no usable sheet')",
+  "tb": "Traceback (most recent call last):\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/probe.py\", line 22, in step\n    res = fn()\n          ^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/probe.py\", line 127, in <lambda>\n    step(f\"downballot_{lines}\", lambda lines=lines: dke(lines))\n                                                    ^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/probe.py\", line 95, in dke\n    d = districts.district_results(lines)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/districts.py\", line 271, in district_results\n    raise RuntimeError(f\"Downballot {lines}: no usable sheet\")\nRuntimeError: Downballot 2006: no usable sheet\n"
+ },
+ "downballot_sheets_2006": {
+  "ok": true,
+  "sec": 0.1,
+  "result": {
+   "Results": [
+    [
+     "None",
+     "None",
+     "None",
+     "2008.0",
+     "None",
+     "2004.0",
+     "None",
+     "2000.0"
+    ],
+    [
+     "CD",
+     "Incumbent",
+     "Party",
+     "Obama",
+     "McCain",
+     "Kerry",
+     "Bush",
+     "Gore",
+     "Bush"
+    ],
+    [
+     "AK-AL",
+     "Young, Don",
+     "(R)",
+     "38.0",
+     "59.0",
+     "36.0",
+     "61.0",
+     "28.0",
+     "59.0"
+    ],
+    [
+     "AL-01",
+     "Bonner",
+     "(R)",
+     "39.0",
+     "61.0",
+     "35.0",
+     "64.0",
+     "38.0",
+     "60.0"
+    ],
+    [
+     "AL-02",
+     "Roby",
+     "(R)",
+     "36.0",
+     "63.0",
+     "33.0",
+     "67.0",
+     "38.0",
+     "61.0"
+    ],
+    [
+     "AL-03",
+     "Rogers, Mike D.",
+     "(R)",
+     "43.0",
+     "56.0",
+     "41.0",
+     "58.0",
+     "47.0",
+     "52.0"
+    ]
+   ],
+   "Vote totals": [
+    [
+     "None",
+     "None",
+     "None",
+     "None",
+     "2008.0"
+    ],
+    [
+     "CD",
+     "Incumbent",
+     "Party",
+     "None",
+     "Obama",
+     "McCain",
+     "Total",
+     "Obama%",
+     "McCain%"
+    ],
+    [
+     "AK-AL",
+     "None",
+     "None",
+     "None",
+     "123594.0",
+     "193841.0",
+     "324467.0",
+     "0.3809139296",
+     "0.5974136045"
+    ],
+    [
+     "AL-01",
+     "None",
+     "None",
+     "None",
+     "115842.0",
+     "184133.0",
+     "301806.0",
+     "0.3838293473",
+     "0.6101038415"
+    ],
+    [
+     "AL-02",
+     "None",
+     "None",
+     "None",
+     "101923.0",
+     "179326.0",
+     "282748.0",
+     "0.36047293",
+     "0.6342255294"
+    ],
+    [
+     "AL-03",
+     "None",
+     "None",
+     "None",
+     "119489.0",
+     "156075.0",
+     "277650.0",
+     "0.4303583648",
+     "0.5621285791"
+    ]
+   ],
+   "Sheet3": [
+    [
+     "CD",
+     "County",
+     "Sum of Obama",
+     "Sum of McCain",
+     "Sum of Total",
+     "None",
+     "None",
+     "None",
+     "None",
+     "None",
+     "None",
+     "None"
+    ],
+    [
+     "1.0",
+     "None",
+     "195983.0",
+     "102450.0",
+     "305417.0",
+     "None",
+     "None",
+     "None",
+     "None",
+     "None",
+     "None",
+     "None"
+    ],
+    [
+     "2.0",
+     "None",
+     "178090.0",
+     "117272.0",
+     "301631.0",
+     "None",
+     "None",
+     "None",
+     "None",
+     "None"
+    ],
+    [
+     "3.0",
+     "None",
+     "175538.0",
+     "117708.0",
+     "298859.0",
+     "None",
+     "None",
+     "None",
+     "None",
+     "None"
+    ],
+    [
+     "4.0",
+     "None",
+     "197306.0",
+     "107459.0",
+     "309940.0",
+     "None",
+     "None",
+     "None",
+     "None",
+     "None"
+    ],
+    [
+     "5.0",
+     "None",
+     "175986.0",
+     "117710.0",
+     "298664.0",
+     "None",
+     "None",
+     "None",
+     "None",
+     "None"
+    ]
+   ],
+   "Detailed Results": [
+    [
+     "State",
+     "2008.0"
+    ],
+    [
+     "Alabama",
+     "X"
+    ],
+    [
+     "Alaska",
+     "X"
+    ],
+    [
+     "Arizona",
+     "X"
+    ],
+    [
+     "Arkansas",
+     "X"
+    ],
+    [
+     "California",
+     "X"
+    ]
+   ],
+   "Info": [
+    [
+     "For an explanation of our calculation methods, see this post. "
+    ],
+    [
+     "None"
+    ],
+    [
+     "All our elections data can be found at dailykosdata.com"
+    ],
+    [
+     "None"
+    ],
+    [
+     "We are grateful to jeffmd who created our templates for calculating results by districts."
+    ],
+    [
+     "None"
+    ]
+   ]
+  }
+ },
+ "downballot_2012": {
+  "ok": false,
+  "sec": 1.5,
+  "error": "RuntimeError('Downballot 2012: no usable sheet')",
+  "tb": "Traceback (most recent call last):\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/probe.py\", line 22, in step\n    res = fn()\n          ^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/probe.py\", line 127, in <lambda>\n    step(f\"downballot_{lines}\", lambda lines=lines: dke(lines))\n                                                    ^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/probe.py\", line 95, in dke\n    d = districts.district_results(lines)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/districts.py\", line 271, in district_results\n    raise RuntimeError(f\"Downballot {lines}: no usable sheet\")\nRuntimeError: Downballot 2012: no usable sheet\n"
+ },
+ "downballot_sheets_2012": {
+  "ok": true,
+  "sec": 0.1,
+  "result": {
+   "Results": [
+    [
+     "None",
+     "None",
+     "None",
+     "2012.0",
+     "None",
+     "2008.0"
+    ],
+    [
+     "CD",
+     "Incumbent",
+     "Party",
+     "Obama",
+     "Romney",
+     "Obama",
+     "McCain"
+    ],
+    [
+     "AK-AL",
+     "Young, Don",
+     "(R)",
+     "41.2",
+     "55.3",
+     "38.1",
+     "59.7"
+    ],
+    [
+     "AL-01",
+     "Byrne, Bradley",
+     "(R)",
+     "37.39",
+     "61.8",
+     "38.5",
+     "60.9"
+    ],
+    [
+     "AL-02",
+     "Roby, Martha",
+     "(R)",
+     "36.4",
+     "62.9",
+     "35.0",
+     "64.5"
+    ],
+    [
+     "AL-03",
+     "Rogers, Mike D.",
+     "(R)",
+     "36.8",
+     "62.3",
+     "36.6",
+     "62.6"
+    ]
+   ],
+   "Vote totals": [
+    [
+     "None",
+     "None",
+     "None",
+     "None",
+     "2012.0",
+     "None",
+     "None",
+     "None",
+     "None",
+     "None",
+     "2008.0"
+    ],
+    [
+     "CD",
+     "Incumbent",
+     "Party",
+     "None",
+     "Obama",
+     "Romney",
+     "Total",
+     "Obama%",
+     "Romney%",
+     "None",
+     "Obama",
+     "McCain"
+    ],
+    [
+     "AK-AL",
+     "Young, Don",
+     "(R)",
+     "None",
+     "122640.0",
+     "164676.0",
+     "297625.0",
+     "0.4120621588",
+     "0.553300294",
+     "None",
+     "123594.0",
+     "193841.0"
+    ],
+    [
+     "AL-01",
+     "Byrne, Bradley",
+     "(R)",
+     "None",
+     "111735.0",
+     "184786.0",
+     "298837.0",
+     "0.3738994837",
+     "0.618350472",
+     "None",
+     "115975.0",
+     "183753.0"
+    ],
+    [
+     "AL-02",
+     "Roby, Martha",
+     "(R)",
+     "None",
+     "105572.0",
+     "182287.0",
+     "289864.0",
+     "0.3642121823",
+     "0.6288707808",
+     "None",
+     "101076.0",
+     "186164.0"
+    ],
+    [
+     "AL-03",
+     "Rogers, Mike D.",
+     "(R)",
+     "None",
+     "103089.0",
+     "174465.0",
+     "280128.0",
+     "0.3680067683",
+     "0.6228045751",
+     "None",
+     "103221.0",
+     "176434.0"
+    ]
+   ],
+   "Header": [
+    [
+     "CD",
+     "Incumbent",
+     "Party",
+     "Obama 2012",
+     "Romney 2012",
+     "Obama 2008",
+     "McCain 2008"
+    ]
+   ],
+   "Detailed results": [
+    [
+     "State",
+     "Calculations"
+    ],
+    [
+     "AK",
+     "At-large"
+    ],
+    [
+     "AL",
+     "2012",
+     "2008"
+    ],
+    [
+     "AR",
+     "2012",
+     "2008"
+    ],
+    [
+     "AZ",
+     "2012",
+     "2008"
+    ],
+    [
+     "CA",
+     "2012",
+     "None"
+    ]
+   ],
+   "Sources": [
+    [
+     "State",
+     "Jurisdiction",
+     "Official Source",
+     "Link"
+    ],
+    [
+     "AK",
+     "Statewide",
+     "AK Sec. of State",
+     "--"
+    ],
+    [
+     "AL",
+     "In progress",
+     "None",
+     "None"
+    ],
+    [
+     "AR",
+     "Statewide",
+     "AR Sec. of State",
+     "http://www.dailykos.com/i/user/303419/2012_Election_Results_for_Pres-by-CD_-_AR.zip"
+    ],
+    [
+     "AZ",
+     "Statewide",
+     "AZ Sec. of State",
+     "http://www.dailykos.com/i/user/303419/2012_Election_Results_for_Pres-by-CD_-_AZ.zip"
+    ],
+    [
+     "CA",
+     "Will be uploaded (1/18)",
+     "None",
+     "None"
+    ]
+   ],
+   "Data Source Summary": [
+    [
+     "State",
+     "Cert Date",
+     "CDs",
+     "Data Type",
+     "Date Completed",
+     "Data Source",
+     "Link",
+     "Notes"
+    ],
+    [
+     "Fully Complete",
+     "None",
+     "None",
+     "None",
+     "None",
+     "None",
+     "None",
+     "None"
+    ],
+    [
+     "Delaware",
+     "2012-11-08 00:00:00",
+     "1.0",
+     "At-large",
+     "2012-11-19 00:00:00",
+     "SoS - Certification",
+     "http://elections.delaware.gov/archive/elect12/elect12_general/html/election.shtml",
+     "None"
+    ],
+    [
+     "Oklahoma",
+     "2012-11-13 00:00:00",
+     "5.0",
+     "Precincts",
+     "2012-11-19 00:00:00",
+     "SoS - Statewide Precinct File",
+     "http://www.ok.gov/elections/Candidates_&_Elections/General_Election_-_November_6,_2012.html",
+     "None"
+    ],
+    [
+     "South Dakota",
+     "2012-11-13 00:00:00",
+     "1.0",
+     "At-large",
+     "2012-11-19 00:00:00",
+     "SoS - Certification",
+     "http://sdsos.gov/content/html/elections/electvoterpdfs/2012/OfficialGeneralElectionStateCanvass.pdf",
+     "None"
+    ],
+    [
+     "Vermont",
+     "2012-11-13 00:00:00",
+     "1.0",
+     "At-large",
+     "2012-11-19 00:00:00",
+     "SoS - Certification",
+     "http://vermont-elections.org/elections1/2012ElectionResults/2012GeneralElectionResults/2012GEStatewideCanvass.pdf",
+     "None"
+    ]
+   ],
+   "Info": [
+    [
+     "For an explanation of our calculation methods, see this post."
+    ],
+    [
+     "None"
+    ],
+    [
+     "2008 presidential data are unavailable for California."
+    ],
+    [
+     "None"
+    ],
+    [
+     "All our elections data can be found at dailykosdata.com"
+    ],
+    []
+   ]
+  }
+ },
+ "downballot_2022": {
+  "ok": true,
+  "sec": 0.9,
+  "result": {
+   "n": 435,
+   "sample": {
+    "AK-0": {
+     "2020": 44.73815127615069
+    },
+    "AL-1": {
+     "2020": 35.70350223621831
+    },
+    "AL-2": {
+     "2020": 35.13234547983812
+    },
+    "AL-3": {
+     "2020": 32.774959536929195
+    },
+    "AL-4": {
+     "2020": 18.79733869351321
+    },
+    "AL-5": {
+     "2020": 36.22685518235896
+    }
+   }
+  }
+ },
+ "downballot_sheets_2022": {
+  "ok": true,
+  "sec": 0.1,
+  "result": {
+   "Results": [
+    [
+     "District",
+     "Incumbent",
+     "Party",
+     "Biden",
+     "Trump",
+     "Margin"
+    ],
+    [
+     "AK-AL",
+     "Mary Peltola",
+     "(D)",
+     "43.00652",
+     "53.12289",
+     "-10.116369999999996"
+    ],
+    [
+     "AL-01",
+     "Jerry Carl",
+     "(R)",
+     "35.33698",
+     "63.63646",
+     "-28.299480000000003"
+    ],
+    [
+     "AL-02",
+     "Barry Moore",
+     "(R)",
+     "34.78985",
+     "64.23528",
+     "-29.44543"
+    ],
+    [
+     "AL-03",
+     "Mike Rogers",
+     "(R)",
+     "32.45139",
+     "66.56136",
+     "-34.10996999999999"
+    ],
+    [
+     "AL-04",
+     "Robert Aderholt",
+     "(R)",
+     "18.61475",
+     "80.41391",
+     "-61.79916"
+    ]
+   ],
+   "Vote totals": [
+    [
+     "District",
+     "Incumbent",
+     "Party",
+     "Biden",
+     "Trump",
+     "Total",
+     "Biden %",
+     "Trump %"
+    ],
+    [
+     "AK-AL",
+     "Mary Peltola",
+     "(D)",
+     "153778.0",
+     "189951.0",
+     "357569.0",
+     "0.43006524614829583",
+     "0.5312289376316179"
+    ],
+    [
+     "AL-01",
+     "Jerry Carl",
+     "(R)",
+     "115565.71109700852",
+     "208116.01158782226",
+     "327038.9729874942",
+     "0.35336984470480126",
+     "0.6363645582870042"
+    ],
+    [
+     "AL-02",
+     "Barry Moore",
+     "(R)",
+     "111263.75858860438",
+     "205435.16107918965",
+     "319816.6885742775",
+     "0.3478985386429056",
+     "0.6423528490492683"
+    ],
+    [
+     "AL-03",
+     "Mike Rogers",
+     "(R)",
+     "102771.98091860172",
+     "210796.61648211622",
+     "316695.1887209477",
+     "0.3245138687886985",
+     "0.6656135741546021"
+    ],
+    [
+     "AL-04",
+     "Robert Aderholt",
+     "(R)",
+     "60732.59737364754",
+     "262358.86979561613",
+     "326260.570996993",
+     "0.1861475237049324",
+     "0.8041390628168618"
+    ]
+   ],
+   "Info": [
+    [
+     "See also accompanying post for maps."
+    ],
+    [
+     "For an explanation of our calculation methods, see this post. "
+    ],
+    [],
+    [
+     "All our elections data can be found at dailykosdata.com"
+    ],
+    [],
+    [
+     "We are grateful to jeffmd who created our templates for calculating results by districts."
+    ]
+   ]
+  }
+ },
+ "downballot_2024": {
+  "ok": true,
+  "sec": 0.7,
+  "result": {
+   "n": 435,
+   "sample": {
+    "AK-0": {
+     "2024": 43.15343745762503,
+     "2020": 44.73815127615069
+    },
+    "AL-1": {
+     "2024": 22.117898704186775,
+     "2020": 24.54074510655458
+    },
+    "AL-2": {
+     "2024": 54.1559354596205,
+     "2020": 56.257272515708635
+    },
+    "AL-3": {
+     "2024": 26.46367623987449,
+     "2020": 29.291503120323046
+    },
+    "AL-4": {
+     "2024": 16.538805361142,
+     "2020": 18.636738439028623
+    },
+    "AL-5": {
+     "2024": 35.25276042507088,
+     "2020": 36.21350781791119
+    }
+   }
+  }
+ },
+ "downballot_sheets_2024": {
+  "ok": true,
+  "sec": 0.1,
+  "result": {
+   "Percentages": [
+    [
+     "Calculated by The Downballot",
+     "None",
+     "None",
+     "Subscribe to our newsletter"
+    ],
+    [
+     "District",
+     "Incumbent",
+     "Party",
+     "2024.0",
+     "None",
+     "None",
+     "2020.0"
+    ],
+    [
+     "None",
+     "None",
+     "None",
+     "Harris",
+     "Trump",
+     "Margin",
+     "Biden",
+     "Trump",
+     "Margin"
+    ],
+    [
+     "AK-AL",
+     "Nick Begich",
+     "(R)",
+     "41.40612756041954",
+     "54.54480937497228",
+     "-13.138681814552738",
+     "43.00652461482958",
+     "53.12289376316179",
+     "-10.116369148332211"
+    ],
+    [
+     "AL-01",
+     "Barry Moore",
+     "(R)",
+     "21.94259092275323",
+     "77.26480312593928",
+     "-55.32221220318605",
+     "24.28871866509065",
+     "74.68430990282916",
+     "-50.395591237738515"
+    ],
+    [
+     "AL-02",
+     "Shomari Figures",
+     "(D)",
+     "53.65010188495793",
+     "45.41586647036716",
+     "8.234235414590756",
+     "55.74537593081912",
+     "43.34470333893827",
+     "12.400672591880852"
+    ]
+   ],
+   "Vote totals": [
+    [
+     "Calculated by The Downballot",
+     "None",
+     "None",
+     "Subscribe to our newsletter",
+     "None",
+     "None",
+     "None",
+     "None",
+     "None",
+     "None",
+     "Follow @the-downballot.com on Bluesky"
+    ],
+    [
+     "District",
+     "Incumbent",
+     "Party",
+     "2024.0",
+     "None",
+     "None",
+     "None",
+     "None",
+     "None",
+     "None",
+     "2020.0"
+    ],
+    [
+     "None",
+     "None",
+     "None",
+     "Harris",
+     "Trump",
+     "Total",
+     "Harris %",
+     "Trump %",
+     "Margin",
+     "None",
+     "Biden",
+     "Trump"
+    ],
+    [
+     "AK-AL",
+     "Nick Begich",
+     "(R)",
+     "140026.0",
+     "184458.0",
+     "338177.0",
+     "0.4140612756041954",
+     "0.5454480937497228",
+     "-0.13138681814552738",
+     "None",
+     "153778.0",
+     "189951.0"
+    ],
+    [
+     "AL-01",
+     "Barry Moore",
+     "(R)",
+     "73003.0",
+     "257060.0",
+     "332700.0",
+     "0.2194259092275323",
+     "0.7726480312593929",
+     "-0.5532221220318605",
+     "None",
+     "79112.0",
+     "243258.0"
+    ],
+    [
+     "AL-02",
+     "Shomari Figures",
+     "(D)",
+     "155603.0",
+     "131721.0",
+     "290033.0",
+     "0.5365010188495792",
+     "0.45415866470367167",
+     "0.08234235414590757",
+     "None",
+     "174051.0",
+     "135333.0"
+    ]
+   ],
+   "Calculations": [
+    [
+     "The Downballot"
+    ],
+    [
+     "State"
+    ],
+    [
+     "Alabama"
+    ],
+    [
+     "Alaska"
+    ],
+    [
+     "Arizona"
+    ],
+    [
+     "Arkansas"
+    ]
+   ],
+   "Info": [
+    [
+     "Citation guide:"
+    ],
+    [],
+    [
+     "Journalists"
+    ],
+    [
+     "Please cite us by name as The Downballot and include a link to the-db.co/presbycd."
+    ],
+    [],
+    [
+     "Academics"
+    ]
+   ]
+  }
+ },
+ "downballot_2026": {
+  "ok": true,
+  "sec": 0.8,
+  "result": {
+   "n": 435,
+   "sample": {
+    "AK-0": {
+     "2024": 43.15343745762503,
+     "2020": 44.73815127615069
+    },
+    "AL-1": {
+     "2024": 31.827216889410167
+    },
+    "AL-2": {
+     "2024": 42.767985592895805
+    },
+    "AL-3": {
+     "2024": 26.46367623987449
+    },
+    "AL-4": {
+     "2024": 16.538805361142
+    },
+    "AL-5": {
+     "2024": 35.25276042507088
+    }
+   }
+  }
+ },
+ "downballot_sheets_2026": {
+  "ok": true,
+  "sec": 0.1,
+  "result": {
+   "Percentages": [
+    [
+     "SPONSORED BY GRASSROOTS ANALYTICS"
+    ],
+    [
+     "Calculated by The Downballot",
+     "None",
+     "None",
+     "None",
+     "Subscribe to our newsletter"
+    ],
+    [
+     "District",
+     "Incumbent",
+     "Party",
+     "2024.0",
+     "None",
+     "None",
+     "2020.0"
+    ],
+    [
+     "None",
+     "None",
+     "None",
+     "Harris",
+     "Trump",
+     "Margin",
+     "Biden",
+     "Trump",
+     "Margin"
+    ],
+    [
+     "AK-AL",
+     "Nick Begich",
+     "(R)",
+     "41.41",
+     "54.54",
+     "-13.14",
+     "43.01",
+     "53.12",
+     "-10.12"
+    ],
+    [
+     "AL-01",
+     "Barry Moore",
+     "(R)",
+     "31.54",
+     "67.56",
+     "-36.02",
+     "None",
+     "None",
+     "None"
+    ]
+   ],
+   "Vote totals": [
+    [
+     "SPONSORED BY GRASSROOTS ANALYTICS"
+    ],
+    [
+     "Calculated by The Downballot",
+     "None",
+     "None",
+     "None",
+     "Subscribe to our newsletter",
+     "None",
+     "None",
+     "None",
+     "None",
+     "None",
+     "None",
+     "Follow @the-downballot.com on Bluesky"
+    ],
+    [
+     "District",
+     "Incumbent",
+     "Party",
+     "None",
+     "2024.0",
+     "None",
+     "None",
+     "None",
+     "None",
+     "None",
+     "None",
+     "2020.0"
+    ],
+    [
+     "None",
+     "None",
+     "None",
+     "None",
+     "Harris",
+     "Trump",
+     "Total",
+     "Harris %",
+     "Trump %",
+     "Margin",
+     "None",
+     "Biden"
+    ],
+    [
+     "AK-AL",
+     "Nick Begich",
+     "(R)",
+     "None",
+     "140026.0",
+     "184458.0",
+     "338177.0",
+     "0.4140612756041954",
+     "0.5454480937497228",
+     "-0.13138681814552738",
+     "None",
+     "153778.0"
+    ],
+    [
+     "AL-01",
+     "Barry Moore",
+     "(R)",
+     "None",
+     "103117.0",
+     "220873.0",
+     "326952.0",
+     "0.31538880324940666",
+     "0.6755517629499131",
+     "-0.3601629597005065",
+     "None",
+     "None"
+    ]
+   ],
+   "Calculations": [
+    [
+     "SPONSORED BY GRASSROOTS ANALYTICS"
+    ],
+    [
+     "Calculated by The Downballot",
+     "None",
+     "None",
+     "Subscribe to our newsletter"
+    ],
+    [
+     "Detailed spreadsheets with calculations for each state"
+    ],
+    [
+     "Alabama",
+     "Hawaii",
+     "Massachusetts",
+     "New Mexico",
+     "South Dakota"
+    ],
+    [
+     "Alaska",
+     "Idaho",
+     "Michigan",
+     "New York",
+     "Tennessee"
+    ],
+    [
+     "Arizona",
+     "Illinois",
+     "Minnesota",
+     "North Carolina",
+     "Texas"
+    ]
+   ],
+   "Info": [
+    [
+     "Citation guide:"
+    ],
+    [],
+    [
+     "Journalists"
+    ],
+    [
+     "Please cite us by name as The Downballot and include a link to the-db.co/presbycd."
+    ],
+    [],
+    [
+     "Academics"
+    ]
+   ]
+  }
+ },
+ "fec_2004": {
+  "ok": true,
+  "sec": 0.8,
+  "result": {
+   "n": 51,
+   "sample": {
+    "AL": [
+     693933.0,
+     1176394.0
+    ],
+    "AK": [
+     111025.0,
+     190889.0
+    ],
+    "AZ": [
+     893524.0,
+     1104294.0
+    ],
+    "AR": [
+     469953.0,
+     572898.0
+    ],
+    "CA": [
+     6745485.0,
+     5509826.0
+    ]
+   }
+  }
+ },
+ "fec_2008": {
+  "ok": false,
+  "sec": 0.4,
+  "error": "RuntimeError('FEC 2008: no sheet with state totals matching the national totals')",
+  "tb": "Traceback (most recent call last):\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/probe.py\", line 22, in step\n    res = fn()\n          ^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/probe.py\", line 130, in <lambda>\n    step(f\"fec_{y}\", lambda y=y: fec(y))\n                                 ^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/probe.py\", line 100, in fec\n    d = districts.state_results(y)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/genderpolitics/genderpolitics/pipeline/districts.py\", line 254, in state_results\n    raise RuntimeError(f\"FEC {year}: no sheet with state totals matching the national totals\")\nRuntimeError: FEC 2008: no sheet with state totals matching the national totals\n"
+ },
+ "fec_2016": {
+  "ok": true,
+  "sec": 0.7,
+  "result": {
+   "n": 51,
+   "sample": {
+    "AL": [
+     729547.0,
+     1318255.0
+    ],
+    "AK": [
+     116454.0,
+     163387.0
+    ],
+    "AZ": [
+     1161167.0,
+     1252401.0
+    ],
+    "AR": [
+     380494.0,
+     684872.0
+    ],
+    "CA": [
+     8753792.0,
+     4483814.0
+    ]
+   }
+  }
+ },
+ "fec_2024": {
+  "ok": true,
+  "sec": 0.3,
+  "result": {
+   "n": 51,
+   "sample": {
+    "AL": [
+     772412.0,
+     1462616.0
+    ],
+    "AK": [
+     140026.0,
+     184458.0
+    ],
+    "AZ": [
+     1582860.0,
+     1770242.0
+    ],
+    "AR": [
+     396905.0,
+     759241.0
+    ],
+    "CA": [
+     9276179.0,
+     6081697.0
+    ]
+   }
+  }
+ }
+}
