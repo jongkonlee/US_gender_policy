@@ -104,11 +104,18 @@ def normalize_keys(d):
     return {(st, 0 if len(per[st]) == 1 else n): v for (st, n), v in d.items()}
 
 
+_UR_FAILS = []
+
+
 def _ur2010_state_file(folder, fips):
     url = UR2010.format(folder=folder, fips=fips)
     try:
         txt = _text(url, f"ur_{folder}_{fips}.txt")
-    except Exception:
+    except Exception as e:
+        if folder == "cdsld13" or "404" not in str(e):
+            _UR_FAILS.append(f"{folder}/{fips}: {e}")
+            if len(_UR_FAILS) <= 3:
+                log("WARN urban/rural file", url, e)
         return None  # this state has no file for these lines (lines unchanged)
     out = {}
     rows = _csv_rows(txt)
@@ -157,6 +164,8 @@ def rural_districts(congress):
                 for k, v in res.items():
                     v["ur_src"] = f"2010 Census, {folder}"
                     out[k] = v
+        if len(out) < 400:
+            raise RuntimeError(f"urban/rural 2010 files: only {len(out)} districts ({'; '.join(_UR_FAILS[:3])})")
         return normalize_keys(out)
     return rural_districts_zcta111()
 
@@ -167,9 +176,9 @@ def rural_districts_zcta111():
     zurban, zpop = {}, {}
     rows = _csv_rows(_text(UA_ZCTA_2010, "ua_zcta_rel_10.txt"))
     h = rows[0]
-    iz, ip, izp = h.index("ZCTA5"), h.index("POPPT"), h.index("ZPOP")
+    iz, ip, izp, iua = h.index("ZCTA5"), h.index("POPPT"), h.index("ZPOP"), h.index("UA")
     for r in rows[1:]:
-        if len(r) <= izp or r[iz] == "99999":
+        if len(r) <= izp or r[iz] == "99999" or r[iua] == "99999":  # 99999 = not in an urban area
             continue
         zurban[r[iz]] = zurban.get(r[iz], 0) + float(r[ip] or 0)
         zpop[r[iz]] = float(r[izp] or 0)
@@ -498,7 +507,65 @@ def state_results(year):
         err, name, j, k, srows = best
         log(f"FEC {year}: sheet '{name}', D col {j}, R col {k}, {len(srows)} states, total error {err:.5f}")
         return {st: (_num(r[j]), _num(r[k])) for st, r in srows.items()}
+    for name, rows in _rows_from_workbook(dest):
+        res = _fec_long(rows, year)
+        if res:
+            log(f"FEC {year}: long-format sheet '{name}'")
+            return res
     raise RuntimeError(f"FEC {year}: no state table matching national totals ({'; '.join(diag)[:300]}; best {best[0] if best else None})")
+
+
+def _fec_long(rows, year):
+    """Long format: one row per candidate and party line in each state."""
+    dname, rname = CAND[year]
+    nd, nr = NATIONAL[year]
+    hdr = None
+    for i, r in enumerate(rows[:12]):
+        cells = [str(c).strip().upper() if c is not None else "" for c in r]
+        if any("LAST NAME" in c for c in cells) and any(c.startswith("GENERAL") for c in cells):
+            hdr = (i, cells)
+            break
+    if not hdr:
+        return None
+    i0, cells = hdr
+    def col(pred):
+        for j, c in enumerate(cells):
+            if pred(c):
+                return j
+        return None
+    j_st = col(lambda c: c in ("STATE ABBREVIATION", "STATE ABBR", "STATE_ABBREVIATION")) or col(lambda c: c == "STATE")
+    j_last = col(lambda c: c == "LAST NAME" or c.startswith("LAST NAME"))
+    j_party = col(lambda c: c == "PARTY")
+    j_val = col(lambda c: c in ("GENERAL RESULTS", "GENERAL VOTES") or c == "GENERAL")
+    if None in (j_st, j_last, j_val):
+        return None
+    lines = {}
+    for r in rows[i0 + 1:]:
+        if len(r) <= max(j_st, j_last, j_val):
+            continue
+        st_raw = str(r[j_st] or "").strip().upper()
+        st = st_raw if st_raw in STATES51 else STATE_NAMES.get(st_raw)
+        last = str(r[j_last] or "").strip().lower()
+        v = _num(r[j_val])
+        if not st or v is None or last not in (dname, rname):
+            continue
+        party = str(r[j_party] or "").strip().lower() if j_party is not None and j_party < len(r) else ""
+        lines.setdefault((st, last), []).append((party, v))
+    def total(ls, mode):
+        comb = [v for p, v in ls if "combined" in p]
+        if mode == "combined" and comb:
+            return max(comb)
+        return sum(v for p, v in ls if "combined" not in p)
+    for mode in ("combined", "sum"):
+        out = {}
+        for (st, last), ls in lines.items():
+            d, r_ = out.get(st, (0.0, 0.0))
+            t = total(ls, mode)
+            out[st] = (d + t, r_) if last == dname else (d, r_ + t)
+        sd, sr = sum(v[0] for v in out.values()), sum(v[1] for v in out.values())
+        if len(out) >= 51 and abs(sd - nd) / nd < 0.002 and abs(sr - nr) / nr < 0.002:
+            return out
+    return None
 
 
 DIST_RE = re.compile(r"^([A-Z]{2})[- ]?(AL|\d{1,2})$")

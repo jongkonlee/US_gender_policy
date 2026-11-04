@@ -93,11 +93,13 @@ def parse_bill(xml_bytes):
         id=f"{congress}-{btype}-{number}", c=congress, t=btype, n=int(number) if number.isdigit() else number,
         intro=_t(bill, "introducedDate")[:10], title=_t(bill, "title"),
     )
-    titles = []
+    titles, seen = [], set()
     for it in bill.findall("titles/item"):
         tt = _t(it, "title")
-        if tt and tt not in titles:
-            titles.append(tt)
+        ty = _t(it, "titleType")
+        if tt and (ty, tt) not in seen:
+            seen.add((ty, tt))
+            titles.append([ty, tt])
     rec["titles"] = titles
     pa = _t(bill, "policyArea/name") or _t(bill, "subjects/policyArea/name") or _t(bill, "subjects/billSubjects/policyArea/name")
     rec["pa"] = pa

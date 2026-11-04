@@ -304,7 +304,7 @@ def build_congress(congress, people, cfg, refresh_bills, refresh_votes, refresh_
         for row in b.get("cs", []):
             bg, date, orig, wd = row[0], row[1], row[2], row[3]
             cs.append([ix.get(bg, bg), date, orig, 1 if wd else 0])
-        short = [t for t in b.get("titles", []) if t != b.get("title")]
+        short = [t for t in C.own_titles(b) if t != b.get("title")]
         rec = dict(id=bid, t=b["t"], n=b["n"], bl=bill_label(b["t"], b["n"]), title=b.get("title", ""),
                    alt=short[:3], intro=b.get("intro", ""), pa=b.get("pa", ""), topics=c["topics"], scope=c["scope"],
                    commem=c["commem"], dir=c["dir"], basis=c["basis"], sp=ix.get(sp.get("b"), sp.get("b")),
@@ -326,7 +326,7 @@ def write_qa(congress, bills):
     os.makedirs(os.path.dirname(p), exist_ok=True)
     with gzip.open(p, "wt", encoding="utf-8") as f:
         for b in bills.values():
-            rec = dict(id=b["id"], t=b["t"], n=b["n"], title=b.get("title", ""), titles=b.get("titles", [])[:4], pa=b.get("pa", ""),
+            rec = dict(id=b["id"], t=b["t"], n=b["n"], title=b.get("title", ""), titles=b.get("titles", [])[:8], pa=b.get("pa", ""),
                        subj=b.get("subj", [])[:40], nsubj=len(b.get("subj", [])), ncs=len(b.get("cs", [])), nv=len(b.get("votes", [])),
                        amdts=[[a.get("num"), a.get("purp") or a.get("desc") or ""] for a in b.get("amdts", [])][:60])
             f.write(json.dumps(rec, ensure_ascii=False) + "\n")
@@ -334,6 +334,23 @@ def write_qa(congress, bills):
 
 def abortion_timeline():
     return load_csv("abortion_law_timeline.csv")
+
+
+def write_people(cfg):
+    """Person attributes from research files (race, religion, caucus), kept separate so that
+    corrections show up without rebuilding every Congress."""
+    people = {}
+    for b, r in cfg["race"].items():
+        people.setdefault(b, {})["race"] = r["codes"]
+        if r.get("note"):
+            people[b]["race_note"] = r["note"]
+    for (b, c), rel in cfg["religion"].items():
+        people.setdefault(b, {}).setdefault("rel", {})[str(c)] = rel
+    for (b, c), s in cfg["caucus"].items():
+        people.setdefault(b, {}).setdefault("cau", {})[str(c)] = sorted(s)
+    for (b, c), s in cfg["factions"].items():
+        people.setdefault(b, {}).setdefault("fac", {})[str(c)] = sorted(s)
+    write_json(os.path.join(OUT, "people.json"), dict(race_loaded=bool(cfg["race"]), people=people))
 
 
 def write_index(summaries):
@@ -377,6 +394,7 @@ def main():
         is_live = c >= cur - 1
         summaries.append(build_congress(c, people, cfg, refresh_bills=is_live and not args.keep_cache,
                                         refresh_votes=is_live, refresh_dist=args.refresh_districts))
+    write_people(cfg)
     write_index(summaries)
     log("done", summaries)
 

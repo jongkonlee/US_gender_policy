@@ -109,6 +109,7 @@ NOISE = [
         r"\b(men|boys|fathers|sons|husbands?|brothers) (and|&) (women|girls|mothers|daughters|wives|sisters)\b",
         r"\b(women|girls|mothers|daughters|wives|sisters) (and|&) (men|boys|fathers|sons|husbands?|brothers)\b",
         r"fathers,? mothers", r"mothers,? fathers", r"servicemen and servicewomen", r"\bboys and girls clubs?\b",
+        r"\bmen'?s (and|&) women'?s\b", r"\bwomen'?s (and|&) men'?s\b",
     )]
 ENV_AREAS = {"Environmental Protection", "Energy", "Agriculture and Food", "Public Lands and Natural Resources",
              "Water Resources Development", "Transportation and Public Works", "Animals"}
@@ -267,10 +268,26 @@ def _order(strong, subj, weak):
     return core + broad
 
 
+def own_titles(b):
+    """Titles of the bill itself: leave out short titles of divisions ('for portions of this bill'),
+    so that an omnibus or defense bill is not counted because one of its parts is about women."""
+    out = []
+    for t in b.get("titles", []):
+        if isinstance(t, (list, tuple)):
+            ty, tt = (t[0] or ""), t[1]
+            if "portion" in ty.lower():
+                continue
+        else:
+            tt = t
+        if tt and tt not in out:
+            out.append(tt)
+    return out
+
+
 def classify_bill(b):
     """Return classification dict for a bill record (from billstatus.parse_bill)."""
     pa = b.get("pa") or ""
-    titles = [b.get("title") or ""] + [t for t in b.get("titles", []) if t != b.get("title")]
+    titles = [b.get("title") or ""] + [t for t in own_titles(b) if t != b.get("title")]
     text = " | ".join(titles)
     main_title = b.get("title") or (titles[0] if titles else "")
     is_res = b["t"] in ("hres", "sres", "hconres", "sconres")

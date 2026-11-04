@@ -54,7 +54,7 @@ function lawStatus(st, date) {
 }
 const CMP = {
   gender: { label: '성별', f: m => [m.g === 'F' ? '여성' : '남성'], order: ['여성', '남성'] },
-  race: { label: '인종(여러 집단이면 각각 셈)', f: m => { const o = [...(m.race || '')].map(c => RACE[c]).filter(Boolean); return o.length ? o : ['백인·기타']; },
+  race: { needs: 'race', label: '인종(여러 집단이면 각각 셈)', f: m => { const o = [...(m.race || '')].map(c => RACE[c]).filter(Boolean); return o.length ? o : ['백인·기타']; },
     order: ['흑인', '히스패닉', '아시아·태평양계', '원주민', '백인·기타'] },
   rural: { label: '농촌 인구 비율(지역구·주)', f: m => [m.rural == null ? '자료 없음' : m.rural < 10 ? '도시형 (10% 미만)' : m.rural < 30 ? '중간 (10~30%)' : '농촌형 (30% 이상)'],
     order: ['도시형 (10% 미만)', '중간 (10~30%)', '농촌형 (30% 이상)', '자료 없음'] },
@@ -101,8 +101,19 @@ async function getJSON(u) { const r = await fetch(u, { cache: 'no-cache' }); if 
 async function loadCongress(c) {
   if (!S.cache[c]) {
     const d = await getJSON(`data/c${c}.json`);
+    const P = S.people || {};
     for (const ch of ['H', 'S']) {
-      (d.members[ch] || []).forEach((m, i) => { m.i = i; m.ch = ch; });
+      (d.members[ch] || []).forEach((m, i) => {
+        m.i = i; m.ch = ch;
+        const p = P[m.b];
+        if (p) {
+          if (p.race !== undefined) m.race = p.race;
+          if (p.race_note) m.race_note = p.race_note;
+          if (p.rel && p.rel[c]) m.rel = p.rel[c];
+          if (p.cau && p.cau[c]) m.cau = p.cau[c];
+          if (p.fac && p.fac[c]) m.fac = p.fac[c];
+        }
+      });
     }
     d.billsBy = { H: [], S: [] };
     d.bills.forEach(b => { b.ch = H_TYPES.has(b.t) ? 'H' : 'S'; d.billsBy[b.ch].push(b); });
@@ -613,7 +624,7 @@ function fillControls() {
 }
 function fillCmp() {
   const R = S.D ? [...S.D.members.H, ...S.D.members.S] : [];
-  const has = { rel: R.some(m => m.rel), cau: R.some(m => m.cau), fac: R.some(m => m.fac), law: (S.idx.abortion_law || []).length > 0 };
+  const has = { rel: R.some(m => m.rel), cau: R.some(m => m.cau), fac: R.some(m => m.fac), law: (S.idx.abortion_law || []).length > 0, race: S.raceLoaded };
   const opts = Object.entries(CMP).filter(([k, v]) => !v.needs || has[v.needs]);
   if (!opts.some(([k]) => k === S.cmp)) S.cmp = 'gender';
   $('#cmpSel').innerHTML = opts.map(([k, v]) => `<option value="${k}">${esc(v.label)}</option>`).join('');
@@ -631,6 +642,7 @@ async function init() {
     $('#main').innerHTML = '<p>자료를 아직 만들고 있습니다. 잠시 뒤 다시 열어 주세요.</p>'; return;
   }
   TOPIC = Object.fromEntries(S.idx.topics.map(t => [t.code, t]));
+  try { const pj = await getJSON('data/people.json'); S.people = pj.people || {}; S.raceLoaded = !!pj.race_loaded; } catch (e) { S.people = {}; S.raceLoaded = false; }
   S.c = S.idx.congresses.length ? Math.max(...S.idx.congresses.map(x => x.c)) : null;
   readHash();
   if (!S.idx.congresses.some(x => x.c === S.c)) S.c = Math.max(...S.idx.congresses.map(x => x.c));
