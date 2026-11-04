@@ -1,13 +1,13 @@
 {
  "congress": 111,
- "built": "2026-11-04T08:02:36Z",
+ "built": "2026-11-04T08:20:12Z",
  "cd": {
   "PR-0": {
-   "rural": 0.0,
+   "rural": 6.23,
    "ur_src": "2010 Census, ZCTA estimate"
   },
   "MA-2": {
-   "rural": 0.0,
+   "rural": 13.41,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 7.6,
    "pvi_years": [
@@ -16,7 +16,7 @@
    ]
   },
   "MA-1": {
-   "rural": 0.0,
+   "rural": 31.25,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 12.6,
    "pvi_years": [
@@ -25,7 +25,7 @@
    ]
   },
   "MA-5": {
-   "rural": 0.0,
+   "rural": 5.72,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 7.24,
    "pvi_years": [
@@ -34,7 +34,7 @@
    ]
   },
   "MA-3": {
-   "rural": 0.0,
+   "rural": 6.0,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 7.6,
    "pvi_years": [
@@ -43,7 +43,7 @@
    ]
   },
   "MA-7": {
-   "rural": 0.0,
+   "rural": 0.44,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 13.96,
    "pvi_years": [
@@ -52,7 +52,7 @@
    ]
   },
   "MA-6": {
-   "rural": 0.0,
+   "rural": 4.77,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 6.13,
    "pvi_years": [
@@ -61,7 +61,7 @@
    ]
   },
   "MA-4": {
-   "rural": 0.0,
+   "rural": 11.36,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 12.61,
    "pvi_years": [
@@ -70,7 +70,7 @@
    ]
   },
   "MA-9": {
-   "rural": 0.0,
+   "rural": 0.86,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 8.91,
    "pvi_years": [
@@ -79,7 +79,7 @@
    ]
   },
   "MA-10": {
-   "rural": 0.0,
+   "rural": 6.69,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 3.35,
    "pvi_years": [
@@ -88,7 +88,7 @@
    ]
   },
   "MA-8": {
-   "rural": 0.0,
+   "rural": 0.04,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 32.2,
    "pvi_years": [
@@ -97,7 +97,7 @@
    ]
   },
   "RI-1": {
-   "rural": 0.0,
+   "rural": 4.3,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 13.11,
    "pvi_years": [
@@ -106,7 +106,7 @@
    ]
   },
   "RI-2": {
-   "rural": 0.0,
+   "rural": 14.1,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 8.77,
    "pvi_years": [
@@ -115,7 +115,7 @@
    ]
   },
   "NH-1": {
-   "rural": 0.0,
+   "rural": 30.77,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -0.58,
    "pvi_years": [
@@ -124,7 +124,7 @@
    ]
   },
   "NH-2": {
-   "rural": 0.0,
+   "rural": 48.61,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 3.1,
    "pvi_years": [
@@ -133,7 +133,7 @@
    ]
   },
   "ME-2": {
-   "rural": 0.0,
+   "rural": 69.8,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 2.9,
    "pvi_years": [
@@ -142,7 +142,7 @@
    ]
   },
   "ME-1": {
-   "rural": 0.0,
+   "rural": 52.99,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 7.79,
    "pvi_years": [
@@ -151,7 +151,7 @@
    ]
   },
   "VT-0": {
-   "rural": 0.0,
+   "rural": 61.1,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 14.11,
    "pvi_years": [
@@ -160,7 +160,7 @@
    ]
   },
   "CT-5": {
-   "rural": 0.0,
+   "rural": 14.49,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 2.9,
    "pvi_years": [
@@ -169,7 +169,7 @@
    ]
   },
   "CT-1": {
-   "rural": 0.0,
+   "rural": 5.71,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 12.7,
    "pvi_years": [
@@ -178,7 +178,7 @@
    ]
   },
   "CT-2": {
-   "rural": 0.0,
+   "rural": 32.04,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 6.02,
    "pvi_years": [
@@ -187,7 +187,7 @@
    ]
   },
   "NY-1": {
-   "rural": 0.0,
+   "rural": 5.14,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -0.96,
    "pvi_years": [
@@ -196,7 +196,7 @@
    ]
   },
   "CT-3": {
-   "rural": 0.0,
+   "rural": 2.94,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 9.56,
    "pvi_years": [
@@ -205,7 +205,7 @@
    ]
   },
   "CT-4": {
-   "rural": 0.0,
+   "rural": 4.29,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 5.81,
    "pvi_years": [
@@ -214,7 +214,7 @@
    ]
   },
   "NJ-7": {
-   "rural": 0.0,
+   "rural": 9.29,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -2.07,
    "pvi_years": [
@@ -250,7 +250,7 @@
    ]
   },
   "NJ-11": {
-   "rural": 0.0,
+   "rural": 6.65,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -7.86,
    "pvi_years": [
@@ -268,7 +268,7 @@
    ]
   },
   "NJ-6": {
-   "rural": 0.0,
+   "rural": 0.2,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 7.25,
    "pvi_years": [
@@ -277,7 +277,7 @@
    ]
   },
   "NJ-5": {
-   "rural": 0.0,
+   "rural": 15.66,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -7.61,
    "pvi_years": [
@@ -286,7 +286,7 @@
    ]
   },
   "NJ-12": {
-   "rural": 0.0,
+   "rural": 4.63,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 4.98,
    "pvi_years": [
@@ -295,7 +295,7 @@
    ]
   },
   "NJ-4": {
-   "rural": 0.0,
+   "rural": 5.92,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -5.85,
    "pvi_years": [
@@ -304,7 +304,7 @@
    ]
   },
   "NJ-2": {
-   "rural": 0.0,
+   "rural": 19.79,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 0.83,
    "pvi_years": [
@@ -313,7 +313,7 @@
    ]
   },
   "NJ-3": {
-   "rural": 0.0,
+   "rural": 3.87,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -0.81,
    "pvi_years": [
@@ -322,7 +322,7 @@
    ]
   },
   "NJ-1": {
-   "rural": 0.0,
+   "rural": 2.39,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 12.04,
    "pvi_years": [
@@ -385,7 +385,7 @@
    ]
   },
   "NY-7": {
-   "rural": 0.0,
+   "rural": 0.01,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 26.08,
    "pvi_years": [
@@ -394,7 +394,7 @@
    ]
   },
   "NY-17": {
-   "rural": 0.0,
+   "rural": 0.11,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 18.29,
    "pvi_years": [
@@ -403,7 +403,7 @@
    ]
   },
   "NY-19": {
-   "rural": 0.0,
+   "rural": 18.16,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -2.46,
    "pvi_years": [
@@ -412,7 +412,7 @@
    ]
   },
   "NY-18": {
-   "rural": 0.0,
+   "rural": 1.0,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 8.54,
    "pvi_years": [
@@ -421,7 +421,7 @@
    ]
   },
   "NY-22": {
-   "rural": 0.0,
+   "rural": 34.23,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 6.33,
    "pvi_years": [
@@ -430,7 +430,7 @@
    ]
   },
   "NY-4": {
-   "rural": 0.0,
+   "rural": 0.03,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 5.37,
    "pvi_years": [
@@ -484,7 +484,7 @@
    ]
   },
   "NY-3": {
-   "rural": 0.0,
+   "rural": 0.45,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -4.98,
    "pvi_years": [
@@ -493,7 +493,7 @@
    ]
   },
   "NY-2": {
-   "rural": 0.0,
+   "rural": 0.3,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 3.49,
    "pvi_years": [
@@ -502,7 +502,7 @@
    ]
   },
   "NY-21": {
-   "rural": 0.0,
+   "rural": 17.16,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 5.96,
    "pvi_years": [
@@ -511,7 +511,7 @@
    ]
   },
   "NY-20": {
-   "rural": 0.0,
+   "rural": 50.8,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -2.32,
    "pvi_years": [
@@ -520,7 +520,7 @@
    ]
   },
   "NY-23": {
-   "rural": 0.0,
+   "rural": 63.28,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -1.07,
    "pvi_years": [
@@ -529,7 +529,7 @@
    ]
   },
   "NY-25": {
-   "rural": 0.0,
+   "rural": 19.44,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 2.72,
    "pvi_years": [
@@ -538,7 +538,7 @@
    ]
   },
   "NY-24": {
-   "rural": 0.0,
+   "rural": 47.83,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -2.07,
    "pvi_years": [
@@ -547,7 +547,7 @@
    ]
   },
   "NY-26": {
-   "rural": 0.0,
+   "rural": 28.17,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -6.28,
    "pvi_years": [
@@ -556,7 +556,7 @@
    ]
   },
   "NY-27": {
-   "rural": 0.0,
+   "rural": 19.76,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 2.39,
    "pvi_years": [
@@ -565,7 +565,7 @@
    ]
   },
   "NY-28": {
-   "rural": 0.0,
+   "rural": 5.82,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 15.73,
    "pvi_years": [
@@ -574,7 +574,7 @@
    ]
   },
   "NY-29": {
-   "rural": 0.0,
+   "rural": 39.62,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -5.38,
    "pvi_years": [
@@ -583,7 +583,7 @@
    ]
   },
   "PA-4": {
-   "rural": 0.0,
+   "rural": 18.96,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -7.76,
    "pvi_years": [
@@ -592,7 +592,7 @@
    ]
   },
   "PA-18": {
-   "rural": 0.0,
+   "rural": 13.39,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -7.62,
    "pvi_years": [
@@ -601,7 +601,7 @@
    ]
   },
   "PA-12": {
-   "rural": 0.0,
+   "rural": 38.83,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -2.58,
    "pvi_years": [
@@ -610,7 +610,7 @@
    ]
   },
   "PA-14": {
-   "rural": 0.0,
+   "rural": 0.19,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 18.0,
    "pvi_years": [
@@ -619,7 +619,7 @@
    ]
   },
   "PA-9": {
-   "rural": 0.0,
+   "rural": 55.13,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -17.42,
    "pvi_years": [
@@ -628,7 +628,7 @@
    ]
   },
   "PA-5": {
-   "rural": 0.0,
+   "rural": 52.68,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -9.37,
    "pvi_years": [
@@ -637,7 +637,7 @@
    ]
   },
   "PA-3": {
-   "rural": 0.0,
+   "rural": 40.71,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -3.21,
    "pvi_years": [
@@ -646,7 +646,7 @@
    ]
   },
   "PA-10": {
-   "rural": 0.0,
+   "rural": 53.81,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -8.36,
    "pvi_years": [
@@ -655,7 +655,7 @@
    ]
   },
   "PA-17": {
-   "rural": 0.0,
+   "rural": 28.1,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -5.59,
    "pvi_years": [
@@ -664,7 +664,7 @@
    ]
   },
   "PA-19": {
-   "rural": 0.0,
+   "rural": 26.03,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -10.88,
    "pvi_years": [
@@ -673,7 +673,7 @@
    ]
   },
   "PA-16": {
-   "rural": 0.0,
+   "rural": 19.8,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -6.5,
    "pvi_years": [
@@ -682,7 +682,7 @@
    ]
   },
   "PA-6": {
-   "rural": 0.0,
+   "rural": 11.0,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 4.48,
    "pvi_years": [
@@ -691,7 +691,7 @@
    ]
   },
   "PA-11": {
-   "rural": 0.0,
+   "rural": 25.29,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 3.98,
    "pvi_years": [
@@ -700,7 +700,7 @@
    ]
   },
   "PA-15": {
-   "rural": 0.0,
+   "rural": 11.17,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 2.47,
    "pvi_years": [
@@ -709,7 +709,7 @@
    ]
   },
   "PA-8": {
-   "rural": 0.0,
+   "rural": 7.92,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 1.33,
    "pvi_years": [
@@ -718,7 +718,7 @@
    ]
   },
   "PA-13": {
-   "rural": 0.0,
+   "rural": 1.39,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 5.94,
    "pvi_years": [
@@ -727,7 +727,7 @@
    ]
   },
   "PA-7": {
-   "rural": 0.0,
+   "rural": 1.22,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 3.22,
    "pvi_years": [
@@ -754,7 +754,7 @@
    ]
   },
   "DE-0": {
-   "rural": 0.0,
+   "rural": 16.7,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 7.9,
    "pvi_years": [
@@ -767,7 +767,7 @@
    "ur_src": "2010 Census, ZCTA estimate"
   },
   "VA-10": {
-   "rural": 0.0,
+   "rural": 14.47,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -1.19,
    "pvi_years": [
@@ -776,7 +776,7 @@
    ]
   },
   "VA-1": {
-   "rural": 0.0,
+   "rural": 29.34,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -6.24,
    "pvi_years": [
@@ -785,7 +785,7 @@
    ]
   },
   "VA-7": {
-   "rural": 0.0,
+   "rural": 28.66,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -8.01,
    "pvi_years": [
@@ -794,7 +794,7 @@
    ]
   },
   "VA-11": {
-   "rural": 0.0,
+   "rural": 3.06,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 3.1,
    "pvi_years": [
@@ -803,7 +803,7 @@
    ]
   },
   "WV-2": {
-   "rural": 0.0,
+   "rural": 49.44,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -8.52,
    "pvi_years": [
@@ -812,7 +812,7 @@
    ]
   },
   "VA-8": {
-   "rural": 0.0,
+   "rural": 0.09,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 15.98,
    "pvi_years": [
@@ -821,7 +821,7 @@
    ]
   },
   "MD-5": {
-   "rural": 0.0,
+   "rural": 21.21,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 11.68,
    "pvi_years": [
@@ -830,7 +830,7 @@
    ]
   },
   "MD-3": {
-   "rural": 0.0,
+   "rural": 1.72,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 6.33,
    "pvi_years": [
@@ -839,7 +839,7 @@
    ]
   },
   "MD-7": {
-   "rural": 0.0,
+   "rural": 3.72,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 25.83,
    "pvi_years": [
@@ -848,7 +848,7 @@
    ]
   },
   "MD-4": {
-   "rural": 0.0,
+   "rural": 2.14,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 31.64,
    "pvi_years": [
@@ -857,7 +857,7 @@
    ]
   },
   "MD-8": {
-   "rural": 0.0,
+   "rural": 0.96,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 21.03,
    "pvi_years": [
@@ -866,7 +866,7 @@
    ]
   },
   "MD-2": {
-   "rural": 0.0,
+   "rural": 2.01,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 7.1,
    "pvi_years": [
@@ -875,7 +875,7 @@
    ]
   },
   "MD-6": {
-   "rural": 0.0,
+   "rural": 36.65,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -13.26,
    "pvi_years": [
@@ -884,7 +884,7 @@
    ]
   },
   "MD-1": {
-   "rural": 0.0,
+   "rural": 31.22,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -12.66,
    "pvi_years": [
@@ -893,7 +893,7 @@
    ]
   },
   "VA-6": {
-   "rural": 0.0,
+   "rural": 33.5,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -11.55,
    "pvi_years": [
@@ -902,7 +902,7 @@
    ]
   },
   "VA-5": {
-   "rural": 0.0,
+   "rural": 61.51,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -5.23,
    "pvi_years": [
@@ -911,7 +911,7 @@
    ]
   },
   "VA-4": {
-   "rural": 0.0,
+   "rural": 26.57,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -3.83,
    "pvi_years": [
@@ -920,7 +920,7 @@
    ]
   },
   "VA-3": {
-   "rural": 0.0,
+   "rural": 7.78,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 21.21,
    "pvi_years": [
@@ -929,7 +929,7 @@
    ]
   },
   "VA-2": {
-   "rural": 0.0,
+   "rural": 8.14,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -3.71,
    "pvi_years": [
@@ -938,7 +938,7 @@
    ]
   },
   "VA-9": {
-   "rural": 0.0,
+   "rural": 62.04,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -12.3,
    "pvi_years": [
@@ -947,7 +947,7 @@
    ]
   },
   "WV-3": {
-   "rural": 0.0,
+   "rural": 59.69,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -8.7,
    "pvi_years": [
@@ -956,7 +956,7 @@
    ]
   },
   "WV-1": {
-   "rural": 0.0,
+   "rural": 45.17,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -10.14,
    "pvi_years": [
@@ -965,7 +965,7 @@
    ]
   },
   "NC-5": {
-   "rural": 0.0,
+   "rural": 53.27,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -15.33,
    "pvi_years": [
@@ -974,7 +974,7 @@
    ]
   },
   "NC-12": {
-   "rural": 0.0,
+   "rural": 9.54,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 16.32,
    "pvi_years": [
@@ -983,7 +983,7 @@
    ]
   },
   "NC-13": {
-   "rural": 0.0,
+   "rural": 23.87,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 5.37,
    "pvi_years": [
@@ -992,7 +992,7 @@
    ]
   },
   "NC-6": {
-   "rural": 0.0,
+   "rural": 38.56,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -17.61,
    "pvi_years": [
@@ -1001,7 +1001,7 @@
    ]
   },
   "NC-2": {
-   "rural": 0.0,
+   "rural": 44.71,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -1.56,
    "pvi_years": [
@@ -1010,7 +1010,7 @@
    ]
   },
   "NC-8": {
-   "rural": 0.0,
+   "rural": 27.98,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -1.34,
    "pvi_years": [
@@ -1019,7 +1019,7 @@
    ]
   },
   "NC-4": {
-   "rural": 0.0,
+   "rural": 10.92,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 9.16,
    "pvi_years": [
@@ -1028,7 +1028,7 @@
    ]
   },
   "NC-1": {
-   "rural": 0.0,
+   "rural": 54.91,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 8.91,
    "pvi_years": [
@@ -1037,7 +1037,7 @@
    ]
   },
   "NC-3": {
-   "rural": 0.0,
+   "rural": 40.32,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -15.67,
    "pvi_years": [
@@ -1046,7 +1046,7 @@
    ]
   },
   "NC-9": {
-   "rural": 0.0,
+   "rural": 8.62,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -9.61,
    "pvi_years": [
@@ -1055,7 +1055,7 @@
    ]
   },
   "NC-10": {
-   "rural": 0.0,
+   "rural": 42.73,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -16.93,
    "pvi_years": [
@@ -1064,7 +1064,7 @@
    ]
   },
   "NC-11": {
-   "rural": 0.0,
+   "rural": 51.63,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -6.1,
    "pvi_years": [
@@ -1073,7 +1073,7 @@
    ]
   },
   "NC-7": {
-   "rural": 0.0,
+   "rural": 45.92,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -5.85,
    "pvi_years": [
@@ -1082,7 +1082,7 @@
    ]
   },
   "SC-6": {
-   "rural": 0.0,
+   "rural": 49.62,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 11.28,
    "pvi_years": [
@@ -1091,7 +1091,7 @@
    ]
   },
   "SC-2": {
-   "rural": 0.0,
+   "rural": 26.18,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -8.52,
    "pvi_years": [
@@ -1100,7 +1100,7 @@
    ]
   },
   "SC-3": {
-   "rural": 0.0,
+   "rural": 46.32,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -17.44,
    "pvi_years": [
@@ -1109,7 +1109,7 @@
    ]
   },
   "SC-5": {
-   "rural": 0.0,
+   "rural": 47.0,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -7.0,
    "pvi_years": [
@@ -1118,7 +1118,7 @@
    ]
   },
   "SC-4": {
-   "rural": 0.0,
+   "rural": 20.39,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -14.79,
    "pvi_years": [
@@ -1127,7 +1127,7 @@
    ]
   },
   "SC-1": {
-   "rural": 0.0,
+   "rural": 17.54,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -10.89,
    "pvi_years": [
@@ -1136,7 +1136,7 @@
    ]
   },
   "GA-4": {
-   "rural": 0.0,
+   "rural": 1.59,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 24.72,
    "pvi_years": [
@@ -1145,7 +1145,7 @@
    ]
   },
   "GA-6": {
-   "rural": 0.0,
+   "rural": 4.76,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -17.1,
    "pvi_years": [
@@ -1154,7 +1154,7 @@
    ]
   },
   "GA-9": {
-   "rural": 0.0,
+   "rural": 41.69,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -28.52,
    "pvi_years": [
@@ -1163,7 +1163,7 @@
    ]
   },
   "GA-7": {
-   "rural": 0.0,
+   "rural": 8.28,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -15.41,
    "pvi_years": [
@@ -1172,7 +1172,7 @@
    ]
   },
   "GA-11": {
-   "rural": 0.0,
+   "rural": 24.71,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -20.21,
    "pvi_years": [
@@ -1181,7 +1181,7 @@
    ]
   },
   "GA-13": {
-   "rural": 0.0,
+   "rural": 3.37,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 16.33,
    "pvi_years": [
@@ -1190,7 +1190,7 @@
    ]
   },
   "GA-8": {
-   "rural": 0.0,
+   "rural": 39.52,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -10.13,
    "pvi_years": [
@@ -1199,7 +1199,7 @@
    ]
   },
   "GA-5": {
-   "rural": 0.0,
+   "rural": 0.07,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 25.89,
    "pvi_years": [
@@ -1208,7 +1208,7 @@
    ]
   },
   "GA-10": {
-   "rural": 0.0,
+   "rural": 44.06,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -14.92,
    "pvi_years": [
@@ -1217,7 +1217,7 @@
    ]
   },
   "GA-3": {
-   "rural": 0.0,
+   "rural": 35.16,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -18.62,
    "pvi_years": [
@@ -1226,7 +1226,7 @@
    ]
   },
   "AL-3": {
-   "rural": 0.0,
+   "rural": 43.87,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -9.53,
    "pvi_years": [
@@ -1235,7 +1235,7 @@
    ]
   },
   "GA-12": {
-   "rural": 0.0,
+   "rural": 38.19,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 0.83,
    "pvi_years": [
@@ -1244,7 +1244,7 @@
    ]
   },
   "GA-1": {
-   "rural": 0.0,
+   "rural": 42.66,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -16.68,
    "pvi_years": [
@@ -1253,7 +1253,7 @@
    ]
   },
   "GA-2": {
-   "rural": 0.0,
+   "rural": 40.97,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 0.54,
    "pvi_years": [
@@ -1262,7 +1262,7 @@
    ]
   },
   "FL-3": {
-   "rural": 0.0,
+   "rural": 10.68,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 19.1,
    "pvi_years": [
@@ -1271,7 +1271,7 @@
    ]
   },
   "FL-6": {
-   "rural": 0.0,
+   "rural": 23.52,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -10.13,
    "pvi_years": [
@@ -1280,7 +1280,7 @@
    ]
   },
   "FL-2": {
-   "rural": 0.0,
+   "rural": 35.36,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -6.86,
    "pvi_years": [
@@ -1289,7 +1289,7 @@
    ]
   },
   "FL-4": {
-   "rural": 0.0,
+   "rural": 20.0,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -15.92,
    "pvi_years": [
@@ -1298,7 +1298,7 @@
    ]
   },
   "FL-7": {
-   "rural": 0.0,
+   "rural": 12.49,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -6.86,
    "pvi_years": [
@@ -1307,7 +1307,7 @@
    ]
   },
   "FL-8": {
-   "rural": 0.0,
+   "rural": 5.81,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -1.46,
    "pvi_years": [
@@ -1316,7 +1316,7 @@
    ]
   },
   "FL-24": {
-   "rural": 0.0,
+   "rural": 7.8,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -4.46,
    "pvi_years": [
@@ -1325,7 +1325,7 @@
    ]
   },
   "FL-5": {
-   "rural": 0.0,
+   "rural": 24.28,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -9.53,
    "pvi_years": [
@@ -1334,7 +1334,7 @@
    ]
   },
   "FL-1": {
-   "rural": 0.0,
+   "rural": 20.65,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -21.21,
    "pvi_years": [
@@ -1343,7 +1343,7 @@
    ]
   },
   "FL-15": {
-   "rural": 0.0,
+   "rural": 5.36,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -5.34,
    "pvi_years": [
@@ -1352,7 +1352,7 @@
    ]
   },
   "FL-18": {
-   "rural": 0.0,
+   "rural": 1.04,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -2.71,
    "pvi_years": [
@@ -1361,7 +1361,7 @@
    ]
   },
   "FL-20": {
-   "rural": 0.0,
+   "rural": 0.04,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 11.27,
    "pvi_years": [
@@ -1370,7 +1370,7 @@
    ]
   },
   "FL-22": {
-   "rural": 0.0,
+   "rural": 0.44,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -0.46,
    "pvi_years": [
@@ -1397,7 +1397,7 @@
    ]
   },
   "FL-25": {
-   "rural": 0.0,
+   "rural": 4.26,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -4.33,
    "pvi_years": [
@@ -1406,7 +1406,7 @@
    ]
   },
   "FL-23": {
-   "rural": 0.0,
+   "rural": 1.68,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 28.79,
    "pvi_years": [
@@ -1415,7 +1415,7 @@
    ]
   },
   "FL-19": {
-   "rural": 0.0,
+   "rural": 0.26,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 13.29,
    "pvi_years": [
@@ -1424,7 +1424,7 @@
    ]
   },
   "FL-16": {
-   "rural": 0.0,
+   "rural": 11.15,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -5.35,
    "pvi_years": [
@@ -1433,7 +1433,7 @@
    ]
   },
   "FL-12": {
-   "rural": 0.0,
+   "rural": 9.09,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -4.83,
    "pvi_years": [
@@ -1442,7 +1442,7 @@
    ]
   },
   "FL-9": {
-   "rural": 0.0,
+   "rural": 4.45,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -6.1,
    "pvi_years": [
@@ -1451,7 +1451,7 @@
    ]
   },
   "FL-11": {
-   "rural": 0.0,
+   "rural": 0.36,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 12.19,
    "pvi_years": [
@@ -1460,7 +1460,7 @@
    ]
   },
   "FL-13": {
-   "rural": 0.0,
+   "rural": 8.55,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -5.85,
    "pvi_years": [
@@ -1469,7 +1469,7 @@
    ]
   },
   "FL-10": {
-   "rural": 0.0,
+   "rural": 0.05,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -1.18,
    "pvi_years": [
@@ -1478,7 +1478,7 @@
    ]
   },
   "FL-14": {
-   "rural": 0.0,
+   "rural": 4.86,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -11.14,
    "pvi_years": [
@@ -1487,7 +1487,7 @@
    ]
   },
   "AL-6": {
-   "rural": 0.0,
+   "rural": 30.82,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -29.53,
    "pvi_years": [
@@ -1496,7 +1496,7 @@
    ]
   },
   "AL-7": {
-   "rural": 0.0,
+   "rural": 27.34,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 18.25,
    "pvi_years": [
@@ -1505,7 +1505,7 @@
    ]
   },
   "AL-4": {
-   "rural": 0.0,
+   "rural": 69.75,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -27.96,
    "pvi_years": [
@@ -1514,7 +1514,7 @@
    ]
   },
   "AL-2": {
-   "rural": 0.0,
+   "rural": 46.46,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -16.93,
    "pvi_years": [
@@ -1523,7 +1523,7 @@
    ]
   },
   "AL-5": {
-   "rural": 0.0,
+   "rural": 35.79,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -13.82,
    "pvi_years": [
@@ -1532,7 +1532,7 @@
    ]
   },
   "AL-1": {
-   "rural": 0.0,
+   "rural": 33.54,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -14.37,
    "pvi_years": [
@@ -1541,7 +1541,7 @@
    ]
   },
   "TN-6": {
-   "rural": 0.0,
+   "rural": 40.22,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -14.43,
    "pvi_years": [
@@ -1550,7 +1550,7 @@
    ]
   },
   "TN-7": {
-   "rural": 0.0,
+   "rural": 31.71,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -18.36,
    "pvi_years": [
@@ -1559,7 +1559,7 @@
    ]
   },
   "TN-5": {
-   "rural": 0.0,
+   "rural": 9.7,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 2.97,
    "pvi_years": [
@@ -1568,7 +1568,7 @@
    ]
   },
   "TN-8": {
-   "rural": 0.0,
+   "rural": 50.71,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -8.13,
    "pvi_years": [
@@ -1577,7 +1577,7 @@
    ]
   },
   "TN-4": {
-   "rural": 0.0,
+   "rural": 64.68,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -16.08,
    "pvi_years": [
@@ -1586,7 +1586,7 @@
    ]
   },
   "TN-3": {
-   "rural": 0.0,
+   "rural": 34.54,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -14.83,
    "pvi_years": [
@@ -1595,7 +1595,7 @@
    ]
   },
   "TN-2": {
-   "rural": 0.0,
+   "rural": 26.28,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -17.6,
    "pvi_years": [
@@ -1604,7 +1604,7 @@
    ]
   },
   "TN-1": {
-   "rural": 0.0,
+   "rural": 41.63,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -22.66,
    "pvi_years": [
@@ -1613,7 +1613,7 @@
    ]
   },
   "TN-9": {
-   "rural": 0.0,
+   "rural": 0.44,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 23.38,
    "pvi_years": [
@@ -1622,7 +1622,7 @@
    ]
   },
   "KY-1": {
-   "rural": 0.0,
+   "rural": 63.79,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -15.33,
    "pvi_years": [
@@ -1631,7 +1631,7 @@
    ]
   },
   "MS-1": {
-   "rural": 0.0,
+   "rural": 58.58,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -14.61,
    "pvi_years": [
@@ -1640,7 +1640,7 @@
    ]
   },
   "MS-2": {
-   "rural": 0.0,
+   "rural": 39.88,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 11.94,
    "pvi_years": [
@@ -1649,7 +1649,7 @@
    ]
   },
   "AR-4": {
-   "rural": 0.0,
+   "rural": 54.9,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -10.18,
    "pvi_years": [
@@ -1658,7 +1658,7 @@
    ]
   },
   "MS-3": {
-   "rural": 0.0,
+   "rural": 57.11,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -15.37,
    "pvi_years": [
@@ -1667,7 +1667,7 @@
    ]
   },
   "MS-4": {
-   "rural": 0.0,
+   "rural": 45.43,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -20.63,
    "pvi_years": [
@@ -1676,7 +1676,7 @@
    ]
   },
   "KY-2": {
-   "rural": 0.0,
+   "rural": 49.58,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -15.08,
    "pvi_years": [
@@ -1685,7 +1685,7 @@
    ]
   },
   "KY-6": {
-   "rural": 0.0,
+   "rural": 26.61,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -9.19,
    "pvi_years": [
@@ -1694,7 +1694,7 @@
    ]
   },
   "KY-4": {
-   "rural": 0.0,
+   "rural": 36.01,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -14.28,
    "pvi_years": [
@@ -1703,7 +1703,7 @@
    ]
   },
   "KY-3": {
-   "rural": 0.0,
+   "rural": 1.55,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 2.72,
    "pvi_years": [
@@ -1712,7 +1712,7 @@
    ]
   },
   "KY-5": {
-   "rural": 0.0,
+   "rural": 76.23,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -18.98,
    "pvi_years": [
@@ -1721,7 +1721,7 @@
    ]
   },
   "OH-12": {
-   "rural": 0.0,
+   "rural": 9.93,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -0.05,
    "pvi_years": [
@@ -1730,7 +1730,7 @@
    ]
   },
   "OH-15": {
-   "rural": 0.0,
+   "rural": 8.54,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 0.95,
    "pvi_years": [
@@ -1739,7 +1739,7 @@
    ]
   },
   "OH-4": {
-   "rural": 0.0,
+   "rural": 41.1,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -14.79,
    "pvi_years": [
@@ -1748,7 +1748,7 @@
    ]
   },
   "OH-18": {
-   "rural": 0.0,
+   "rural": 57.89,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -6.91,
    "pvi_years": [
@@ -1757,7 +1757,7 @@
    ]
   },
   "OH-7": {
-   "rural": 0.0,
+   "rural": 27.23,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -7.61,
    "pvi_years": [
@@ -1766,7 +1766,7 @@
    ]
   },
   "OH-5": {
-   "rural": 0.0,
+   "rural": 50.39,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -8.27,
    "pvi_years": [
@@ -1775,7 +1775,7 @@
    ]
   },
   "OH-9": {
-   "rural": 0.0,
+   "rural": 12.63,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 9.49,
    "pvi_years": [
@@ -1784,7 +1784,7 @@
    ]
   },
   "OH-6": {
-   "rural": 0.0,
+   "rural": 49.05,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -3.47,
    "pvi_years": [
@@ -1793,7 +1793,7 @@
    ]
   },
   "OH-13": {
-   "rural": 0.0,
+   "rural": 5.93,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 4.73,
    "pvi_years": [
@@ -1802,7 +1802,7 @@
    ]
   },
   "OH-14": {
-   "rural": 0.0,
+   "rural": 23.76,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -3.21,
    "pvi_years": [
@@ -1811,7 +1811,7 @@
    ]
   },
   "OH-10": {
-   "rural": 0.0,
+   "rural": 0.11,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 7.34,
    "pvi_years": [
@@ -1820,7 +1820,7 @@
    ]
   },
   "OH-11": {
-   "rural": 0.0,
+   "rural": 0.2,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 32.39,
    "pvi_years": [
@@ -1829,7 +1829,7 @@
    ]
   },
   "OH-17": {
-   "rural": 0.0,
+   "rural": 15.16,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 10.74,
    "pvi_years": [
@@ -1838,7 +1838,7 @@
    ]
   },
   "OH-16": {
-   "rural": 0.0,
+   "rural": 27.09,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -4.22,
    "pvi_years": [
@@ -1847,7 +1847,7 @@
    ]
   },
   "OH-1": {
-   "rural": 0.0,
+   "rural": 3.65,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 1.46,
    "pvi_years": [
@@ -1856,7 +1856,7 @@
    ]
   },
   "OH-8": {
-   "rural": 0.0,
+   "rural": 21.36,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -14.54,
    "pvi_years": [
@@ -1865,7 +1865,7 @@
    ]
   },
   "OH-3": {
-   "rural": 0.0,
+   "rural": 14.96,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -4.99,
    "pvi_years": [
@@ -1874,7 +1874,7 @@
    ]
   },
   "OH-2": {
-   "rural": 0.0,
+   "rural": 25.14,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -13.15,
    "pvi_years": [
@@ -1883,7 +1883,7 @@
    ]
   },
   "IN-6": {
-   "rural": 0.0,
+   "rural": 39.61,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -8.77,
    "pvi_years": [
@@ -1892,7 +1892,7 @@
    ]
   },
   "IN-5": {
-   "rural": 0.0,
+   "rural": 19.14,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -15.08,
    "pvi_years": [
@@ -1901,7 +1901,7 @@
    ]
   },
   "IN-4": {
-   "rural": 0.0,
+   "rural": 26.1,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -12.3,
    "pvi_years": [
@@ -1910,7 +1910,7 @@
    ]
   },
   "IN-2": {
-   "rural": 0.0,
+   "rural": 27.75,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -0.69,
    "pvi_years": [
@@ -1919,7 +1919,7 @@
    ]
   },
   "IN-8": {
-   "rural": 0.0,
+   "rural": 41.5,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -6.99,
    "pvi_years": [
@@ -1928,7 +1928,7 @@
    ]
   },
   "IN-7": {
-   "rural": 0.0,
+   "rural": 0.26,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 15.83,
    "pvi_years": [
@@ -1937,7 +1937,7 @@
    ]
   },
   "IN-9": {
-   "rural": 0.0,
+   "rural": 47.35,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -5.23,
    "pvi_years": [
@@ -1946,7 +1946,7 @@
    ]
   },
   "IN-1": {
-   "rural": 0.0,
+   "rural": 13.46,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 8.4,
    "pvi_years": [
@@ -1955,7 +1955,7 @@
    ]
   },
   "IN-3": {
-   "rural": 0.0,
+   "rural": 33.04,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -12.05,
    "pvi_years": [
@@ -1964,7 +1964,7 @@
    ]
   },
   "MI-10": {
-   "rural": 0.0,
+   "rural": 30.93,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -4.97,
    "pvi_years": [
@@ -1973,7 +1973,7 @@
    ]
   },
   "MI-9": {
-   "rural": 0.0,
+   "rural": 0.53,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 2.22,
    "pvi_years": [
@@ -1991,7 +1991,7 @@
    ]
   },
   "MI-14": {
-   "rural": 0.0,
+   "rural": 0.04,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 32.79,
    "pvi_years": [
@@ -2000,7 +2000,7 @@
    ]
   },
   "MI-7": {
-   "rural": 0.0,
+   "rural": 43.46,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -1.3,
    "pvi_years": [
@@ -2009,7 +2009,7 @@
    ]
   },
   "MI-15": {
-   "rural": 0.0,
+   "rural": 12.01,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 13.04,
    "pvi_years": [
@@ -2018,7 +2018,7 @@
    ]
   },
   "MI-11": {
-   "rural": 0.0,
+   "rural": 3.77,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 0.2,
    "pvi_years": [
@@ -2027,7 +2027,7 @@
    ]
   },
   "MI-8": {
-   "rural": 0.0,
+   "rural": 27.52,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -0.94,
    "pvi_years": [
@@ -2045,7 +2045,7 @@
    ]
   },
   "MI-5": {
-   "rural": 0.0,
+   "rural": 23.53,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 10.78,
    "pvi_years": [
@@ -2054,7 +2054,7 @@
    ]
   },
   "MI-4": {
-   "rural": 0.0,
+   "rural": 58.05,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -3.08,
    "pvi_years": [
@@ -2063,7 +2063,7 @@
    ]
   },
   "MI-1": {
-   "rural": 0.0,
+   "rural": 65.98,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -2.57,
    "pvi_years": [
@@ -2072,7 +2072,7 @@
    ]
   },
   "MI-3": {
-   "rural": 0.0,
+   "rural": 23.69,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -4.85,
    "pvi_years": [
@@ -2081,7 +2081,7 @@
    ]
   },
   "MI-6": {
-   "rural": 0.0,
+   "rural": 40.01,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 0.07,
    "pvi_years": [
@@ -2090,7 +2090,7 @@
    ]
   },
   "MI-2": {
-   "rural": 0.0,
+   "rural": 40.04,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -6.24,
    "pvi_years": [
@@ -2099,7 +2099,7 @@
    ]
   },
   "IA-4": {
-   "rural": 0.0,
+   "rural": 44.65,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 0.23,
    "pvi_years": [
@@ -2108,7 +2108,7 @@
    ]
   },
   "IA-5": {
-   "rural": 0.0,
+   "rural": 49.1,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -8.93,
    "pvi_years": [
@@ -2117,7 +2117,7 @@
    ]
   },
   "IA-3": {
-   "rural": 0.0,
+   "rural": 24.61,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 1.37,
    "pvi_years": [
@@ -2126,7 +2126,7 @@
    ]
   },
   "IA-2": {
-   "rural": 0.0,
+   "rural": 30.36,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 7.35,
    "pvi_years": [
@@ -2135,7 +2135,7 @@
    ]
   },
   "IA-1": {
-   "rural": 0.0,
+   "rural": 32.53,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 4.87,
    "pvi_years": [
@@ -2144,7 +2144,7 @@
    ]
   },
   "SD-0": {
-   "rural": 0.0,
+   "rural": 43.33,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -8.32,
    "pvi_years": [
@@ -2153,7 +2153,7 @@
    ]
   },
   "MN-1": {
-   "rural": 0.0,
+   "rural": 39.11,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -1.44,
    "pvi_years": [
@@ -2162,7 +2162,7 @@
    ]
   },
   "NE-1": {
-   "rural": 0.0,
+   "rural": 30.0,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -9.69,
    "pvi_years": [
@@ -2171,7 +2171,7 @@
    ]
   },
   "MO-6": {
-   "rural": 0.0,
+   "rural": 30.59,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -7.76,
    "pvi_years": [
@@ -2180,7 +2180,7 @@
    ]
   },
   "MO-9": {
-   "rural": 0.0,
+   "rural": 49.53,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -8.87,
    "pvi_years": [
@@ -2189,7 +2189,7 @@
    ]
   },
   "WI-6": {
-   "rural": 0.0,
+   "rural": 35.71,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -3.72,
    "pvi_years": [
@@ -2198,7 +2198,7 @@
    ]
   },
   "WI-5": {
-   "rural": 0.0,
+   "rural": 14.24,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -12.3,
    "pvi_years": [
@@ -2207,7 +2207,7 @@
    ]
   },
   "WI-2": {
-   "rural": 0.0,
+   "rural": 21.43,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 15.47,
    "pvi_years": [
@@ -2216,7 +2216,7 @@
    ]
   },
   "WI-1": {
-   "rural": 0.0,
+   "rural": 14.3,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -2.32,
    "pvi_years": [
@@ -2234,7 +2234,7 @@
    ]
   },
   "WI-3": {
-   "rural": 0.0,
+   "rural": 54.83,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 4.36,
    "pvi_years": [
@@ -2243,7 +2243,7 @@
    ]
   },
   "WI-7": {
-   "rural": 0.0,
+   "rural": 56.02,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 2.59,
    "pvi_years": [
@@ -2252,7 +2252,7 @@
    ]
   },
   "WI-8": {
-   "rural": 0.0,
+   "rural": 41.5,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -0.44,
    "pvi_years": [
@@ -2261,7 +2261,7 @@
    ]
   },
   "MN-2": {
-   "rural": 0.0,
+   "rural": 15.92,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -4.36,
    "pvi_years": [
@@ -2270,7 +2270,7 @@
    ]
   },
   "MN-6": {
-   "rural": 0.0,
+   "rural": 28.15,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -7.41,
    "pvi_years": [
@@ -2279,7 +2279,7 @@
    ]
   },
   "MN-8": {
-   "rural": 0.0,
+   "rural": 61.26,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 1.49,
    "pvi_years": [
@@ -2288,7 +2288,7 @@
    ]
   },
   "MN-4": {
-   "rural": 0.0,
+   "rural": 0.66,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 12.18,
    "pvi_years": [
@@ -2306,7 +2306,7 @@
    ]
   },
   "MN-3": {
-   "rural": 0.0,
+   "rural": 3.82,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -0.54,
    "pvi_years": [
@@ -2315,7 +2315,7 @@
    ]
   },
   "MN-7": {
-   "rural": 0.0,
+   "rural": 64.2,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -5.15,
    "pvi_years": [
@@ -2324,7 +2324,7 @@
    ]
   },
   "ND-0": {
-   "rural": 0.0,
+   "rural": 40.09,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -8.93,
    "pvi_years": [
@@ -2333,7 +2333,7 @@
    ]
   },
   "NE-3": {
-   "rural": 0.0,
+   "rural": 51.39,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -23.67,
    "pvi_years": [
@@ -2342,7 +2342,7 @@
    ]
   },
   "WY-0": {
-   "rural": 0.0,
+   "rural": 35.24,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -19.8,
    "pvi_years": [
@@ -2351,7 +2351,7 @@
    ]
   },
   "MT-0": {
-   "rural": 0.0,
+   "rural": 44.12,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -5.79,
    "pvi_years": [
@@ -2360,7 +2360,7 @@
    ]
   },
   "ID-1": {
-   "rural": 0.0,
+   "rural": 27.93,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -17.33,
    "pvi_years": [
@@ -2369,7 +2369,7 @@
    ]
   },
   "IL-8": {
-   "rural": 0.0,
+   "rural": 3.47,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 0.97,
    "pvi_years": [
@@ -2378,7 +2378,7 @@
    ]
   },
   "IL-10": {
-   "rural": 0.0,
+   "rural": 0.18,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 7.01,
    "pvi_years": [
@@ -2396,7 +2396,7 @@
    ]
   },
   "IL-14": {
-   "rural": 0.0,
+   "rural": 9.87,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 0.32,
    "pvi_years": [
@@ -2405,7 +2405,7 @@
    ]
   },
   "IL-16": {
-   "rural": 0.0,
+   "rural": 18.94,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -0.78,
    "pvi_years": [
@@ -2441,7 +2441,7 @@
    ]
   },
   "IL-3": {
-   "rural": 0.0,
+   "rural": 0.01,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 10.78,
    "pvi_years": [
@@ -2459,7 +2459,7 @@
    ]
   },
   "IL-13": {
-   "rural": 0.0,
+   "rural": 0.4,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -0.3,
    "pvi_years": [
@@ -2468,7 +2468,7 @@
    ]
   },
   "IL-11": {
-   "rural": 0.0,
+   "rural": 17.54,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -0.28,
    "pvi_years": [
@@ -2486,7 +2486,7 @@
    ]
   },
   "IL-2": {
-   "rural": 0.0,
+   "rural": 0.06,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 36.04,
    "pvi_years": [
@@ -2495,7 +2495,7 @@
    ]
   },
   "IL-15": {
-   "rural": 0.0,
+   "rural": 32.84,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -5.47,
    "pvi_years": [
@@ -2504,7 +2504,7 @@
    ]
   },
   "IL-17": {
-   "rural": 0.0,
+   "rural": 30.04,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 3.28,
    "pvi_years": [
@@ -2513,7 +2513,7 @@
    ]
   },
   "IL-18": {
-   "rural": 0.0,
+   "rural": 32.13,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -5.22,
    "pvi_years": [
@@ -2522,7 +2522,7 @@
    ]
   },
   "IL-19": {
-   "rural": 0.0,
+   "rural": 46.4,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -9.03,
    "pvi_years": [
@@ -2531,7 +2531,7 @@
    ]
   },
   "IL-12": {
-   "rural": 0.0,
+   "rural": 23.04,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 1.87,
    "pvi_years": [
@@ -2540,7 +2540,7 @@
    ]
   },
   "MO-2": {
-   "rural": 0.0,
+   "rural": 8.85,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -9.12,
    "pvi_years": [
@@ -2549,7 +2549,7 @@
    ]
   },
   "MO-3": {
-   "rural": 0.0,
+   "rural": 12.17,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 7.25,
    "pvi_years": [
@@ -2558,7 +2558,7 @@
    ]
   },
   "MO-8": {
-   "rural": 0.0,
+   "rural": 60.43,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -15.9,
    "pvi_years": [
@@ -2567,7 +2567,7 @@
    ]
   },
   "MO-1": {
-   "rural": 0.0,
+   "rural": 0.4,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 26.9,
    "pvi_years": [
@@ -2576,7 +2576,7 @@
    ]
   },
   "MO-4": {
-   "rural": 0.0,
+   "rural": 57.37,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -14.83,
    "pvi_years": [
@@ -2585,7 +2585,7 @@
    ]
   },
   "MO-5": {
-   "rural": 0.0,
+   "rural": 3.89,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 10.93,
    "pvi_years": [
@@ -2594,7 +2594,7 @@
    ]
   },
   "MO-7": {
-   "rural": 0.0,
+   "rural": 37.0,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -17.59,
    "pvi_years": [
@@ -2603,7 +2603,7 @@
    ]
   },
   "AR-3": {
-   "rural": 0.0,
+   "rural": 38.44,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -17.25,
    "pvi_years": [
@@ -2612,7 +2612,7 @@
    ]
   },
   "KS-2": {
-   "rural": 0.0,
+   "rural": 36.8,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -9.6,
    "pvi_years": [
@@ -2621,7 +2621,7 @@
    ]
   },
   "KS-3": {
-   "rural": 0.0,
+   "rural": 4.88,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -2.71,
    "pvi_years": [
@@ -2630,7 +2630,7 @@
    ]
   },
   "KS-1": {
-   "rural": 0.0,
+   "rural": 45.72,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -23.1,
    "pvi_years": [
@@ -2639,7 +2639,7 @@
    ]
   },
   "KS-4": {
-   "rural": 0.0,
+   "rural": 19.13,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -13.17,
    "pvi_years": [
@@ -2648,7 +2648,7 @@
    ]
   },
   "OK-3": {
-   "rural": 0.0,
+   "rural": 47.59,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -25.21,
    "pvi_years": [
@@ -2657,7 +2657,7 @@
    ]
   },
   "NE-2": {
-   "rural": 0.0,
+   "rural": 2.27,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -4.88,
    "pvi_years": [
@@ -2666,7 +2666,7 @@
    ]
   },
   "LA-1": {
-   "rural": 0.0,
+   "rural": 20.11,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -25.69,
    "pvi_years": [
@@ -2675,7 +2675,7 @@
    ]
   },
   "LA-2": {
-   "rural": 0.0,
+   "rural": 0.76,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 22.54,
    "pvi_years": [
@@ -2684,7 +2684,7 @@
    ]
   },
   "LA-3": {
-   "rural": 0.0,
+   "rural": 22.94,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -13.79,
    "pvi_years": [
@@ -2693,7 +2693,7 @@
    ]
   },
   "LA-6": {
-   "rural": 0.0,
+   "rural": 21.99,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -10.98,
    "pvi_years": [
@@ -2702,7 +2702,7 @@
    ]
   },
   "LA-7": {
-   "rural": 0.0,
+   "rural": 29.07,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -15.82,
    "pvi_years": [
@@ -2711,7 +2711,7 @@
    ]
   },
   "LA-4": {
-   "rural": 0.0,
+   "rural": 39.66,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -12.05,
    "pvi_years": [
@@ -2720,7 +2720,7 @@
    ]
   },
   "LA-5": {
-   "rural": 0.0,
+   "rural": 47.51,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -15.08,
    "pvi_years": [
@@ -2729,7 +2729,7 @@
    ]
   },
   "AR-2": {
-   "rural": 0.0,
+   "rural": 30.85,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -6.66,
    "pvi_years": [
@@ -2738,7 +2738,7 @@
    ]
   },
   "AR-1": {
-   "rural": 0.0,
+   "rural": 53.97,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -11.21,
    "pvi_years": [
@@ -2747,7 +2747,7 @@
    ]
   },
   "OK-4": {
-   "rural": 0.0,
+   "rural": 34.16,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -18.71,
    "pvi_years": [
@@ -2756,7 +2756,7 @@
    ]
   },
   "OK-5": {
-   "rural": 0.0,
+   "rural": 12.24,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -12.71,
    "pvi_years": [
@@ -2765,7 +2765,7 @@
    ]
   },
   "OK-2": {
-   "rural": 0.0,
+   "rural": 64.76,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -16.71,
    "pvi_years": [
@@ -2774,7 +2774,7 @@
    ]
   },
   "TX-13": {
-   "rural": 0.0,
+   "rural": 30.08,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -29.71,
    "pvi_years": [
@@ -2783,7 +2783,7 @@
    ]
   },
   "OK-1": {
-   "rural": 0.0,
+   "rural": 11.28,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -16.71,
    "pvi_years": [
@@ -2792,7 +2792,7 @@
    ]
   },
   "TX-24": {
-   "rural": 0.0,
+   "rural": 0.34,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -10.37,
    "pvi_years": [
@@ -2801,7 +2801,7 @@
    ]
   },
   "TX-32": {
-   "rural": 0.0,
+   "rural": 0.02,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -7.61,
    "pvi_years": [
@@ -2810,7 +2810,7 @@
    ]
   },
   "TX-3": {
-   "rural": 0.0,
+   "rural": 0.52,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -12.39,
    "pvi_years": [
@@ -2819,7 +2819,7 @@
    ]
   },
   "TX-4": {
-   "rural": 0.0,
+   "rural": 40.12,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -22.23,
    "pvi_years": [
@@ -2828,7 +2828,7 @@
    ]
   },
   "TX-26": {
-   "rural": 0.0,
+   "rural": 6.35,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -12.65,
    "pvi_years": [
@@ -2837,7 +2837,7 @@
    ]
   },
   "TX-5": {
-   "rural": 0.0,
+   "rural": 33.78,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -16.93,
    "pvi_years": [
@@ -2846,7 +2846,7 @@
    ]
   },
   "TX-6": {
-   "rural": 0.0,
+   "rural": 17.28,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -13.96,
    "pvi_years": [
@@ -2855,7 +2855,7 @@
    ]
   },
   "TX-30": {
-   "rural": 0.0,
+   "rural": 1.16,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 27.79,
    "pvi_years": [
@@ -2864,7 +2864,7 @@
    ]
   },
   "TX-1": {
-   "rural": 0.0,
+   "rural": 44.81,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -21.46,
    "pvi_years": [
@@ -2873,7 +2873,7 @@
    ]
   },
   "TX-8": {
-   "rural": 0.0,
+   "rural": 39.96,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -25.96,
    "pvi_years": [
@@ -2882,7 +2882,7 @@
    ]
   },
   "TX-17": {
-   "rural": 0.0,
+   "rural": 32.58,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -20.71,
    "pvi_years": [
@@ -2891,7 +2891,7 @@
    ]
   },
   "TX-12": {
-   "rural": 0.0,
+   "rural": 14.9,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -16.93,
    "pvi_years": [
@@ -2900,7 +2900,7 @@
    ]
   },
   "TX-19": {
-   "rural": 0.0,
+   "rural": 25.53,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -26.25,
    "pvi_years": [
@@ -2909,7 +2909,7 @@
    ]
   },
   "TX-31": {
-   "rural": 0.0,
+   "rural": 18.98,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -12.71,
    "pvi_years": [
@@ -2918,7 +2918,7 @@
    ]
   },
   "TX-11": {
-   "rural": 0.0,
+   "rural": 28.65,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -28.96,
    "pvi_years": [
@@ -2927,7 +2927,7 @@
    ]
   },
   "TX-10": {
-   "rural": 0.0,
+   "rural": 14.04,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -9.62,
    "pvi_years": [
@@ -2936,7 +2936,7 @@
    ]
   },
   "TX-23": {
-   "rural": 0.0,
+   "rural": 17.53,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -3.07,
    "pvi_years": [
@@ -2945,7 +2945,7 @@
    ]
   },
   "TX-7": {
-   "rural": 0.0,
+   "rural": 0.05,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -12.4,
    "pvi_years": [
@@ -2954,7 +2954,7 @@
    ]
   },
   "TX-18": {
-   "rural": 0.0,
+   "rural": 0.06,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 23.88,
    "pvi_years": [
@@ -2963,7 +2963,7 @@
    ]
   },
   "TX-29": {
-   "rural": 0.0,
+   "rural": 0.26,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 8.04,
    "pvi_years": [
@@ -2972,7 +2972,7 @@
    ]
   },
   "TX-9": {
-   "rural": 0.0,
+   "rural": 0.03,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 22.79,
    "pvi_years": [
@@ -2981,7 +2981,7 @@
    ]
   },
   "TX-2": {
-   "rural": 0.0,
+   "rural": 9.7,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -13.21,
    "pvi_years": [
@@ -2990,7 +2990,7 @@
    ]
   },
   "TX-22": {
-   "rural": 0.0,
+   "rural": 4.16,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -12.4,
    "pvi_years": [
@@ -2999,7 +2999,7 @@
    ]
   },
   "TX-14": {
-   "rural": 0.0,
+   "rural": 23.02,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -19.21,
    "pvi_years": [
@@ -3008,7 +3008,7 @@
    ]
   },
   "TX-25": {
-   "rural": 0.0,
+   "rural": 22.21,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 5.74,
    "pvi_years": [
@@ -3017,7 +3017,7 @@
    ]
   },
   "TX-15": {
-   "rural": 0.0,
+   "rural": 15.97,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 4.79,
    "pvi_years": [
@@ -3026,7 +3026,7 @@
    ]
   },
   "TX-28": {
-   "rural": 0.0,
+   "rural": 17.18,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 1.04,
    "pvi_years": [
@@ -3035,7 +3035,7 @@
    ]
   },
   "TX-21": {
-   "rural": 0.0,
+   "rural": 17.21,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -12.9,
    "pvi_years": [
@@ -3044,7 +3044,7 @@
    ]
   },
   "TX-20": {
-   "rural": 0.0,
+   "rural": 0.28,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 9.02,
    "pvi_years": [
@@ -3053,7 +3053,7 @@
    ]
   },
   "TX-27": {
-   "rural": 0.0,
+   "rural": 9.09,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -1.05,
    "pvi_years": [
@@ -3062,7 +3062,7 @@
    ]
   },
   "TX-16": {
-   "rural": 0.0,
+   "rural": 1.68,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 11.15,
    "pvi_years": [
@@ -3071,7 +3071,7 @@
    ]
   },
   "NM-2": {
-   "rural": 0.0,
+   "rural": 28.1,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -4.98,
    "pvi_years": [
@@ -3080,7 +3080,7 @@
    ]
   },
   "CO-7": {
-   "rural": 0.0,
+   "rural": 2.97,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 5.12,
    "pvi_years": [
@@ -3089,7 +3089,7 @@
    ]
   },
   "CO-2": {
-   "rural": 0.0,
+   "rural": 9.37,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 11.17,
    "pvi_years": [
@@ -3107,7 +3107,7 @@
    ]
   },
   "CO-6": {
-   "rural": 0.0,
+   "rural": 12.6,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -7.76,
    "pvi_years": [
@@ -3116,7 +3116,7 @@
    ]
   },
   "CO-5": {
-   "rural": 0.0,
+   "rural": 13.76,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -13.82,
    "pvi_years": [
@@ -3125,7 +3125,7 @@
    ]
   },
   "CO-3": {
-   "rural": 0.0,
+   "rural": 35.96,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -5.0,
    "pvi_years": [
@@ -3134,7 +3134,7 @@
    ]
   },
   "CO-4": {
-   "rural": 0.0,
+   "rural": 21.13,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -4.98,
    "pvi_years": [
@@ -3143,7 +3143,7 @@
    ]
   },
   "NM-3": {
-   "rural": 0.0,
+   "rural": 32.09,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 7.39,
    "pvi_years": [
@@ -3152,7 +3152,7 @@
    ]
   },
   "UT-2": {
-   "rural": 0.0,
+   "rural": 13.0,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -14.0,
    "pvi_years": [
@@ -3161,7 +3161,7 @@
    ]
   },
   "UT-1": {
-   "rural": 0.0,
+   "rural": 9.28,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -20.56,
    "pvi_years": [
@@ -3170,7 +3170,7 @@
    ]
   },
   "ID-2": {
-   "rural": 0.0,
+   "rural": 31.15,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -17.04,
    "pvi_years": [
@@ -3179,7 +3179,7 @@
    ]
   },
   "UT-3": {
-   "rural": 0.0,
+   "rural": 6.24,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -24.64,
    "pvi_years": [
@@ -3188,7 +3188,7 @@
    ]
   },
   "NV-2": {
-   "rural": 0.0,
+   "rural": 16.4,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -4.5,
    "pvi_years": [
@@ -3197,7 +3197,7 @@
    ]
   },
   "AZ-1": {
-   "rural": 0.0,
+   "rural": 40.34,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -7.28,
    "pvi_years": [
@@ -3206,7 +3206,7 @@
    ]
   },
   "AZ-4": {
-   "rural": 0.0,
+   "rural": 0.38,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 13.04,
    "pvi_years": [
@@ -3215,7 +3215,7 @@
    ]
   },
   "AZ-5": {
-   "rural": 0.0,
+   "rural": 2.52,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -5.49,
    "pvi_years": [
@@ -3224,7 +3224,7 @@
    ]
   },
   "AZ-3": {
-   "rural": 0.0,
+   "rural": 2.23,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -10.28,
    "pvi_years": [
@@ -3233,7 +3233,7 @@
    ]
   },
   "AZ-2": {
-   "rural": 0.0,
+   "rural": 9.66,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -14.07,
    "pvi_years": [
@@ -3242,7 +3242,7 @@
    ]
   },
   "AZ-7": {
-   "rural": 0.0,
+   "rural": 11.43,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 4.98,
    "pvi_years": [
@@ -3251,7 +3251,7 @@
    ]
   },
   "AZ-6": {
-   "rural": 0.0,
+   "rural": 1.25,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -14.83,
    "pvi_years": [
@@ -3260,7 +3260,7 @@
    ]
   },
   "AZ-8": {
-   "rural": 0.0,
+   "rural": 13.36,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -5.64,
    "pvi_years": [
@@ -3269,7 +3269,7 @@
    ]
   },
   "NM-1": {
-   "rural": 0.0,
+   "rural": 7.8,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 5.42,
    "pvi_years": [
@@ -3278,7 +3278,7 @@
    ]
   },
   "NV-3": {
-   "rural": 0.0,
+   "rural": 1.81,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 2.01,
    "pvi_years": [
@@ -3287,7 +3287,7 @@
    ]
   },
   "CA-25": {
-   "rural": 0.0,
+   "rural": 8.89,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -4.47,
    "pvi_years": [
@@ -3296,7 +3296,7 @@
    ]
   },
   "NV-1": {
-   "rural": 0.0,
+   "rural": 0.09,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 10.92,
    "pvi_years": [
@@ -3305,7 +3305,7 @@
    ]
   },
   "OR-2": {
-   "rural": 0.0,
+   "rural": 33.66,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -9.61,
    "pvi_years": [
@@ -3314,7 +3314,7 @@
    ]
   },
   "CA-4": {
-   "rural": 0.0,
+   "rural": 28.0,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -9.34,
    "pvi_years": [
@@ -3377,7 +3377,7 @@
    ]
   },
   "CA-32": {
-   "rural": 0.0,
+   "rural": 0.05,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 15.24,
    "pvi_years": [
@@ -3395,7 +3395,7 @@
    ]
   },
   "CA-30": {
-   "rural": 0.0,
+   "rural": 2.35,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 17.78,
    "pvi_years": [
@@ -3413,7 +3413,7 @@
    ]
   },
   "CA-29": {
-   "rural": 0.0,
+   "rural": 0.03,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 15.15,
    "pvi_years": [
@@ -3422,7 +3422,7 @@
    ]
   },
   "CA-28": {
-   "rural": 0.0,
+   "rural": 0.03,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 23.64,
    "pvi_years": [
@@ -3431,7 +3431,7 @@
    ]
   },
   "CA-24": {
-   "rural": 0.0,
+   "rural": 5.13,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -2.96,
    "pvi_years": [
@@ -3440,7 +3440,7 @@
    ]
   },
   "CA-46": {
-   "rural": 0.0,
+   "rural": 0.07,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -5.11,
    "pvi_years": [
@@ -3449,7 +3449,7 @@
    ]
   },
   "CA-42": {
-   "rural": 0.0,
+   "rural": 0.98,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -8.67,
    "pvi_years": [
@@ -3476,7 +3476,7 @@
    ]
   },
   "CA-26": {
-   "rural": 0.0,
+   "rural": 0.94,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -2.31,
    "pvi_years": [
@@ -3485,7 +3485,7 @@
    ]
   },
   "CA-27": {
-   "rural": 0.0,
+   "rural": 0.14,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 13.11,
    "pvi_years": [
@@ -3494,7 +3494,7 @@
    ]
   },
   "CA-22": {
-   "rural": 0.0,
+   "rural": 14.42,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -15.55,
    "pvi_years": [
@@ -3503,7 +3503,7 @@
    ]
   },
   "CA-43": {
-   "rural": 0.0,
+   "rural": 0.47,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 14.23,
    "pvi_years": [
@@ -3512,7 +3512,7 @@
    ]
   },
   "CA-44": {
-   "rural": 0.0,
+   "rural": 0.66,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -4.48,
    "pvi_years": [
@@ -3521,7 +3521,7 @@
    ]
   },
   "CA-52": {
-   "rural": 0.0,
+   "rural": 5.86,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -8.42,
    "pvi_years": [
@@ -3530,7 +3530,7 @@
    ]
   },
   "CA-51": {
-   "rural": 0.0,
+   "rural": 4.73,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 9.14,
    "pvi_years": [
@@ -3548,7 +3548,7 @@
    ]
   },
   "CA-49": {
-   "rural": 0.0,
+   "rural": 8.27,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -8.93,
    "pvi_years": [
@@ -3557,7 +3557,7 @@
    ]
   },
   "CA-50": {
-   "rural": 0.0,
+   "rural": 1.24,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -2.31,
    "pvi_years": [
@@ -3566,7 +3566,7 @@
    ]
   },
   "CA-45": {
-   "rural": 0.0,
+   "rural": 7.25,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -2.2,
    "pvi_years": [
@@ -3575,7 +3575,7 @@
    ]
   },
   "CA-41": {
-   "rural": 0.0,
+   "rural": 8.8,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -9.44,
    "pvi_years": [
@@ -3584,7 +3584,7 @@
    ]
   },
   "CA-48": {
-   "rural": 0.0,
+   "rural": 0.12,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -4.75,
    "pvi_years": [
@@ -3593,7 +3593,7 @@
    ]
   },
   "CA-23": {
-   "rural": 0.0,
+   "rural": 2.87,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 12.85,
    "pvi_years": [
@@ -3602,7 +3602,7 @@
    ]
   },
   "CA-20": {
-   "rural": 0.0,
+   "rural": 9.69,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 5.88,
    "pvi_years": [
@@ -3611,7 +3611,7 @@
    ]
   },
   "CA-21": {
-   "rural": 0.0,
+   "rural": 14.57,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -11.73,
    "pvi_years": [
@@ -3620,7 +3620,7 @@
    ]
   },
   "CA-17": {
-   "rural": 0.0,
+   "rural": 10.3,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 19.31,
    "pvi_years": [
@@ -3629,7 +3629,7 @@
    ]
   },
   "CA-19": {
-   "rural": 0.0,
+   "rural": 17.08,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -7.66,
    "pvi_years": [
@@ -3638,7 +3638,7 @@
    ]
   },
   "CA-18": {
-   "rural": 0.0,
+   "rural": 8.96,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 5.07,
    "pvi_years": [
@@ -3647,7 +3647,7 @@
    ]
   },
   "CA-12": {
-   "rural": 0.0,
+   "rural": 0.33,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 22.36,
    "pvi_years": [
@@ -3656,7 +3656,7 @@
    ]
   },
   "CA-14": {
-   "rural": 0.0,
+   "rural": 4.57,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 20.76,
    "pvi_years": [
@@ -3665,7 +3665,7 @@
    ]
   },
   "CA-15": {
-   "rural": 0.0,
+   "rural": 1.48,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 15.49,
    "pvi_years": [
@@ -3683,7 +3683,7 @@
    ]
   },
   "CA-13": {
-   "rural": 0.0,
+   "rural": 0.32,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 22.11,
    "pvi_years": [
@@ -3692,7 +3692,7 @@
    ]
   },
   "CA-1": {
-   "rural": 0.0,
+   "rural": 21.18,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 13.36,
    "pvi_years": [
@@ -3701,7 +3701,7 @@
    ]
   },
   "CA-11": {
-   "rural": 0.0,
+   "rural": 7.17,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 0.23,
    "pvi_years": [
@@ -3710,7 +3710,7 @@
    ]
   },
   "CA-10": {
-   "rural": 0.0,
+   "rural": 1.94,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 12.19,
    "pvi_years": [
@@ -3719,7 +3719,7 @@
    ]
   },
   "CA-7": {
-   "rural": 0.0,
+   "rural": 1.36,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 19.01,
    "pvi_years": [
@@ -3728,7 +3728,7 @@
    ]
   },
   "CA-9": {
-   "rural": 0.0,
+   "rural": 0.12,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 36.61,
    "pvi_years": [
@@ -3737,7 +3737,7 @@
    ]
   },
   "CA-3": {
-   "rural": 0.0,
+   "rural": 11.14,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -4.6,
    "pvi_years": [
@@ -3746,7 +3746,7 @@
    ]
   },
   "CA-6": {
-   "rural": 0.0,
+   "rural": 9.71,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 23.56,
    "pvi_years": [
@@ -3755,7 +3755,7 @@
    ]
   },
   "CA-16": {
-   "rural": 0.0,
+   "rural": 0.51,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 16.48,
    "pvi_years": [
@@ -3764,7 +3764,7 @@
    ]
   },
   "CA-2": {
-   "rural": 0.0,
+   "rural": 29.88,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -10.2,
    "pvi_years": [
@@ -3773,7 +3773,7 @@
    ]
   },
   "CA-5": {
-   "rural": 0.0,
+   "rural": 0.05,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 16.52,
    "pvi_years": [
@@ -3782,7 +3782,7 @@
    ]
   },
   "HI-1": {
-   "rural": 0.0,
+   "rural": 0.3,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 14.37,
    "pvi_years": [
@@ -3791,7 +3791,7 @@
    ]
   },
   "HI-2": {
-   "rural": 0.0,
+   "rural": 15.37,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 17.41,
    "pvi_years": [
@@ -3800,7 +3800,7 @@
    ]
   },
   "OR-5": {
-   "rural": 0.0,
+   "rural": 17.55,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 1.67,
    "pvi_years": [
@@ -3809,7 +3809,7 @@
    ]
   },
   "OR-3": {
-   "rural": 0.0,
+   "rural": 4.99,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 19.19,
    "pvi_years": [
@@ -3818,7 +3818,7 @@
    ]
   },
   "OR-1": {
-   "rural": 0.0,
+   "rural": 11.37,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 8.6,
    "pvi_years": [
@@ -3827,7 +3827,7 @@
    ]
   },
   "OR-4": {
-   "rural": 0.0,
+   "rural": 27.77,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 1.8,
    "pvi_years": [
@@ -3836,7 +3836,7 @@
    ]
   },
   "WA-9": {
-   "rural": 0.0,
+   "rural": 4.67,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 5.63,
    "pvi_years": [
@@ -3845,7 +3845,7 @@
    ]
   },
   "WA-8": {
-   "rural": 0.0,
+   "rural": 9.32,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 3.6,
    "pvi_years": [
@@ -3854,7 +3854,7 @@
    ]
   },
   "WA-1": {
-   "rural": 0.0,
+   "rural": 4.08,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 9.28,
    "pvi_years": [
@@ -3863,7 +3863,7 @@
    ]
   },
   "WA-2": {
-   "rural": 0.0,
+   "rural": 27.46,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 3.41,
    "pvi_years": [
@@ -3872,7 +3872,7 @@
    ]
   },
   "WA-7": {
-   "rural": 0.0,
+   "rural": 1.51,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 31.33,
    "pvi_years": [
@@ -3881,7 +3881,7 @@
    ]
   },
   "WA-4": {
-   "rural": 0.0,
+   "rural": 23.95,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -12.91,
    "pvi_years": [
@@ -3890,7 +3890,7 @@
    ]
   },
   "WA-6": {
-   "rural": 0.0,
+   "rural": 19.82,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": 4.69,
    "pvi_years": [
@@ -3899,7 +3899,7 @@
    ]
   },
   "WA-3": {
-   "rural": 0.0,
+   "rural": 25.04,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -0.41,
    "pvi_years": [
@@ -3908,7 +3908,7 @@
    ]
   },
   "WA-5": {
-   "rural": 0.0,
+   "rural": 26.61,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -6.79,
    "pvi_years": [
@@ -3917,7 +3917,7 @@
    ]
   },
   "AK-0": {
-   "rural": 0.0,
+   "rural": 33.95,
    "ur_src": "2010 Census, ZCTA estimate",
    "pvi": -13.8,
    "pvi_years": [
@@ -3929,217 +3929,468 @@
  "state": {
   "AL": {
    "rural": 40.96,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": -13.85,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "AK": {
    "rural": 33.98,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": -14.06,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "AZ": {
    "rural": 10.19,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": -7.01,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "AR": {
    "rural": 43.84,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": -11.32,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "CA": {
    "rural": 5.05,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": 8.01,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "CO": {
    "rural": 13.85,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": 0.37,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "CT": {
    "rural": 12.01,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": 7.35,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "DE": {
    "rural": 16.7,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": 7.98,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "DC": {
    "rural": 0.0,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": 40.23,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "FL": {
    "rural": 8.84,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": -2.02,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "GA": {
    "rural": 24.93,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": -6.52,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "HI": {
    "rural": 8.07,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": 15.89,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "ID": {
    "rural": 29.42,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": -17.05,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "IL": {
    "rural": 11.51,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": 8.4,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "IN": {
    "rural": 27.56,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": -4.67,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "IA": {
    "rural": 35.98,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": 1.1,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "KS": {
    "rural": 25.8,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": -11.38,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "KY": {
    "rural": 41.62,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": -11.13,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "LA": {
    "rural": 26.81,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": -11.38,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "ME": {
    "rural": 61.34,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": 5.31,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "MD": {
    "rural": 12.8,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": 8.88,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "MA": {
    "rural": 8.03,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": 10.63,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "MI": {
    "rural": 25.43,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": 4.25,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "MN": {
    "rural": 26.73,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": 1.91,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "MS": {
    "rural": 50.65,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": -9.92,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "MO": {
    "rural": 29.56,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": -3.41,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "MT": {
    "rural": 44.11,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": -5.96,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "NE": {
    "rural": 26.87,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": -12.37,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "NV": {
    "rural": 5.8,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": 2.01,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "NH": {
    "rural": 39.7,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": 1.37,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "NJ": {
    "rural": 5.32,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": 4.29,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "NM": {
    "rural": 22.57,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": 3.19,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "NY": {
    "rural": 12.13,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": 10.05,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "NC": {
    "rural": 33.91,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": -3.89,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "ND": {
    "rural": 40.1,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": -9.24,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "OH": {
    "rural": 22.08,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": -0.97,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "OK": {
    "rural": 33.76,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": -18.08,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "OR": {
    "rural": 18.97,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": 4.38,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "PA": {
    "rural": 21.34,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": 1.78,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "RI": {
    "rural": 9.27,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": 10.84,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "SC": {
    "rural": 33.67,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": -8.02,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "SD": {
    "rural": 43.35,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": -8.41,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "TN": {
    "rural": 33.61,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": -9.98,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "TX": {
    "rural": 15.3,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": -9.79,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "UT": {
    "rural": 9.42,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": -19.19,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "VT": {
    "rural": 61.1,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": 14.29,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "VA": {
    "rural": 24.55,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": -1.1,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "WA": {
    "rural": 15.95,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": 5.02,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "WV": {
    "rural": 51.28,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": -9.08,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "WI": {
    "rural": 29.85,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": 2.88,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "WY": {
    "rural": 35.24,
-   "ur_src": "2010 Census"
+   "ur_src": "2010 Census",
+   "pvi": -19.96,
+   "pvi_years": [
+    2008,
+    2004
+   ]
   },
   "PR": {
    "rural": 6.24,
    "ur_src": "2010 Census"
   }
  },
- "notes": [
-  "acs 111 cd: ACS 2009: older sequence-based Summary File not yet supported",
-  "acs 111 state: ACS 2009: older sequence-based Summary File not yet supported",
-  "pvi states 111: FEC 2008: no state table matching national totals (Publication Information:0 states; 2008 PRES GENERAL RESULTS:0 states; 2008 Pres Primary Results:0 states; 2008 Pres Primary Party Summary:0 states; 2008 Party Labels:0 states; best None)"
- ],
- "transient": true
+ "notes": [],
+ "transient": false
 }

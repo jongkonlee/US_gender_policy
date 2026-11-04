@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-04T08:14:46Z",
+ "generated": "2026-11-04T08:33:17Z",
  "current": 119,
  "congresses": [
   {
    "c": 111,
-   "bills": 523,
+   "bills": 520,
    "votes": {
-    "H": 70,
-    "S": 52
+    "H": 55,
+    "S": 21
    },
    "members": {
     "H": 451,
     "S": 110
    },
-   "generated": "2026-11-04T08:03:28Z"
+   "generated": "2026-11-04T08:20:18Z"
   },
   {
    "c": 112,
-   "bills": 450,
+   "bills": 447,
    "votes": {
     "H": 35,
     "S": 6
@@ -26,33 +26,33 @@
     "H": 451,
     "S": 102
    },
-   "generated": "2026-11-04T08:04:34Z"
+   "generated": "2026-11-04T08:21:59Z"
   },
   {
    "c": 113,
-   "bills": 479,
+   "bills": 476,
    "votes": {
     "H": 23,
-    "S": 44
+    "S": 26
    },
    "members": {
     "H": 450,
     "S": 105
    },
-   "generated": "2026-11-04T08:06:00Z"
+   "generated": "2026-11-04T08:23:46Z"
   },
   {
    "c": 114,
-   "bills": 587,
+   "bills": 581,
    "votes": {
-    "H": 52,
-    "S": 39
+    "H": 45,
+    "S": 26
    },
    "members": {
     "H": 447,
     "S": 100
    },
-   "generated": "2026-11-04T08:07:18Z"
+   "generated": "2026-11-04T08:25:32Z"
   },
   {
    "c": 115,
@@ -65,37 +65,37 @@
     "H": 456,
     "S": 105
    },
-   "generated": "2026-11-04T08:08:47Z"
+   "generated": "2026-11-04T08:27:27Z"
   },
   {
    "c": 116,
-   "bills": 949,
+   "bills": 935,
    "votes": {
-    "H": 139,
-    "S": 30
+    "H": 58,
+    "S": 11
    },
    "members": {
     "H": 448,
     "S": 102
    },
-   "generated": "2026-11-04T08:10:41Z"
+   "generated": "2026-11-04T08:29:37Z"
   },
   {
    "c": 117,
-   "bills": 1003,
+   "bills": 992,
    "votes": {
-    "H": 143,
-    "S": 137
+    "H": 72,
+    "S": 13
    },
    "members": {
     "H": 455,
     "S": 102
    },
-   "generated": "2026-11-04T08:12:34Z"
+   "generated": "2026-11-04T08:30:50Z"
   },
   {
    "c": 118,
-   "bills": 959,
+   "bills": 955,
    "votes": {
     "H": 32,
     "S": 12
@@ -104,20 +104,20 @@
     "H": 451,
     "S": 105
    },
-   "generated": "2026-11-04T08:13:51Z"
+   "generated": "2026-11-04T08:32:02Z"
   },
   {
    "c": 119,
-   "bills": 925,
+   "bills": 920,
    "votes": {
     "H": 37,
-    "S": 26
+    "S": 14
    },
    "members": {
     "H": 451,
     "S": 104
    },
-   "generated": "2026-11-04T08:14:46Z"
+   "generated": "2026-11-04T08:33:17Z"
   }
  ],
  "topics": [
@@ -268,5 +268,10 @@
   }
  ],
  "abortion_law": [],
- "caucus_lists": []
+ "caucus_lists": [
+  "Black Maternal Health Caucus (other)|118",
+  "Democratic Women's Caucus|119",
+  "Pro-Choice Caucus (House)|119",
+  "Senate Pro-Life Caucus|119"
+ ]
 }

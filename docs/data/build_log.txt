@@ -1,200 +1,200 @@
-08:04:34 S112: 6 women's policy votes, roster 102
-08:04:34 === Congress 113 ===
-08:04:42 listing failed 113 hr Expecting value: line 1 column 1 (char 0)
-08:04:42 download https://www.govinfo.gov/bulkdata/BILLSTATUS/113/hr/BILLSTATUS-113-hr.zip
-08:04:58 listing failed 113 s Expecting value: line 1 column 1 (char 0)
-08:04:58 download https://www.govinfo.gov/bulkdata/BILLSTATUS/113/s/BILLSTATUS-113-s.zip
-08:05:04 listing failed 113 hjres Expecting value: line 1 column 1 (char 0)
-08:05:04 download https://www.govinfo.gov/bulkdata/BILLSTATUS/113/hjres/BILLSTATUS-113-hjres.zip
-08:05:05 listing failed 113 sjres Expecting value: line 1 column 1 (char 0)
-08:05:05 download https://www.govinfo.gov/bulkdata/BILLSTATUS/113/sjres/BILLSTATUS-113-sjres.zip
-08:05:05 listing failed 113 hconres Expecting value: line 1 column 1 (char 0)
-08:05:05 download https://www.govinfo.gov/bulkdata/BILLSTATUS/113/hconres/BILLSTATUS-113-hconres.zip
-08:05:06 listing failed 113 sconres Expecting value: line 1 column 1 (char 0)
-08:05:06 download https://www.govinfo.gov/bulkdata/BILLSTATUS/113/sconres/BILLSTATUS-113-sconres.zip
-08:05:06 listing failed 113 hres Expecting value: line 1 column 1 (char 0)
-08:05:06 download https://www.govinfo.gov/bulkdata/BILLSTATUS/113/hres/BILLSTATUS-113-hres.zip
-08:05:08 listing failed 113 sres Expecting value: line 1 column 1 (char 0)
-08:05:08 download https://www.govinfo.gov/bulkdata/BILLSTATUS/113/sres/BILLSTATUS-113-sres.zip
-08:05:09 bills 113: 10637
-08:05:09 bills loaded: 10637
-08:05:14 women's policy bills: 479 (core 388)
-08:05:31 WARN acs 113 cd: ACS 2013: older sequence-based Summary File not yet supported
-08:05:31 WARN acs 113 state: ACS 2013: older sequence-based Summary File not yet supported
-08:05:32 Downballot 2012: 435 districts from Vote totals(votes), Results(pct)
-08:05:33 FEC 2012: sheet 'Table 2. Electoral &  Pop Vote', D col 3, R col 4, 51 states, total error 0.00000
-08:05:33 WARN pvi states 113: FEC 2008: no state table matching national totals (Publication Information:0 states; 2008 PRES GENERAL RESULTS:0 states; 2008 Pres Primary Results:0 states; 2008 Pres Primary Party Summary:0 states; 2008 Party Labels:0 states; best None)
-08:05:58 voteview H113: 1202 roll calls, 444 members
-08:05:58 H113: 23 women's policy votes, roster 450
-08:06:00 voteview S113: 657 roll calls, 105 members
-08:06:00 S113: 44 women's policy votes, roster 105
-08:06:00 === Congress 114 ===
-08:06:11 listing failed 114 hr Expecting value: line 1 column 1 (char 0)
-08:06:11 download https://www.govinfo.gov/bulkdata/BILLSTATUS/114/hr/BILLSTATUS-114-hr.zip
-08:06:33 listing failed 114 s Expecting value: line 1 column 1 (char 0)
-08:06:33 download https://www.govinfo.gov/bulkdata/BILLSTATUS/114/s/BILLSTATUS-114-s.zip
-08:06:40 listing failed 114 hjres Expecting value: line 1 column 1 (char 0)
-08:06:40 download https://www.govinfo.gov/bulkdata/BILLSTATUS/114/hjres/BILLSTATUS-114-hjres.zip
-08:06:40 listing failed 114 sjres Expecting value: line 1 column 1 (char 0)
-08:06:40 download https://www.govinfo.gov/bulkdata/BILLSTATUS/114/sjres/BILLSTATUS-114-sjres.zip
-08:06:41 listing failed 114 hconres Expecting value: line 1 column 1 (char 0)
-08:06:41 download https://www.govinfo.gov/bulkdata/BILLSTATUS/114/hconres/BILLSTATUS-114-hconres.zip
-08:06:41 listing failed 114 sconres Expecting value: line 1 column 1 (char 0)
-08:06:41 download https://www.govinfo.gov/bulkdata/BILLSTATUS/114/sconres/BILLSTATUS-114-sconres.zip
-08:06:42 listing failed 114 hres Expecting value: line 1 column 1 (char 0)
-08:06:42 download https://www.govinfo.gov/bulkdata/BILLSTATUS/114/hres/BILLSTATUS-114-hres.zip
-08:06:47 listing failed 114 sres Expecting value: line 1 column 1 (char 0)
-08:06:47 download https://www.govinfo.gov/bulkdata/BILLSTATUS/114/sres/BILLSTATUS-114-sres.zip
-08:06:48 bills 114: 12063
-08:06:48 bills loaded: 12063
-08:06:53 women's policy bills: 587 (core 489)
-08:06:55 WARN acs 114 cd: ACS 2015: older sequence-based Summary File not yet supported
-08:06:55 WARN acs 114 state: ACS 2015: older sequence-based Summary File not yet supported
-08:06:56 Downballot 2012: 435 districts from Vote totals(votes), Results(pct)
-08:06:56 FEC 2012: sheet 'Table 2. Electoral &  Pop Vote', D col 3, R col 4, 51 states, total error 0.00000
-08:06:56 WARN pvi states 114: FEC 2008: no state table matching national totals (Publication Information:0 states; 2008 PRES GENERAL RESULTS:0 states; 2008 Pres Primary Results:0 states; 2008 Pres Primary Party Summary:0 states; 2008 Party Labels:0 states; best None)
-08:07:14 voteview H114: 1322 roll calls, 441 members
-08:07:15 H114: 52 women's policy votes, roster 447
-08:07:18 voteview S114: 502 roll calls, 100 members
-08:07:18 S114: 39 women's policy votes, roster 100
-08:07:18 === Congress 115 ===
-08:07:37 listing failed 115 hr Expecting value: line 1 column 1 (char 0)
-08:07:37 download https://www.govinfo.gov/bulkdata/BILLSTATUS/115/hr/BILLSTATUS-115-hr.zip
-08:07:55 listing failed 115 s Expecting value: line 1 column 1 (char 0)
-08:07:55 download https://www.govinfo.gov/bulkdata/BILLSTATUS/115/s/BILLSTATUS-115-s.zip
-08:08:01 listing failed 115 hjres Expecting value: line 1 column 1 (char 0)
-08:08:01 download https://www.govinfo.gov/bulkdata/BILLSTATUS/115/hjres/BILLSTATUS-115-hjres.zip
-08:08:01 listing failed 115 sjres Expecting value: line 1 column 1 (char 0)
-08:08:01 download https://www.govinfo.gov/bulkdata/BILLSTATUS/115/sjres/BILLSTATUS-115-sjres.zip
-08:08:03 listing failed 115 hconres Expecting value: line 1 column 1 (char 0)
-08:08:03 download https://www.govinfo.gov/bulkdata/BILLSTATUS/115/hconres/BILLSTATUS-115-hconres.zip
-08:08:04 listing failed 115 sconres Expecting value: line 1 column 1 (char 0)
-08:08:04 download https://www.govinfo.gov/bulkdata/BILLSTATUS/115/sconres/BILLSTATUS-115-sconres.zip
-08:08:05 listing failed 115 hres Expecting value: line 1 column 1 (char 0)
-08:08:05 download https://www.govinfo.gov/bulkdata/BILLSTATUS/115/hres/BILLSTATUS-115-hres.zip
-08:08:08 listing failed 115 sres Expecting value: line 1 column 1 (char 0)
-08:08:08 download https://www.govinfo.gov/bulkdata/BILLSTATUS/115/sres/BILLSTATUS-115-sres.zip
-08:08:09 bills 115: 13556
-08:08:09 bills loaded: 13556
-08:08:15 women's policy bills: 683 (core 573)
-08:08:38 WARN acs 115 cd: ACS 2017: older sequence-based Summary File not yet supported
-08:08:38 WARN acs 115 state: ACS 2017: older sequence-based Summary File not yet supported
-08:08:40 Downballot 2016: 435 districts from Vote totals(votes), Results(pct)
-/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/openpyxl/worksheet/header_footer.py:48: UserWarning: Cannot parse header or footer so it will be ignored
+08:22:15 download https://www.govinfo.gov/bulkdata/BILLSTATUS/113/sjres/BILLSTATUS-113-sjres.zip
+08:22:15 listing failed 113 hconres Expecting value: line 1 column 1 (char 0)
+08:22:15 download https://www.govinfo.gov/bulkdata/BILLSTATUS/113/hconres/BILLSTATUS-113-hconres.zip
+08:22:15 listing failed 113 sconres Expecting value: line 1 column 1 (char 0)
+08:22:15 download https://www.govinfo.gov/bulkdata/BILLSTATUS/113/sconres/BILLSTATUS-113-sconres.zip
+08:22:16 listing failed 113 hres Expecting value: line 1 column 1 (char 0)
+08:22:16 download https://www.govinfo.gov/bulkdata/BILLSTATUS/113/hres/BILLSTATUS-113-hres.zip
+08:22:17 listing failed 113 sres Expecting value: line 1 column 1 (char 0)
+08:22:17 download https://www.govinfo.gov/bulkdata/BILLSTATUS/113/sres/BILLSTATUS-113-sres.zip
+08:22:17 bills 113: 10637
+08:22:18 bills loaded: 10637
+08:22:26 women's policy bills: 476 (core 388)
+08:22:26 WARN urban/rural file https://www2.census.gov/geo/relfiles/cdsld13/02/ur_cd_delim_02.txt HTTP Error 404: Not Found
+08:22:27 WARN urban/rural file https://www2.census.gov/geo/relfiles/cdsld13/10/ur_cd_delim_10.txt HTTP Error 404: Not Found
+08:22:27 WARN urban/rural file https://www2.census.gov/geo/relfiles/cdsld13/11/ur_cd_delim_11.txt HTTP Error 404: Not Found
+08:22:33 WARN rural 113: urban/rural 2010 files: only 0 districts (cdsld13/02: HTTP Error 404: Not Found; cdsld13/10: HTTP Error 404: Not Found; cdsld13/11: HTTP Error 404: Not Found)
+08:23:38 ACS 2013 (sequence files): 437 districts, 52 states
+08:23:39 Downballot 2012: 435 districts from Vote totals(votes), Results(pct)
+08:23:40 FEC 2012: sheet 'Table 2. Electoral &  Pop Vote', D col 3, R col 4, 51 states, total error 0.00000
+08:23:40 FEC 2008: long-format sheet '2008 PRES GENERAL RESULTS'
+08:23:43 voteview H113: 1202 roll calls, 444 members
+08:23:44 H113: 23 women's policy votes, roster 450
+08:23:45 voteview S113: 657 roll calls, 105 members
+08:23:45 S113: 26 women's policy votes, roster 105
+08:23:46 === Congress 114 ===
+08:23:52 listing failed 114 hr Expecting value: line 1 column 1 (char 0)
+08:23:52 download https://www.govinfo.gov/bulkdata/BILLSTATUS/114/hr/BILLSTATUS-114-hr.zip
+08:24:03 listing failed 114 s Expecting value: line 1 column 1 (char 0)
+08:24:03 download https://www.govinfo.gov/bulkdata/BILLSTATUS/114/s/BILLSTATUS-114-s.zip
+08:24:07 listing failed 114 hjres Expecting value: line 1 column 1 (char 0)
+08:24:07 download https://www.govinfo.gov/bulkdata/BILLSTATUS/114/hjres/BILLSTATUS-114-hjres.zip
+08:24:07 listing failed 114 sjres Expecting value: line 1 column 1 (char 0)
+08:24:07 download https://www.govinfo.gov/bulkdata/BILLSTATUS/114/sjres/BILLSTATUS-114-sjres.zip
+08:24:08 listing failed 114 hconres Expecting value: line 1 column 1 (char 0)
+08:24:08 download https://www.govinfo.gov/bulkdata/BILLSTATUS/114/hconres/BILLSTATUS-114-hconres.zip
+08:24:08 listing failed 114 sconres Expecting value: line 1 column 1 (char 0)
+08:24:08 download https://www.govinfo.gov/bulkdata/BILLSTATUS/114/sconres/BILLSTATUS-114-sconres.zip
+08:24:10 listing failed 114 hres Expecting value: line 1 column 1 (char 0)
+08:24:10 download https://www.govinfo.gov/bulkdata/BILLSTATUS/114/hres/BILLSTATUS-114-hres.zip
+08:24:11 listing failed 114 sres Expecting value: line 1 column 1 (char 0)
+08:24:11 download https://www.govinfo.gov/bulkdata/BILLSTATUS/114/sres/BILLSTATUS-114-sres.zip
+08:24:12 bills 114: 12063
+08:24:13 bills loaded: 12063
+08:24:22 women's policy bills: 581 (core 483)
+08:24:23 WARN rural 114: urban/rural 2010 files: only 0 districts (cdsld13/02: HTTP Error 404: Not Found; cdsld13/10: HTTP Error 404: Not Found; cdsld13/11: HTTP Error 404: Not Found)
+08:25:27 ACS 2015 (sequence files): 437 districts, 52 states
+08:25:27 Downballot 2012: 435 districts from Vote totals(votes), Results(pct)
+08:25:27 FEC 2012: sheet 'Table 2. Electoral &  Pop Vote', D col 3, R col 4, 51 states, total error 0.00000
+08:25:27 FEC 2008: long-format sheet '2008 PRES GENERAL RESULTS'
+08:25:30 voteview H114: 1322 roll calls, 441 members
+08:25:31 H114: 45 women's policy votes, roster 447
+08:25:32 voteview S114: 502 roll calls, 100 members
+08:25:32 S114: 26 women's policy votes, roster 100
+08:25:32 === Congress 115 ===
+08:25:36 listing failed 115 hr Expecting value: line 1 column 1 (char 0)
+08:25:36 download https://www.govinfo.gov/bulkdata/BILLSTATUS/115/hr/BILLSTATUS-115-hr.zip
+08:25:48 listing failed 115 s Expecting value: line 1 column 1 (char 0)
+08:25:48 download https://www.govinfo.gov/bulkdata/BILLSTATUS/115/s/BILLSTATUS-115-s.zip
+08:25:52 listing failed 115 hjres Expecting value: line 1 column 1 (char 0)
+08:25:52 download https://www.govinfo.gov/bulkdata/BILLSTATUS/115/hjres/BILLSTATUS-115-hjres.zip
+08:25:52 listing failed 115 sjres Expecting value: line 1 column 1 (char 0)
+08:25:52 download https://www.govinfo.gov/bulkdata/BILLSTATUS/115/sjres/BILLSTATUS-115-sjres.zip
+08:25:52 listing failed 115 hconres Expecting value: line 1 column 1 (char 0)
+08:25:52 download https://www.govinfo.gov/bulkdata/BILLSTATUS/115/hconres/BILLSTATUS-115-hconres.zip
+08:25:53 listing failed 115 sconres Expecting value: line 1 column 1 (char 0)
+08:25:53 download https://www.govinfo.gov/bulkdata/BILLSTATUS/115/sconres/BILLSTATUS-115-sconres.zip
+08:25:53 listing failed 115 hres Expecting value: line 1 column 1 (char 0)
+08:25:53 download https://www.govinfo.gov/bulkdata/BILLSTATUS/115/hres/BILLSTATUS-115-hres.zip
+08:25:55 listing failed 115 sres Expecting value: line 1 column 1 (char 0)
+08:25:55 download https://www.govinfo.gov/bulkdata/BILLSTATUS/115/sres/BILLSTATUS-115-sres.zip
+08:25:56 bills 115: 13556
+08:25:56 bills loaded: 13556
+08:26:07 women's policy bills: 683 (core 573)
+08:26:14 WARN rural 115: urban/rural 2010 files: only 0 districts (cdsld13/02: HTTP Error 404: Not Found; cdsld13/10: HTTP Error 404: Not Found; cdsld13/11: HTTP Error 404: Not Found)
+08:27:17 ACS 2017 (sequence files): 437 districts, 52 states
+08:27:19 Downballot 2016: 435 districts from Vote totals(votes), Results(pct)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/openpyxl/worksheet/header_footer.py:48: UserWarning: Cannot parse header or footer so it will be ignored
   warn("""Cannot parse header or footer so it will be ignored""")
-08:08:43 FEC 2016: sheet 'Table 2. Electoral &  Pop Vote', D col 4, R col 3, 51 states, total error 0.00000
-08:08:43 FEC 2012: sheet 'Table 2. Electoral &  Pop Vote', D col 3, R col 4, 51 states, total error 0.00000
-08:08:46 voteview H115: 1207 roll calls, 450 members
-08:08:46 H115: 56 women's policy votes, roster 456
-08:08:47 voteview S115: 599 roll calls, 105 members
-08:08:47 S115: 12 women's policy votes, roster 105
-08:08:48 === Congress 116 ===
-08:08:52 listing failed 116 hr Expecting value: line 1 column 1 (char 0)
-08:08:52 download https://www.govinfo.gov/bulkdata/BILLSTATUS/116/hr/BILLSTATUS-116-hr.zip
-08:09:22 listing failed 116 s Expecting value: line 1 column 1 (char 0)
-08:09:22 download https://www.govinfo.gov/bulkdata/BILLSTATUS/116/s/BILLSTATUS-116-s.zip
-08:09:30 listing failed 116 hjres Expecting value: line 1 column 1 (char 0)
-08:09:30 download https://www.govinfo.gov/bulkdata/BILLSTATUS/116/hjres/BILLSTATUS-116-hjres.zip
-08:09:31 listing failed 116 sjres Expecting value: line 1 column 1 (char 0)
-08:09:31 download https://www.govinfo.gov/bulkdata/BILLSTATUS/116/sjres/BILLSTATUS-116-sjres.zip
-08:09:31 listing failed 116 hconres Expecting value: line 1 column 1 (char 0)
-08:09:31 download https://www.govinfo.gov/bulkdata/BILLSTATUS/116/hconres/BILLSTATUS-116-hconres.zip
-08:09:32 listing failed 116 sconres Expecting value: line 1 column 1 (char 0)
-08:09:32 download https://www.govinfo.gov/bulkdata/BILLSTATUS/116/sconres/BILLSTATUS-116-sconres.zip
-08:09:34 listing failed 116 hres Expecting value: line 1 column 1 (char 0)
-08:09:34 download https://www.govinfo.gov/bulkdata/BILLSTATUS/116/hres/BILLSTATUS-116-hres.zip
-08:09:37 listing failed 116 sres Expecting value: line 1 column 1 (char 0)
-08:09:37 download https://www.govinfo.gov/bulkdata/BILLSTATUS/116/sres/BILLSTATUS-116-sres.zip
-08:09:38 bills 116: 16601
-08:09:39 bills loaded: 16601
-08:09:46 women's policy bills: 949 (core 762)
-08:10:25 WARN acs 116 cd: ACS 2019: older sequence-based Summary File not yet supported
-08:10:25 WARN acs 116 state: ACS 2019: older sequence-based Summary File not yet supported
-08:10:26 Downballot 2018: 435 districts from Vote totals(votes), Results(pct)
-08:10:28 FEC 2016: sheet 'Table 2. Electoral &  Pop Vote', D col 4, R col 3, 51 states, total error 0.00000
-08:10:28 FEC 2012: sheet 'Table 2. Electoral &  Pop Vote', D col 3, R col 4, 51 states, total error 0.00000
-08:10:39 voteview H116: 952 roll calls, 451 members
-08:10:39 H116: 139 women's policy votes, roster 448
-08:10:41 voteview S116: 720 roll calls, 102 members
-08:10:41 S116: 30 women's policy votes, roster 102
-08:10:41 === Congress 117 ===
-08:10:47 listing failed 117 hr Expecting value: line 1 column 1 (char 0)
-08:10:47 download https://www.govinfo.gov/bulkdata/BILLSTATUS/117/hr/BILLSTATUS-117-hr.zip
-08:11:27 listing failed 117 s Expecting value: line 1 column 1 (char 0)
-08:11:27 download https://www.govinfo.gov/bulkdata/BILLSTATUS/117/s/BILLSTATUS-117-s.zip
-08:11:36 listing failed 117 hjres Expecting value: line 1 column 1 (char 0)
-08:11:36 download https://www.govinfo.gov/bulkdata/BILLSTATUS/117/hjres/BILLSTATUS-117-hjres.zip
-08:11:36 listing failed 117 sjres Expecting value: line 1 column 1 (char 0)
-08:11:36 download https://www.govinfo.gov/bulkdata/BILLSTATUS/117/sjres/BILLSTATUS-117-sjres.zip
-08:11:37 listing failed 117 hconres Expecting value: line 1 column 1 (char 0)
-08:11:37 download https://www.govinfo.gov/bulkdata/BILLSTATUS/117/hconres/BILLSTATUS-117-hconres.zip
-08:11:37 listing failed 117 sconres Expecting value: line 1 column 1 (char 0)
-08:11:37 download https://www.govinfo.gov/bulkdata/BILLSTATUS/117/sconres/BILLSTATUS-117-sconres.zip
-08:11:38 listing failed 117 hres Expecting value: line 1 column 1 (char 0)
-08:11:38 download https://www.govinfo.gov/bulkdata/BILLSTATUS/117/hres/BILLSTATUS-117-hres.zip
-08:11:42 listing failed 117 sres Expecting value: line 1 column 1 (char 0)
-08:11:42 download https://www.govinfo.gov/bulkdata/BILLSTATUS/117/sres/BILLSTATUS-117-sres.zip
-08:11:43 bills 117: 17828
-08:11:44 bills loaded: 17828
-08:11:52 women's policy bills: 1003 (core 835)
-08:12:11 Downballot 2020: 435 districts from Vote totals(votes), Results(pct)
-08:12:25 FEC 2020: sheet '3. Table 2 Electoral & Pop Vote', D col 3, R col 4, 51 states, total error 0.00000
-08:12:27 FEC 2016: sheet 'Table 2. Electoral &  Pop Vote', D col 4, R col 3, 51 states, total error 0.00000
-08:12:32 voteview H117: 996 roll calls, 455 members
-08:12:33 H117: 143 women's policy votes, roster 455
-08:12:34 voteview S117: 949 roll calls, 102 members
-08:12:34 S117: 137 women's policy votes, roster 102
-08:12:34 === Congress 118 ===
-08:12:41 listing failed 118 hr Expecting value: line 1 column 1 (char 0)
-08:12:41 download https://www.govinfo.gov/bulkdata/BILLSTATUS/118/hr/BILLSTATUS-118-hr.zip
-08:13:04 listing failed 118 s Expecting value: line 1 column 1 (char 0)
-08:13:04 download https://www.govinfo.gov/bulkdata/BILLSTATUS/118/s/BILLSTATUS-118-s.zip
-08:13:12 listing failed 118 hjres Expecting value: line 1 column 1 (char 0)
-08:13:12 download https://www.govinfo.gov/bulkdata/BILLSTATUS/118/hjres/BILLSTATUS-118-hjres.zip
-08:13:13 listing failed 118 sjres Expecting value: line 1 column 1 (char 0)
-08:13:13 download https://www.govinfo.gov/bulkdata/BILLSTATUS/118/sjres/BILLSTATUS-118-sjres.zip
-08:13:13 listing failed 118 hconres Expecting value: line 1 column 1 (char 0)
-08:13:13 download https://www.govinfo.gov/bulkdata/BILLSTATUS/118/hconres/BILLSTATUS-118-hconres.zip
-08:13:14 listing failed 118 sconres Expecting value: line 1 column 1 (char 0)
-08:13:14 download https://www.govinfo.gov/bulkdata/BILLSTATUS/118/sconres/BILLSTATUS-118-sconres.zip
-08:13:15 listing failed 118 hres Expecting value: line 1 column 1 (char 0)
-08:13:15 download https://www.govinfo.gov/bulkdata/BILLSTATUS/118/hres/BILLSTATUS-118-hres.zip
-08:13:18 listing failed 118 sres Expecting value: line 1 column 1 (char 0)
-08:13:18 download https://www.govinfo.gov/bulkdata/BILLSTATUS/118/sres/BILLSTATUS-118-sres.zip
-08:13:19 bills 118: 19315
-08:13:20 bills loaded: 19315
-08:13:27 women's policy bills: 959 (core 778)
-08:13:28 state urban/rural 2020: total col 3 '2020 total pop 5024279 733391 7151502 30', rural col 6 '2020 
+08:27:22 FEC 2016: sheet 'Table 2. Electoral &  Pop Vote', D col 4, R col 3, 51 states, total error 0.00000
+08:27:22 FEC 2012: sheet 'Table 2. Electoral &  Pop Vote', D col 3, R col 4, 51 states, total error 0.00000
+08:27:25 voteview H115: 1207 roll calls, 450 members
+08:27:25 H115: 56 women's policy votes, roster 456
+08:27:26 voteview S115: 599 roll calls, 105 members
+08:27:27 S115: 12 women's policy votes, roster 105
+08:27:27 === Congress 116 ===
+08:27:31 listing failed 116 hr Expecting value: line 1 column 1 (char 0)
+08:27:31 download https://www.govinfo.gov/bulkdata/BILLSTATUS/116/hr/BILLSTATUS-116-hr.zip
+08:27:44 listing failed 116 s Expecting value: line 1 column 1 (char 0)
+08:27:44 download https://www.govinfo.gov/bulkdata/BILLSTATUS/116/s/BILLSTATUS-116-s.zip
+08:27:48 listing failed 116 hjres Expecting value: line 1 column 1 (char 0)
+08:27:48 download https://www.govinfo.gov/bulkdata/BILLSTATUS/116/hjres/BILLSTATUS-116-hjres.zip
+08:27:49 listing failed 116 sjres Expecting value: line 1 column 1 (char 0)
+08:27:49 download https://www.govinfo.gov/bulkdata/BILLSTATUS/116/sjres/BILLSTATUS-116-sjres.zip
+08:27:49 listing failed 116 hconres Expecting value: line 1 column 1 (char 0)
+08:27:49 download https://www.govinfo.gov/bulkdata/BILLSTATUS/116/hconres/BILLSTATUS-116-hconres.zip
+08:27:49 listing failed 116 sconres Expecting value: line 1 column 1 (char 0)
+08:27:49 download https://www.govinfo.gov/bulkdata/BILLSTATUS/116/sconres/BILLSTATUS-116-sconres.zip
+08:27:50 listing failed 116 hres Expecting value: line 1 column 1 (char 0)
+08:27:50 download https://www.govinfo.gov/bulkdata/BILLSTATUS/116/hres/BILLSTATUS-116-hres.zip
+08:27:51 listing failed 116 sres Expecting value: line 1 column 1 (char 0)
+08:27:51 download https://www.govinfo.gov/bulkdata/BILLSTATUS/116/sres/BILLSTATUS-116-sres.zip
+08:27:52 bills 116: 16601
+08:27:53 bills loaded: 16601
+08:28:06 women's policy bills: 935 (core 751)
+08:28:19 WARN rural 116: urban/rural 2010 files: only 0 districts (cdsld13/02: HTTP Error 404: Not Found; cdsld13/10: HTTP Error 404: Not Found; cdsld13/11: HTTP Error 404: Not Found)
+08:29:28 ACS 2019 (sequence files): 437 districts, 52 states
+08:29:29 Downballot 2018: 435 districts from Vote totals(votes), Results(pct)
+08:29:32 FEC 2016: sheet 'Table 2. Electoral &  Pop Vote', D col 4, R col 3, 51 states, total error 0.00000
+08:29:32 FEC 2012: sheet 'Table 2. Electoral &  Pop Vote', D col 3, R col 4, 51 states, total error 0.00000
+08:29:35 voteview H116: 952 roll calls, 451 members
+08:29:36 H116: 58 women's policy votes, roster 448
+08:29:37 voteview S116: 720 roll calls, 102 members
+08:29:37 S116: 11 women's policy votes, roster 102
+08:29:38 === Congress 117 ===
+08:29:42 listing failed 117 hr Expecting value: line 1 column 1 (char 0)
+08:29:42 download https://www.govinfo.gov/bulkdata/BILLSTATUS/117/hr/BILLSTATUS-117-hr.zip
+08:29:55 listing failed 117 s Expecting value: line 1 column 1 (char 0)
+08:29:55 download https://www.govinfo.gov/bulkdata/BILLSTATUS/117/s/BILLSTATUS-117-s.zip
+08:30:00 listing failed 117 hjres Expecting value: line 1 column 1 (char 0)
+08:30:00 download https://www.govinfo.gov/bulkdata/BILLSTATUS/117/hjres/BILLSTATUS-117-hjres.zip
+08:30:00 listing failed 117 sjres Expecting value: line 1 column 1 (char 0)
+08:30:00 download https://www.govinfo.gov/bulkdata/BILLSTATUS/117/sjres/BILLSTATUS-117-sjres.zip
+08:30:00 listing failed 117 hconres Expecting value: line 1 column 1 (char 0)
+08:30:00 download https://www.govinfo.gov/bulkdata/BILLSTATUS/117/hconres/BILLSTATUS-117-hconres.zip
+08:30:01 listing failed 117 sconres Expecting value: line 1 column 1 (char 0)
+08:30:01 download https://www.govinfo.gov/bulkdata/BILLSTATUS/117/sconres/BILLSTATUS-117-sconres.zip
+08:30:02 listing failed 117 hres Expecting value: line 1 column 1 (char 0)
+08:30:02 download https://www.govinfo.gov/bulkdata/BILLSTATUS/117/hres/BILLSTATUS-117-hres.zip
+08:30:04 listing failed 117 sres Expecting value: line 1 column 1 (char 0)
+08:30:04 download https://www.govinfo.gov/bulkdata/BILLSTATUS/117/sres/BILLSTATUS-117-sres.zip
+08:30:05 bills 117: 17828
+08:30:05 bills loaded: 17828
+08:30:19 women's policy bills: 992 (core 825)
+08:30:24 WARN rural 117: urban/rural 2010 files: only 0 districts (cdsld13/02: HTTP Error 404: Not Found; cdsld13/10: HTTP Error 404: Not Found; cdsld13/11: HTTP Error 404: Not Found)
+08:30:26 Downballot 2020: 435 districts from Vote totals(votes), Results(pct)
+08:30:42 FEC 2020: sheet '3. Table 2 Electoral & Pop Vote', D col 3, R col 4, 51 states, total error 0.00000
+08:30:46 FEC 2016: sheet 'Table 2. Electoral &  Pop Vote', D col 4, R col 3, 51 states, total error 0.00000
+08:30:48 voteview H117: 996 roll calls, 455 members
+08:30:49 H117: 72 women's policy votes, roster 455
+08:30:50 voteview S117: 949 roll calls, 102 members
+08:30:50 S117: 13 women's policy votes, roster 102
+08:30:51 === Congress 118 ===
+08:30:54 listing failed 118 hr Expecting value: line 1 column 1 (char 0)
+08:30:54 download https://www.govinfo.gov/bulkdata/BILLSTATUS/118/hr/BILLSTATUS-118-hr.zip
+08:31:09 listing failed 118 s Expecting value: line 1 column 1 (char 0)
+08:31:09 download https://www.govinfo.gov/bulkdata/BILLSTATUS/118/s/BILLSTATUS-118-s.zip
+08:31:14 listing failed 118 hjres Expecting value: line 1 column 1 (char 0)
+08:31:14 download https://www.govinfo.gov/bulkdata/BILLSTATUS/118/hjres/BILLSTATUS-118-hjres.zip
+08:31:15 listing failed 118 sjres Expecting value: line 1 column 1 (char 0)
+08:31:15 download https://www.govinfo.gov/bulkdata/BILLSTATUS/118/sjres/BILLSTATUS-118-sjres.zip
+08:31:15 listing failed 118 hconres Expecting value: line 1 column 1 (char 0)
+08:31:15 download https://www.govinfo.gov/bulkdata/BILLSTATUS/118/hconres/BILLSTATUS-118-hconres.zip
+08:31:15 listing failed 118 sconres Expecting value: line 1 column 1 (char 0)
+08:31:15 download https://www.govinfo.gov/bulkdata/BILLSTATUS/118/sconres/BILLSTATUS-118-sconres.zip
+08:31:16 listing failed 118 hres Expecting value: line 1 column 1 (char 0)
+08:31:16 download https://www.govinfo.gov/bulkdata/BILLSTATUS/118/hres/BILLSTATUS-118-hres.zip
+08:31:19 listing failed 118 sres Expecting value: line 1 column 1 (char 0)
+08:31:19 download https://www.govinfo.gov/bulkdata/BILLSTATUS/118/sres/BILLSTATUS-118-sres.zip
+08:31:20 bills 118: 19315
+08:31:20 bills loaded: 19315
+08:31:35 women's policy bills: 955 (core 774)
+08:31:35 state urban/rural 2020: total col 3 '2020 total pop 5024279 733391 7151502 30', rural col 6 '2020 
 rural pop 2123399 257424 766272 13'
-08:13:31 Downballot 2022: 435 districts from Vote totals(votes), Results(pct)
-08:13:44 FEC 2020: sheet '3. Table 2 Electoral & Pop Vote', D col 3, R col 4, 51 states, total error 0.00000
-08:13:46 FEC 2016: sheet 'Table 2. Electoral &  Pop Vote', D col 4, R col 3, 51 states, total error 0.00000
-08:13:49 voteview H118: 1235 roll calls, 451 members
-08:13:49 H118: 32 women's policy votes, roster 451
-08:13:50 voteview S118: 691 roll calls, 105 members
-08:13:50 S118: 12 women's policy votes, roster 105
-08:13:51 === Congress 119 ===
-08:14:00 listing failed 119 hr Expecting value: line 1 column 1 (char 0)
-08:14:00 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119-hr.zip
-08:14:20 listing failed 119 s Expecting value: line 1 column 1 (char 0)
-08:14:20 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119-s.zip
-08:14:28 listing failed 119 hjres Expecting value: line 1 column 1 (char 0)
-08:14:28 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hjres/BILLSTATUS-119-hjres.zip
-08:14:28 listing failed 119 sjres Expecting value: line 1 column 1 (char 0)
-08:14:28 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/sjres/BILLSTATUS-119-sjres.zip
-08:14:29 listing failed 119 hconres Expecting value: line 1 column 1 (char 0)
-08:14:29 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hconres/BILLSTATUS-119-hconres.zip
-08:14:29 listing failed 119 sconres Expecting value: line 1 column 1 (char 0)
-08:14:29 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/sconres/BILLSTATUS-119-sconres.zip
-08:14:30 listing failed 119 hres Expecting value: line 1 column 1 (char 0)
-08:14:30 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hres/BILLSTATUS-119-hres.zip
-08:14:33 listing failed 119 sres Expecting value: line 1 column 1 (char 0)
-08:14:33 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/sres/BILLSTATUS-119-sres.zip
-08:14:34 bills 119: 19826
-08:14:35 bills loaded: 19826
-08:14:43 women's policy bills: 925 (core 703)
-08:14:44 voteview H119: 674 roll calls, 452 members
-08:14:44 H119: 37 women's policy votes, roster 451
-08:14:46 voteview S119: 915 roll calls, 104 members
-08:14:46 S119: 26 women's policy votes, roster 104
-08:14:46 done [{'c': 111, 'bills': 523, 'votes': {'H': 70, 'S': 52}, 'members': {'H': 451, 'S': 110}, 'generated': '2026-11-04T08:03:28Z'}, {'c': 112, 'bills': 450, 'votes': {'H': 35, 'S': 6}, 'members': {'H': 451, 'S': 102}, 'generated': '2026-11-04T08:04:34Z'}, {'c': 113, 'bills': 479, 'votes': {'H': 23, 'S': 44}, 'members': {'H': 450, 'S': 105}, 'generated': '2026-11-04T08:06:00Z'}, {'c': 114, 'bills': 587, 'votes': {'H': 52, 'S': 39}, 'members': {'H': 447, 'S': 100}, 'generated': '2026-11-04T08:07:18Z'}, {'c': 115, 'bills': 683, 'votes': {'H': 56, 'S': 12}, 'members': {'H': 456, 'S': 105}, 'generated': '2026-11-04T08:08:47Z'}, {'c': 116, 'bills': 949, 'votes': {'H': 139, 'S': 30}, 'members': {'H': 448, 'S': 102}, 'generated': '2026-11-04T08:10:41Z'}, {'c': 117, 'bills': 1003, 'votes': {'H': 143, 'S': 137}, 'members': {'H': 455, 'S': 102}, 'generated': '2026-11-04T08:12:34Z'}, {'c': 118, 'bills': 959, 'votes': {'H': 32, 'S': 12}, 'members': {'H': 451, 'S': 105}, 'generated': '2026-11-04T08:13:51Z'}, {'c': 119, 'bills': 925, 'votes': {'H': 37, 'S': 26}, 'members': {'H': 451, 'S': 104}, 'generated': '2026-11-04T08:14:46Z'}]
+08:31:37 Downballot 2022: 435 districts from Vote totals(votes), Results(pct)
+08:31:53 FEC 2020: sheet '3. Table 2 Electoral & Pop Vote', D col 3, R col 4, 51 states, total error 0.00000
+08:31:56 FEC 2016: sheet 'Table 2. Electoral &  Pop Vote', D col 4, R col 3, 51 states, total error 0.00000
+08:31:59 voteview H118: 1235 roll calls, 451 members
+08:32:00 H118: 32 women's policy votes, roster 451
+08:32:01 voteview S118: 691 roll calls, 105 members
+08:32:02 S118: 12 women's policy votes, roster 105
+08:32:02 === Congress 119 ===
+08:32:14 listing failed 119 hr Expecting value: line 1 column 1 (char 0)
+08:32:14 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119-hr.zip
+08:32:27 listing failed 119 s Expecting value: line 1 column 1 (char 0)
+08:32:27 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119-s.zip
+08:32:31 listing failed 119 hjres Expecting value: line 1 column 1 (char 0)
+08:32:31 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hjres/BILLSTATUS-119-hjres.zip
+08:32:32 listing failed 119 sjres Expecting value: line 1 column 1 (char 0)
+08:32:32 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/sjres/BILLSTATUS-119-sjres.zip
+08:32:32 listing failed 119 hconres Expecting value: line 1 column 1 (char 0)
+08:32:32 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hconres/BILLSTATUS-119-hconres.zip
+08:32:32 listing failed 119 sconres Expecting value: line 1 column 1 (char 0)
+08:32:32 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/sconres/BILLSTATUS-119-sconres.zip
+08:32:35 listing failed 119 hres Expecting value: line 1 column 1 (char 0)
+08:32:35 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hres/BILLSTATUS-119-hres.zip
+08:32:39 listing failed 119 sres Expecting value: line 1 column 1 (char 0)
+08:32:39 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/sres/BILLSTATUS-119-sres.zip
+08:32:40 bills 119: 19826
+08:32:41 bills loaded: 19826
+08:32:55 women's policy bills: 920 (core 701)
+08:32:55 state urban/rural 2020: total col 3 '2020 total pop 5024279 733391 7151502 30', rural col 6 '2020 
+rural pop 2123399 257424 766272 13'
+08:32:56 Downballot 2024: 435 districts from Vote totals(votes), Percentages(pct)
+08:32:57 FEC 2024: sheet 'OFFICIAL 2024 PRES GE RESULTS', D col 12, R col 24, 51 states, total error 0.00000
+08:33:12 FEC 2020: sheet '3. Table 2 Electoral & Pop Vote', D col 3, R col 4, 51 states, total error 0.00000
+08:33:14 voteview H119: 674 roll calls, 452 members
+08:33:14 H119: 37 women's policy votes, roster 451
+08:33:16 voteview S119: 915 roll calls, 104 members
+08:33:16 S119: 14 women's policy votes, roster 104
+08:33:17 done [{'c': 111, 'bills': 520, 'votes': {'H': 55, 'S': 21}, 'members': {'H': 451, 'S': 110}, 'generated': '2026-11-04T08:20:18Z'}, {'c': 112, 'bills': 447, 'votes': {'H': 35, 'S': 6}, 'members': {'H': 451, 'S': 102}, 'generated': '2026-11-04T08:21:59Z'}, {'c': 113, 'bills': 476, 'votes': {'H': 23, 'S': 26}, 'members': {'H': 450, 'S': 105}, 'generated': '2026-11-04T08:23:46Z'}, {'c': 114, 'bills': 581, 'votes': {'H': 45, 'S': 26}, 'members': {'H': 447, 'S': 100}, 'generated': '2026-11-04T08:25:32Z'}, {'c': 115, 'bills': 683, 'votes': {'H': 56, 'S': 12}, 'members': {'H': 456, 'S': 105}, 'generated': '2026-11-04T08:27:27Z'}, {'c': 116, 'bills': 935, 'votes': {'H': 58, 'S': 11}, 'members': {'H': 448, 'S': 102}, 'generated': '2026-11-04T08:29:37Z'}, {'c': 117, 'bills': 992, 'votes': {'H': 72, 'S': 13}, 'members': {'H': 455, 'S': 102}, 'generated': '2026-11-04T08:30:50Z'}, {'c': 118, 'bills': 955, 'votes': {'H': 32, 'S': 12}, 'members': {'H': 451, 'S': 105}, 'generated': '2026-11-04T08:32:02Z'}, {'c': 119, 'bills': 920, 'votes': {'H': 37, 'S': 14}, 'members': {'H': 451, 'S': 104}, 'generated': '2026-11-04T08:33:17Z'}]
