@@ -15,7 +15,7 @@ CONFIG = os.path.join(ROOT, "config")
 OUT = os.path.join(ROOT, "docs", "data")
 
 FIRST_CONGRESS = 111
-UA = "genderpolitics-tracker/1.0 (+https://github.com/jongkonlee/genderpolitics)"
+UA = "US_gender_policy-tracker/1.0 (+https://github.com/jongkonlee/US_gender_policy)"
 
 
 def log(*a):

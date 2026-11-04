@@ -770,7 +770,7 @@ function viewAbout() {
   <li>대의원(워싱턴 DC·푸에르토리코 등)은 공동발의에는 들어가지만 본회의 표결권이 없고, 당파 지수는 DC만 있습니다.</li>
   <li>여성정책 관련 코커스는 공개된 전체 명단을 구할 수 있는 경우만 넣었습니다(119대: 하원 Reproductive Freedom Caucus(옛 Pro-Choice Caucus), 하원 민주당 여성 코커스, 상원 Pro-Life Caucus). 명단은 한 시점의 것이라 회기 중에 떠난 의원은 빠져 있을 수 있습니다.</li>
   <li>계파 명단은 회기 단위입니다. 회기 중 탈퇴는 날짜가 적힌 경우만 표결·발의 날짜에 맞춰 뺍니다(119대 루나: 2025-04-01). 새 회기 하원 명단은 자동으로 들어오지 않아 저장소의 config/factions_house.csv에 넣어야 합니다.</li></ul>
-  <p class="muted">마지막 갱신: ${esc(gen)} · 매일 한 번 GitHub Actions가 자료를 다시 받아 만듭니다. 코드와 자료: <a href="https://github.com/jongkonlee/genderpolitics">github.com/jongkonlee/genderpolitics</a></p></div>`;
+  <p class="muted">마지막 갱신: ${esc(gen)} · 매일 한 번 GitHub Actions가 자료를 다시 받아 만듭니다. 코드와 자료: <a href="https://github.com/jongkonlee/US_gender_policy">github.com/jongkonlee/US_gender_policy</a></p></div>`;
 }
 
 /* ---------- events & state ---------- */
@@ -853,7 +853,7 @@ async function init() {
   on('#panelClose', 'click', closePanel);
   on('#panel', 'click', e => { if (e.target.id === 'panel') closePanel(); });
   document.addEventListener('keydown', e => { if (e.key === 'Escape' && !$('#panel').hidden) closePanel(); });
-  $('#foot').innerHTML = `마지막 갱신 ${esc((S.idx.generated || '').replace('T', ' ').replace('Z', ' UTC'))} · 자료: GovInfo, Voteview, congress-legislators, 미국 인구조사국, The Downballot, FEC · <a href="https://github.com/jongkonlee/genderpolitics">GitHub</a>`;
+  $('#foot').innerHTML = `마지막 갱신 ${esc((S.idx.generated || '').replace('T', ' ').replace('Z', ' UTC'))} · 자료: GovInfo, Voteview, congress-legislators, 미국 인구조사국, The Downballot, FEC · <a href="https://github.com/jongkonlee/US_gender_policy">GitHub</a>`;
   render();
   if (S.open) openPanel(S.open);
 }
