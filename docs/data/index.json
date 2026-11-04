@@ -1,19 +1,19 @@
 {
- "generated": "2026-11-04T08:33:17Z",
+ "generated": "2026-11-04T08:40:56Z",
  "current": 119,
  "congresses": [
   {
    "c": 111,
-   "bills": 520,
+   "bills": 473,
    "votes": {
-    "H": 55,
+    "H": 53,
     "S": 21
    },
    "members": {
     "H": 451,
     "S": 110
    },
-   "generated": "2026-11-04T08:20:18Z"
+   "generated": "2026-11-04T08:38:47Z"
   },
   {
    "c": 112,
@@ -30,7 +30,7 @@
   },
   {
    "c": 113,
-   "bills": 476,
+   "bills": 465,
    "votes": {
     "H": 23,
     "S": 26
@@ -39,7 +39,7 @@
     "H": 450,
     "S": 105
    },
-   "generated": "2026-11-04T08:23:46Z"
+   "generated": "2026-11-04T08:40:56Z"
   },
   {
    "c": 114,
@@ -145,7 +145,7 @@
   {
    "code": "health_maternal",
    "group": "health",
-   "label": "임신·출산 건강",
+   "label": "산모·출산 건강",
    "plus": "지원 확대",
    "minus": "지원 축소"
   },
@@ -244,7 +244,7 @@
  "groups": [
   {
    "code": "reproduction",
-   "label": "재생산"
+   "label": "임신"
   },
   {
    "code": "health",
@@ -267,7 +267,1248 @@
    "label": "넓은 범위"
   }
  ],
- "abortion_law": [],
+ "abortion_law": [
+  {
+   "state": "AK",
+   "start_date": "2021-09-01",
+   "end_date": "",
+   "status": "no_limit",
+   "weeks": "",
+   "measure": "No gestational limit (abortion protected under Alaska Constitution privacy clause)",
+   "note": "No change during window.",
+   "sources": "https://www.kff.org/womens-health-policy/state-indicator/gestational-limit-abortions/;https://www.guttmacher.org/state-policy/explore/state-policies-abortion-bans"
+  },
+  {
+   "state": "AL",
+   "start_date": "2021-09-01",
+   "end_date": "2022-06-23",
+   "status": "limit_20_24",
+   "weeks": "22",
+   "measure": "Ala. Code 26-23B-5 (20 wks post-fertilization)",
+   "note": "Roe era. 20 wks post-fertilization (=22 LMP) ban in effect per Lozier 2021 survey; 2019 HB 314 total ban enjoined.",
+   "sources": "https://lozierinstitute.org/?p=1267"
+  },
+  {
+   "state": "AL",
+   "start_date": "2022-06-24",
+   "end_date": "",
+   "status": "ban",
+   "weeks": "",
+   "measure": "Alabama Human Life Protection Act (2019 HB 314); federal injunction lifted 2022-06-24",
+   "note": "Federal judge granted state's motion to lift injunction the day of Dobbs; AG declared elective abortion illegal. Exceptions: serious health risk/lethal anomaly.",
+   "sources": "https://www.wbrc.com/2022/06/24/judge-grants-motion-lift-injunction-state-abortion-law;https://ballotpedia.org/Abortion_regulations_by_state"
+  },
+  {
+   "state": "AR",
+   "start_date": "2021-09-01",
+   "end_date": "2022-06-23",
+   "status": "limit_20_24",
+   "weeks": "22",
+   "measure": "Ark. Code 20-16-1405 (20 wks post-fertilization)",
+   "note": "Roe era. 20 wks post-fertilization (=22 LMP) in effect per Lozier 2021 survey; 18-wk ban (2019) and 2021 Act 309 total ban were enjoined.",
+   "sources": "https://lozierinstitute.org/?p=1267"
+  },
+  {
+   "state": "AR",
+   "start_date": "2022-06-24",
+   "end_date": "",
+   "status": "ban",
+   "weeks": "",
+   "measure": "Act 180 of 2019 (trigger ban), certified by AG Rutledge 2022-06-24",
+   "note": "AG certified Dobbs the same day; ban effective on certification. Life exception only.",
+   "sources": "https://talkbusiness.net/2022/06/almost-all-abortions-illegal-in-arkansas-after-ag-rutledge-certifies-law/;https://ballotpedia.org/Abortion_regulations_by_state"
+  },
+  {
+   "state": "AZ",
+   "start_date": "2021-09-01",
+   "end_date": "2022-09-22",
+   "status": "limit_20_24",
+   "weeks": "viability",
+   "measure": "A.R.S. 36-2301.01 (post-viability limit); 20-wk law (A.R.S. 36-2159) enjoined (Isaacson v. Horne, 9th Cir. 2013); 1864 ban (A.R.S. 13-3603) enjoined since 1973",
+   "note": "Roe era and continuing after Dobbs until 2022-09-23 (1864 ban still under 1973 injunction; some providers paused over a personhood law, blocked 2022-07-11).",
+   "sources": "https://lozierinstitute.org/?p=1267;https://www.kjzz.org/2023-12-05/content-1864783-timeline-abortion-rights-arizona-1864-today"
+  },
+  {
+   "state": "AZ",
+   "start_date": "2022-09-23",
+   "end_date": "2022-10-06",
+   "status": "ban",
+   "weeks": "",
+   "measure": "A.R.S. 13-3603 (1864 territorial ban): Pima County Judge Kellie Johnson lifted the 1973 injunction",
+   "note": "Ruling 2022-09-23; clinics halted. SB 1164 (15-wk) took effect 2022-09-24 but the 1864 ban governed until the stay.",
+   "sources": "https://www.kjzz.org/2023-12-05/content-1864783-timeline-abortion-rights-arizona-1864-today;https://ballotpedia.org/Abortion_regulations_by_state"
+  },
+  {
+   "state": "AZ",
+   "start_date": "2022-10-07",
+   "end_date": "2025-03-04",
+   "status": "limit_12_18",
+   "weeks": "15",
+   "measure": "SB 1164 (2022) 15-wk ban (A.R.S. 36-2322), effective 2022-09-24; Arizona Court of Appeals stayed enforcement of the 1864 ban 2022-10-07",
+   "note": "Stay 2022-10-07. Ct. App. (2022-12-30) held physicians follow the 15-wk law. Ariz. Sup. Ct. held the 1864 law enforceable 2024-04-09 but enforcement was delayed and the law was repealed effective 2024-09-14 (never re-enforced). Prop 139 approved 2024-11-05, effective 2024-11-25. SWITCH DATE UNCERTAIN: in Dec 2024 the AG agreed not to enforce the 15-wk law pending litigation (exact date not found) and some doctors resumed later abortions, while Planned Parenthood waited for the court ruling; coded as 15 wks until the 2025-03-05 permanent injunction.",
+   "sources": "https://www.azfamily.com/2022/10/07/court-halts-arizonas-near-total-abortion-ban-resuming-procedures-effective-immediately/?outputType=amp;https://www.kjzz.org/2023-12-05/content-1864783-timeline-abortion-rights-arizona-1864-today;https://www.everycrsreport.com/reports/R47595.html;https://azmirror.com/2025/03/05/arizonas-15-week-abortion-ban-is-now-permanently-and-forever-struck-down/;https://www.kjzz.org/kjzz-news/2025-01-29/planned-parenthood-could-resume-abortions-after-15-weeks-in-arizona-in-the-coming-days"
+  },
+  {
+   "state": "AZ",
+   "start_date": "2025-03-05",
+   "end_date": "",
+   "status": "limit_20_24",
+   "weeks": "viability",
+   "measure": "Prop 139 (Arizona Abortion Access Act, Ariz. Const. art. 2 sec. 8.1); Maricopa County Judge Frank Moskowitz permanently enjoined the 15-wk law (Reuss v. Arizona)",
+   "note": "Ruling 2025-03-05. Viability limit per KFF (2026-01-06) and Guttmacher (2026-09-17). Other restrictions under separate challenge (2025-2026).",
+   "sources": "https://azmirror.com/2025/03/05/arizonas-15-week-abortion-ban-is-now-permanently-and-forever-struck-down/;https://www.azfamily.com/2025/03/05/judge-permanently-blocks-arizonas-15-week-abortion-ban"
+  },
+  {
+   "state": "CA",
+   "start_date": "2021-09-01",
+   "end_date": "",
+   "status": "limit_20_24",
+   "weeks": "viability",
+   "measure": "Cal. Health & Safety Code 123466 (Reproductive Privacy Act: post-viability only for life/health)",
+   "note": "No change during window. Proposition 1 (constitutional right) approved 2022-11-08; did not change the viability limit.",
+   "sources": "https://www.kff.org/womens-health-policy/state-indicator/gestational-limit-abortions/;https://www.guttmacher.org/state-policy/explore/state-policies-abortion-bans;https://ballotpedia.org/Abortion_regulations_by_state"
+  },
+  {
+   "state": "CO",
+   "start_date": "2021-09-01",
+   "end_date": "",
+   "status": "no_limit",
+   "weeks": "",
+   "measure": "No gestational limit; Reproductive Health Equity Act (2022-04-04) codified right",
+   "note": "No change during window. Amendment 79 approved 2024-11-05.",
+   "sources": "https://www.kff.org/womens-health-policy/state-indicator/gestational-limit-abortions/;https://www.guttmacher.org/state-policy/explore/state-policies-abortion-bans;https://ballotpedia.org/Abortion_regulations_by_state"
+  },
+  {
+   "state": "CT",
+   "start_date": "2021-09-01",
+   "end_date": "",
+   "status": "limit_20_24",
+   "weeks": "viability",
+   "measure": "Conn. Gen. Stat. 19a-602 (post-viability only for life/health)",
+   "note": "No change during window.",
+   "sources": "https://www.kff.org/womens-health-policy/state-indicator/gestational-limit-abortions/;https://www.guttmacher.org/state-policy/explore/state-policies-abortion-bans"
+  },
+  {
+   "state": "DC",
+   "start_date": "2021-09-01",
+   "end_date": "",
+   "status": "no_limit",
+   "weeks": "",
+   "measure": "No gestational limit",
+   "note": "No change during window.",
+   "sources": "https://www.kff.org/womens-health-policy/state-indicator/gestational-limit-abortions/;https://www.guttmacher.org/state-policy/explore/state-policies-abortion-bans"
+  },
+  {
+   "state": "DE",
+   "start_date": "2021-09-01",
+   "end_date": "",
+   "status": "limit_20_24",
+   "weeks": "viability",
+   "measure": "24 Del. C. 1790 (post-viability only for life/health/serious fetal anomaly)",
+   "note": "No change during window.",
+   "sources": "https://www.kff.org/womens-health-policy/state-indicator/gestational-limit-abortions/;https://www.guttmacher.org/state-policy/explore/state-policies-abortion-bans"
+  },
+  {
+   "state": "FL",
+   "start_date": "2021-09-01",
+   "end_date": "2022-06-30",
+   "status": "limit_20_24",
+   "weeks": "24",
+   "measure": "Fla. Stat. 390.0111 (third-trimester ban; third trimester defined as after 24th week)",
+   "note": "Roe era. Prior law allowed abortion until 24 weeks (NPR).",
+   "sources": "https://www.npr.org/2022/04/14/1084485963/florida-abortion-law-15-weeks"
+  },
+  {
+   "state": "FL",
+   "start_date": "2022-07-01",
+   "end_date": "2024-04-30",
+   "status": "limit_12_18",
+   "weeks": "15",
+   "measure": "HB 5 (2022) 15-wk ban",
+   "note": "Took effect 2022-07-01. On 2022-07-05 a Leon County judge's injunction was in force for only a few hours before the state's appeal automatically stayed it (not coded as a separate row).",
+   "sources": "https://www.npr.org/2022/04/14/1084485963/florida-abortion-law-15-weeks;https://www.local10.com/news/florida/2022/07/05/florida-judge-briefly-blocks-new-15-week-abortion-ban-state-appeal-reinstates-it-for-now"
+  },
+  {
+   "state": "FL",
+   "start_date": "2024-05-01",
+   "end_date": "",
+   "status": "ban_6wk",
+   "weeks": "6",
+   "measure": "SB 300 (2023 Heartbeat Protection Act), effective 30 days after Fla. Sup. Ct. decision of 2024-04-01",
+   "note": "Took effect 2024-05-01. Amendment 4 (2024-11-05) got 57% (<60% needed), so no change. Rape/incest exception to 15 wks.",
+   "sources": "https://www.goodmorningamerica.com/news/story/floridas-strictest-abortion-ban-takes-effect-prohibiting-abortions-109803300;https://www.everycrsreport.com/reports/R47595.html"
+  },
+  {
+   "state": "GA",
+   "start_date": "2021-09-01",
+   "end_date": "2022-07-19",
+   "status": "limit_20_24",
+   "weeks": "22",
+   "measure": "HB 954 (2012) 20-wk post-fertilization ban",
+   "note": "Roe era. 20 wks post-fertilization (=22 LMP) in effect; HB 481 (2019 6-wk) enjoined.",
+   "sources": "https://lozierinstitute.org/?p=1267"
+  },
+  {
+   "state": "GA",
+   "start_date": "2022-07-20",
+   "end_date": "2022-11-14",
+   "status": "ban_6wk",
+   "weeks": "6",
+   "measure": "HB 481 (LIFE Act, detectable embryonic cardiac activity); 11th Cir. lifted injunction 2022-07-20",
+   "note": "Took effect immediately 2022-07-20.",
+   "sources": "https://www.axios.com/2022/07/20/georgia-abortion-ban-roe-wade;https://reproductiverights.org/case/sistersong-v-state-georgia/"
+  },
+  {
+   "state": "GA",
+   "start_date": "2022-11-15",
+   "end_date": "2022-11-22",
+   "status": "limit_20_24",
+   "weeks": "22",
+   "measure": "Fulton County Superior Court (Judge Robert McBurney) declared HB 481 void ab initio; prior 20-wk post-fertilization law",
+   "note": "Ruling 2022-11-15; Georgia Supreme Court stayed it 2022-11-23.",
+   "sources": "https://reproductiverights.org/case/sistersong-v-state-georgia/;https://ballotpedia.org/Abortion_regulations_by_state"
+  },
+  {
+   "state": "GA",
+   "start_date": "2022-11-23",
+   "end_date": "2024-09-29",
+   "status": "ban_6wk",
+   "weeks": "6",
+   "measure": "HB 481 reinstated by Georgia Supreme Court emergency stay",
+   "note": "Stay 2022-11-23; Ga. Sup. Ct. reversed the void-ab-initio ruling 2023-10-24 (ban stayed in effect).",
+   "sources": "https://reproductiverights.org/case/sistersong-v-state-georgia/"
+  },
+  {
+   "state": "GA",
+   "start_date": "2024-09-30",
+   "end_date": "2024-10-06",
+   "status": "limit_20_24",
+   "weeks": "22",
+   "measure": "McBurney ruling that HB 481 violates the Georgia Constitution's right to privacy; prior 20-wk post-fertilization law",
+   "note": "Ruling 2024-09-30; Georgia Supreme Court reinstated the ban 2024-10-07.",
+   "sources": "https://reproductiverights.org/case/sistersong-v-state-georgia/;https://www.goodmorningamerica.com/wellness/story/georgia-supreme-court-reinstates-states-6-week-abortion-114569988"
+  },
+  {
+   "state": "GA",
+   "start_date": "2024-10-07",
+   "end_date": "",
+   "status": "ban_6wk",
+   "weeks": "6",
+   "measure": "HB 481 reinstated by Georgia Supreme Court order pending appeal",
+   "note": "Order 2024-10-07. On 2025-02-20 the Ga. Sup. Ct. remanded for reconsideration of standing; no later ruling found; ban in effect per KFF (2026-08-10) and Guttmacher (2026-09-17).",
+   "sources": "https://reproductiverights.org/case/sistersong-v-state-georgia/;https://www.cbsnews.com/amp/news/georgia-supreme-court-abortion-ban"
+  },
+  {
+   "state": "HI",
+   "start_date": "2021-09-01",
+   "end_date": "",
+   "status": "limit_20_24",
+   "weeks": "viability",
+   "measure": "Haw. Rev. Stat. 453-16 (post-viability only for life/health)",
+   "note": "No change during window.",
+   "sources": "https://www.kff.org/womens-health-policy/state-indicator/gestational-limit-abortions/;https://www.guttmacher.org/state-policy/explore/state-policies-abortion-bans"
+  },
+  {
+   "state": "IA",
+   "start_date": "2021-09-01",
+   "end_date": "2023-07-13",
+   "status": "limit_20_24",
+   "weeks": "22",
+   "measure": "Iowa Code 146B (2017, 20 wks post-fertilization)",
+   "note": "Roe era. 20 wks post-fertilization (=22 LMP) in effect per Lozier 2021 survey; 2018 6-wk law permanently enjoined (2019).",
+   "sources": "https://lozierinstitute.org/?p=1267"
+  },
+  {
+   "state": "IA",
+   "start_date": "2023-07-14",
+   "end_date": "2023-07-16",
+   "status": "ban_6wk",
+   "weeks": "6",
+   "measure": "HF 732 (2023 fetal heartbeat law), effective on signing 2023-07-14",
+   "note": "Signed Friday 2023-07-14 and effective immediately; blocked Monday 2023-07-17.",
+   "sources": "https://ballotpedia.org/Abortion_regulations_by_state;https://www.cbsnews.com/news/judge-blocks-iowa-six-week-abortion-ban-temporarily"
+  },
+  {
+   "state": "IA",
+   "start_date": "2023-07-17",
+   "end_date": "2024-07-28",
+   "status": "limit_20_24",
+   "weeks": "22",
+   "measure": "Polk County temporary injunction (Judge Joseph Seidlin) blocking HF 732; prior 20-wk post-fertilization law",
+   "note": "Injunction 2023-07-17. Iowa Sup. Ct. reversed it 2024-06-28 (4-3) and remanded; law took effect 2024-07-29.",
+   "sources": "https://www.cbsnews.com/news/judge-blocks-iowa-six-week-abortion-ban-temporarily;https://www.washingtontimes.com/news/2023/jul/17/abortion-in-iowa-is-legal-again-for-now-after-judg/"
+  },
+  {
+   "state": "IA",
+   "start_date": "2024-07-29",
+   "end_date": "",
+   "status": "ban_6wk",
+   "weeks": "6",
+   "measure": "HF 732 / Iowa Code 146E.2 (fetal heartbeat law)",
+   "note": "Took effect Monday 2024-07-29 per district court order after the 2024-06-28 Iowa Sup. Ct. ruling.",
+   "sources": "https://www.ksat.com/news/national/2024/07/23/iowa-law-banning-most-abortions-after-six-weeks-of-pregnancy-to-take-effect-monday/;https://minnlawyer.com/2024/07/24/iowas-strict-abortion-law-takes-effect-monday/"
+  },
+  {
+   "state": "ID",
+   "start_date": "2021-09-01",
+   "end_date": "2022-08-18",
+   "status": "limit_20_24",
+   "weeks": "",
+   "measure": "Idaho Code 18-608(3) (third-trimester restriction)",
+   "note": "Roe era. Idaho's 2011 20-wk post-fertilization ban was enjoined (McCormack v. Herzog, 9th Cir. 2015); 18-608(3) allowed third-trimester abortion only in a hospital to preserve life or for nonviable fetus. Weeks not stated in statute (\"third trimester\").",
+   "sources": "https://lozierinstitute.org/?p=1267;https://law.justia.com/codes/idaho/2021/title-18/chapter-6/section-18-608/"
+  },
+  {
+   "state": "ID",
+   "start_date": "2022-08-19",
+   "end_date": "2022-08-24",
+   "status": "ban_6wk",
+   "weeks": "6",
+   "measure": "Idaho Code 18-8804/8805 criminal fetal heartbeat ban (eff. 2022-08-19); SB 1309 civil-enforcement provisions",
+   "note": "Idaho Supreme Court on 2022-08-12 vacated its stay of SB 1309 and allowed bans to proceed; Spokesman-Review reports the civil provision is attached to the criminal statute effective 2022-08-19 (coded from 2022-08-19; civil provisions arguably enforceable from 2022-08-12 - uncertain).",
+   "sources": "https://www.spokesman.com/stories/2022/aug/12/abortion-will-become-illegal-in-idaho-as-state-sup;https://www.kivitv.com/news/idaho-supreme-court-allows-abortion-bans-to-continue-as-lawsuits-move-forward"
+  },
+  {
+   "state": "ID",
+   "start_date": "2022-08-25",
+   "end_date": "",
+   "status": "ban",
+   "weeks": "",
+   "measure": "Idaho Code 18-622 (2020 trigger ban), effective 30 days after Dobbs judgment",
+   "note": "Total ban took effect 2022-08-25. Narrow carve-outs litigated separately: federal EMTALA injunction (2022-08-24; stayed by SCOTUS 2024-01-05; reinstated 2024-06-27; case dismissed 2025-03-05), St. Luke's injunction (2025-03-20), and an Aug 2026 federal order on medical-risk cases (narrowed 2026-08-25). None changes the category.",
+   "sources": "https://www.spokesman.com/stories/2022/aug/12/abortion-will-become-illegal-in-idaho-as-state-sup;https://ballotpedia.org/Abortion_regulations_by_state"
+  },
+  {
+   "state": "IL",
+   "start_date": "2021-09-01",
+   "end_date": "",
+   "status": "limit_20_24",
+   "weeks": "viability",
+   "measure": "775 ILCS 55/1-25 (Reproductive Health Act: post-viability only for life/health, broadly defined)",
+   "note": "No change during window.",
+   "sources": "https://www.kff.org/womens-health-policy/state-indicator/gestational-limit-abortions/;https://www.guttmacher.org/state-policy/explore/state-policies-abortion-bans"
+  },
+  {
+   "state": "IN",
+   "start_date": "2021-09-01",
+   "end_date": "2022-09-14",
+   "status": "limit_20_24",
+   "weeks": "22",
+   "measure": "Ind. Code 16-34-2-1 (20 wks post-fertilization)",
+   "note": "Roe era. 20 wks post-fertilization (=22 LMP) in effect per Lozier 2021 survey.",
+   "sources": "https://lozierinstitute.org/?p=1267"
+  },
+  {
+   "state": "IN",
+   "start_date": "2022-09-15",
+   "end_date": "2022-09-21",
+   "status": "ban",
+   "weeks": "",
+   "measure": "SEA 1 (2022 special session) near-total ban",
+   "note": "Took effect 2022-09-15. Exceptions: life/serious health, rape/incest to 10 wks post-fertilization, lethal anomaly to 20 wks post-fertilization.",
+   "sources": "https://indianacapitalchronicle.com/2022/09/22/judge-issues-preliminary-injunction-pausing-indianas-near-total-abortion-ban/"
+  },
+  {
+   "state": "IN",
+   "start_date": "2022-09-22",
+   "end_date": "2023-08-20",
+   "status": "limit_20_24",
+   "weeks": "22",
+   "measure": "Owen County preliminary injunction (Judge Kelsey Hanlon) blocking SEA 1; prior 20-wk post-fertilization law",
+   "note": "PI issued Thursday 2022-09-22; prior law (\"up to 20 weeks\" post-fertilization, =22 LMP) applied. Injunction formally bound prosecutors of the defendant counties where clinics were located. Ind. Sup. Ct. vacated the PI 2023-06-30 but it stayed in force until certification.",
+   "sources": "https://indianacapitalchronicle.com/2022/09/22/judge-issues-preliminary-injunction-pausing-indianas-near-total-abortion-ban/;https://www.axios.com/2022/09/22/judge-block-indiana-abortion-ban"
+  },
+  {
+   "state": "IN",
+   "start_date": "2023-08-21",
+   "end_date": "",
+   "status": "ban",
+   "weeks": "",
+   "measure": "SEA 1 enforceable after Indiana Supreme Court denied rehearing and certified its 2023-06-30 decision",
+   "note": "Rehearing denied and decision certified Monday 2023-08-21; ban enforceable that day. Religious-freedom injunction for a plaintiff class (2024) does not change category.",
+   "sources": "https://indianacapitalchronicle.com/2023/08/21/indiana-supreme-court-wont-rehear-near-total-abortion-ban-ruling-putting-law-back-in-effect/;https://www.wndu.com/2023/08/21/indianas-near-total-abortion-ban-takes-effect-after-supreme-court-denies-rehearing-petition"
+  },
+  {
+   "state": "KS",
+   "start_date": "2021-09-01",
+   "end_date": "",
+   "status": "limit_20_24",
+   "weeks": "22",
+   "measure": "K.S.A. 65-6724 (22 wks gestational age LMP = 20 wks post-fertilization)",
+   "note": "No change during window. Kansas Constitution protects abortion (Hodes & Nauser 2019); \"Value Them Both\" amendment rejected 2022-08-02.",
+   "sources": "https://lozierinstitute.org/?p=1267;https://www.kff.org/womens-health-policy/state-indicator/gestational-limit-abortions/;https://www.guttmacher.org/state-policy/explore/state-policies-abortion-bans"
+  },
+  {
+   "state": "KY",
+   "start_date": "2021-09-01",
+   "end_date": "2022-04-12",
+   "status": "limit_20_24",
+   "weeks": "22",
+   "measure": "KRS 311.782 (20 wks post-fertilization)",
+   "note": "Roe era. 20 wks post-fertilization (=22 LMP) in effect per Lozier 2021 survey; 2019 6-wk ban (SB 9) enjoined.",
+   "sources": "https://lozierinstitute.org/?p=1267"
+  },
+  {
+   "state": "KY",
+   "start_date": "2022-04-13",
+   "end_date": "2022-04-20",
+   "status": "limit_12_18",
+   "weeks": "15",
+   "measure": "HB 3 (2022) 15-wk ban, effective on veto override 2022-04-13",
+   "note": "HB 3 took effect immediately; its reporting rules also halted all abortions in practice until a federal TRO.",
+   "sources": "https://www.wkms.org/government-politics/2022-04-13/ky-house-overrides-gov-beshears-veto-on-omnibus-anti-abortion-bill;https://www.vpm.org/npr-news/2022-04-22/how-kentucky-republicans-blocked-all-abortions-for-more-than-a-week"
+  },
+  {
+   "state": "KY",
+   "start_date": "2022-04-21",
+   "end_date": "2022-06-23",
+   "status": "limit_20_24",
+   "weeks": "22",
+   "measure": "Federal TRO (Judge Jennings, W.D. Ky.) blocking all of HB 3 incl. 15-wk ban",
+   "note": "TRO issued 2022-04-21; on 2022-04-26 the court clarified it covered the entire HB 3 including the 15-wk ban (EMW resumed up to 21w6d).",
+   "sources": "https://www.aclu-ky.org/press-releases/15-week-abortion-ban-blocked/"
+  },
+  {
+   "state": "KY",
+   "start_date": "2022-06-24",
+   "end_date": "2022-06-29",
+   "status": "ban",
+   "weeks": "",
+   "measure": "HB 148 (2019 Human Life Protection Act trigger ban)",
+   "note": "Trigger law took effect on Dobbs.",
+   "sources": "https://ballotpedia.org/Abortion_regulations_by_state;https://spectrumnews1.com/ky/lexington/news/2022/06/30/kentucky-abortion-trigger-law-judge-restraining-order"
+  },
+  {
+   "state": "KY",
+   "start_date": "2022-06-30",
+   "end_date": "2022-07-15",
+   "status": "limit_20_24",
+   "weeks": "22",
+   "measure": "Jefferson Circuit Court TRO (Judge Mitch Perry) blocking trigger ban and 6-wk ban; HB 3 15-wk ban still federally enjoined",
+   "note": "TRO issued 2022-06-30; providers resumed 2022-07-01. Limit reverted to 20 wks post-fertilization (=22 LMP).",
+   "sources": "https://spectrumnews1.com/ky/lexington/news/2022/06/30/kentucky-abortion-trigger-law-judge-restraining-order;https://lpm.org/news/2022-07-16/judge-lifts-injunction-allowing-15-week-abortion-ban-to-take-effect-in-kentucky"
+  },
+  {
+   "state": "KY",
+   "start_date": "2022-07-16",
+   "end_date": "2022-07-31",
+   "status": "limit_12_18",
+   "weeks": "15",
+   "measure": "HB 3 15-wk ban (federal injunction dissolved 11:59 pm 2022-07-15); trigger/6-wk bans still blocked (Perry temporary injunction 2022-07-22)",
+   "note": "Order granted 2022-07-14; injunction dissolved at 11:59 pm Friday 2022-07-15, so 15-wk ban enforceable from 2022-07-16.",
+   "sources": "https://winchestersun.com/?p=54492;https://lpm.org/news/2022-07-16/judge-lifts-injunction-allowing-15-week-abortion-ban-to-take-effect-in-kentucky"
+  },
+  {
+   "state": "KY",
+   "start_date": "2022-08-01",
+   "end_date": "",
+   "status": "ban",
+   "weeks": "",
+   "measure": "HB 148 trigger ban and 6-wk ban reinstated by Kentucky Court of Appeals (emergency relief for AG)",
+   "note": "Order reported evening of 2022-08-01 (WKYT 8:24 pm EDT); providers stopped 2022-08-02. (Ballotpedia lists 2022-08-08, which conflicts with contemporaneous reports.) Ky. Supreme Court left bans in place (2022-08-18 and 2023-02-16). 2022 Amendment 2 rejected.",
+   "sources": "https://www.wkyt.com/2022/08/02/nearly-all-abortions-banned-ky-again-after-court-ruling;https://www.axios.com/2022/08/02/kentucky-abortion-bans-reinstated"
+  },
+  {
+   "state": "LA",
+   "start_date": "2021-09-01",
+   "end_date": "2022-06-23",
+   "status": "limit_20_24",
+   "weeks": "22",
+   "measure": "La. R.S. 40:1061.1 (20 wks post-fertilization)",
+   "note": "Roe era. 20 wks post-fertilization (=22 LMP) in effect per Lozier 2021 survey. A 2018 15-wk ban (Act 467) was written to be unenforceable until a ruling upholding Mississippi's 15-wk law.",
+   "sources": "https://lozierinstitute.org/?p=1267;https://www.wafb.com/2018/11/21/louisianas-week-abortion-ban-remains-unenforceable/"
+  },
+  {
+   "state": "LA",
+   "start_date": "2022-06-24",
+   "end_date": "2022-06-26",
+   "status": "ban",
+   "weeks": "",
+   "measure": "Trigger bans (2006 law; 2022 SB 342 signed 2022-06-21) took effect on Dobbs",
+   "note": "All three clinics stopped 2022-06-24.",
+   "sources": "https://www.wwno.org/law/2022-06-24/what-to-know-about-louisiana-abortion-rights-after-supreme-court-overturns-roe-v-wade;https://ballotpedia.org/Abortion_regulations_by_state"
+  },
+  {
+   "state": "LA",
+   "start_date": "2022-06-27",
+   "end_date": "2022-07-07",
+   "status": "limit_20_24",
+   "weeks": "22",
+   "measure": "Orleans Parish TRO (Judge Robin Giarrusso) blocking trigger bans",
+   "note": "TRO issued 2022-06-27; clinics resumed. UNCERTAIN LIMIT: sources do not say which limit applied while the bans were blocked; coded as the pre-Dobbs 20-wk post-fertilization law (=22 LMP), but the 2018 15-wk law may have been operative after Dobbs.",
+   "sources": "https://lailluminator.com/2022/06/27/louisiana-abortion-ban-temporarily-blocked-by-new-orleans-judge/;https://lailluminator.com/2022/06/27/louisiana-abortion-clinics-resume-services-after-judge-temporarily-blocks-ban/"
+  },
+  {
+   "state": "LA",
+   "start_date": "2022-07-08",
+   "end_date": "2022-07-11",
+   "status": "ban",
+   "weeks": "",
+   "measure": "Trigger bans enforceable again: Orleans Parish Judge Ethel Simms Julien declined to extend TRO and transferred case to Baton Rouge",
+   "note": "Ruling 2022-07-08 (Friday).",
+   "sources": "https://www.goodmorningamerica.com/news/story/louisiana-trigger-laws-banning-abortions-allowed-stand-state-86449319;https://www.wusf.org/2022-07-12/a-state-judge-temporarily-blocked-louisiana-from-enforcing-its-abortion-ban"
+  },
+  {
+   "state": "LA",
+   "start_date": "2022-07-12",
+   "end_date": "2022-07-28",
+   "status": "limit_20_24",
+   "weeks": "22",
+   "measure": "19th JDC (Baton Rouge) TRO (Judge Donald Johnson) blocking trigger bans; later preliminary injunction",
+   "note": "Order dated Monday 2022-07-11 but released 2022-07-12; coded from 2022-07-12 (date uncertain by one day). Same UNCERTAIN LIMIT caveat as the 2022-06-27 row.",
+   "sources": "https://www.wusf.org/2022-07-12/a-state-judge-temporarily-blocked-louisiana-from-enforcing-its-abortion-ban;https://www.pbs.org/newshour/amp/politics/louisiana-judge-blocks-state-from-enforcing-abortion-ban"
+  },
+  {
+   "state": "LA",
+   "start_date": "2022-07-29",
+   "end_date": "",
+   "status": "ban",
+   "weeks": "",
+   "measure": "Trigger bans (2006 trigger law as amended by 2022 SB 342) reinstated by Louisiana First Circuit Court of Appeal suspensive appeal",
+   "note": "Order issued Friday 2022-07-29; bans enforced since. Life/physical health and medically futile pregnancy exceptions.",
+   "sources": "https://news.bloomberglaw.com/us-law-week/louisianas-abortion-ban-back-in-effect-while-appeal-proceeds"
+  },
+  {
+   "state": "MA",
+   "start_date": "2021-09-01",
+   "end_date": "",
+   "status": "limit_20_24",
+   "weeks": "24",
+   "measure": "Mass. Gen. Laws ch. 112 sec. 12M-12N (ROE Act, 2020): abortion at/after 24 wks only for life/health/lethal anomaly",
+   "note": "Unchanged through 2026-11-04. Guttmacher notes the statute counts from implantation (KFF: 24 wks LMP). Prioritizing Patient Access to Care Act (H 5595) signed 2026-08-10 removes the 24-wk limit, effective 90 days after signing (computed: 2026-11-08), i.e., after this file's end date. Ballotpedia already lists Massachusetts as \"no restriction\".",
+   "sources": "https://www.kff.org/womens-health-policy/state-indicator/gestational-limit-abortions/;https://www.guttmacher.org/state-policy/explore/state-policies-abortion-bans;https://www.wbur.org/news/2026/08/11/gov-healey-abortion-24-weeks-massachusetts-law"
+  },
+  {
+   "state": "MD",
+   "start_date": "2021-09-01",
+   "end_date": "",
+   "status": "no_limit",
+   "weeks": "",
+   "measure": "Md. Code Health-Gen. 20-209 (state may not interfere before viability; no statute prohibits post-viability abortion)",
+   "note": "No change during window. KFF (2026-01-06) and Guttmacher (2026-09-17) list no gestational limit; some older tracker editions listed Maryland as \"viability\" (classification, not legal, change). Question 1 (reproductive freedom amendment) approved 2024-11-05.",
+   "sources": "https://www.kff.org/womens-health-policy/state-indicator/gestational-limit-abortions/;https://www.guttmacher.org/state-policy/explore/state-policies-abortion-bans;https://ballotpedia.org/Abortion_regulations_by_state"
+  },
+  {
+   "state": "ME",
+   "start_date": "2021-09-01",
+   "end_date": "",
+   "status": "limit_20_24",
+   "weeks": "viability",
+   "measure": "22 M.R.S. 1598 (post-viability restriction)",
+   "note": "Category unchanged during window. LD 1619 (effective 2023-10-25) allows post-viability abortion when a physician deems it necessary; KFF and Guttmacher still classify Maine as viability.",
+   "sources": "https://www.kff.org/womens-health-policy/state-indicator/gestational-limit-abortions/;https://www.guttmacher.org/state-policy/explore/state-policies-abortion-bans;https://www.themainewire.com/2023/10/expanded-access-to-late-term-abortion-goes-into-effect-in-maine-one-of-the-least-restrictive-laws-in-the-nation/"
+  },
+  {
+   "state": "MI",
+   "start_date": "2021-09-01",
+   "end_date": "2022-06-23",
+   "status": "limit_20_24",
+   "weeks": "viability",
+   "measure": "MCL 750.14 (1931 ban) as limited by Roe (People v. Bricker, 1973): prohibition enforceable only after viability",
+   "note": "Roe era. Court of Claims (Judge Elizabeth Gleicher) preliminarily enjoined the AG from enforcing MCL 750.14 on 2022-05-17.",
+   "sources": "https://www.michiganpublic.org/health/2022-08-01/appeals-court-rules-abortion-ban-injunction-doesnt-apply-to-county-prosecutors"
+  },
+  {
+   "state": "MI",
+   "start_date": "2022-06-24",
+   "end_date": "",
+   "status": "no_limit",
+   "weeks": "",
+   "measure": "MCL 750.14 enjoined (Court of Claims PI 2022-05-17; Oakland County TRO vs county prosecutors 2022-08-01, PI 2022-08-19; declared unconstitutional 2022-09-07); Proposal 3 (eff. 2022-12-23); 1931 law repealed (2023 PA 11, signed 2023-04-05)",
+   "note": "CODING JUDGMENT: once Dobbs removed Roe's limits, the only gestational restriction (MCL 750.14) was enjoined and no other gestational statute existed, so coded no limit from 2022-06-24. On 2022-08-01 a Court of Appeals ruling let county prosecutors enforce the ban for a few hours before an Oakland County TRO the same day (no separate row). Proposal 3 permits post-viability regulation, but no such statute exists; KFF/Guttmacher list no limit (2026).",
+   "sources": "https://www.michiganpublic.org/health/2022-08-01/appeals-court-rules-abortion-ban-injunction-doesnt-apply-to-county-prosecutors;https://www.wvpe.org/2022-08-01/oakland-county-judge-blocks-local-prosecutors-from-enforcing-abortion-ban;https://www.woodtv.com/news/michigan/judge-strikes-down-1931-michigan-law-criminalizing-abortion;https://www.bridgemi.com/michigan-health-watch/michigan-democrats-eye-other-abortion-law-changes-prop-3-set-take-effect;https://abcnews.go.com/US/michigan-gov-gretchen-whitmer-signs-bill-repealing-1931/story?id=98376761"
+  },
+  {
+   "state": "MN",
+   "start_date": "2021-09-01",
+   "end_date": "2023-06-30",
+   "status": "limit_20_24",
+   "weeks": "viability",
+   "measure": "Minn. Stat. 145.412 subd. 3 (post-viability restriction)",
+   "note": "Roe era and after. Provision in a \"legal gray area\" after a 1976 federal ruling, but providers adhered to it (Minnesota Reformer). PRO Act (signed 2023-01-31) codified abortion right.",
+   "sources": "https://minnesotareformer.com/2023/05/08/as-red-states-pass-new-abortion-restrictions-minnesota-looks-to-shed-them-all/;https://reproductiverights.org/state/minnesota"
+  },
+  {
+   "state": "MN",
+   "start_date": "2023-07-01",
+   "end_date": "",
+   "status": "no_limit",
+   "weeks": "",
+   "measure": "Repeal of Minn. Stat. 145.412 subd. 3 viability ban by 2023 Minn. Laws ch. 70 (SF 2995, HHS omnibus) art. 4 sec. 113",
+   "note": "DATE UNCERTAIN: SF 2995 was signed 2023-05-24; the repealer's own effective date was not found. 2023-07-01 is the statutory default for appropriation acts (Minn. Stat. 645.02) and is used here as an inferred date. KFF and Guttmacher list no gestational limit (2026).",
+   "sources": "https://reproductiverights.org/state/minnesota;https://www.revisor.mn.gov/statutes/2023/cite/145.415;https://www.kff.org/womens-health-policy/state-indicator/gestational-limit-abortions/"
+  },
+  {
+   "state": "MO",
+   "start_date": "2021-09-01",
+   "end_date": "2022-06-23",
+   "status": "limit_20_24",
+   "weeks": "viability",
+   "measure": "Mo. Rev. Stat. 188.030 (post-viability ban)",
+   "note": "Roe era. 2019 HB 126 bans at 8/14/18/20 wks were enjoined (8th Cir.), so operative limit was viability (Lozier 2021 survey; CRR).",
+   "sources": "https://lozierinstitute.org/?p=1267;https://reproductiverights.org/state/missouri"
+  },
+  {
+   "state": "MO",
+   "start_date": "2022-06-24",
+   "end_date": "2024-12-19",
+   "status": "ban",
+   "weeks": "",
+   "measure": "Mo. Rev. Stat. 188.017 (2019 trigger ban); AG opinion and governor proclamation 2022-06-24",
+   "note": "Ban took effect same day as Dobbs. Amendment 3 (approved 2024-11-05) took effect 2024-12-05 (CRS; St. Louis Public Radio says 2024-12-06), but the ban stayed enforceable until the 2024-12-20 injunction.",
+   "sources": "https://missouriindependent.com/2022/06/24/abortion-is-now-illegal-in-missouri-in-wake-of-u-s-supreme-court-ruling/;https://www.everycrsreport.com/reports/R47595.html;https://www.stlpr.org/health-science-environment/2024-12-20/jackson-county-judge-halts-missouris-near-total-ban-abortion-amendment-3-planned-parenthood"
+  },
+  {
+   "state": "MO",
+   "start_date": "2024-12-20",
+   "end_date": "2025-05-26",
+   "status": "limit_20_24",
+   "weeks": "viability",
+   "measure": "Amendment 3 (2024); Jackson County preliminary injunction (Judge Jerri Zhang) blocking total ban, gestational-age bans and reason ban",
+   "note": "PI issued 2024-12-20; post-viability law left in place. Facility licensing rules were not enjoined until Feb 2025, so no abortions were actually provided until then.",
+   "sources": "https://www.stlpr.org/health-science-environment/2024-12-20/jackson-county-judge-halts-missouris-near-total-ban-abortion-amendment-3-planned-parenthood;https://religionclause.blogspot.com/2024/12/court-enjoins-most-of-missouris.html"
+  },
+  {
+   "state": "MO",
+   "start_date": "2025-05-27",
+   "end_date": "2025-07-02",
+   "status": "ban",
+   "weeks": "",
+   "measure": "Missouri Supreme Court writ ordering Judge Zhang to vacate her Dec 2024 and Feb 2025 injunctions; 188.017 total ban",
+   "note": "Order issued 2025-05-27; St. Louis Public Radio reported the near-total ban back in effect \"for now\"; providers halted abortions. (Some coverage framed it as reinstating only clinic rules.)",
+   "sources": "https://www.stlpr.org/health-science-environment/2025-05-27/missouri-supreme-court-overturn-abortion-amendment-3;https://christianpost.com/news/missouri-supreme-court-reinstates-abortion-safety-requirements.html"
+  },
+  {
+   "state": "MO",
+   "start_date": "2025-07-03",
+   "end_date": "",
+   "status": "limit_20_24",
+   "weeks": "viability",
+   "measure": "Amendment 3 (2024); new Jackson County preliminary injunction (Judge Zhang) blocking 2022 total ban and many restrictions",
+   "note": "PI issued afternoon of 2025-07-03; Kansas City clinic resumed 2025-07-07. Final judgment for plaintiffs on most counts 2026-06-18 (state appealing). 2026 Amendment 3 (repeal + near-total ban) on 2026-11-03 ballot; if approved it would take effect after this file's end date.",
+   "sources": "https://www.kcur.org/health/2025-07-03/missouri-abortion-services-ban-blocked-planned-parenthood;https://www.kcur.org/health/2026-06-18/planned-parenthood-to-resume-missouri-medication-abortions-after-judge-strikes-restrictions;https://en.wikipedia.org/wiki/2026_Missouri_Amendment_3"
+  },
+  {
+   "state": "MS",
+   "start_date": "2021-09-01",
+   "end_date": "2022-07-06",
+   "status": "limit_20_24",
+   "weeks": "20",
+   "measure": "Miss. Code 41-41-137 (2014, 20 wks gestational age, LMP)",
+   "note": "Roe era. 20-wk LMP ban in effect per Lozier 2021 survey; 2018 15-wk and 2019 6-wk bans enjoined (15-wk law upheld in Dobbs 2022-06-24 but superseded by trigger ban).",
+   "sources": "https://lozierinstitute.org/?p=1267"
+  },
+  {
+   "state": "MS",
+   "start_date": "2022-07-07",
+   "end_date": "",
+   "status": "ban",
+   "weeks": "",
+   "measure": "SB 2391 (2007 trigger ban, Miss. Code 41-41-45); AG certified 2022-06-27, effective 10 days after publication",
+   "note": "Took effect Thursday 2022-07-07 after chancery court refused to block it (2022-07-05). Exceptions: life, rape (reported).",
+   "sources": "https://www.mississippifreepress.org/judge-lets-near-total-abortion-ban-take-effect-pink-house-must-close-thursday/;https://ballotpedia.org/Abortion_regulations_by_state"
+  },
+  {
+   "state": "MT",
+   "start_date": "2021-09-01",
+   "end_date": "",
+   "status": "limit_20_24",
+   "weeks": "viability",
+   "measure": "Mont. Code 50-20-109 (post-viability limit)",
+   "note": "No change during window. HB 136 (20-wk ban, due 2021-10-01) was blocked by TRO on 2021-09-30 before taking effect, then by PI 2021-10-07 (upheld by Mont. Sup. Ct. 2022). LR-131 rejected 2022-11-08; CI-128 (right to abortion before viability) approved 2024-11-05.",
+   "sources": "https://thewesternnews.com/news/2021/oct/05/judge-delays-implementation-new-montana-abortion-l;https://montanafreepress.org/2021/10/07/judge-blocks-montana-abortion-laws;https://www.guttmacher.org/state-policy/explore/state-policies-abortion-bans;https://ballotpedia.org/Abortion_regulations_by_state"
+  },
+  {
+   "state": "NC",
+   "start_date": "2021-09-01",
+   "end_date": "2022-08-16",
+   "status": "limit_20_24",
+   "weeks": "viability",
+   "measure": "N.C.G.S. 14-45.1 20-wk ban enjoined for pre-viability abortions (Bryant v. Woodall, 2019; 4th Cir. 2021)",
+   "note": "Roe era. With the 20-wk ban enjoined, the operative limit was viability.",
+   "sources": "https://lozierinstitute.org/?p=1267"
+  },
+  {
+   "state": "NC",
+   "start_date": "2022-08-17",
+   "end_date": "2023-06-30",
+   "status": "limit_20_24",
+   "weeks": "20",
+   "measure": "N.C.G.S. 14-45.1 20-wk ban reinstated by Judge William Osteen (M.D.N.C.)",
+   "note": "Order 2022-08-17. Statute says \"after the twentieth week of pregnancy\" (not defined as post-fertilization).",
+   "sources": "https://www.wunc.org/health/2022-08-17/a-federal-judge-has-reinstated-north-carolinas-20-week-abortion-ban;https://www.wfae.org/health/2022-08-17/judge-reinstates-ncs-20-week-abortion-ban"
+  },
+  {
+   "state": "NC",
+   "start_date": "2023-07-01",
+   "end_date": "",
+   "status": "limit_12_18",
+   "weeks": "12",
+   "measure": "SB 20 (2023, Care for Women, Children, and Families Act) 12-wk ban",
+   "note": "Took effect 2023-07-01 after federal judge declined to block most of it (2023-06-30). 20-wk law repealed effective 2023-07-01.",
+   "sources": "https://www.northcarolinahealthnews.org/2023/06/30/federal-judge-allows-most-of-north-carolinas-new-abortion-law-to-take-effect-despite-a-lawsuit/;https://ncnewsline.com/2023/06/28/federal-judge-wont-stop-ncs-12-week-abortion-ban-from-starting-july-1/"
+  },
+  {
+   "state": "ND",
+   "start_date": "2021-09-01",
+   "end_date": "2023-04-23",
+   "status": "limit_20_24",
+   "weeks": "22",
+   "measure": "N.D.C.C. 14-02.1-05.3 (2013, 20 wks post-fertilization)",
+   "note": "Roe era. 20 wks post-fertilization (=22 LMP) in effect per Lozier 2021 survey. After Dobbs the 2007 trigger ban (certified 2022-07-28, due to take effect 2022-08-26) was enjoined 2022-08-25 (Judge Bruce Romanick) and never took effect; injunction upheld by N.D. Sup. Ct. 2023-03-16; Red River Women's Clinic moved to Moorhead, MN in Aug 2022.",
+   "sources": "https://lozierinstitute.org/?p=1267;https://ballotpedia.org/Abortion_regulations_by_state"
+  },
+  {
+   "state": "ND",
+   "start_date": "2023-04-24",
+   "end_date": "2024-09-11",
+   "status": "ban",
+   "weeks": "",
+   "measure": "SB 2150 (2023) near-total ban (N.D.C.C. 12.1-19.1), emergency measure effective on signing",
+   "note": "Signed Monday 2023-04-24 and designed to take effect immediately; repealed the trigger and 6-wk laws (2023 N.D. Laws ch. 122). Exceptions: life/serious health; rape/incest to 6 wks.",
+   "sources": "https://www.kfyrtv.com/2023/04/24/north-dakota-governor-signs-6-week-abortion-ban-into-law/;https://www.everycrsreport.com/reports/R47595.html"
+  },
+  {
+   "state": "ND",
+   "start_date": "2024-09-12",
+   "end_date": "2025-11-20",
+   "status": "limit_20_24",
+   "weeks": "viability",
+   "measure": "Burleigh County ruling (Judge Bruce Romanick, Access Independent Health Services v. Wrigley) striking SB 2150; constitutional right to abortion before viability",
+   "note": "Ruling Thursday 2024-09-12 (judgment entry date not confirmed). N.D. Sup. Ct. denied stay 2025-01-24. No clinic operated in ND during this period. 20-wk law had been repealed in 2023, so viability is the limit recognized by the ruling.",
+   "sources": "https://www.valleynewslive.com/2024/09/12/north-dakota-judge-strikes-down-states-abortion-ban;https://www.spokesman.com/stories/2025/nov/21/north-dakotas-top-court-revives-states-abortion-ba"
+  },
+  {
+   "state": "ND",
+   "start_date": "2025-11-21",
+   "end_date": "",
+   "status": "ban",
+   "weeks": "",
+   "measure": "SB 2150 reinstated: N.D. Supreme Court reversed (3 of 5 justices found it unconstitutional, but 4 votes required to void a statute)",
+   "note": "Decision Friday 2025-11-21; ban back in effect (BBC/NYT reported 2025-11-22).",
+   "sources": "https://www.spokesman.com/stories/2025/nov/21/north-dakotas-top-court-revives-states-abortion-ba;https://www.kfyrtv.com/2025/11/21/north-dakota-supreme-court-ruling-reverses-judges-decision-that-overturned-states-abortion-ban;https://www.cbsnews.com/news/north-dakota-high-court-restores-state-abortion-ban"
+  },
+  {
+   "state": "NE",
+   "start_date": "2021-09-01",
+   "end_date": "2023-05-21",
+   "status": "limit_20_24",
+   "weeks": "22",
+   "measure": "Neb. Rev. Stat. 28-3,106 (2010 Pain-Capable Act, 20 wks post-fertilization)",
+   "note": "Roe era. 20 wks post-fertilization (=22 LMP) in effect per Lozier 2021 survey.",
+   "sources": "https://lozierinstitute.org/?p=1267"
+  },
+  {
+   "state": "NE",
+   "start_date": "2023-05-22",
+   "end_date": "",
+   "status": "limit_12_18",
+   "weeks": "12",
+   "measure": "LB 574 (2023) 12-wk ban (Preborn Child Protection Act)",
+   "note": "Signed 2023-05-22 and effective immediately (emergency clause). 2024 Initiative 434 (constitutional bar on 2nd/3rd-trimester abortion, approved 2024-11-05) and defeat of Initiative 439 left the 12-wk limit unchanged.",
+   "sources": "https://www.1011now.com/2023/05/22/live-1230pm-gov-pillen-sign-12-week-abortion-ban-trans-youth-care-ban-into-law;https://ruralradio.com/krvn/news/governor-pillen-signs-lb574-into-law-abortion-ban-takes-effect-immediately/;https://ballotpedia.org/Abortion_regulations_by_state"
+  },
+  {
+   "state": "NH",
+   "start_date": "2021-09-01",
+   "end_date": "2021-12-31",
+   "status": "no_limit",
+   "weeks": "",
+   "measure": "No gestational limit statute",
+   "note": "Roe era; New Hampshire had no gestational limit until 2022 (\"first abortion ban in modern New Hampshire history\").",
+   "sources": "https://nationofchange.org/2021/12/31/new-hampshire-abortion-ban-to-go-into-effect-january-1st"
+  },
+  {
+   "state": "NH",
+   "start_date": "2022-01-01",
+   "end_date": "",
+   "status": "limit_20_24",
+   "weeks": "24",
+   "measure": "Fetal Life Protection Act (RSA 329:43-50, 2021 budget trailer HB 2)",
+   "note": "Took effect 2022-01-01; exceptions for life/health and (from 2022 amendment) fatal fetal anomaly.",
+   "sources": "https://nationofchange.org/2021/12/31/new-hampshire-abortion-ban-to-go-into-effect-january-1st;https://www.kff.org/womens-health-policy/state-indicator/gestational-limit-abortions/"
+  },
+  {
+   "state": "NJ",
+   "start_date": "2021-09-01",
+   "end_date": "",
+   "status": "no_limit",
+   "weeks": "",
+   "measure": "No gestational limit; Freedom of Reproductive Choice Act (2022-01-13) codified right",
+   "note": "No change during window.",
+   "sources": "https://www.kff.org/womens-health-policy/state-indicator/gestational-limit-abortions/;https://www.guttmacher.org/state-policy/explore/state-policies-abortion-bans"
+  },
+  {
+   "state": "NM",
+   "start_date": "2021-09-01",
+   "end_date": "",
+   "status": "no_limit",
+   "weeks": "",
+   "measure": "No gestational limit (1969 ban repealed 2021)",
+   "note": "No change during window.",
+   "sources": "https://www.kff.org/womens-health-policy/state-indicator/gestational-limit-abortions/;https://www.guttmacher.org/state-policy/explore/state-policies-abortion-bans"
+  },
+  {
+   "state": "NV",
+   "start_date": "2021-09-01",
+   "end_date": "",
+   "status": "limit_20_24",
+   "weeks": "24",
+   "measure": "NRS 442.250 (24 wks after commencement of pregnancy; 1990 referendum)",
+   "note": "No change during window. KFF codes 24 wks LMP; Guttmacher codes 24 wks since fertilization (~26 LMP). Question 6 (constitutional right) approved 2024-11-05; second required vote on 2026-11-03 ballot (any change would take effect after this file's end date).",
+   "sources": "https://www.kff.org/womens-health-policy/state-indicator/gestational-limit-abortions/;https://www.guttmacher.org/state-policy/explore/state-policies-abortion-bans;https://reproductiverights.org/news/idaho-missouri-nevada-virginia-state-ballot-measures-november/"
+  },
+  {
+   "state": "NY",
+   "start_date": "2021-09-01",
+   "end_date": "",
+   "status": "limit_20_24",
+   "weeks": "viability",
+   "measure": "N.Y. Pub. Health Law 2599-bb (Reproductive Health Act 2019): within 24 wks from commencement of pregnancy, or absent fetal viability, or to protect life/health",
+   "note": "No change during window. Guttmacher codes \"24 weeks or viability\"; KFF codes \"fetal viability\". Proposal 1 (Equal Rights Amendment) approved 2024-11-05.",
+   "sources": "https://www.kff.org/womens-health-policy/state-indicator/gestational-limit-abortions/;https://www.guttmacher.org/state-policy/explore/state-policies-abortion-bans;https://ballotpedia.org/Abortion_regulations_by_state"
+  },
+  {
+   "state": "OH",
+   "start_date": "2021-09-01",
+   "end_date": "2022-06-23",
+   "status": "limit_20_24",
+   "weeks": "22",
+   "measure": "Ohio Rev. Code 2919.201 (20 wks post-fertilization)",
+   "note": "Roe era. 20 wks post-fertilization (=22 LMP) in effect per Lozier 2021 survey; SB 23 6-wk ban enjoined since 2019.",
+   "sources": "https://lozierinstitute.org/?p=1267"
+  },
+  {
+   "state": "OH",
+   "start_date": "2022-06-24",
+   "end_date": "2022-09-13",
+   "status": "ban_6wk",
+   "weeks": "6",
+   "measure": "SB 23 (2019 Heartbeat Act); federal injunction dissolved on Dobbs day",
+   "note": "Took effect 2022-06-24.",
+   "sources": "https://ballotpedia.org/Abortion_regulations_by_state;https://www.npr.org/2022/09/14/1123054970/ohio-abortion-ban-law-blocked-judge"
+  },
+  {
+   "state": "OH",
+   "start_date": "2022-09-14",
+   "end_date": "",
+   "status": "limit_20_24",
+   "weeks": "22",
+   "measure": "Hamilton County TRO (Judge Christian Jenkins) blocking SB 23 (PI 2022-10-07); 20-wk post-fertilization ban remains",
+   "note": "TRO 2022-09-14. Issue 1 (approved 2023-11-07, effective 2023-12-07) guarantees abortion until viability; SB 23 permanently struck 2024-10-24. KFF (2026-01-06: 22 wks LMP) and Guttmacher (2026-09-17: 20 wks post-fertilization) treat the 20-wk ban as still in effect; CRS R47595 (2026-09-01) strikes it through after Issue 1 (tracker disagreement).",
+   "sources": "https://www.npr.org/2022/09/14/1123054970/ohio-abortion-ban-law-blocked-judge;https://www.fox19.com/2022/10/07/hamilton-county-judge-grants-injunction-against-ohio-abortion-law;https://www.13abc.com/2023/12/08/abortion-litigation-continues-ohio-issue-1-is-codified-into-state-constitution/;https://www.kff.org/womens-health-policy/state-indicator/gestational-limit-abortions/;https://www.guttmacher.org/state-policy/explore/state-policies-abortion-bans"
+  },
+  {
+   "state": "OK",
+   "start_date": "2021-09-01",
+   "end_date": "2022-05-02",
+   "status": "limit_20_24",
+   "weeks": "22",
+   "measure": "20-wk post-fertilization ban (Okla. 2011 Pain-Capable law)",
+   "note": "Roe era. 20 wks post-fertilization (=22 LMP) in effect per Lozier 2021 survey. Several 2021 bans (incl. 6-wk HB 2441) were blocked by the Okla. Supreme Court before their 2021-11-01 effective date.",
+   "sources": "https://lozierinstitute.org/?p=1267"
+  },
+  {
+   "state": "OK",
+   "start_date": "2022-05-03",
+   "end_date": "2022-05-24",
+   "status": "ban_6wk",
+   "weeks": "6",
+   "measure": "SB 1503 (Texas-style 6-wk ban, private civil enforcement)",
+   "note": "Signed and effective 2022-05-03.",
+   "sources": "https://www.pbs.org/newshour/politics/oklahoma-gov-kevin-stitt-signs-texas-style-ban-on-most-abortions"
+  },
+  {
+   "state": "OK",
+   "start_date": "2022-05-25",
+   "end_date": "",
+   "status": "ban",
+   "weeks": "",
+   "measure": "HB 4327 (civil-enforcement ban from fertilization); later 21 O.S. 861 (1910 law, certified after Dobbs 2022-06-24) and SB 612 criminal ban",
+   "note": "HB 4327 signed and effective 2022-05-25. Okla. Supreme Court struck SB 1503 and HB 4327 on 2023-05-31, but criminal bans (21 O.S. 861; SB 612) remain, so status unchanged (ban; life exception only).",
+   "sources": "https://www.kosu.org/2022-05-25/oklahoma-governor-signs-nations-most-restrictive-abortion-ban-into-law;https://reproductiverights.org/news/oklahoma-becomes-first-state-to-entirely-ban-abortion/;https://www.pbs.org/newshour/politics/oklahoma-supreme-court-strikes-down-2-abortion-bans-procedure-still-illegal-in-most-cases"
+  },
+  {
+   "state": "OR",
+   "start_date": "2021-09-01",
+   "end_date": "",
+   "status": "no_limit",
+   "weeks": "",
+   "measure": "No gestational limit",
+   "note": "No change during window.",
+   "sources": "https://www.kff.org/womens-health-policy/state-indicator/gestational-limit-abortions/;https://www.guttmacher.org/state-policy/explore/state-policies-abortion-bans"
+  },
+  {
+   "state": "PA",
+   "start_date": "2021-09-01",
+   "end_date": "",
+   "status": "limit_20_24",
+   "weeks": "24",
+   "measure": "18 Pa.C.S. 3211 (24 wks gestational age, LMP)",
+   "note": "No change during window. Commonwealth Court (2026-04-20) recognized a state constitutional abortion right and struck the Medicaid funding ban (appealed 2026-05-19); gestational limit unaffected.",
+   "sources": "https://www.kff.org/womens-health-policy/state-indicator/gestational-limit-abortions/;https://www.guttmacher.org/state-policy/explore/state-policies-abortion-bans;https://ballotpedia.org/Abortion_regulations_by_state"
+  },
+  {
+   "state": "RI",
+   "start_date": "2021-09-01",
+   "end_date": "",
+   "status": "limit_20_24",
+   "weeks": "viability",
+   "measure": "R.I. Gen. Laws 23-4.13-2 (Reproductive Privacy Act 2019: post-viability only for life/health)",
+   "note": "No change during window.",
+   "sources": "https://www.kff.org/womens-health-policy/state-indicator/gestational-limit-abortions/;https://www.guttmacher.org/state-policy/explore/state-policies-abortion-bans"
+  },
+  {
+   "state": "SC",
+   "start_date": "2021-09-01",
+   "end_date": "2022-06-26",
+   "status": "limit_20_24",
+   "weeks": "22",
+   "measure": "S.C. Code 44-41-450 (2016 Pain-Capable Act, 20 wks post-fertilization)",
+   "note": "Roe era. 20 wks post-fertilization (=22 LMP) in effect per Lozier 2021 survey; 2021 6-wk law (SB 1) enjoined by federal court since 2021.",
+   "sources": "https://lozierinstitute.org/?p=1267"
+  },
+  {
+   "state": "SC",
+   "start_date": "2022-06-27",
+   "end_date": "2022-08-16",
+   "status": "ban_6wk",
+   "weeks": "6",
+   "measure": "SB 1 (2021 Fetal Heartbeat and Protection from Abortion Act); federal injunction stayed by Judge Mary Geiger Lewis 2022-06-27",
+   "note": "Took effect Monday 2022-06-27 (AG: \"now in effect\").",
+   "sources": "https://www.yahoo.com/now/sc-6-week-abortion-ban-222047835.html;https://reproductiverights.org/news/south-carolina-supreme-court-temporarily-blocks-six-week-abortion-ban/"
+  },
+  {
+   "state": "SC",
+   "start_date": "2022-08-17",
+   "end_date": "2023-05-24",
+   "status": "limit_20_24",
+   "weeks": "22",
+   "measure": "S.C. Supreme Court temporary injunction blocking SB 1 (2021); prior 20-wk post-fertilization law",
+   "note": "Order 2022-08-17. S.C. Sup. Ct. struck down the 2021 law on 2023-01-05 (status unchanged).",
+   "sources": "https://reproductiverights.org/news/south-carolina-supreme-court-temporarily-blocks-six-week-abortion-ban/;https://www.wistv.com/2022/08/17/sc-supreme-court-temporarily-blocks-abortion-law/"
+  },
+  {
+   "state": "SC",
+   "start_date": "2023-05-25",
+   "end_date": "2023-05-25",
+   "status": "ban_6wk",
+   "weeks": "6",
+   "measure": "SB 474 (2023 Fetal Heartbeat and Protection from Abortion Act), effective on signing",
+   "note": "Signed and in effect Thursday 2023-05-25; blocked the next day.",
+   "sources": "https://www.ksat.com/news/2023/05/26/judge-halts-south-carolinas-new-stricter-abortion-law-until-state-supreme-court-review/"
+  },
+  {
+   "state": "SC",
+   "start_date": "2023-05-26",
+   "end_date": "2023-08-22",
+   "status": "limit_20_24",
+   "weeks": "22",
+   "measure": "Richland County TRO (Judge Clifton Newman) blocking SB 474; 20-wk post-fertilization law revived (SB 474 reenactment clause)",
+   "note": "Order Friday 2023-05-26; \"back at roughly 20 weeks\" (AP via KSAT).",
+   "sources": "https://www.ksat.com/news/2023/05/26/judge-halts-south-carolinas-new-stricter-abortion-law-until-state-supreme-court-review/;https://www.everycrsreport.com/reports/R47595.html"
+  },
+  {
+   "state": "SC",
+   "start_date": "2023-08-23",
+   "end_date": "",
+   "status": "ban_6wk",
+   "weeks": "6",
+   "measure": "SB 474 upheld by S.C. Supreme Court (Planned Parenthood South Atlantic v. State II)",
+   "note": "Decision 2023-08-23; ban took effect immediately. On 2025-05-27 the court held \"fetal heartbeat\" means early cardiac activity (~6 wks), confirming the practice in place since 2023.",
+   "sources": "https://thedailyrecord.com/2023/08/23/south-carolinas-new-all-male-supreme-court-upholds-strict-6-week-abortion-ban/;https://news.bloomberglaw.com/us-law-week/south-carolina-six-week-abortion-ban-upheld-by-state-high-court"
+  },
+  {
+   "state": "SD",
+   "start_date": "2021-09-01",
+   "end_date": "2022-06-23",
+   "status": "limit_20_24",
+   "weeks": "22",
+   "measure": "SDCL 34-23A-70 (20 wks post-fertilization)",
+   "note": "Roe era. 20 wks post-fertilization (=22 LMP) in effect per Lozier 2021 survey.",
+   "sources": "https://lozierinstitute.org/?p=1267"
+  },
+  {
+   "state": "SD",
+   "start_date": "2022-06-24",
+   "end_date": "",
+   "status": "ban",
+   "weeks": "",
+   "measure": "SDCL 22-17-5.1 trigger ban (took effect on Dobbs)",
+   "note": "Trigger law took effect immediately upon Dobbs. 2024 Amendment G (abortion rights) was rejected 2024-11-05, so no change. Life exception only.",
+   "sources": "https://www.dakotanewsnow.com/2022/06/24/abortions-now-illegal-south-dakota-following-supreme-courts-ruling;https://ballotpedia.org/Abortion_regulations_by_state"
+  },
+  {
+   "state": "TN",
+   "start_date": "2021-09-01",
+   "end_date": "2022-06-27",
+   "status": "limit_20_24",
+   "weeks": "viability",
+   "measure": "Tenn. Code 39-15-211 (viability)",
+   "note": "Roe era. 2020 graduated \"heartbeat\" bans (6-24 wks) were enjoined (TRO 2020-07-13), so viability was operative.",
+   "sources": "https://lozierinstitute.org/?p=1267"
+  },
+  {
+   "state": "TN",
+   "start_date": "2022-06-28",
+   "end_date": "2022-08-24",
+   "status": "ban_6wk",
+   "weeks": "6",
+   "measure": "Tenn. Code 39-15-216 (2020 heartbeat law); Sixth Circuit vacated injunction 2022-06-28",
+   "note": "Six-week ban took effect 2022-06-28 when the Sixth Circuit vacated the injunction.",
+   "sources": "https://www.axios.com/local/nashville/2022/06/28/tennessee-bans-abortions-after-six-weeks;https://tennesseelookout.com/2022/06/28/a-legal-battle-over-the-days-left-in-the-countdown-to-outlawing-abortion-in-tennessee/"
+  },
+  {
+   "state": "TN",
+   "start_date": "2022-08-25",
+   "end_date": "",
+   "status": "ban",
+   "weeks": "",
+   "measure": "Human Life Protection Act (2019 trigger ban, Tenn. Code 39-15-213)",
+   "note": "Took effect 2022-08-25, 30 days after Dobbs judgment issued 2022-07-26. Later amendments (2023) added medical exceptions; category unchanged.",
+   "sources": "https://tennesseelookout.com/2022/08/25/amid-uncertainty-and-anger-tennessees-abortion-ban-takes-effect/;https://www.tn.gov/attorneygeneral/news/2022/7/26/pr22-25.html"
+  },
+  {
+   "state": "TX",
+   "start_date": "2021-09-01",
+   "end_date": "2021-10-05",
+   "status": "ban_6wk",
+   "weeks": "6",
+   "measure": "Texas SB 8 (Heartbeat Act, private civil enforcement)",
+   "note": "SB 8 took effect 2021-09-01; bars abortion after detectable embryonic cardiac activity (~6 wks LMP). Pre-SB 8 limit was 20 wks post-fertilization (=22 LMP).",
+   "sources": "https://www.texastribune.org/2021/10/06/texas-abortion-law-blocked/;https://lozierinstitute.org/?p=1267"
+  },
+  {
+   "state": "TX",
+   "start_date": "2021-10-06",
+   "end_date": "2021-10-07",
+   "status": "limit_20_24",
+   "weeks": "22",
+   "measure": "United States v. Texas preliminary injunction (Judge Pitman) blocking SB 8; prior 20-wk post-fertilization law (Tex. Health & Safety Code ch. 171 subch. C)",
+   "note": "Injunction issued evening of 2021-10-06; Fifth Circuit administrative stay issued late 2021-10-08. Limit = 20 wks post-fertilization (=22 LMP). Few providers resumed because SB 8 allowed retroactive suits.",
+   "sources": "https://www.texastribune.org/2021/10/06/texas-abortion-law-blocked/;https://www.texastribune.org/2021/10/08/texas-abortion-appeal;https://lozierinstitute.org/?p=1267"
+  },
+  {
+   "state": "TX",
+   "start_date": "2021-10-08",
+   "end_date": "2022-06-23",
+   "status": "ban_6wk",
+   "weeks": "6",
+   "measure": "Texas SB 8 (Fifth Circuit administrative stay of injunction, 2021-10-08; stay pending appeal 2021-10-14)",
+   "note": "SB 8 enforceable again from late 2021-10-08.",
+   "sources": "https://www.texastribune.org/2021/10/08/texas-abortion-appeal;https://www.fox7austin.com/news/appeals-court-allows-texas-abortion-law-to-resume-stopping-federal-judges-order-to-block-its-enforcement"
+  },
+  {
+   "state": "TX",
+   "start_date": "2022-06-24",
+   "end_date": "2022-06-27",
+   "status": "ban",
+   "weeks": "",
+   "measure": "Pre-Roe statutes (former arts. 4512.1-4512.6) asserted enforceable by AG after Dobbs; SB 8 also in effect",
+   "note": "Dobbs decided 2022-06-24; AG Paxton declared pre-Roe ban enforceable and providers stopped. Enforceability of pre-Roe statutes was contested (hence the Harris County TRO).",
+   "sources": "https://www.kut.org/politics/2022-06-28/texas-judge-blocks-states-pre-roe-abortion-ban-allows-some-abortions-to-continue"
+  },
+  {
+   "state": "TX",
+   "start_date": "2022-06-28",
+   "end_date": "2022-06-30",
+   "status": "ban_6wk",
+   "weeks": "6",
+   "measure": "Harris County TRO (Judge Christine Weems) barring enforcement of pre-Roe statutes; SB 8 still in effect",
+   "note": "TRO issued 2022-06-28; some clinics resumed abortions up to ~6 wks. Texas Supreme Court stayed the TRO late on 2022-07-01.",
+   "sources": "https://www.kut.org/politics/2022-06-28/texas-judge-blocks-states-pre-roe-abortion-ban-allows-some-abortions-to-continue;https://www.pbs.org/newshour/nation/texas-supreme-court-blocks-a-lower-court-order-that-allowed-abortions"
+  },
+  {
+   "state": "TX",
+   "start_date": "2022-07-01",
+   "end_date": "",
+   "status": "ban",
+   "weeks": "",
+   "measure": "Pre-Roe statutes (Texas Supreme Court stay of TRO, 2022-07-01); HB 1280 trigger ban (Human Life Protection Act) took effect 2022-08-25",
+   "note": "Texas Supreme Court order issued late Friday 2022-07-01 allowing (civil) enforcement of pre-Roe statutes; clinics stopped. Trigger law HB 1280 took effect 2022-08-25 (status unchanged). Exceptions clarified by later laws (e.g., 2025 SB 31) do not change category.",
+   "sources": "https://www.pbs.org/newshour/nation/texas-supreme-court-blocks-a-lower-court-order-that-allowed-abortions;https://www.texastribune.org/2022/08/25/texas-trigger-law-abortion;https://www.sll.texas.gov/spotlight/2022/07/texas-abortion-trigger-law-effective-august-25th-2022"
+  },
+  {
+   "state": "UT",
+   "start_date": "2021-09-01",
+   "end_date": "2022-06-23",
+   "status": "limit_20_24",
+   "weeks": "viability",
+   "measure": "Utah Code 76-7-302 (post-viability limit)",
+   "note": "Roe era. Utah's 1991 20-wk law (enjoined 1996) and 2019 18-wk ban HB 136 (enjoined 2019) not in effect, so viability was the operative limit.",
+   "sources": "https://lozierinstitute.org/?p=1267;https://www.ksl.com/article/news/utah/judge-issues-injunction-on-utahs-18-week-abortion-ban/46534656"
+  },
+  {
+   "state": "UT",
+   "start_date": "2022-06-24",
+   "end_date": "2022-06-26",
+   "status": "ban",
+   "weeks": "",
+   "measure": "SB 174 (2020 trigger ban)",
+   "note": "Took effect Friday night 2022-06-24 after Dobbs; blocked Monday 2022-06-27.",
+   "sources": "https://townlift.com/2022/06/abortions-now-banned-in-utah-after-18-weeks-while-trigger-law-awaits-decision/;https://www.axios.com/local/salt-lake-city/2022/06/29/abortion-restricted-utah-again"
+  },
+  {
+   "state": "UT",
+   "start_date": "2022-06-27",
+   "end_date": "",
+   "status": "limit_12_18",
+   "weeks": "18",
+   "measure": "HB 136 (2019) 18-wk ban; SB 174 blocked by 3rd District Court TRO (Judge Andrew Stone) 2022-06-27, preliminary injunction 2022-07-11, upheld by Utah Supreme Court 2024-08-01",
+   "note": "Federal injunction on HB 136 dismissed 2022-06-27; AG office said the 18-wk ban was in effect, and some reports give 2022-06-28 as its first day (start date uncertain by one day). HB 467 (2023 clinic ban) also enjoined. Still 18 wks as of 2026 trackers.",
+   "sources": "https://townlift.com/2022/06/abortions-now-banned-in-utah-after-18-weeks-while-trigger-law-awaits-decision/;https://www.kuer.org/politics-government/2022-06-27/judge-temporarily-blocks-utahs-abortion-trigger-law-for-14-days;https://www.kpcw.org/utah/2024-08-01/abortion-care-remains-available-in-utah-after-state-supreme-court-ruling-for-now"
+  },
+  {
+   "state": "VA",
+   "start_date": "2021-09-01",
+   "end_date": "",
+   "status": "limit_20_24",
+   "weeks": "",
+   "measure": "Va. Code 18.2-74 (third-trimester abortion only for life/health, with physician certifications)",
+   "note": "No change during window. Limit is \"third trimester\" (statute gives no week number). Constitutional amendment (Question 1) on 2026-11-03 ballot; would take effect after this file's end date.",
+   "sources": "https://www.kff.org/womens-health-policy/state-indicator/gestational-limit-abortions/;https://www.guttmacher.org/state-policy/explore/state-policies-abortion-bans;https://reproductiverights.org/news/idaho-missouri-nevada-virginia-state-ballot-measures-november/"
+  },
+  {
+   "state": "VT",
+   "start_date": "2021-09-01",
+   "end_date": "",
+   "status": "no_limit",
+   "weeks": "",
+   "measure": "No gestational limit (Act 47 of 2019)",
+   "note": "No change during window. Proposal 5 / Article 22 (reproductive liberty) approved 2022-11-08.",
+   "sources": "https://www.kff.org/womens-health-policy/state-indicator/gestational-limit-abortions/;https://www.guttmacher.org/state-policy/explore/state-policies-abortion-bans;https://ballotpedia.org/Abortion_regulations_by_state"
+  },
+  {
+   "state": "WA",
+   "start_date": "2021-09-01",
+   "end_date": "",
+   "status": "limit_20_24",
+   "weeks": "viability",
+   "measure": "RCW 9.02.110 (post-viability only for life/health)",
+   "note": "No change during window.",
+   "sources": "https://www.kff.org/womens-health-policy/state-indicator/gestational-limit-abortions/;https://www.guttmacher.org/state-policy/explore/state-policies-abortion-bans"
+  },
+  {
+   "state": "WI",
+   "start_date": "2021-09-01",
+   "end_date": "2022-06-23",
+   "status": "limit_20_24",
+   "weeks": "22",
+   "measure": "Wis. Stat. 253.107 (2015, 20 wks post-fertilization)",
+   "note": "Roe era. 20 wks post-fertilization (=22 LMP) in effect per Lozier 2021 survey.",
+   "sources": "https://lozierinstitute.org/?p=1267"
+  },
+  {
+   "state": "WI",
+   "start_date": "2022-06-24",
+   "end_date": "2023-07-06",
+   "status": "ban",
+   "weeks": "",
+   "measure": "Pre-Roe statute Wis. Stat. 940.04 (1849), not enjoined",
+   "note": "Providers suspended abortions in June 2022 after Dobbs; AG declined to enforce but some DAs said they would; enforceability contested (suit filed 2022-06-28).",
+   "sources": "https://ktvz.com/news/national-world/cnn-national/2023/09/14/planned-parenthood-will-resume-abortions-in-wisconsin-next-week-after-judge-rules-1849-state-law-doesnt-apply/"
+  },
+  {
+   "state": "WI",
+   "start_date": "2023-07-07",
+   "end_date": "",
+   "status": "limit_20_24",
+   "weeks": "22",
+   "measure": "Dane County ruling (Judge Diane Schlipper, Kaul v. Urmanski) that 940.04 does not prohibit consensual abortions; 2015 20-wk post-fertilization law",
+   "note": "DATE CHOICE UNCERTAIN: ruling 2023-07-07 denied motion to dismiss (non-final); Planned Parenthood resumed abortions 2023-09-18; final judgment 2023-12-05; Wis. Sup. Ct. held 940.04 does not ban abortion 2025-07-02. Users may prefer 2023-09-18 or 2023-12-05 as the switch date.",
+   "sources": "https://www.wuwm.com/2023-07-07/wisconsin-judge-lawsuit-to-repeal-abortion-ban-can-continue;https://www.doj.state.wi.us/sites/default/files/news-media/7.7.23_KvU_Ruling.pdf;https://ktvz.com/news/national-world/cnn-national/2023/09/14/planned-parenthood-will-resume-abortions-in-wisconsin-next-week-after-judge-rules-1849-state-law-doesnt-apply/;https://tmj4.com/news/local-news/dane-co-judge-rules-1849-state-law-does-not-ban-abortions-services-to-resume-in-sheboygan-co-planned-parenthood;https://www.wgbh.org/news/2025-07-02/wisconsins-1849-law-does-not-ban-abortion-the-state-supreme-court-rules"
+  },
+  {
+   "state": "WV",
+   "start_date": "2021-09-01",
+   "end_date": "2022-06-23",
+   "status": "limit_20_24",
+   "weeks": "22",
+   "measure": "W. Va. Code 16-2M (2015 Pain-Capable Act, 20 wks post-fertilization)",
+   "note": "Roe era. 20 wks post-fertilization (=22 LMP) in effect per Lozier 2021 survey.",
+   "sources": "https://lozierinstitute.org/?p=1267"
+  },
+  {
+   "state": "WV",
+   "start_date": "2022-06-24",
+   "end_date": "2022-07-17",
+   "status": "ban",
+   "weeks": "",
+   "measure": "Pre-Roe statute W. Va. Code 61-2-8 (1800s criminal abortion ban), not enjoined",
+   "note": "After Dobbs the state's only clinic halted abortions for fear of prosecution under the pre-Roe law; whether it was still enforceable was contested (not blocked until 2022-07-18).",
+   "sources": "https://www.goodmorningamerica.com/news/story/abortions-resume-west-virginia-judge-blocks-pre-roe-87064056"
+  },
+  {
+   "state": "WV",
+   "start_date": "2022-07-18",
+   "end_date": "2022-09-15",
+   "status": "limit_20_24",
+   "weeks": "22",
+   "measure": "Kanawha County preliminary injunction (Judge Tera Salango) barring enforcement of 61-2-8; 2015 20-wk post-fertilization law",
+   "note": "PI issued Monday 2022-07-18; clinic resumed.",
+   "sources": "https://www.goodmorningamerica.com/news/story/abortions-resume-west-virginia-judge-blocks-pre-roe-87064056;https://www.wsaz.com/2022/07/18/judge-temporarily-blocks-law-preventing-abortions-west-virginia/"
+  },
+  {
+   "state": "WV",
+   "start_date": "2022-09-16",
+   "end_date": "",
+   "status": "ban",
+   "weeks": "",
+   "measure": "HB 302 (2022 Unborn Child Protection Act)",
+   "note": "Signed 2022-09-16; \"effective from passage\" (passed 2022-09-13), criminal penalties effective 90 days after 2022-09-16. Exceptions: life/medical emergency, rape/incest to 8 wks (14 for minors), nonviable fetus.",
+   "sources": "https://www.wvpublic.org/government/2022-09-16/justice-signs-abortion-bill-into-law;https://www.pbs.org/newshour/politics/west-virginia-gov-jim-justice-signs-strict-abortion-ban-into-law"
+  },
+  {
+   "state": "WY",
+   "start_date": "2021-09-01",
+   "end_date": "2023-03-17",
+   "status": "limit_20_24",
+   "weeks": "viability",
+   "measure": "Former W.S. 35-6-102 (post-viability ban, 1977)",
+   "note": "Roe era. After Dobbs the trigger ban (HB 92) took effect 2022-07-27 and was blocked by a Teton County TRO (Judge Melissa Owens) the same day (hours-long window, no separate row).",
+   "sources": "https://baynews9.com/fl/tampa/ap-online/2022/07/27/judge-temporarily-blocks-wyoming-abortion-ban-on-day-it-took-effect;https://www.pbs.org/newshour/politics/judge-temporarily-blocks-wyoming-abortion-ban"
+  },
+  {
+   "state": "WY",
+   "start_date": "2023-03-18",
+   "end_date": "2023-03-21",
+   "status": "ban",
+   "weeks": "",
+   "measure": "HB 152 (2023 Life is a Human Right Act), became law without governor's signature",
+   "note": "Became law \"overnight Saturday\" 2023-03-18 (Cowboy State Daily: abortions illegal \"from Saturday to Wednesday\"); some reports say 2023-03-17 or 2023-03-19.",
+   "sources": "https://cowboystatedaily.com/2023/03/22/wyoming-judge-blocks-new-abortion-law-keeping-abortion-legal-again/;https://www.wyoleg.gov/2023/Enroll/HB0152.pdf"
+  },
+  {
+   "state": "WY",
+   "start_date": "2023-03-22",
+   "end_date": "2026-03-08",
+   "status": "limit_20_24",
+   "weeks": "viability",
+   "measure": "Teton County TRO (Judge Melissa Owens) blocking HB 152; viability limit",
+   "note": "TRO afternoon of 2023-03-22; abortion \"legal again up to the point of fetal viability\". Owens struck the bans 2024-11-18; Wyoming Supreme Court affirmed 2026-01-06 (State v. Johnson). LEGAL AMBIGUITY: HB 152 sec. 5 repealed former W.S. 35-6-102 (the viability ban); KFF, Guttmacher and CRR nonetheless list viability for this period.",
+   "sources": "https://cowboystatedaily.com/2023/03/22/wyoming-judge-blocks-new-abortion-law-keeping-abortion-legal-again/;https://www.wyoleg.gov/2023/Enroll/HB0152.pdf;https://www.wyomingpublicmedia.org/politics-government/2026-01-06/wyoming-supreme-court-protects-abortion-access;https://www.kff.org/womens-health-policy/state-indicator/gestational-limit-abortions/"
+  },
+  {
+   "state": "WY",
+   "start_date": "2026-03-09",
+   "end_date": "2026-04-23",
+   "status": "ban_6wk",
+   "weeks": "6",
+   "measure": "HB 126 (2026 Human Heartbeat Act), Article 4 (W.S. 35-6-403), effective on signing",
+   "note": "Signed Monday 2026-03-09, effective immediately.",
+   "sources": "https://www.kotatv.com/2026/03/10/abortions-all-earliest-weeks-now-illegal-wyoming-new-court-battle-brews;https://cowboystatedaily.com/2026/03/09/gordon-signs-heartbeat-act-abortion-ban-despite-concerns-its-not-enough-for-courts"
+  },
+  {
+   "state": "WY",
+   "start_date": "2026-04-24",
+   "end_date": "",
+   "status": "limit_20_24",
+   "weeks": "viability",
+   "measure": "Natrona County TRO / temporary injunction (Judge Dan Forgey) blocking HB 126 Article 4; Article 5 post-viability ban (W.S. 35-6-510) certified by governor 2026-05-01",
+   "note": "Order Friday 2026-04-24. Article 5 viability ban took effect after the governor's 2026-05-01 certification, with Secretary of State notice due within 5 days (exact effective date not found). UNCERTAIN: between 2026-04-24 and Article 5's effective date the operative limit depends on whether former W.S. 35-6-102 survived (see 2023 row). KFF dashboard (as of 2026-08-10) and Ballotpedia still list 6 weeks; Guttmacher (2026-09-17), CRR and CRS list viability.",
+   "sources": "https://cowboystatedaily.com/2026/04/24/casper-judge-blocks-wyomings-heartbeat-abortion-ban/;https://891khol.org/natrona-county-judge-grants-a-block-on-six-week-abortion-ban/;https://www.pinebluffspost.com/article/13592,governor-gordon-certifies-viability-provision-following-court-order-placing-a-stay-on-enforcement-of-the-heartbeat-law;https://newslj.com/gordon-certifies-backup-abortion-rule-after-court-blocks-heartbeat-act;https://reproductiverights.org/maps/state/wyoming/"
+  }
+ ],
  "caucus_lists": [
   "Black Maternal Health Caucus (other)|118",
   "Democratic Women's Caucus|119",

@@ -1,6 +1,6 @@
 {
  "congress": 113,
- "built": "2026-11-04T08:23:40Z",
+ "built": "2026-11-04T08:40:53Z",
  "cd": {
   "AL-1": {
    "pop": 695176.0,
@@ -7361,7 +7361,7 @@
   }
  },
  "notes": [
-  "rural 113: urban/rural 2010 files: only 0 districts (cdsld13/02: HTTP Error 404: Not Found; cdsld13/10: HTTP Error 404: Not Found; cdsld13/11: HTTP Error 404: Not Found)"
+  "rural 113: urban/rural 2010 files: only 0 districts (cdsld13/01: unexpected content 'ALABAMA CONGRESSIONAL DISTRICTS BY URBAN AND RURAL POPULATION AND LAND AREA\\r\\nSta'; cdsld13/02: HTTP Error 404: Not Found; cdsld13/04: unexpected content 'ARIZONA CONGRESSIONAL DISTRICTS BY URBAN AND RURAL POPULATION AND LAND AREA\\r\\nSta')"
  ],
  "transient": true
 }
