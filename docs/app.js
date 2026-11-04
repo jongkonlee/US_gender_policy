@@ -140,6 +140,7 @@ function scopeOk(x) {
   return true;
 }
 function normNum(s) { return String(s || '').toLowerCase().replace(/[\s.]/g, ''); }
+const BILLNUM = /^(h\.?\s?r|s|h\.?\s?res|s\.?\s?res|h\.?\s?j\.?\s?res|s\.?\s?j\.?\s?res|h\.?\s?con\.?\s?res|s\.?\s?con\.?\s?res)\.?\s*\d+$/i;
 function textHit(q, parts) { const n = normNum(q); const l = q.toLowerCase(); return parts.some(p => { const s = String(p || ''); return normNum(s) === n || s.toLowerCase().includes(l); }); }
 
 function filteredBills() {
@@ -148,8 +149,10 @@ function filteredBills() {
     if (!scopeOk(b) || !topicMatch(b.topics)) return false;
     if (S.dir !== 'all' && String(b.dir) !== S.dir) return false;
     if (S.q) {
+      if (BILLNUM.test(S.q.trim())) return normNum(b.bl) === normNum(S.q);
+      if (/^\d+$/.test(S.q.trim())) return String(b.n) === S.q.trim();
       const sp = typeof b.sp === 'number' ? R[b.sp] : null;
-      if (!textHit(S.q, [b.bl, b.title, ...(b.alt || []), sp && sp.n, b.n])) return false;
+      if (!textHit(S.q, [b.bl, b.title, ...(b.alt || []), sp && sp.n])) return false;
     }
     return true;
   });
@@ -160,6 +163,7 @@ function filteredVotes() {
     if (S.vtype !== 'all' && !VT_FILTER[S.vtype].includes(v.vt)) return false;
     if (S.dir !== 'all' && String(v.mdir) !== S.dir) return false;
     if (S.q) {
+      if (BILLNUM.test(S.q.trim())) return normNum(v.bl) === normNum(S.q);
       const b = S.D.billIndex[v.bill];
       if (!textHit(S.q, [v.bl, v.desc, v.q, b && b.title, v.amdt && v.amdt.text, v.id])) return false;
     }
@@ -408,9 +412,9 @@ function billPanel(id) {
   ${b.alt && b.alt.length ? `<div>다른 이름</div><div class="muted">${b.alt.map(esc).join('<br>')}</div>` : ''}
   <div>원문</div><div><a href="${b.url}" target="_blank" rel="noopener">congress.gov에서 보기</a></div></div>
   <h3>${esc(CMP[S.cmp].label)}별 발의·공동발의</h3>${groupBreakdownBill(b)}
-  <p class="note">발의일에 재임 중이던 의원 기준입니다(대표발의자 포함, 철회 제외).</p>${plotBlock('bill', b.id)}`;
+  <p class="note">발의일에 재임 중이던 의원 기준입니다(대표발의자 포함, 철회 제외).</p>${billPlots(b)}`;
   if (b.votes.length) {
-    h += `<h3>이 법안의 표결 (${b.votes.length}건)</h3>`;
+    h += `<h3>표결별 공동발의자의 찬반</h3>`;
     for (const vid of b.votes) {
       const v = S.D.voteIndex[vid]; if (!v) continue;
       const VR = S.D.members[v.ch];
@@ -567,37 +571,57 @@ function nomSVG(points, opt) {
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="100%" style="max-width:${W}px;font-family:system-ui,'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">${g}</svg>` +
     (miss ? `<div class="muted" style="font-size:.8rem">DW-NOMINATE 값이 없는 의원 ${miss}명(대의원·새 의원 등)은 그림에서 빠졌습니다.</div>` : '');
 }
-function plotBlock(kind, id) {
-  const it = kind === 'vote' ? S.D.voteIndex[id] : S.D.billIndex[id];
-  const groups = plotGroups(it.ch, kind === 'vote' ? it.date : it.intro);
+function plotControls(ch, date) {
+  const groups = plotGroups(ch, date);
   if (S.plotGroup && !groups.includes(S.plotGroup)) S.plotGroup = '';
   const opts = groups.map(gname => `<option value="${esc(gname)}" ${S.plotGroup === gname ? 'selected' : ''}>${esc(gname)}</option>`).join('');
-  return `<h3>DW-NOMINATE 그림</h3><div class="btns" style="align-items:center">
+  return `<div class="btns" style="align-items:center">
     <div class="seg"><button data-pmode="color" class="${S.plotMode !== 'bw' ? 'on' : ''}">컬러</button><button data-pmode="bw" class="${S.plotMode === 'bw' ? 'on' : ''}">흑백 O·X</button></div>
-    <label class="fld">강조 <select data-pgroup><option value="">없음</option>${opts}</select></label>
-    <button class="btn" data-psave="png">PNG 저장</button><button class="btn" data-psave="svg">SVG 저장</button></div>
-    <div id="plotBox" data-kind="${kind}" data-id="${esc(id)}"></div>`;
+    <label class="fld">강조 <select data-pgroup><option value="">없음</option>${opts}</select></label></div>`;
+}
+let PLOT_SEQ = 0;
+function plotBox(kind, id, heading) {
+  const n = ++PLOT_SEQ;
+  return `${heading ? `<h3>${heading}</h3>` : ''}<div class="plotbox" id="pb${n}" data-kind="${kind}" data-id="${esc(id)}"></div>
+    <div class="btns"><button class="btn" data-psave="png" data-box="pb${n}">PNG 저장</button><button class="btn" data-psave="svg" data-box="pb${n}">SVG 저장</button></div>`;
+}
+function plotBlock(kind, id) {
+  const it = kind === 'vote' ? S.D.voteIndex[id] : S.D.billIndex[id];
+  return `<h3>DW-NOMINATE 그림</h3>${plotControls(it.ch, kind === 'vote' ? it.date : it.intro)}${plotBox(kind, id, '')}`;
+}
+function voteHeading(v) { return `표결: ${esc(v.date)} ${v.ch === 'H' ? '하원' : '상원'} ${v.clerk}번 · ${esc(v.q)} · ${esc(v.res)} (${v.yea}–${v.nay})${v.amdt ? ` · 수정안 ${esc(v.amdt.num || '')}` : ''}`; }
+function billPlots(b) {
+  let h = `<h2>공동발의자</h2>${plotControls(b.ch, b.intro)}${plotBox('bill', b.id, '')}`;
+  const vs = b.votes.map(id => S.D.voteIndex[id]).filter(Boolean);
+  if (vs.length) {
+    h += `<h2>이 법안의 표결 (${vs.length}건)</h2>`;
+    vs.forEach(v => { h += plotBox('vote', v.id, voteHeading(v) + ` <a href="#" data-open="vote:${v.id}" style="font-weight:400;font-size:.85rem">자세히</a>`); });
+  }
+  return h;
 }
 function renderPlot() {
-  const box = document.getElementById('plotBox'); if (!box) return;
-  const kind = box.dataset.kind, id = box.dataset.id;
-  let points, opt;
-  if (kind === 'vote') {
-    const v = S.D.voteIndex[id]; const R = S.D.members[v.ch];
-    points = R.map((m, i) => ({ m, k: v.cast[i] === '1' ? 'y' : v.cast[i] === '2' ? 'n' : v.cast[i] === '3' ? 'v' : null })).filter(p => p.k);
-    opt = { kind, ctx: { date: v.date }, title: `${S.D.congress}대 ${v.ch === 'H' ? '하원' : '상원'} ${v.date} ${v.clerk}번: ${v.bl}`, sub: `${v.q} — ${v.res} (${v.yea}–${v.nay})` };
-  } else {
-    const b = S.D.billIndex[id]; const R = S.D.members[b.ch];
-    const cs = new Set(b.cs.filter(c => !c[3] && typeof c[0] === 'number').map(c => c[0])); if (typeof b.sp === 'number') cs.add(b.sp);
-    points = R.filter(m => (m.fr <= b.intro && b.intro <= m.to) || cs.has(m.i)).map(m => ({ m, k: cs.has(m.i) ? 'c' : 'o' }));
-    opt = { kind, ctx: { date: b.intro }, title: `${S.D.congress}대 ${b.bl} 발의·공동발의`, sub: b.title.length > 80 ? b.title.slice(0, 78) + '…' : b.title };
-  }
-  opt.bw = S.plotMode === 'bw'; opt.group = S.plotGroup || '';
-  box.innerHTML = nomSVG(points, opt);
-  box._name = (kind === 'vote' ? id : `${S.D.congress}_${S.D.billIndex[id].bl.replace(/[^A-Za-z0-9]/g, '')}`) + (opt.bw ? '_bw' : '');
+  document.querySelectorAll('.plotbox').forEach(box => {
+    const kind = box.dataset.kind, id = box.dataset.id;
+    let points, opt;
+    if (kind === 'vote') {
+      const v = S.D.voteIndex[id]; const R = S.D.members[v.ch];
+      points = R.map((m, i) => ({ m, k: v.cast[i] === '1' ? 'y' : v.cast[i] === '2' ? 'n' : v.cast[i] === '3' ? 'v' : null })).filter(p => p.k);
+      opt = { kind, ctx: { date: v.date }, title: `${S.D.congress}대 ${v.ch === 'H' ? '하원' : '상원'} ${v.date} ${v.clerk}번: ${v.bl}`, sub: `${v.q} — ${v.res} (${v.yea}–${v.nay})` };
+      box._name = id;
+    } else {
+      const b = S.D.billIndex[id]; const R = S.D.members[b.ch];
+      const cs = new Set(b.cs.filter(c => !c[3] && typeof c[0] === 'number').map(c => c[0])); if (typeof b.sp === 'number') cs.add(b.sp);
+      points = R.filter(m => (m.fr <= b.intro && b.intro <= m.to) || cs.has(m.i)).map(m => ({ m, k: cs.has(m.i) ? 'c' : 'o' }));
+      opt = { kind, ctx: { date: b.intro }, title: `${S.D.congress}대 ${b.bl} 발의·공동발의`, sub: b.title.length > 80 ? b.title.slice(0, 78) + '…' : b.title };
+      box._name = `${S.D.congress}_${b.bl.replace(/[^A-Za-z0-9]/g, '')}_cosponsors`;
+    }
+    opt.bw = S.plotMode === 'bw'; opt.group = S.plotGroup || '';
+    box.innerHTML = nomSVG(points, opt);
+    if (opt.bw) box._name += '_bw';
+  });
 }
-function savePlot(fmt) {
-  const box = document.getElementById('plotBox'); const svg = box && box.querySelector('svg'); if (!svg) return;
+function savePlot(fmt, boxId) {
+  const box = document.getElementById(boxId); const svg = box && box.querySelector('svg'); if (!svg) return;
   const xml = new XMLSerializer().serializeToString(svg);
   const name = 'dwnominate_' + (box._name || 'plot');
   if (fmt === 'svg') { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([xml], { type: 'image/svg+xml' })); a.download = name + '.svg'; a.click(); return; }
@@ -607,9 +631,9 @@ function savePlot(fmt) {
   img.src = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(xml);
 }
 function bindPlot(root) {
-  root.querySelectorAll('[data-pmode]').forEach(b => b.addEventListener('click', () => { S.plotMode = b.dataset.pmode; root.querySelectorAll('[data-pmode]').forEach(x => x.classList.toggle('on', x === b)); renderPlot(); }));
-  root.querySelectorAll('[data-pgroup]').forEach(sel => sel.addEventListener('change', () => { S.plotGroup = sel.value; renderPlot(); }));
-  root.querySelectorAll('[data-psave]').forEach(b => b.addEventListener('click', () => savePlot(b.dataset.psave)));
+  root.querySelectorAll('[data-pmode]').forEach(b => b.addEventListener('click', () => { S.plotMode = b.dataset.pmode; root.querySelectorAll('[data-pmode]').forEach(x => x.classList.toggle('on', x.dataset.pmode === S.plotMode)); renderPlot(); }));
+  root.querySelectorAll('[data-pgroup]').forEach(sel => sel.addEventListener('change', () => { S.plotGroup = sel.value; root.querySelectorAll('[data-pgroup]').forEach(x => { x.value = S.plotGroup; }); renderPlot(); }));
+  root.querySelectorAll('[data-psave]').forEach(b => b.addEventListener('click', () => savePlot(b.dataset.psave, b.dataset.box)));
   renderPlot();
 }
 
@@ -707,7 +731,7 @@ function viewAbout() {
     <li>법안·공동발의·주제어: GovInfo BILLSTATUS(미 의회도서관·정부출판국)</li>
     <li>호명투표·DW-NOMINATE: Voteview (Lewis, Poole, Rosenthal, Boche, Rudkin, Sonnet)</li>
     <li>의원 성별·생일·임기: congress-legislators (unitedstates 프로젝트)</li>
-    <li>인종: 하원 역사국(History, Art & Archives) 회기별 명단을 바탕으로 의원마다 출처를 적어 정리, CRS 회기별 의원 구성 보고서 숫자와 대조. 여러 집단에 속하는 의원은 각 집단에 모두 셉니다.</li>
+    <li>인종: 하원 역사국(History, Art & Archives)과 CRS의 이름 명단을 바탕으로, 그 뒤 당선 의원은 공식 소개·보도로 의원마다 출처를 적어 정리했습니다. CRS 회기별 의원 구성 보고서의 인원수와 대조해 72칸 중 62칸이 일치하고 나머지도 이유를 확인했습니다(집계 시점 차이 등). 여러 집단에 속하는 의원은 각 집단에 모두 셉니다. 포르투갈계 의원은 CRS·하원 역사국처럼 히스패닉 코커스·콘퍼런스 회원이면 히스패닉으로 셌습니다(Pew는 빼므로 Pew 숫자와 다를 수 있음). 판단이 갈리는 의원과 근거는 저장소의 config/race_README.md에 있습니다.</li>
     <li>농촌 인구 비율: 미국 인구조사국 원본 파일. 118~119대 선거구는 2020년 인구조사, 113~117대는 2010년 인구조사(선거구별 도시·농촌 인구 파일). 111~112대는 공식 선거구별 파일이 없어 2010년 인구조사의 우편번호 구역(ZCTA) 단위 자료로 추정했습니다. 2020년 인구조사부터 '도시' 기준이 바뀌어(2,500명 → 5,000명 또는 2,000가구) 117대와 118대 사이 변화에는 기준 변경이 섞여 있습니다. 117대 노스캐롤라이나는 선거구가 바뀌었지만 2010년 기준 파일이 없어 116대 값을 썼습니다(표시됨). 상원은 주 전체 값입니다.</li>
     <li>당파 지수: Cook PVI와 같은 공식(2022년부터 쓰는 방식: 가장 최근 대선 75% + 그 전 대선 25%, 전국 양당 득표율과의 차이)으로 직접 계산했습니다. 지역구 대선 결과는 The Downballot, 주 결과와 전국 득표는 FEC 공식 집계입니다. 118대는 2016년 대선 결과가 그 선거구 기준으로 없어 2020년 결과만 썼습니다. Cook이 낸 값과 1점 안팎 다를 수 있습니다. 양수가 민주 쪽입니다.</li>
     <li>지역구 인구 구성(인종 구성·대졸 비율·가구 소득): 인구조사국 ACS 1년 추정치(원본 요약 파일). 회기마다 그 선거구 경계로 집계된 해를 씁니다(111대 2009년, 112대 2011년, 113대 2013년, 114대 2015년, 115대 2017년, 116대 2019년, 117대 2021년, 118대 2023년, 119대 2024년). 소득은 그해 달러 기준이라 회기끼리 비교할 때 물가를 감안해야 합니다.</li>
