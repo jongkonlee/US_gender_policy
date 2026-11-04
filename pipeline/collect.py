@@ -173,7 +173,7 @@ def cawp():
 # ---------------------------------------------------------------- Wikipedia
 WAPI = "https://en.wikipedia.org/w/api.php"
 DIST_LINK = re.compile(r"\[\[\s*((\d{4}) ([A-Z][A-Za-z .]+?)'s (\d+(?:st|nd|rd|th)|at-large) congressional district (?:special )?election)\s*[|\]]")
-SEN_LINK = re.compile(r"\[\[\s*((\d{4}) United States Senate (?:special )?election in [^\]|#]+?)\s*[|\]]")
+SEN_LINK = re.compile(r"\[\[\s*((\d{4})(?:[–-]\d{2})? United States Senate (?:special )?elections? in [^\]|#]+?)\s*[|\]]")
 
 
 def wiki_page(title):
@@ -183,6 +183,23 @@ def wiki_page(title):
     if "error" in j:
         return None
     return j["parse"]
+
+
+def wiki_page_checked(title, state):
+    """the page, unless a redirect sent us to a page that is not about this state's House election"""
+    try:
+        p = wiki_page(title)
+    except Exception as e:  # noqa: BLE001
+        log("  FAIL", title, e)
+        return None
+    time.sleep(0.4)
+    if not p:
+        return None
+    t = p["title"]
+    if state not in t or not re.search(r"House of Representatives|congressional district", t):
+        log("  redirect ignored:", title, "->", t)
+        return None
+    return p
 
 
 def wiki_save(rel, title):
@@ -233,9 +250,12 @@ def wikipedia(years):
         for st in STATES:
             p = None
             for t in (f"{y} United States House of Representatives elections in {st}",
-                      f"{y} United States House of Representatives election in {st}"):
-                p = wiki_save(f"wiki/{y}/house/{slug(st)}.json", t)
+                      f"{y} United States House of Representatives election in {st}",
+                      f"{y} {st}'s at-large congressional district election"):
+                p = wiki_page_checked(t, st)
                 if p:
+                    save(f"wiki/{y}/house/{slug(st)}.json", json.dumps(p, ensure_ascii=False).encode("utf-8"),
+                         f"https://en.wikipedia.org/wiki/{urllib.parse.quote(p['title'].replace(' ', '_'))}")
                     break
             if not p:
                 MANIFEST.append(dict(path=f"wiki/{y}/house/{slug(st)}.json", url="", bytes=0, error="page not found"))
