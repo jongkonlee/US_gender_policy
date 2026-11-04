@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T09:06:30Z",
+ "generated": "2026-11-04T09:31:13Z",
  "current": 119,
  "congresses": [
   {
@@ -117,7 +117,7 @@
     "H": 451,
     "S": 104
    },
-   "generated": "2026-11-04T09:06:30Z"
+   "generated": "2026-11-04T09:31:13Z"
   }
  ],
  "topics": [
@@ -1514,5 +1514,236 @@
   "Democratic Women's Caucus|119",
   "Pro-Choice Caucus (House)|119",
   "Senate Pro-Life Caucus|119"
- ]
+ ],
+ "factions": {
+  "H": [
+   {
+    "label": "진보 코커스",
+    "short": "진보",
+    "party": "D",
+    "col": "cpc",
+    "info": false,
+    "avail": [
+     111,
+     112,
+     113,
+     114,
+     115,
+     116,
+     117,
+     118,
+     119
+    ],
+    "notes": {}
+   },
+   {
+    "label": "신민주연합",
+    "short": "신민주",
+    "party": "D",
+    "col": "ndc",
+    "info": false,
+    "avail": [
+     111,
+     112,
+     113,
+     114,
+     115,
+     116,
+     117,
+     118,
+     119
+    ],
+    "notes": {}
+   },
+   {
+    "label": "블루독 연합",
+    "short": "블루독",
+    "party": "D",
+    "col": "bluedog",
+    "info": false,
+    "avail": [
+     111,
+     112,
+     113,
+     114,
+     115,
+     116,
+     117,
+     118,
+     119
+    ],
+    "notes": {}
+   },
+   {
+    "label": "티파티 코커스",
+    "short": "티파티",
+    "party": "R",
+    "col": "teaparty",
+    "info": false,
+    "avail": [
+     111,
+     112,
+     113
+    ],
+    "notes": {}
+   },
+   {
+    "label": "프리덤 코커스",
+    "short": "HFC",
+    "party": "R",
+    "col": "hfc",
+    "info": false,
+    "avail": [
+     114,
+     115,
+     116,
+     117,
+     118,
+     119
+    ],
+    "notes": {
+     "119": "프리덤 코커스(2015년 결성). 공식 명단이 없어 Wikipedia 'Freedom Caucus' 문서의 현재 회원 31명(2026년 7월 기준)에 119대 중 떠난 2명(마크 그린, 애나 폴리나 루나)을 더하고, Matthew Green 명단에만 있는 3명(Greg Murphy, Gary Palmer, Greg Steube)을 보탰습니다. 마크 그린은 2025년 7월 사임 전까지, 루나는 2025-04-01 무렵 탈퇴 전까지 HFC로 셉니다."
+    }
+   },
+   {
+    "label": "메인스트리트 파트너십",
+    "short": "메인스트리트P",
+    "party": "R",
+    "col": "rmsp",
+    "info": false,
+    "avail": [
+     111,
+     112,
+     113,
+     114,
+     115,
+     116,
+     117
+    ],
+    "notes": {}
+   },
+   {
+    "label": "메인스트리트 코커스",
+    "short": "메인스트리트",
+    "party": "R",
+    "col": "mainstreet",
+    "info": false,
+    "avail": [
+     118,
+     119
+    ],
+    "notes": {}
+   },
+   {
+    "label": "문제해결 코커스",
+    "short": "문제해결 코커스",
+    "party": "",
+    "col": "psc",
+    "info": true,
+    "avail": [
+     115,
+     118,
+     119
+    ],
+    "notes": {}
+   }
+  ],
+  "S": [
+   {
+    "label": "외교 강경파(이스라엘 무기판매 불승인)",
+    "short": "외교 강경",
+    "party": "D",
+    "col": "for_d",
+    "info": false,
+    "avail": [
+     111,
+     112,
+     113,
+     114,
+     115,
+     116,
+     117,
+     118,
+     119
+    ],
+    "notes": {}
+   },
+   {
+    "label": "재정 강경파(메디케어 포 올·공공주택 그린뉴딜)",
+    "short": "재정 강경",
+    "party": "D",
+    "col": "fis_prog",
+    "info": false,
+    "avail": [
+     111,
+     112,
+     113,
+     114,
+     115,
+     116,
+     117,
+     118,
+     119
+    ],
+    "notes": {}
+   },
+   {
+    "label": "외교 강경파(이란 전쟁권한 결의안)",
+    "short": "외교 강경",
+    "party": "R",
+    "col": "for_r",
+    "info": false,
+    "avail": [
+     111,
+     112,
+     113,
+     114,
+     115,
+     116,
+     117,
+     118,
+     119
+    ],
+    "notes": {}
+   },
+   {
+    "label": "재정 강경파(Paul·Lee)",
+    "short": "재정 강경",
+    "party": "R",
+    "col": "fis_cons",
+    "info": false,
+    "avail": [
+     111,
+     112,
+     113,
+     114,
+     115,
+     116,
+     117,
+     118,
+     119
+    ],
+    "notes": {}
+   },
+   {
+    "label": "중도(Common Sense Coalition)",
+    "short": "중도",
+    "party": "DR",
+    "col": "csc",
+    "info": false,
+    "avail": [
+     111,
+     112,
+     113,
+     114,
+     115,
+     116,
+     117,
+     118,
+     119
+    ],
+    "notes": {}
+   }
+  ]
+ }
 }
