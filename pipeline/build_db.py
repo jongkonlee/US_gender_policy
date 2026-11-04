@@ -383,7 +383,14 @@ def merge_people(wrows, year, chamber):
                 r["p_won"] = int(any(r is w for w in win))
                 if not r["p_party"]:
                     r["p_party"], r["p_status"] = party, "no contest"
-        # general winner
+        # general winner (the current cycle needs votes: right after election day, pages carry placeholder
+        # winner marks with empty vote fields)
+        if year >= 2026:
+            for r in recs:
+                if r.get("_gwon") and not ok(r["g_votes"]) and not ok(r["g_pct"]):
+                    r["_gwon"] = 0
+                if r.get("_grwon") and not ok(r["gr_votes"]):
+                    r["_grwon"] = 0
         gr = [r for r in recs if ok(r["gr_votes"])]
         gg = [r for r in recs if ok(r["g_votes"]) or r.get("_gwon")]
         if gr:
