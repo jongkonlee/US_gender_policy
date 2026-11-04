@@ -238,6 +238,25 @@ def wiki_senate(years):
             wiki_save(f"wiki/{y}/senate/{slug(t)}.json", t)
 
 
+def wiki_people(path):
+    """plain-text lead sections of candidate pages (used to tell gender from pronouns when no other source exists)"""
+    if not os.path.exists(path):
+        return
+    titles = [t.strip() for t in open(path, encoding="utf-8") if t.strip()]
+    log(f"Wikipedia people pages: {len(titles)}")
+    for i in range(0, len(titles), 20):
+        chunk = titles[i:i + 20]
+        q = dict(action="query", prop="extracts", exintro=1, explaintext=1, redirects=1, titles="|".join(chunk),
+                 format="json", formatversion=2, maxlag=5)
+        try:
+            data, _, _ = get(WAPI + "?" + urllib.parse.urlencode(q), tries=5, timeout=60)
+        except Exception as e:  # noqa: BLE001
+            fail(f"wiki/people/batch_{i // 20:04d}.json", "batch", e)
+            continue
+        save(f"wiki/people/batch_{i // 20:04d}.json", data, "https://en.wikipedia.org/w/api.php")
+        time.sleep(0.5)
+
+
 def ssa_names():
     log("SSA baby names")
     fetch("ssa/names.zip", "https://www.ssa.gov/oact/babynames/names.zip")
@@ -325,8 +344,11 @@ def main():
     ap.add_argument("--years", nargs="*", type=int, default=[2022, 2024, 2026], help="Wikipedia House/Senate years")
     ap.add_argument("--overview-years", nargs="*", type=int, default=list(range(1990, 2028, 2)))
     ap.add_argument("--senate-years", nargs="*", type=int, default=list(range(1990, 2002, 2)))
+    ap.add_argument("--people-file", default=os.path.join(ROOT, "collect_people.txt"))
     a = ap.parse_args()
     only = set(a.only.split(","))
+    if "wiki_people" in only:
+        wiki_people(a.people_file)
     if "wiki_overview" in only:
         wiki_overview(a.overview_years)
     if "wiki_senate" in only:

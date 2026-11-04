@@ -1,1 +1,1 @@
---only wiki,wiki_senate --years 2022 2024 2026
+--only wiki_people
