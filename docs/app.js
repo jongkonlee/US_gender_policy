@@ -79,8 +79,14 @@ const CMP = {
   inc: { label: '지역구 가구 소득 중앙값', f: m => [tert(m.inc, S.cuts.inc, '달러')], tert: 'inc' },
   religion: { label: '종교', f: m => [m.rel || '자료 없음'], needs: 'rel' },
   caucus: { label: '여성정책 관련 코커스', f: m => (m.cau && m.cau.length) ? m.cau : ['해당 없음'], needs: 'cau' },
-  faction: { label: '계파', f: m => (m.fac && m.fac.length) ? m.fac : ['해당 없음'], needs: 'fac' },
+  faction: { label: '계파', needs: 'fac', get order() { return facDefs().map(g => g.label); },
+    f: (m, ctx) => { const f = facAt(m, ctx && ctx.date); return f.length ? f : ['해당 없음']; } },
 };
+// faction lists used in this Congress and chamber (index.json, from config/factions_*.csv)
+function facDefs(ch, c) { ch = ch || S.ch; c = c || (S.D && S.D.congress); return ((S.idx.factions || {})[ch] || []).filter(g => g.avail.includes(c)); }
+// groups a member belonged to on a date (no date: every group of the Congress)
+function facAt(m, date) { return (m.fac || []).filter(l => !(date && m.facu && m.facu[l] && date >= m.facu[l])); }
+function facText(m) { return (m.fac || []).map(l => esc(l) + (m.facu && m.facu[l] ? ` <span class="muted">(${esc(m.facu[l])} 탈퇴)</span>` : '')).join(', '); }
 
 function groupsOf(m, ctx) { return CMP[S.cmp].f(m, ctx); }
 function partyKey(m) { return S.within ? (m.pc || m.p) : 'ALL'; }
@@ -111,7 +117,11 @@ async function loadCongress(c) {
           if (p.race_note) m.race_note = p.race_note;
           if (p.rel && p.rel[c]) m.rel = p.rel[c];
           if (p.cau && p.cau[c]) m.cau = p.cau[c];
-          if (p.fac && p.fac[c]) m.fac = p.fac[c];
+        }
+        if (S.facLoaded) {
+          const f = p && p.fac && p.fac[c] && p.fac[c][ch], u = p && p.facu && p.facu[c] && p.facu[c][ch];
+          if (f && f.length) m.fac = f; else delete m.fac;
+          if (u) m.facu = u; else delete m.facu;
         }
       });
     }
@@ -263,7 +273,7 @@ function viewSummary() {
   }
   h += `<h2>${esc(CMP[S.cmp].label)}별 비교${S.within ? ' (정당 안)' : ''}</h2>
   <div class="chart-block"><b>의원 1인당 여성정책 법안 발의·공동발의 수</b>${cos}
-    <div class="cap">대표발의 + 공동발의(철회 제외). 막대 옆 괄호는 그 집단의 의원 수입니다.${S.cmp === 'race' ? ' 여러 인종 집단에 속하는 의원은 각 집단에 모두 셉니다.' : ''}</div></div>
+    <div class="cap">대표발의 + 공동발의(철회 제외). 막대 옆 괄호는 그 집단의 의원 수입니다.${S.cmp === 'race' ? ' 여러 인종 집단에 속하는 의원은 각 집단에 모두 셉니다.' : ''}${S.cmp === 'faction' ? ' 여러 계파에 속하는 의원은 각 계파에 모두 셉니다.' + (S.ch === 'S' ? ' 상원 집단은 외교·재정 표결로 정한 의원 명단입니다(\'소개\' 탭).' : '') : ''}</div></div>
   <div class="chart-block"><b>확대·보호 쪽 표 비율(의원 평균)</b>${dirV ? dir : '<p class="muted">방향이 정해진 표결이 없습니다.</p>'}
     <div class="cap">방향이 정해진 표결에서, 의원마다 '확대·보호' 쪽으로 던진 표의 비율을 구한 뒤 집단 평균을 냈습니다(불참 제외). 방향은 법안·수정안 내용으로 자동 판정했으며, 판정이 어려운 표결은 뺐습니다.</div></div>`;
   const sg = (() => { const set = new Set(); R.forEach(m => groupsOf(m, {}).forEach(x => set.add(x))); return orderGroups([...set].filter(x => x !== '자료 없음' && x !== '해당 없음')); })();
@@ -358,14 +368,15 @@ function viewMembers() {
     nc: r => r.m.nc, rural: r => r.m.rural ?? -1, pvi: r => r.m.pvi ?? -99, dw: r => r.m.dw1 ?? -9, cs: r => r.s.sp + r.s.cs,
     plus: r => r.s.n ? r.s.plus / r.s.n : -1 };
   list = sortRows(list, keys);
+  const hasFac = R.some(m => m.fac), shortFac = Object.fromEntries(facDefs().map(g => [g.label, g.short]));
   const rows = list.slice(S.page * PAGE, (S.page + 1) * PAGE).map(({ m, s }) => `<tr class="click" data-open="mem:${m.b}">
     <td>${esc(m.n)}</td><td class="p${m.pc}">${m.p}</td><td>${m.st}${S.ch === 'H' ? '-' + (m.d || (m.dl ? '대의원' : 'AL')) : ''}</td><td>${m.g === 'F' ? '여' : '남'}</td>
     <td>${[...(m.race || '')].map(c => RACE[c]).join(', ')}</td><td class="num">${m.age ?? ''}</td><td class="num">${m.nc}</td>
     <td class="num">${m.rural != null ? fmt(m.rural, 0) + '%' : ''}</td><td class="num">${pviLabel(m.pvi)}</td><td class="num">${fmt(m.dw1, 2)}</td>
-    <td class="num">${s.sp + s.cs}</td><td class="num">${s.n ? pct(s.plus / s.n, 0) + ` <span class="muted">(${s.n})</span>` : ''}</td></tr>`).join('');
+    ${hasFac ? `<td>${facAt(m).map(l => esc(shortFac[l] || l)).join(', ')}</td>` : ''}<td class="num">${s.sp + s.cs}</td><td class="num">${s.n ? pct(s.plus / s.n, 0) + ` <span class="muted">(${s.n})</span>` : ''}</td></tr>`).join('');
   return `<p class="muted">${filterNote()} · ${list.length}명. 공동발의와 표 비율은 위에서 고른 세부 정책·조건 기준입니다.</p>${pager(list.length)}
   <div class="tbl-wrap"><table><thead><tr>${th('name', '이름')}${th('party', '정당')}${th('state', '주·선거구')}<th>성별</th><th>인종</th>${th('age', '나이', 'num')}${th('nc', '선수', 'num')}
-  ${th('rural', '농촌', 'num')}${th('pvi', '당파 지수', 'num')}${th('dw', 'DW1', 'num')}${th('cs', '발의·공동발의', 'num')}${th('plus', '확대 쪽 표', 'num')}</tr></thead><tbody>${rows}</tbody></table></div>${pager(list.length)}`;
+  ${th('rural', '농촌', 'num')}${th('pvi', '당파 지수', 'num')}${th('dw', 'DW1', 'num')}${hasFac ? '<th>계파</th>' : ''}${th('cs', '발의·공동발의', 'num')}${th('plus', '확대 쪽 표', 'num')}</tr></thead><tbody>${rows}</tbody></table></div>${pager(list.length)}`;
 }
 function pviLabel(x) { if (x === null || x === undefined) return ''; const r = Math.round(x); return r === 0 ? 'EVEN' : (r > 0 ? 'D+' + r : 'R+' + (-r)); }
 
@@ -475,7 +486,7 @@ function memberPanel(bg) {
   <div>${m.ch === 'H' ? '지역구' : '주'}</div><div>농촌 인구 ${m.rural != null ? fmt(m.rural, 1) + '%' : '–'} · 당파 지수 ${pviLabel(m.pvi) || '–'}${m.ln ? ' <span class="muted">(선거구 경계가 인구조사 파일과 다름)</span>' : ''}<br>
     비히스패닉 백인 ${fmt(m.white, 1)}% · 흑인 ${fmt(m.black, 1)}% · 히스패닉 ${fmt(m.hisp, 1)}% · 대졸 ${fmt(m.ba, 1)}% · 가구 소득 중앙값 ${m.inc ? m.inc.toLocaleString() + '달러' : '–'}</div>
   <div>DW-NOMINATE</div><div>${fmt(m.dw1, 3)}, ${fmt(m.dw2, 3)}</div>
-  ${m.rel ? `<div>종교</div><div>${esc(m.rel)}</div>` : ''}${m.cau ? `<div>코커스</div><div>${m.cau.map(esc).join(', ')}</div>` : ''}${m.fac ? `<div>계파</div><div>${m.fac.map(esc).join(', ')}</div>` : ''}
+  ${m.rel ? `<div>종교</div><div>${esc(m.rel)}</div>` : ''}${m.cau ? `<div>코커스</div><div>${m.cau.map(esc).join(', ')}</div>` : ''}${m.fac ? `<div>계파</div><div>${facText(m)}</div>` : ''}
   <div>확대 쪽 표</div><div>${n ? `${pct(plus / n, 0)} (${plus}/${n})` : '방향이 정해진 표결 없음'}</div></div>
   <h3>대표발의 (${spon.length})</h3><ul>${bl(spon) || '<li class="muted">없음</li>'}</ul>
   <h3>공동발의 (${cos.length})</h3><details ${cos.length <= 15 ? 'open' : ''}><summary>목록</summary><ul>${bl(cos) || '<li class="muted">없음</li>'}</ul></details>
@@ -658,13 +669,14 @@ function memberCols() {
     ['region', '권역', 'str'], ['religion', '종교', 'str'], ['caucus', '코커스', 'str'], ['faction', '계파', 'str'], ['rural_pct', '농촌 인구 비율(%)', 'double'],
     ['pvi', '당파 지수(+민주, Cook 방식)', 'double'], ['white_nh', '비히스패닉 백인 비율(%)', 'double'], ['black_pct', '흑인 비율(%)', 'double'], ['hisp_pct', '히스패닉 비율(%)', 'double'],
     ['asian_pct', '아시아계 비율(%)', 'double'], ['ba_plus', '대졸 비율(%)', 'double'], ['med_income', '가구 소득 중앙값(달러)', 'long'], ['dw1', 'DW-NOMINATE 1차원', 'double'], ['dw2', 'DW-NOMINATE 2차원', 'double'],
-    ['served_from', '재임 시작(이 회기 안)', 'date'], ['served_to', '재임 끝(이 회기 안)', 'date']];
+    ['served_from', '재임 시작(이 회기 안)', 'date'], ['served_to', '재임 끝(이 회기 안)', 'date']]
+    .concat(facDefs().map(g => ['fac_' + g.col, `${g.label}(1)`, 'byte']));
 }
-function memberVals(m) {
-  const r = m.race || '';
+function memberVals(m, date) {
+  const r = m.race || '', fa = facAt(m, date);
   return [S.D.congress, m.ch, m.b, m.icpsr, m.n, m.p, m.pc, m.st, m.ch === 'H' ? (m.d || 0) : null, m.dl, m.g === 'F' ? 1 : 0, +r.includes('B'), +r.includes('H'), +r.includes('A'),
-    +r.includes('N'), m.age, m.nc, m.yrs, m.reg, m.rel || '', (m.cau || []).join('; '), (m.fac || []).join('; '), m.rural, m.pvi, m.white, m.black, m.hisp, m.asian, m.ba, m.inc,
-    m.dw1, m.dw2, m.fr, m.to];
+    +r.includes('N'), m.age, m.nc, m.yrs, m.reg, m.rel || '', (m.cau || []).join('; '), fa.join('; '), m.rural, m.pvi, m.white, m.black, m.hisp, m.asian, m.ba, m.inc,
+    m.dw1, m.dw2, m.fr, m.to].concat(facDefs().map(g => fa.includes(g.label) ? 1 : 0));
 }
 function datasets() {
   const R = roster(), B = filteredBills(), V = filteredVotes(), st = memberStats(B, V);
@@ -682,8 +694,8 @@ function datasets() {
           sp ? sp.b : b.sp, sp ? sp.n : '', sp ? sp.p : '', a.length, p('D'), p('R'), a.filter(c => c[2]).length, b.cs.length - a.length, b.votes.length, b.law, (b.latest || [])[0], (b.latest || [])[1], (b.basis || []).join(' | '), b.url]; }) }),
     cosponsors: () => ({ cols: [['congress', '회기', 'long'], ['bill_id', '법안 ID', 'str'], ['bill', '법안 번호', 'str'], ['topic', '세부 정책(주)', 'str'], ['dir', '방향', 'byte'], ['role', '역할(sponsor/cosponsor)', 'str'],
       ['date', '날짜', 'date'], ['original', '처음부터(1)', 'byte'], ['withdrawn', '철회(1)', 'byte']].concat(memberCols().slice(2)),
-      rows: B.flatMap(b => { const out = []; const sp = typeof b.sp === 'number' ? R[b.sp] : null; if (sp) out.push([S.D.congress, b.id, b.bl, tl(b.topics[0]), b.dir, 'sponsor', b.intro, null, 0].concat(memberVals(sp).slice(2)));
-        b.cs.forEach(c => { const m = typeof c[0] === 'number' ? R[c[0]] : null; if (m) out.push([S.D.congress, b.id, b.bl, tl(b.topics[0]), b.dir, 'cosponsor', c[1], c[2], c[3]].concat(memberVals(m).slice(2))); }); return out; }) }),
+      rows: B.flatMap(b => { const out = []; const sp = typeof b.sp === 'number' ? R[b.sp] : null; if (sp) out.push([S.D.congress, b.id, b.bl, tl(b.topics[0]), b.dir, 'sponsor', b.intro, null, 0].concat(memberVals(sp, b.intro).slice(2)));
+        b.cs.forEach(c => { const m = typeof c[0] === 'number' ? R[c[0]] : null; if (m) out.push([S.D.congress, b.id, b.bl, tl(b.topics[0]), b.dir, 'cosponsor', c[1], c[2], c[3]].concat(memberVals(m, c[1]).slice(2))); }); return out; }) }),
     votes: () => ({ cols: [['congress', '회기', 'long'], ['chamber', '원', 'str'], ['vote_id', '표결 ID', 'str'], ['date', '날짜', 'date'], ['roll', 'Voteview 번호', 'long'], ['clerk', '사무처 번호', 'long'],
       ['bill_id', '법안 ID', 'str'], ['bill', '법안', 'str'], ['amendment', '수정안', 'str'], ['question', '표결 질문', 'str'], ['result', '결과', 'str'], ['yea', '찬성', 'long'], ['nay', '반대', 'long'],
       ['vote_type', '표결 종류', 'str'], ['topic', '세부 정책(주)', 'str'], ['topics', '세부 정책(모두)', 'str'], ['yea_dir', '찬성의 방향(+1 확대, -1 제한)', 'byte'], ['measure_dir', '안건 방향', 'byte'],
@@ -695,7 +707,7 @@ function datasets() {
     member_votes: () => ({ cols: [['vote_id', '표결 ID', 'str'], ['date', '날짜', 'date'], ['bill', '법안', 'str'], ['topic', '세부 정책(주)', 'str'], ['yea_dir', '찬성의 방향', 'byte'],
       ['cast', '표(1 찬성, 2 반대, 3 불참·출석)', 'byte'], ['toward_plus', '확대 쪽 표(1/0)', 'byte']].concat(memberCols().slice(2)),
       rows: V.flatMap(v => { const out = []; for (let i = 0; i < v.cast.length; i++) { const k = v.cast[i]; if (k === '0' || !R[i]) continue; const tp = v.dir && (k === '1' || k === '2') ? (((k === '1' && v.dir === 1) || (k === '2' && v.dir === -1)) ? 1 : 0) : null;
-        out.push([v.id, v.date, v.bl, tl(v.topics[0]), v.dir, +k, tp].concat(memberVals(R[i]).slice(2))); } return out; }) }),
+        out.push([v.id, v.date, v.bl, tl(v.topics[0]), v.dir, +k, tp].concat(memberVals(R[i], v.date).slice(2))); } return out; }) }),
     members: () => ({ cols: memberCols().concat([['n_spons', '대표발의 수(조건 기준)', 'long'], ['n_cosp', '공동발의 수(조건 기준)', 'long'], ['n_dir_votes', '방향이 정해진 표결 참여', 'long'], ['plus_share', '확대 쪽 표 비율', 'double']]),
       rows: R.map((m, i) => memberVals(m).concat([st[i].sp, st[i].cs, st[i].n, st[i].n ? st[i].plus / st[i].n : null])) }),
   };
@@ -718,14 +730,19 @@ function viewDownload() {
     ['member_votes', '의원별 표', '한 줄 = 표결 × 의원'], ['members', '의원 명단', '한 줄 = 의원(특징 + 조건 기준 공동발의·표 요약)']];
   return `<p class="muted">${filterNote()} 기준으로 지금 화면의 조건이 그대로 적용됩니다.</p>
   ${items.map(([k, l, d]) => `<h3>${l}</h3><p class="muted">${d}</p><div class="btns"><button class="btn" data-dl="${k}:csv">CSV</button><button class="btn" data-dl="${k}:dta">Stata (.dta)</button></div>`).join('')}
-  <p class="note">CSV는 UTF-8(BOM)이라 엑셀에서 한글이 그대로 보입니다. Stata에서 CSV는 <code>import delimited using "파일.csv", encoding(utf-8) clear</code>로 엽니다. .dta는 Stata 14 이상에서 열리며 변수 설명이 한글로 붙어 있습니다.</p>`;
+  <p class="note">CSV는 UTF-8(BOM)이라 엑셀에서 한글이 그대로 보입니다. Stata에서 CSV는 <code>import delimited using "파일.csv", encoding(utf-8) clear</code>로 엽니다. .dta는 Stata 14 이상에서 열리며 변수 설명이 한글로 붙어 있습니다. 계파(<code>faction</code>, <code>fac_…</code> 0/1 열)는 그 회기에 명단이 있는 계파만 들어가고, 공동발의·의원별 표에서는 그 날짜 기준입니다.</p>`;
 }
 
+function facNotes() {
+  const out = [];
+  for (const ch of ['H', 'S']) for (const g of ((S.idx.factions || {})[ch] || [])) for (const [c, t] of Object.entries(g.notes || {})) out.push(` ${c}대 ${esc(g.label)}: ${esc(t)}`);
+  return out.join('');
+}
 function viewAbout() {
   const gen = S.idx.generated ? S.idx.generated.replace('T', ' ').replace('Z', ' UTC') : '';
   return `<div class="about">
   <h2>무엇을 보여 주나</h2>
-  <p>미국 상·하원(111대, 2009년 ~ 현재)의 여성정책 법안과 호명투표를 세부 정책으로 나누고, 의원이 어떤 법안을 공동발의했고 어떻게 표결했는지를 의원 특징(성별, 인종, 지역구 농촌 비율, 당파 지수, 나이, 선수, 지역, 이념 위치, 지역구 인구 구성, 주 임신중지 법 등)에 따라 비교합니다. 기본은 정당 안에서 비교입니다(성별·인종이 정당과 많이 겹치기 때문).</p>
+  <p>미국 상·하원(111대, 2009년 ~ 현재)의 여성정책 법안과 호명투표를 세부 정책으로 나누고, 의원이 어떤 법안을 공동발의했고 어떻게 표결했는지를 의원 특징(성별, 인종, 지역구 농촌 비율, 당파 지수, 나이, 선수, 지역, 이념 위치, 지역구 인구 구성, 주 임신중지 법, 계파 등)에 따라 비교합니다. 기본은 정당 안에서 비교입니다(성별·인종이 정당과 많이 겹치기 때문).</p>
   <h2>자료</h2>
   <ul>
     <li>법안·공동발의·주제어: GovInfo BILLSTATUS(미 의회도서관·정부출판국)</li>
@@ -735,6 +752,7 @@ function viewAbout() {
     <li>농촌 인구 비율: 미국 인구조사국 원본 파일. 118~119대 선거구는 2020년 인구조사, 113~117대는 2010년 인구조사(선거구별 도시·농촌 인구 파일). 111~112대는 공식 선거구별 파일이 없어 2010년 인구조사의 우편번호 구역(ZCTA) 단위 자료로 추정했습니다. 2020년 인구조사부터 '도시' 기준이 바뀌어(2,500명 → 5,000명 또는 2,000가구) 117대와 118대 사이 변화에는 기준 변경이 섞여 있습니다. 117대 노스캐롤라이나는 선거구가 바뀌었지만 2010년 기준 파일이 없어 116대 값을 썼습니다(표시됨). 상원은 주 전체 값입니다.</li>
     <li>당파 지수: Cook PVI와 같은 공식(2022년부터 쓰는 방식: 가장 최근 대선 75% + 그 전 대선 25%, 전국 양당 득표율과의 차이)으로 직접 계산했습니다. 지역구 대선 결과는 The Downballot, 주 결과와 전국 득표는 FEC 공식 집계입니다. 118대는 2016년 대선 결과가 그 선거구 기준으로 없어 2020년 결과만 썼습니다. Cook이 낸 값과 1점 안팎 다를 수 있습니다. 양수가 민주 쪽입니다.</li>
     <li>지역구 인구 구성(인종 구성·대졸 비율·가구 소득): 인구조사국 ACS 1년 추정치(원본 요약 파일). 회기마다 그 선거구 경계로 집계된 해를 씁니다(111대 2009년, 112대 2011년, 113대 2013년, 114대 2015년, 115대 2017년, 116대 2019년, 117대 2021년, 118대 2023년, 119대 2024년). 소득은 그해 달러 기준이라 회기끼리 비교할 때 물가를 감안해야 합니다.</li>
+    <li>계파: 외교안보 표결 트래커와 같은 명단입니다. 하원은 강우창의 <a href="https://woochangkang.github.io/us_party_faction/">미국 의회 정당 계파(us_party_faction)</a> 자료를 바탕으로 했습니다. 진보 코커스·신민주연합·블루독 연합·메인스트리트 파트너십(111~117대)은 115대까지 Clarke(2020, <i>American Journal of Political Science</i> 64(3)), 116대부터 각 코커스 공식 명단, 티파티 코커스(111~113대)는 Clarke(2020), 메인스트리트 코커스(118대부터)는 공식 명단, 문제해결 코커스(초당파)는 115대 Clarke(2020)와 118·119대 공식 명단입니다(116·117대는 명단 없음). 프리덤 코커스(114대부터)는 공식 명단이 없어 Matthew Green이 정리한 명단(저자 제공, 출처를 밝히는 조건으로 사용 허락)을 씁니다.${facNotes()} 상원은 의원을 한 번 정해 모든 회기에 똑같이 적용합니다: 중도(Common Sense Coalition 113대·115대 명단의 합집합 24명), 외교 강경(민주: 이스라엘 무기판매 불승인 결의안을 발의·공동발의하고 찬성한 의원, 공화: 이란 전쟁권한 결의안에서 공화당 원내대표와 반대로 투표한 의원), 재정 강경(민주: 메디케어 포 올과 공공주택 그린뉴딜 법안을 둘 다 발의·공동발의한 의원, 공화: Rand Paul·Mike Lee). 상원 집단은 외교·재정 표결로 정한 것이라 여성정책과 직접 관계는 없습니다. 여러 계파에 속하는 의원은 각 계파에 모두 셉니다.</li>
     <li>주 임신중지 법: 2021-09-01(텍사스 SB 8) 이후 주마다 실제로 시행된 임신 주수 제한을 날짜별로 정리(KFF, Guttmacher 등 여러 추적 자료와 법원 판결 보도로 대조). 그 전은 'Roe 시기'로 둡니다.</li>
   </ul>
   <h2>여성정책 분류(자동)</h2>
@@ -750,7 +768,8 @@ function viewAbout() {
   <ul><li>자동 분류라 잘못 들어가거나 빠진 법안이 있을 수 있습니다. 법안 창의 '분류 근거'를 함께 보세요.</li>
   <li>공동발의 비율은 법안 발의일에 재임 중이던 의원을 분모로 셉니다.</li>
   <li>대의원(워싱턴 DC·푸에르토리코 등)은 공동발의에는 들어가지만 본회의 표결권이 없고, 당파 지수는 DC만 있습니다.</li>
-  <li>여성정책 관련 코커스는 공개된 전체 명단을 구할 수 있는 경우만 넣었습니다(119대: 하원 Reproductive Freedom Caucus(옛 Pro-Choice Caucus), 하원 민주당 여성 코커스, 상원 Pro-Life Caucus). 명단은 한 시점의 것이라 회기 중에 떠난 의원은 빠져 있을 수 있습니다.</li></ul>
+  <li>여성정책 관련 코커스는 공개된 전체 명단을 구할 수 있는 경우만 넣었습니다(119대: 하원 Reproductive Freedom Caucus(옛 Pro-Choice Caucus), 하원 민주당 여성 코커스, 상원 Pro-Life Caucus). 명단은 한 시점의 것이라 회기 중에 떠난 의원은 빠져 있을 수 있습니다.</li>
+  <li>계파 명단은 회기 단위입니다. 회기 중 탈퇴는 날짜가 적힌 경우만 표결·발의 날짜에 맞춰 뺍니다(119대 루나: 2025-04-01). 새 회기 하원 명단은 자동으로 들어오지 않아 저장소의 config/factions_house.csv에 넣어야 합니다.</li></ul>
   <p class="muted">마지막 갱신: ${esc(gen)} · 매일 한 번 GitHub Actions가 자료를 다시 받아 만듭니다. 코드와 자료: <a href="https://github.com/jongkonlee/genderpolitics">github.com/jongkonlee/genderpolitics</a></p></div>`;
 }
 
@@ -796,7 +815,7 @@ function fillCmp() {
   const R = S.D ? [...S.D.members.H, ...S.D.members.S] : [];
   const has = { rel: R.some(m => m.rel), cau: R.some(m => m.cau), fac: R.some(m => m.fac), law: (S.idx.abortion_law || []).length > 0, race: S.raceLoaded };
   const opts = Object.entries(CMP).filter(([k, v]) => !v.needs || has[v.needs]);
-  if (!opts.some(([k]) => k === S.cmp)) S.cmp = 'gender';
+  if (S.D && !opts.some(([k]) => k === S.cmp)) S.cmp = 'gender';  // before the first Congress loads, keep the choice from the link
   $('#cmpSel').innerHTML = opts.map(([k, v]) => `<option value="${k}">${esc(v.label)}</option>`).join('');
   $('#cmpSel').value = S.cmp;
 }
@@ -812,7 +831,7 @@ async function init() {
     $('#main').innerHTML = '<p>자료를 아직 만들고 있습니다. 잠시 뒤 다시 열어 주세요.</p>'; return;
   }
   TOPIC = Object.fromEntries(S.idx.topics.map(t => [t.code, t]));
-  try { const pj = await getJSON('data/people.json'); S.people = pj.people || {}; S.raceLoaded = !!pj.race_loaded; } catch (e) { S.people = {}; S.raceLoaded = false; }
+  try { const pj = await getJSON('data/people.json'); S.people = pj.people || {}; S.raceLoaded = !!pj.race_loaded; S.facLoaded = !!pj.fac_loaded; } catch (e) { S.people = {}; S.raceLoaded = false; S.facLoaded = false; }
   S.c = S.idx.congresses.length ? Math.max(...S.idx.congresses.map(x => x.c)) : null;
   readHash();
   if (!S.idx.congresses.some(x => x.c === S.c)) S.c = Math.max(...S.idx.congresses.map(x => x.c));

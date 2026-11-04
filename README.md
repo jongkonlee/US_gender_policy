@@ -4,6 +4,7 @@
 
 - 범위: 111대(2009) ~ 현재 회기, 상원·하원
 - 자료: Voteview(표결), GovInfo BILLSTATUS(법안·공동발의), 미국 인구조사국(농촌 비율·인구 구성), The Downballot·FEC(대선 결과로 계산한 당파 지수), congress-legislators(의원 정보)
+- 사람이 정리한 보조 자료(인종, 주 임신중지 법, 여성정책 관련 코커스, 계파): `config/` — 출처와 형식은 [config/SOURCES.md](config/SOURCES.md)
 - 갱신: GitHub Actions가 하루 한 번 자료를 받아 다시 만듭니다.
 
 페이지와 자료는 아직 만드는 중입니다.

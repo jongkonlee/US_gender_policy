@@ -72,13 +72,78 @@ def config_maps():
                 caucus_complete.add((r["caucus"], int(r["congress"])))
             except ValueError:
                 pass
-    factions = collections.defaultdict(set)
-    for r in load_csv("factions.csv"):
-        try:
-            factions[(r["bioguide"], int(r["congress"]))].add(r["faction"])
-        except (KeyError, ValueError):
-            pass
-    return dict(race=race, religion=religion, caucus=caucus, caucus_complete=caucus_complete, factions=factions)
+    factions, faction_defs = load_factions()
+    return dict(race=race, religion=religion, caucus=caucus, caucus_complete=caucus_complete,
+                factions=factions, faction_defs=faction_defs)
+
+
+def _split_until(s):
+    """'hfc:2025-04-01' (several allowed, separated by ; , or spaces) -> {'hfc': '2025-04-01'}"""
+    out = {}
+    for part in re.split(r"[;,\s]+", s or ""):
+        if ":" in part:
+            col, d = part.split(":", 1)
+            if re.fullmatch(r"\d{4}-\d{2}-\d{2}", d.strip()):
+                out[col.strip()] = d.strip()
+    return out
+
+
+def load_factions():
+    """Faction lists shared with the foreign-policy vote tracker, copied as they are:
+    config/factions_groups.json (group definitions), factions_house.csv (one row per Congress x member,
+    1 = member, 0 = not, blank = no list), factions_senate.csv (one list used for every Congress).
+
+    Returns (members, defs):
+      members[(bioguide, congress, chamber)] = {label: date the member left the group, or None}
+      defs[chamber] = [{label, short, party, col, info, avail: [congresses with a list], notes}], display order
+    A group is used in a Congress only inside its from-to range and only if that Congress has a list."""
+    gp = os.path.join(CONFIG, "factions_groups.json")
+    if not os.path.exists(gp):
+        return {}, {}
+    G = read_json(gp)
+    cur = current_congress()
+    members = collections.defaultdict(dict)
+    defs = {}
+    for ch, fname in (("H", "factions_house.csv"), ("S", "factions_senate.csv")):
+        rows = load_csv(fname)
+        per_congress = bool(rows) and "congress" in rows[0]
+        # one group per list column and name (the Senate centrist list is the same list for both parties)
+        uniq = {}
+        for g in [dict(x) for x in G.get(ch, [])] + [dict(x, info=True) for x in G.get(ch + "_info", [])]:
+            k = (g["col"], g["name"])
+            if k in uniq:
+                uniq[k]["party"] = "".join(sorted(set(uniq[k].get("party", "") + g.get("party", ""))))
+            else:
+                uniq[k] = g
+        groups = list(uniq.values())
+        for g in groups:
+            lo, hi = g.get("from", FIRST_CONGRESS), g.get("to", 999)
+            if per_congress:
+                filled = {int(r["congress"]) for r in rows if (r.get(g["col"]) or "").strip() != ""}
+            else:
+                filled = set(range(FIRST_CONGRESS, cur + 1)) if any((r.get(g["col"]) or "").strip() for r in rows) else set()
+            g["avail"] = sorted(c for c in filled if lo <= c <= hi)
+        groups.sort(key=lambda g: 0 if g.get("party") == "D" else 1 if g.get("party") == "R" else 2)  # stable
+        for r in rows:
+            until = _split_until(r.get("until"))
+            congs = [int(r["congress"])] if per_congress else range(FIRST_CONGRESS, cur + 1)
+            for c in congs:
+                for g in groups:
+                    if c in g["avail"] and (r.get(g["col"]) or "").strip() == "1":
+                        members[(r["bioguide"], c, ch)][g["name"]] = until.get(g["col"])
+        defs[ch] = [dict(label=g["name"], short=g.get("short", g["name"]), party=g.get("party", ""), col=g["col"],
+                         info=bool(g.get("info")), avail=g["avail"], notes=g.get("notes", {})) for g in groups]
+    return dict(members), defs
+
+
+def faction_labels(cfg, b, congress, chamber):
+    """(labels in display order, {label: date left} or {})"""
+    got = cfg["factions"].get((b, congress, chamber))
+    if not got:
+        return [], {}
+    order = [g["label"] for g in cfg["faction_defs"].get(chamber, [])]
+    labels = sorted(got, key=lambda x: order.index(x) if x in order else 99)
+    return labels, {k: v for k, v in got.items() if v}
 
 
 def district_attrs(congress, refresh=False):
@@ -162,9 +227,11 @@ def build_roster(congress, chamber, people, vmembers, cfg, dist):
         cau = sorted(cfg["caucus"].get((b, congress), set()))
         if cau:
             m["cau"] = cau
-        fac = sorted(cfg["factions"].get((b, congress), set()))
+        fac, facu = faction_labels(cfg, b, congress, chamber)
         if fac:
             m["fac"] = fac
+        if facu:
+            m["facu"] = facu
         # district (House) or state (Senate) characteristics
         if chamber == "H":
             a = dist["cd"].get(f"{st}-{d}") or {}
@@ -336,8 +403,8 @@ def abortion_timeline():
     return load_csv("abortion_law_timeline.csv")
 
 
-def write_people(cfg):
-    """Person attributes from research files (race, religion, caucus), kept separate so that
+def write_people(cfg, legis=None):
+    """Person attributes from research files (race, religion, caucus, faction), kept separate so that
     corrections show up without rebuilding every Congress."""
     people = {}
     for b, r in cfg["race"].items():
@@ -348,9 +415,15 @@ def write_people(cfg):
         people.setdefault(b, {}).setdefault("rel", {})[str(c)] = rel
     for (b, c), s in cfg["caucus"].items():
         people.setdefault(b, {}).setdefault("cau", {})[str(c)] = sorted(s)
-    for (b, c), s in cfg["factions"].items():
-        people.setdefault(b, {}).setdefault("fac", {})[str(c)] = sorted(s)
-    write_json(os.path.join(OUT, "people.json"), dict(race_loaded=bool(cfg["race"]), people=people))
+    for (b, c, ch) in cfg["factions"]:
+        if legis is not None and not (b in legis and term_in_congress(legis[b], c, ch)):
+            continue  # the Senate lists cover every Congress; keep only the ones the senator served in
+        fac, facu = faction_labels(cfg, b, c, ch)
+        people.setdefault(b, {}).setdefault("fac", {}).setdefault(str(c), {})[ch] = fac
+        if facu:
+            people[b].setdefault("facu", {}).setdefault(str(c), {})[ch] = facu
+    write_json(os.path.join(OUT, "people.json"), dict(race_loaded=bool(cfg["race"]), fac_loaded=bool(cfg["faction_defs"]),
+                                                      people=people))
 
 
 def write_index(summaries):
@@ -365,8 +438,9 @@ def write_index(summaries):
         congresses=[have[c] for c in sorted(have)],
         topics=C.topic_info(), groups=[dict(code=g, label=l) for g, l in C.GROUPS],
         abortion_law=abortion_timeline(),
-        caucus_lists=sorted({f"{c}|{n}" for c, n in config_maps()["caucus_complete"]}),
     )
+    cfg = config_maps()
+    idx.update(caucus_lists=sorted({f"{c}|{n}" for c, n in cfg["caucus_complete"]}), factions=cfg["faction_defs"])
     write_json(p, idx, compact=False)
 
 
@@ -394,7 +468,7 @@ def main():
         is_live = c >= cur - 1
         summaries.append(build_congress(c, people, cfg, refresh_bills=is_live and not args.keep_cache,
                                         refresh_votes=is_live, refresh_dist=args.refresh_districts))
-    write_people(cfg)
+    write_people(cfg, people)
     write_index(summaries)
     log("done", summaries)
 

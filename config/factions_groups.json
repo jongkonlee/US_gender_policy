@@ -1,0 +1,25 @@
+{
+  "설명": "계파(집단) 정의. H=하원, S=상원. col은 config/factions_house.csv·factions_senate.csv의 열 이름, from·to는 그 집단을 쓰는 회기(없으면 전 회기), tone은 그래프 색, paint는 한 의원이 여러 집단에 속할 때 색을 정하는 순서(작을수록 먼저), primary는 요약 카드와 비교 그래프의 기본 집단입니다. notes는 특정 회기에만 붙이는 명단 설명입니다. 회기 중 탈퇴한 의원은 factions_house.csv의 until 칸에 '열이름:YYYY-MM-DD'로 적으면 그날부터 그 집단에서 빠집니다.",
+  "H": [
+    {"key": "TPC", "party": "R", "col": "teaparty", "from": 111, "to": 113, "name": "티파티 코커스", "short": "티파티", "tone": "r1", "paint": 1, "primary": true},
+    {"key": "HFC", "party": "R", "col": "hfc", "from": 114, "name": "프리덤 코커스", "short": "HFC", "tone": "r1", "paint": 1, "primary": true,
+     "notes": {"119": "프리덤 코커스(2015년 결성). 공식 명단이 없어 Wikipedia 'Freedom Caucus' 문서의 현재 회원 31명(2026년 7월 기준)에 119대 중 떠난 2명(마크 그린, 애나 폴리나 루나)을 더하고, Matthew Green 명단에만 있는 3명(Greg Murphy, Gary Palmer, Greg Steube)을 보탰습니다. 마크 그린은 2025년 7월 사임 전까지, 루나는 2025-04-01 무렵 탈퇴 전까지 HFC로 셉니다."}},
+    {"key": "RMSP", "party": "R", "col": "rmsp", "from": 111, "to": 117, "name": "메인스트리트 파트너십", "short": "메인스트리트P", "tone": "r2", "paint": 2},
+    {"key": "MSC", "party": "R", "col": "mainstreet", "from": 118, "name": "메인스트리트 코커스", "short": "메인스트리트", "tone": "r2", "paint": 2},
+    {"key": "CPC", "party": "D", "col": "cpc", "name": "진보 코커스", "short": "진보", "tone": "d1", "paint": 1, "primary": true},
+    {"key": "NDC", "party": "D", "col": "ndc", "name": "신민주연합", "short": "신민주", "tone": "d2", "paint": 3},
+    {"key": "BDC", "party": "D", "col": "bluedog", "name": "블루독 연합", "short": "블루독", "tone": "d3", "paint": 2}
+  ],
+  "H_info": [
+    {"col": "psc", "name": "문제해결 코커스"}
+  ],
+  "S": [
+    {"key": "SFR", "party": "R", "col": "for_r", "name": "외교 강경파(이란 전쟁권한 결의안)", "short": "외교 강경", "tone": "r1", "paint": 2, "primary": true},
+    {"key": "SFC", "party": "R", "col": "fis_cons", "name": "재정 강경파(Paul·Lee)", "short": "재정 강경", "tone": "r3", "paint": 1},
+    {"key": "CSCR", "party": "R", "col": "csc", "name": "중도(Common Sense Coalition)", "short": "중도", "tone": "r2", "paint": 3},
+    {"key": "SFD", "party": "D", "col": "for_d", "name": "외교 강경파(이스라엘 무기판매 불승인)", "short": "외교 강경", "tone": "d1", "paint": 1, "primary": true},
+    {"key": "SFP", "party": "D", "col": "fis_prog", "name": "재정 강경파(메디케어 포 올·공공주택 그린뉴딜)", "short": "재정 강경", "tone": "d4", "paint": 2},
+    {"key": "CSCD", "party": "D", "col": "csc", "name": "중도(Common Sense Coalition)", "short": "중도", "tone": "d3", "paint": 3}
+  ],
+  "S_info": []
+}
