@@ -202,6 +202,30 @@ def slug(s):
     return re.sub(r"[^A-Za-z0-9]+", "_", s).strip("_")
 
 
+def wiki_overview(years):
+    log("Wikipedia overview pages")
+    for y in years:
+        for t in (f"{y} United States House of Representatives elections", f"{y} United States Senate elections"):
+            wiki_save(f"wiki/{y}/overview/{slug(t)}.json", t)
+
+
+def wiki_senate(years):
+    log("Wikipedia Senate race pages")
+    for y in years:
+        p = wiki_save(f"wiki/{y}/senate/_overview.json", f"{y} United States Senate elections")
+        if not p:
+            continue
+        races = sorted({m.group(1).strip() for m in SEN_LINK.finditer(p["wikitext"]) if int(m.group(2)) == y})
+        log(f"  {y}: {len(races)} Senate pages")
+        for t in races:
+            wiki_save(f"wiki/{y}/senate/{slug(t)}.json", t)
+
+
+def ssa_names():
+    log("SSA baby names")
+    fetch("ssa/names.zip", "https://www.ssa.gov/oact/babynames/names.zip")
+
+
 def wikipedia(years):
     log("Wikipedia")
     for y in years:
@@ -278,9 +302,17 @@ def dataverse():
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--only", default="fec,fecbulk,cawp,wiki,dataverse")
-    ap.add_argument("--years", nargs="*", type=int, default=[2022, 2024, 2026], help="Wikipedia years")
+    ap.add_argument("--years", nargs="*", type=int, default=[2022, 2024, 2026], help="Wikipedia House/Senate years")
+    ap.add_argument("--overview-years", nargs="*", type=int, default=list(range(1990, 2028, 2)))
+    ap.add_argument("--senate-years", nargs="*", type=int, default=list(range(1990, 2002, 2)))
     a = ap.parse_args()
     only = set(a.only.split(","))
+    if "wiki_overview" in only:
+        wiki_overview(a.overview_years)
+    if "wiki_senate" in only:
+        wiki_senate(a.senate_years)
+    if "ssa" in only:
+        ssa_names()
     if "fec" in only:
         fec_results(list(range(1990, 2024, 2)))
     if "fecbulk" in only:
