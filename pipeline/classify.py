@@ -15,7 +15,7 @@ TOPICS = [
     ("repro_abortion", "reproduction", "임신중지", "접근 확대", "접근 제한"),
     ("repro_contraception", "reproduction", "피임·가족계획", "지원 확대", "지원 축소"),
     ("repro_ivf", "reproduction", "난임·체외수정", "보호·지원 확대", "제한"),
-    ("health_maternal", "health", "임신·출산 건강", "지원 확대", "지원 축소"),
+    ("health_maternal", "health", "산모·출산 건강", "지원 확대", "지원 축소"),
     ("health_women", "health", "여성 질병·연구", "지원 확대", "지원 축소"),
     ("violence_dv", "violence", "가정폭력·여성폭력방지법", "보호 강화", "보호 축소"),
     ("violence_sexual", "violence", "성폭력·성희롱", "보호 강화", "보호 축소"),
@@ -30,7 +30,7 @@ TOPICS = [
     ("broad_care", "broad", "돌봄·가족(넓은 범위)", "지원 확대", "지원 축소"),
     ("broad_trafficking", "broad", "인신매매(넓은 범위)", "대응 강화", "대응 약화"),
 ]
-GROUPS = [("reproduction", "재생산"), ("health", "모성·여성 건강"), ("violence", "여성 폭력"),
+GROUPS = [("reproduction", "임신"), ("health", "모성·여성 건강"), ("violence", "여성 폭력"),
           ("economy", "일·경제"), ("rights", "성평등·권리"), ("broad", "넓은 범위")]
 PRIORITY = ["repro_abortion", "repro_contraception", "repro_ivf", "violence_dv", "violence_sexual",
             "econ_pregnant_workers", "econ_pay", "econ_business", "rights_era", "rights_military_veterans",

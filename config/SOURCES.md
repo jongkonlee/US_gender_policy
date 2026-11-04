@@ -5,7 +5,7 @@
 | 파일 | 내용 | 출처 |
 |---|---|---|
 | `abortion_law_timeline.csv` | 주별 임신중지 법 상태(실제로 시행된 임신 주수 제한), 2021-09-01 ~ 현재. 한 줄 = 한 주의 한 기간 | KFF, Guttmacher Institute, Center for Reproductive Rights, Ballotpedia, 법원 판결·보도. 줄마다 `sources` 칸에 URL. 불확실한 날짜는 `abortion_law_README.md` |
-| `caucus_members.csv` | 여성정책 관련 코커스 명단(공개된 전체 명단이 있는 경우만): 119대 하원 재생산 자유 코커스(옛 Pro-Choice Caucus), 119대 하원 민주당 여성 코커스, 119대 상원 Pro-Life Caucus | 각 코커스·의원 누리집(`source_url`, `snapshot_date`) |
+| `caucus_members.csv` | 여성정책 관련 코커스 명단(공개된 전체 명단이 있는 경우만): 119대 하원 Reproductive Freedom Caucus(옛 Pro-Choice Caucus), 119대 하원 민주당 여성 코커스, 119대 상원 Pro-Life Caucus | 각 코커스·의원 누리집(`source_url`, `snapshot_date`) |
 | `caucus_availability.csv` | 코커스·회기별로 명단을 구할 수 있었는지 | 같음 |
 | `race.csv` | 의원 인종(흑인·히스패닉·아시아·태평양계·원주민, 여러 집단이면 각각 1) | 하원 역사국(History, Art & Archives) 명단, CRS 회기별 의원 구성 보고서로 합계 대조 |
 

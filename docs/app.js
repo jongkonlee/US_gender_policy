@@ -401,7 +401,7 @@ function billPanel(id) {
   ${b.alt && b.alt.length ? `<div>다른 이름</div><div class="muted">${b.alt.map(esc).join('<br>')}</div>` : ''}
   <div>원문</div><div><a href="${b.url}" target="_blank" rel="noopener">congress.gov에서 보기</a></div></div>
   <h3>${esc(CMP[S.cmp].label)}별 발의·공동발의</h3>${groupBreakdownBill(b)}
-  <p class="note">발의일에 재임 중이던 의원 기준입니다(대표발의자 포함, 철회 제외).</p>`;
+  <p class="note">발의일에 재임 중이던 의원 기준입니다(대표발의자 포함, 철회 제외).</p>${plotBlock('bill', b.id)}`;
   if (b.votes.length) {
     h += `<h3>이 법안의 표결 (${b.votes.length}건)</h3>`;
     for (const vid of b.votes) {
@@ -440,7 +440,7 @@ function votePanel(id) {
   ${v.desc ? `<div>설명</div><div>${esc(v.desc)}</div>` : ''}
   <div>찬성의 뜻</div><div>${v.dir === 1 ? esc(t.plus || '확대') + ' 쪽' : v.dir === -1 ? esc(t.minus || '제한') + ' 쪽' : '방향 없음(자동 판정하지 않음)'}</div>
   <div>분류 근거</div><div class="muted">${(v.basis || []).map(esc).join(' · ')}</div></div>
-  <h3>${esc(CMP[S.cmp].label)}별 찬반</h3>${groupBreakdownVote(v)}`;
+  <h3>${esc(CMP[S.cmp].label)}별 찬반</h3>${groupBreakdownVote(v)}${plotBlock('vote', v.id)}`;
   const names = { '1': [], '2': [], '3': [] };
   R.forEach((m, i) => { const c = v.cast[i]; if (names[c]) names[c].push(m); });
   h += `<details><summary>의원별 표 보기</summary>${[['1', '찬성'], ['2', '반대'], ['3', '불참·출석']].map(([k, l]) => `<p><b>${l} (${names[k].length})</b>: ${names[k].map(memLabel).join(', ')}</p>`).join('')}</details>`;
@@ -472,6 +472,112 @@ function memberPanel(bg) {
   ${vrows.map(([v, c]) => `<tr class="click" data-open="vote:${v.id}"><td>${esc(v.date)}</td><td>${esc(v.bl)}</td><td>${esc(v.q)}</td><td>${c === '1' ? '찬성' : c === '2' ? '반대' : '불참'}</td><td>${v.dir ? dirTag(v.topics[0], v.dir) : ''}</td></tr>`).join('')}</tbody></table></div>`;
 }
 
+/* ---------- DW-NOMINATE plot ---------- */
+const PC = { D: '#2f6db5', R: '#c2413a', I: '#7b7b7b' };
+function plotGroups(ch, date) {
+  const set = new Set();
+  (S.D.members[ch] || []).forEach(m => groupsOf(m, { date }).forEach(g => set.add(g)));
+  return orderGroups([...set].filter(g => g !== '자료 없음' && g !== '해당 없음'));
+}
+function nomSVG(points, opt) {
+  // points: [{m, k}] k = 'y' | 'n' | 'v' (vote) or 'c' | 'o' (cosponsor / not)
+  const W = 620, H = 640, L = 60, T = opt.bw ? 70 : 24, R0 = 20, B = opt.bw ? 120 : 92;
+  const pw = W - L - R0, ph = H - T - B;
+  const sx = x => L + (x + 1) / 2 * pw, sy = y => T + (1 - (y + 1) / 2) * ph;
+  const grp = opt.group, inG = m => grp && groupsOf(m, opt.ctx).includes(grp);
+  let g = `<rect width="${W}" height="${H}" fill="#fff"/>`;
+  if (opt.bw) g += `<text x="${W / 2}" y="26" text-anchor="middle" font-size="15" font-weight="700" fill="#111">${esc(opt.title)}</text><text x="${W / 2}" y="46" text-anchor="middle" font-size="11.5" fill="#444">${esc(opt.sub || '')}</text>`;
+  g += `<rect x="${L}" y="${T}" width="${pw}" height="${ph}" fill="none" stroke="#bbb"/>`;
+  for (const v of [-0.5, 0, 0.5]) {
+    g += `<line x1="${sx(v)}" y1="${T}" x2="${sx(v)}" y2="${T + ph}" stroke="${v === 0 ? '#ccc' : '#eee'}"/><line x1="${L}" y1="${sy(v)}" x2="${L + pw}" y2="${sy(v)}" stroke="${v === 0 ? '#ccc' : '#eee'}"/>`;
+  }
+  for (const v of [-1, -0.5, 0, 0.5, 1]) {
+    g += `<text x="${sx(v)}" y="${T + ph + 16}" text-anchor="middle" font-size="10.5" fill="#555">${v}</text><text x="${L - 8}" y="${sy(v) + 4}" text-anchor="end" font-size="10.5" fill="#555">${v}</text>`;
+  }
+  g += `<text x="${L + pw / 2}" y="${T + ph + 34}" text-anchor="middle" font-size="11.5" fill="#333">DW-NOMINATE 1차원 (진보 ← → 보수)</text>`;
+  g += `<text transform="translate(16 ${T + ph / 2}) rotate(-90)" text-anchor="middle" font-size="11.5" fill="#333">DW-NOMINATE 2차원</text>`;
+  // draw de-emphasized first, emphasized last
+  const sorted = points.slice().sort((a, b) => (inG(a.m) ? 1 : 0) - (inG(b.m) ? 1 : 0));
+  for (const { m, k } of sorted) {
+    if (m.dw1 == null || m.dw2 == null) continue;
+    const x = sx(m.dw1), y = sy(m.dw2), em = !grp || inG(m);
+    let col = opt.bw ? (em ? '#000' : '#9a9a9a') : (PC[m.pc] || PC.I);
+    const op = em ? 1 : (opt.bw ? 1 : 0.28), sw = opt.bw ? (em && grp ? 1.9 : 1.1) : 1.4;
+    const r = 4.2;
+    if (k === 'y' || k === 'c') {
+      g += opt.bw ? `<circle cx="${x}" cy="${y}" r="${r}" fill="${k === 'c' ? col : 'none'}" stroke="${col}" stroke-width="${sw}" opacity="${op}"/>`
+        : `<circle cx="${x}" cy="${y}" r="${r}" fill="${col}" fill-opacity="${0.85 * op}" stroke="${em && grp ? '#111' : col}" stroke-width="${em && grp ? 1 : 0.6}" opacity="${op}"/>`;
+    } else if (k === 'n') {
+      g += `<path d="M${x - r},${y - r}L${x + r},${y + r}M${x - r},${y + r}L${x + r},${y - r}" stroke="${col}" stroke-width="${sw + 0.3}" opacity="${op}"/>`;
+    } else if (k === 'o') {
+      g += `<circle cx="${x}" cy="${y}" r="${r - 0.6}" fill="none" stroke="${col}" stroke-width="0.9" opacity="${opt.bw ? op : 0.55 * op}"/>`;
+    } else {
+      g += `<circle cx="${x}" cy="${y}" r="1.6" fill="${col}" opacity="${0.6 * op}"/>`;
+    }
+  }
+  // legend
+  const ly = T + ph + 52;
+  const items = opt.kind === 'vote' ? [['y', '찬성'], ['n', '반대'], ['v', '불참·출석']] : [['c', '발의·공동발의'], ['o', '하지 않음']];
+  let lx = L;
+  const sym = (k, x, y, col) => k === 'n' ? `<path d="M${x - 4},${y - 4}L${x + 4},${y + 4}M${x - 4},${y + 4}L${x + 4},${y - 4}" stroke="${col}" stroke-width="1.6"/>`
+    : k === 'v' ? `<circle cx="${x}" cy="${y}" r="1.8" fill="${col}"/>` : `<circle cx="${x}" cy="${y}" r="4.2" fill="${(k === 'c' || (!opt.bw && k === 'y')) ? col : 'none'}" stroke="${col}" stroke-width="1.3"/>`;
+  if (!opt.bw) {
+    for (const [p, l] of [['D', '민주'], ['R', '공화']]) { g += `<circle cx="${lx + 5}" cy="${ly}" r="5" fill="${PC[p]}"/><text x="${lx + 14}" y="${ly + 4}" font-size="11" fill="#333">${l}</text>`; lx += 58; }
+    lx += 10;
+  }
+  for (const [k, l] of items) { g += sym(k, lx + 5, ly, opt.bw ? '#000' : '#444') + `<text x="${lx + 15}" y="${ly + 4}" font-size="11" fill="#333">${l}</text>`; lx += 30 + l.length * 11; }
+  if (grp) g += `<text x="${L}" y="${ly + 22}" font-size="11" fill="#333">${opt.bw ? '검은색·굵게' : '진하게(테두리)'} = ${esc(CMP[S.cmp].label)}: ${esc(grp)} · ${opt.bw ? '회색' : '흐리게'} = 그 밖의 의원</text>`;
+  if (opt.bw) g += `<text x="${L}" y="${ly + 42}" font-size="10" fill="#666">자료: Voteview(DW-NOMINATE), ${opt.kind === 'vote' ? 'Voteview 호명투표' : 'GovInfo BILLSTATUS 공동발의'} · 미국 의회 여성정책 트래커</text>`;
+  const miss = points.filter(p => p.m.dw1 == null).length;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="100%" style="max-width:${W}px;font-family:system-ui,'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">${g}</svg>` +
+    (miss ? `<div class="muted" style="font-size:.8rem">DW-NOMINATE 값이 없는 의원 ${miss}명(대의원·새 의원 등)은 그림에서 빠졌습니다.</div>` : '');
+}
+function plotBlock(kind, id) {
+  const it = kind === 'vote' ? S.D.voteIndex[id] : S.D.billIndex[id];
+  const groups = plotGroups(it.ch, kind === 'vote' ? it.date : it.intro);
+  if (S.plotGroup && !groups.includes(S.plotGroup)) S.plotGroup = '';
+  const opts = groups.map(gname => `<option value="${esc(gname)}" ${S.plotGroup === gname ? 'selected' : ''}>${esc(gname)}</option>`).join('');
+  return `<h3>DW-NOMINATE 그림</h3><div class="btns" style="align-items:center">
+    <div class="seg"><button data-pmode="color" class="${S.plotMode !== 'bw' ? 'on' : ''}">컬러</button><button data-pmode="bw" class="${S.plotMode === 'bw' ? 'on' : ''}">흑백 O·X</button></div>
+    <label class="fld">강조 <select data-pgroup><option value="">없음</option>${opts}</select></label>
+    <button class="btn" data-psave="png">PNG 저장</button><button class="btn" data-psave="svg">SVG 저장</button></div>
+    <div id="plotBox" data-kind="${kind}" data-id="${esc(id)}"></div>`;
+}
+function renderPlot() {
+  const box = document.getElementById('plotBox'); if (!box) return;
+  const kind = box.dataset.kind, id = box.dataset.id;
+  let points, opt;
+  if (kind === 'vote') {
+    const v = S.D.voteIndex[id]; const R = S.D.members[v.ch];
+    points = R.map((m, i) => ({ m, k: v.cast[i] === '1' ? 'y' : v.cast[i] === '2' ? 'n' : v.cast[i] === '3' ? 'v' : null })).filter(p => p.k);
+    opt = { kind, ctx: { date: v.date }, title: `${S.D.congress}대 ${v.ch === 'H' ? '하원' : '상원'} ${v.date} ${v.clerk}번: ${v.bl}`, sub: `${v.q} — ${v.res} (${v.yea}–${v.nay})` };
+  } else {
+    const b = S.D.billIndex[id]; const R = S.D.members[b.ch];
+    const cs = new Set(b.cs.filter(c => !c[3] && typeof c[0] === 'number').map(c => c[0])); if (typeof b.sp === 'number') cs.add(b.sp);
+    points = R.filter(m => (m.fr <= b.intro && b.intro <= m.to) || cs.has(m.i)).map(m => ({ m, k: cs.has(m.i) ? 'c' : 'o' }));
+    opt = { kind, ctx: { date: b.intro }, title: `${S.D.congress}대 ${b.bl} 발의·공동발의`, sub: b.title.length > 80 ? b.title.slice(0, 78) + '…' : b.title };
+  }
+  opt.bw = S.plotMode === 'bw'; opt.group = S.plotGroup || '';
+  box.innerHTML = nomSVG(points, opt);
+  box._name = (kind === 'vote' ? id : `${S.D.congress}_${S.D.billIndex[id].bl.replace(/[^A-Za-z0-9]/g, '')}`) + (opt.bw ? '_bw' : '');
+}
+function savePlot(fmt) {
+  const box = document.getElementById('plotBox'); const svg = box && box.querySelector('svg'); if (!svg) return;
+  const xml = new XMLSerializer().serializeToString(svg);
+  const name = 'dwnominate_' + (box._name || 'plot');
+  if (fmt === 'svg') { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([xml], { type: 'image/svg+xml' })); a.download = name + '.svg'; a.click(); return; }
+  const img = new Image(); const vb = svg.viewBox.baseVal; const k = 3;
+  img.onload = () => { const c = document.createElement('canvas'); c.width = vb.width * k; c.height = vb.height * k; const x = c.getContext('2d'); x.fillStyle = '#fff'; x.fillRect(0, 0, c.width, c.height); x.drawImage(img, 0, 0, c.width, c.height);
+    c.toBlob(bl => { const a = document.createElement('a'); a.href = URL.createObjectURL(bl); a.download = name + '.png'; a.click(); }); };
+  img.src = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(xml);
+}
+function bindPlot(root) {
+  root.querySelectorAll('[data-pmode]').forEach(b => b.addEventListener('click', () => { S.plotMode = b.dataset.pmode; root.querySelectorAll('[data-pmode]').forEach(x => x.classList.toggle('on', x === b)); renderPlot(); }));
+  root.querySelectorAll('[data-pgroup]').forEach(sel => sel.addEventListener('change', () => { S.plotGroup = sel.value; renderPlot(); }));
+  root.querySelectorAll('[data-psave]').forEach(b => b.addEventListener('click', () => savePlot(b.dataset.psave)));
+  renderPlot();
+}
+
 function openPanel(key) {
   S.open = key;
   const [kind, id] = [key.slice(0, key.indexOf(':')), key.slice(key.indexOf(':') + 1)];
@@ -479,6 +585,7 @@ function openPanel(key) {
   $('#panel').hidden = false;
   $('#panel .panel-in').scrollTop = 0;
   bindTables($('#panelBody'));
+  bindPlot($('#panelBody'));
   writeHash();
 }
 function closePanel() { S.open = null; $('#panel').hidden = true; writeHash(); }
@@ -582,7 +689,7 @@ function viewAbout() {
   <ul><li>자동 분류라 잘못 들어가거나 빠진 법안이 있을 수 있습니다. 법안 창의 '분류 근거'를 함께 보세요.</li>
   <li>공동발의 비율은 법안 발의일에 재임 중이던 의원을 분모로 셉니다.</li>
   <li>대의원(워싱턴 DC·푸에르토리코 등)은 공동발의에는 들어가지만 본회의 표결권이 없고, 당파 지수는 DC만 있습니다.</li>
-  <li>여성정책 관련 코커스는 공개된 전체 명단을 구할 수 있는 경우만 넣었습니다(119대: 하원 재생산 자유 코커스(옛 Pro-Choice Caucus), 하원 민주당 여성 코커스, 상원 Pro-Life Caucus). 명단은 한 시점의 것이라 회기 중에 떠난 의원은 빠져 있을 수 있습니다.</li></ul>
+  <li>여성정책 관련 코커스는 공개된 전체 명단을 구할 수 있는 경우만 넣었습니다(119대: 하원 Reproductive Freedom Caucus(옛 Pro-Choice Caucus), 하원 민주당 여성 코커스, 상원 Pro-Life Caucus). 명단은 한 시점의 것이라 회기 중에 떠난 의원은 빠져 있을 수 있습니다.</li></ul>
   <p class="muted">마지막 갱신: ${esc(gen)} · 매일 한 번 GitHub Actions가 자료를 다시 받아 만듭니다. 코드와 자료: <a href="https://github.com/jongkonlee/genderpolitics">github.com/jongkonlee/genderpolitics</a></p></div>`;
 }
 
@@ -653,7 +760,7 @@ async function init() {
   document.querySelectorAll('#chamberSeg button').forEach(b => b.addEventListener('click', async () => { S.ch = b.dataset.ch; S.page = 0; S.sort = null; await loadCongress(S.c); render(); }));
   on('#congressSel', 'change', async e => { S.c = +e.target.value; S.page = 0; $('#main').innerHTML = '<p class="muted">불러오는 중…</p>'; await loadCongress(S.c); fillCmp(); render(); });
   on('#topicSel', 'change', e => { S.topic = e.target.value; S.page = 0; render(); });
-  on('#cmpSel', 'change', e => { S.cmp = e.target.value; render(); });
+  on('#cmpSel', 'change', e => { S.cmp = e.target.value; S.plotGroup = ''; render(); });
   on('#withinChk', 'change', e => { S.within = e.target.checked; render(); });
   on('#commemChk', 'change', e => { S.commem = e.target.checked; S.page = 0; render(); });
   on('#broadChk', 'change', e => { S.broad = e.target.checked; S.page = 0; render(); });

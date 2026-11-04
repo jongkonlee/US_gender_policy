@@ -78,8 +78,14 @@ STATES51 = set(STATE_NAMES.values())
 def _text(url, tag):
     dest = os.path.join(CACHE, "census", tag)
     fetch(url, dest, timeout=300)
-    with open(dest, encoding="utf-8-sig", errors="replace") as f:
-        return f.read()
+    with open(dest, "rb") as f:
+        raw = f.read()
+    if raw[:2] in (b"\xff\xfe", b"\xfe\xff"):
+        return raw.decode("utf-16")
+    try:
+        return raw.decode("utf-8-sig")
+    except UnicodeDecodeError:
+        return raw.decode("latin-1")
 
 
 def _csv_rows(txt, delim=","):
@@ -120,16 +126,25 @@ def _ur2010_state_file(folder, fips):
     out = {}
     rows = _csv_rows(txt)
     if not rows or "TotalPop" not in ",".join(rows[0]):
+        if len(_UR_FAILS) < 6:
+            _UR_FAILS.append(f"{folder}/{fips}: unexpected content {txt[:80]!r}")
+            log("WARN urban/rural file content", url, repr(txt[:200]))
         return None
-    h = rows[0]
+    h = [x.strip() for x in rows[0]]
     i_st, i_cd, i_t, i_r = h.index("State"), h.index("CongressionalDistrict"), h.index("TotalPop"), h.index("RuralPop")
     for r in rows[1:]:
-        if len(r) <= i_r or not r[i_t].strip().isdigit():
+        if len(r) <= i_r:
             continue
-        k = _cd_key(r[i_st].zfill(2), r[i_cd])
-        t = float(r[i_t])
+        tv, rv = r[i_t].strip().replace(",", ""), r[i_r].strip().replace(",", "")
+        if not tv.isdigit():
+            continue
+        k = _cd_key(r[i_st].strip().zfill(2), r[i_cd].strip())
+        t = float(tv)
         if k and t > 0:
-            out[k] = dict(rural=round(100 * float(r[i_r]) / t, 2), pop10=int(t))
+            out[k] = dict(rural=round(100 * float(rv or 0) / t, 2), pop10=int(t))
+    if not out and len(_UR_FAILS) < 6:
+        _UR_FAILS.append(f"{folder}/{fips}: no rows parsed from {rows[:2]!r}"[:200])
+        log("WARN urban/rural no rows", url, repr(rows[:3])[:300])
     return out
 
 
@@ -339,13 +354,22 @@ def acs_seq(year):
         if not st or st == "US":
             continue
         stl = st.lower()
+        geo_rows = None
         try:
             gtxt = _text(f"{base}/1_year_seq_by_state/{folder}/g{year}1{stl}.csv", f"acs_g{year}1{stl}.csv")
-        except Exception as e:
-            log("ACS geo missing", year, st, e)
-            continue
+            geo_rows = _csv_rows(gtxt)
+        except Exception:
+            try:  # 2009-2010: fixed-width geography file
+                gtxt = _text(f"{base}/1_year_seq_by_state/{folder}/g{year}1{stl}.txt", f"acs_g{year}1{stl}.txt")
+                geo_rows = []
+                for line in gtxt.splitlines():
+                    mg = re.search(r"\b(\d{3}[0-9A-Z]{2,4}US\d+)\b", line)
+                    geo_rows.append(["", line[6:8], line[8:11], line[11:13], line[13:20], mg.group(1) if mg else ""])
+            except Exception as e:
+                log("ACS geo missing", year, st, e)
+                continue
         want = {}
-        for r in _csv_rows(gtxt):
+        for r in geo_rows:
             if len(r) < 5 or r[3] != "00" or r[2] not in ("500", "040"):
                 continue
             geoid = next((c for c in r if re.match(r"^\d{3}[0-9A-Z]{2,4}US\d+$", c or "")), "")
@@ -379,6 +403,8 @@ def acs_seq(year):
             row = _acs_row(vals[lr], year)
             (cd if lvl == "cd" else stt)[key] = row
     log(f"ACS {year} (sequence files): {len(cd)} districts, {len(stt)} states")
+    if len(cd) < 400:
+        raise RuntimeError(f"ACS {year}: only {len(cd)} districts read from sequence files")
     _ACS_SEQ_CACHE[year] = dict(cd=normalize_keys(cd), state=stt)
     return _ACS_SEQ_CACHE[year]
 
