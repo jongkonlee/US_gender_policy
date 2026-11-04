@@ -262,6 +262,13 @@ function viewSummary() {
     <div class="cap">대표발의 + 공동발의(철회 제외). 막대 옆 괄호는 그 집단의 의원 수입니다.${S.cmp === 'race' ? ' 여러 인종 집단에 속하는 의원은 각 집단에 모두 셉니다.' : ''}</div></div>
   <div class="chart-block"><b>확대·보호 쪽 표 비율(의원 평균)</b>${dirV ? dir : '<p class="muted">방향이 정해진 표결이 없습니다.</p>'}
     <div class="cap">방향이 정해진 표결에서, 의원마다 '확대·보호' 쪽으로 던진 표의 비율을 구한 뒤 집단 평균을 냈습니다(불참 제외). 방향은 법안·수정안 내용으로 자동 판정했으며, 판정이 어려운 표결은 뺐습니다.</div></div>`;
+  const sg = (() => { const set = new Set(); R.forEach(m => groupsOf(m, {}).forEach(x => set.add(x))); return orderGroups([...set].filter(x => x !== '자료 없음' && x !== '해당 없음')); })();
+  if (S.plotGroup && !sg.includes(S.plotGroup)) S.plotGroup = '';
+  h += `<h2>이념 위치와 여성정책 활동</h2><div class="chart-block"><div class="btns" style="align-items:center">
+    <div class="seg"><button data-sumy="cs" class="${(S.sumY || 'cs') === 'cs' ? 'on' : ''}">발의·공동발의 수</button><button data-sumy="dir" class="${S.sumY === 'dir' ? 'on' : ''}">확대 쪽 표 비율</button></div>
+    <label class="fld">강조 <select data-sumgroup><option value="">없음</option>${sg.map(x => `<option value="${esc(x)}" ${S.plotGroup === x ? 'selected' : ''}>${esc(x)}</option>`).join('')}</select></label></div>
+    <div id="sumScatter">${summaryScatter(st)}</div>
+    <div class="cap">점 하나가 의원 한 명입니다(가로: DW-NOMINATE 1차원). 점에 마우스를 올리면 이름이 보입니다. 같은 이념 위치에서 위아래로 벌어지는 정도가 이념만으로 설명되지 않는 차이입니다.</div></div>`;
   // topic summary
   const topics = new Map();
   const add = (t, k, x) => { if (!topics.has(t)) topics.set(t, { bills: 0, votes: 0, csD: 0, csR: 0, csI: 0, plus: { D: [0, 0], R: [0, 0] } }); const o = topics.get(t); if (k === 'b') { o.bills++; for (const c of x.cs) { const m = typeof c[0] === 'number' ? R[c[0]] : null; if (m && !c[3]) o['cs' + (m.pc === 'D' ? 'D' : m.pc === 'R' ? 'R' : 'I')]++; } } else { o.votes++; if (x.dir) for (let i = 0; i < x.cast.length; i++) { const c = x.cast[i]; const m = R[i]; if (!m || (c !== '1' && c !== '2')) continue; const p = m.pc === 'D' ? 'D' : m.pc === 'R' ? 'R' : null; if (!p) continue; o.plus[p][1]++; if ((c === '1' && x.dir === 1) || (c === '2' && x.dir === -1)) o.plus[p][0]++; } } };
@@ -470,6 +477,34 @@ function memberPanel(bg) {
   <h3>공동발의 (${cos.length})</h3><details ${cos.length <= 15 ? 'open' : ''}><summary>목록</summary><ul>${bl(cos) || '<li class="muted">없음</li>'}</ul></details>
   <h3>표결 (${vrows.length})</h3><div class="tbl-wrap"><table><thead><tr><th>날짜</th><th>법안</th><th>표결</th><th>표</th><th>찬성의 뜻</th></tr></thead><tbody>
   ${vrows.map(([v, c]) => `<tr class="click" data-open="vote:${v.id}"><td>${esc(v.date)}</td><td>${esc(v.bl)}</td><td>${esc(v.q)}</td><td>${c === '1' ? '찬성' : c === '2' ? '반대' : '불참'}</td><td>${v.dir ? dirTag(v.topics[0], v.dir) : ''}</td></tr>`).join('')}</tbody></table></div>`;
+}
+
+function summaryScatter(st) {
+  const R = roster();
+  const ymode = S.sumY || 'cs';
+  const pts = R.map((m, i) => ({ m, y: ymode === 'cs' ? st[i].sp + st[i].cs : (st[i].n ? st[i].plus / st[i].n : null) })).filter(p => p.m.dw1 != null && p.y != null);
+  if (!pts.length) return '<p class="muted">그릴 자료가 없습니다.</p>';
+  const W = 620, H = 400, L = 56, T = 16, R0 = 16, B = 64, pw = W - L - R0, ph = H - T - B;
+  const niceStep = x => { const e = Math.pow(10, Math.floor(Math.log10(x))); const f = x / e; return (f <= 1 ? 1 : f <= 2 ? 2 : f <= 5 ? 5 : 10) * e; };
+  const step = ymode === 'cs' ? Math.max(1, niceStep(Math.max(1, ...pts.map(p => p.y)) / 4)) : 0.25;
+  const ymax = ymode === 'cs' ? step * Math.ceil(Math.max(1, ...pts.map(p => p.y)) / step) : 1;
+  const nt = Math.round(ymax / step);
+  const sx = x => L + (x + 1) / 2 * pw, sy = y => T + (1 - y / ymax) * ph;
+  const grp = S.plotGroup, inG = m => grp && groupsOf(m, {}).includes(grp);
+  let g = `<rect width="${W}" height="${H}" fill="#fff"/><rect x="${L}" y="${T}" width="${pw}" height="${ph}" fill="none" stroke="#bbb"/>`;
+  for (const v of [-1, -0.5, 0, 0.5, 1]) g += `<line x1="${sx(v)}" y1="${T}" x2="${sx(v)}" y2="${T + ph}" stroke="#eee"/><text x="${sx(v)}" y="${T + ph + 15}" text-anchor="middle" font-size="10.5" fill="#555">${v}</text>`;
+  for (let k = 0; k <= nt; k++) { const v = step * k; g += `<line x1="${L}" y1="${sy(v)}" x2="${L + pw}" y2="${sy(v)}" stroke="#eee"/><text x="${L - 6}" y="${sy(v) + 4}" text-anchor="end" font-size="10.5" fill="#555">${ymode === 'cs' ? Math.round(v) : Math.round(v * 100) + '%'}</text>`; }
+  g += `<text x="${L + pw / 2}" y="${T + ph + 32}" text-anchor="middle" font-size="11.5" fill="#333">DW-NOMINATE 1차원 (진보 ← → 보수)</text>`;
+  g += `<text transform="translate(14 ${T + ph / 2}) rotate(-90)" text-anchor="middle" font-size="11.5" fill="#333">${ymode === 'cs' ? '여성정책 법안 발의·공동발의 수' : '확대·보호 쪽 표 비율'}</text>`;
+  pts.sort((a, b) => (inG(a.m) ? 1 : 0) - (inG(b.m) ? 1 : 0));
+  for (const { m, y } of pts) {
+    const em = !grp || inG(m), col = PC[m.pc] || PC.I;
+    g += `<circle cx="${sx(m.dw1).toFixed(1)}" cy="${sy(y).toFixed(1)}" r="3.6" fill="${col}" fill-opacity="${em ? 0.8 : 0.18}" stroke="${em && grp ? '#111' : 'none'}" stroke-width="0.8"><title>${esc(m.n)} (${m.p}-${m.st}): ${ymode === 'cs' ? y + '건' : Math.round(y * 100) + '%'}</title></circle>`;
+  }
+  const ly = T + ph + 50; let lx = L;
+  for (const [p, l] of [['D', '민주'], ['R', '공화']]) { g += `<circle cx="${lx + 5}" cy="${ly}" r="5" fill="${PC[p]}"/><text x="${lx + 14}" y="${ly + 4}" font-size="11" fill="#333">${l}</text>`; lx += 58; }
+  if (grp) g += `<text x="${lx + 10}" y="${ly + 4}" font-size="11" fill="#333">진하게(테두리) = ${esc(CMP[S.cmp].label)}: ${esc(grp)}</text>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="100%" style="max-width:${W}px;font-family:system-ui,'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">${g}</svg>`;
 }
 
 /* ---------- DW-NOMINATE plot ---------- */
@@ -684,6 +719,8 @@ function viewAbout() {
   <li>넓은 범위(처음엔 꺼 둠): 아이 돌봄·유급 가족휴가·WIC 영양 지원, 인신매매</li>
   <li>기념 결의안(처음엔 꺼 둠): 여성사의 달, 특정 여성 기리기 등</li>
   <li>방향: 세부 정책마다 내용만 적은 이름(예: 임신중지 '접근 확대/접근 제한')을 붙입니다. 법안 이름·수정안 설명의 낱말로 정하고, 정하기 어려우면 '방향 없음'으로 둡니다. 표결에서는 안건의 방향에 표결 종류를 곱해 '찬성의 뜻'을 정합니다(예: 수정안 보류 동의에 찬성 = 수정안 반대). 의사규칙·재회부 동의 등은 방향을 매기지 않습니다.</li></ul>
+  <h2>DW-NOMINATE 그림</h2>
+  <p>표결 창과 법안 창에서 의원들의 이념 위치(Voteview의 DW-NOMINATE 1·2차원)에 찬성(O)·반대(X)·불참(점) 또는 발의·공동발의(채운 점)·하지 않음(빈 점)을 찍어 보여 줍니다. 컬러(정당 색)와 흑백 O·X 두 방식이 있고, 위에서 고른 비교 기준의 한 집단(예: 여성)을 강조할 수 있습니다. PNG(3배 해상도)·SVG로 저장됩니다. 분할선(cutting line)은 그리지 않았습니다.</p>
   <h2>세부 정책</h2><ul>${(S.idx.groups || []).map(g => `<li><b>${esc(g.label)}</b>: ${(S.idx.topics || []).filter(t => t.group === g.code).map(t => esc(t.label)).join(', ')}</li>`).join('')}</ul>
   <h2>주의</h2>
   <ul><li>자동 분류라 잘못 들어가거나 빠진 법안이 있을 수 있습니다. 법안 창의 '분류 근거'를 함께 보세요.</li>
@@ -701,6 +738,8 @@ function bindTables(root) {
   root.querySelectorAll('[data-sort]').forEach(el => el.addEventListener('click', () => { const k = el.dataset.sort; S.sort = S.sort && S.sort.k === k ? { k, d: -S.sort.d } : { k, d: k === 'cs' || k === 'votes' || k === 'plus' || k === 'margin' ? -1 : 1 }; render(); }));
   root.querySelectorAll('[data-page]').forEach(el => el.addEventListener('click', () => { S.page = +el.dataset.page; render(); window.scrollTo(0, $('#tabs').offsetTop); }));
   root.querySelectorAll('[data-dl]').forEach(el => el.addEventListener('click', () => { const [n, k] = el.dataset.dl.split(':'); download(n, k); }));
+  root.querySelectorAll('[data-sumy]').forEach(el => el.addEventListener('click', () => { S.sumY = el.dataset.sumy; render(); }));
+  root.querySelectorAll('[data-sumgroup]').forEach(el => el.addEventListener('change', () => { S.plotGroup = el.value; render(); }));
 }
 
 function writeHash() {
