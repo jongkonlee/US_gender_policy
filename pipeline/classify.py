@@ -210,10 +210,10 @@ def text_topics(text, pa=""):
     if LGBT.search(raw) and not WEAK.search(clean) and not any(
             STRONG[c].search(raw) for c in ("repro_abortion", "violence_dv", "violence_sexual", "econ_pregnant_workers")):
         return [], [], ["성소수자 관련(제외)"]
-    found = strong + weak
-    if found and pa in INTL_AREA and "rights_international" not in found:
+    core_found = [t for t in strong + weak if not t.startswith("broad")]
+    if core_found and pa in INTL_AREA and "rights_international" not in core_found:
         strong.append("rights_international")
-    if found and pa in MIL_AREA and "rights_military_veterans" not in found and re.search(r"women|female|servicewomen", raw, re.I):
+    if core_found and pa in MIL_AREA and "rights_military_veterans" not in core_found and re.search(r"women|female|servicewomen", raw, re.I):
         strong.append("rights_military_veterans")
     return strong, weak, basis
 
