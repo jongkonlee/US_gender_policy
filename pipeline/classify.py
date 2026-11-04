@@ -55,7 +55,7 @@ STRONG = {
     "repro_contraception": _c(r"contracepti", r"birth control", r"family planning", r"\bTitle X\b"),
     "repro_ivf": _c(r"\bIVF\b", r"in vitro fertili", r"\binfertil", r"fertility (treatment|preservation|care|services|coverage)",
                     r"assisted reproductive", r"\bembryos?\b"),
-    "violence_dv": _c(r"domestic violence", r"dating violence", r"family violence", r"intimate partner", r"violence against (women|females?|girls)",
+    "violence_dv": _c(r"domestic violence", r"dating violence", r"family violence", r"intimate partner", r"violence against (\w+ )?(women|females?|girls)",
                       r"\bVAWA\b", r"\bstalking\b", r"\bbattered\b", r"gender[- ]based violence", r"\bfemicide"),
     "violence_sexual": _c(r"sexual (assault|violence|harassment|misconduct)", r"\brape\b", r"\brapes\b", r"rape kits?",
                           r"sexual assault (kits?|evidence)", r"military sexual trauma", r"\bmetoo\b", r"#metoo"),
@@ -109,7 +109,7 @@ NOISE = [
         r"\b(men|boys|fathers|sons|husbands?|brothers) (and|&) (women|girls|mothers|daughters|wives|sisters)\b",
         r"\b(women|girls|mothers|daughters|wives|sisters) (and|&) (men|boys|fathers|sons|husbands?|brothers)\b",
         r"fathers,? mothers", r"mothers,? fathers", r"servicemen and servicewomen", r"\bboys and girls clubs?\b",
-        r"\bmen'?s (and|&) women'?s\b", r"\bwomen'?s (and|&) men'?s\b",
+        r"\bmen'?s (and|&) women'?s\b", r"\bwomen'?s (and|&) men'?s\b", r"service ?(men|members) (and|&) women",
     )]
 ENV_AREAS = {"Environmental Protection", "Energy", "Agriculture and Food", "Public Lands and Natural Resources",
              "Water Resources Development", "Transportation and Public Works", "Animals"}
@@ -124,17 +124,19 @@ AWARE = re.compile(r"(awareness|history) (month|week|day)|anniversary|internatio
 RULE = re.compile(r"^providing for (the )?consideration", re.I)
 
 # Women's policy subjects (CRS legislative subject terms); mixed terms need a women word in the title
-SUBJ_TOPIC = [
-    (re.compile(r"^abortion$", re.I), "repro_abortion"),
-    (re.compile(r"family planning|birth control|contracepti", re.I), "repro_contraception"),
-    (re.compile(r"infertil|assisted reproductive", re.I), "repro_ivf"),
-    (re.compile(r"maternal|pregnan", re.I), "health_maternal"),
-    (re.compile(r"^women'?s health$", re.I), "health_women"),
-    (re.compile(r"^women'?s employment$", re.I), "econ_pay"),
-    (re.compile(r"^women in business$", re.I), "econ_business"),
-    (re.compile(r"^women'?s rights$", re.I), "rights_other"),
-    (re.compile(r"women", re.I), "rights_other"),
+SUBJ_TOPIC = [  # (pattern, topic, specific?)
+    (re.compile(r"^abortion$", re.I), "repro_abortion", True),
+    (re.compile(r"family planning|birth control|contracepti", re.I), "repro_contraception", True),
+    (re.compile(r"infertil|assisted reproductive", re.I), "repro_ivf", True),
+    (re.compile(r"maternal|pregnan", re.I), "health_maternal", True),
+    (re.compile(r"^women'?s health$", re.I), "health_women", True),
+    (re.compile(r"^women'?s employment$", re.I), "econ_pay", True),
+    (re.compile(r"^women in business$", re.I), "econ_business", True),
+    (re.compile(r"^crimes against women$", re.I), "violence_dv", True),
+    (re.compile(r"^women'?s rights$", re.I), "rights_other", False),
+    (re.compile(r"women", re.I), "rights_other", False),
 ]
+DUTY = re.compile(r"\bdut(y|ies)\b|\btariff|harmonized tariff", re.I)
 SUBJ_BROAD = [(re.compile(r"^human trafficking$", re.I), "broad_trafficking"),
               (re.compile(r"^child care", re.I), "broad_care")]
 
@@ -194,7 +196,7 @@ def text_topics(text, pa=""):
         if m:
             strong.append(code)
             basis.append(f"제목 낱말: {m.group(0)}")
-    if not [c for c in strong if not c.startswith("broad")]:
+    if not strong:
         m = WEAK.search(clean)
         if m:
             w = m.group(0).lower()
@@ -295,19 +297,23 @@ def classify_bill(b):
         return dict(include=False, rule=True)
     strong, weak, basis = text_topics(text, pa)
     subj = b.get("subj") or []
-    s_topics = []
+    s_topics, n_specific, n_women = [], 0, 0
     for s in subj:
-        for rx, code in SUBJ_TOPIC:
+        for rx, code, specific in SUBJ_TOPIC:
             if rx.search(s):
+                n_women += 1
+                n_specific += 1 if specific else 0
                 if code not in s_topics:
                     s_topics.append(code)
                 break
     n_subj = len(subj)
-    subj_ok = (len(s_topics) >= 1 and n_subj <= 10) or (len(s_topics) >= 2 and n_subj <= 25)
+    subj_ok = (n_specific >= 1 and n_subj <= 10) or (n_women >= 2 and n_subj <= 25)
     if not subj_ok:
         s_topics = []
     else:
-        basis.append("주제어: " + ", ".join(x for x in subj if any(rx.search(x) for rx, _ in SUBJ_TOPIC))[:120])
+        basis.append("주제어: " + ", ".join(x for x in subj if any(p[0].search(x) for p in SUBJ_TOPIC))[:120])
+    if not strong and not s_topics and weak and DUTY.search(text):
+        return dict(include=False, excluded="tariff")
     topics = _order(strong, s_topics, weak)
     if not topics:
         return dict(include=False)
