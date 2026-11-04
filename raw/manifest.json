@@ -1,0 +1,2804 @@
+[
+ {
+  "path": "fec_results/index.html",
+  "url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
+  "bytes": 37675,
+  "note": "text/html; charset=utf-8"
+ },
+ {
+  "path": "fec_results/1990/federalelections90.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/federalelections90.pdf",
+  "bytes": 585663,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/1992/federalelections92.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/federalelections92.pdf",
+  "bytes": 2085376,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/1994/federalelections94.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/federalelections94.pdf",
+  "bytes": 2796825,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/1996/page.html",
+  "url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/federal-elections-1996/",
+  "bytes": 27011,
+  "note": "text/html; charset=utf-8"
+ },
+ {
+  "path": "fec_results/1996/federalelections96.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/federalelections96.pdf",
+  "bytes": 40261528,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/1996/FederalElections96_PresidentialGeneralElectionResults.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/FederalElections96_PresidentialGeneralElectionResults.pdf",
+  "bytes": 75302,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/1996/FederalElections96_PresidentialPrimaryElectionResults.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/FederalElections96_PresidentialPrimaryElectionResults.pdf",
+  "bytes": 63128,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/1996/FederalElections96_Preface.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/FederalElections96_Preface.pdf",
+  "bytes": 44710,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/1996/FederalElections96_GuidetoPartyLabels.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/FederalElections96_GuidetoPartyLabels.pdf",
+  "bytes": 17471,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/1996/FederalElections_96__1996_Senate.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/FederalElections_96__1996_Senate.pdf",
+  "bytes": 54556,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/1996/FederalElections96_1996ElectoralandPopularVoteSummary.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/FederalElections96_1996ElectoralandPopularVoteSummary.pdf",
+  "bytes": 22775,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/1996/1996GEVotes.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/1996GEVotes.pdf",
+  "bytes": 21180,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/1996/FederalElections96_1996VotesCastfortheUSSenatebyParty.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/FederalElections96_1996VotesCastfortheUSSenatebyParty.pdf",
+  "bytes": 18962,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/1996/1996POPULARVOTESUMMARY_nOhmtpP.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/1996POPULARVOTESUMMARY_nOhmtpP.pdf",
+  "bytes": 46716,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/1996/FederalElections96_PresidentialPrimaryElectionResults.xlsx",
+  "url": "https://www.fec.gov/resources/cms-content/documents/FederalElections96_PresidentialPrimaryElectionResults.xlsx",
+  "bytes": 99811,
+  "note": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+ },
+ {
+  "path": "fec_results/1996/FederalElections96_PresidentialGeneralElectionResults.xlsx",
+  "url": "https://www.fec.gov/resources/cms-content/documents/FederalElections96_PresidentialGeneralElectionResults.xlsx",
+  "bytes": 57712,
+  "note": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+ },
+ {
+  "path": "fec_results/1996/FederalElections96_1996Senate.xlsx",
+  "url": "https://www.fec.gov/resources/cms-content/documents/FederalElections96_1996Senate.xlsx",
+  "bytes": 80706,
+  "note": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+ },
+ {
+  "path": "fec_results/1996/FederalElections96_PrimaryandGeneralVotesforCongress.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/FederalElections96_PrimaryandGeneralVotesforCongress.pdf",
+  "bytes": 19514,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/1998/page.html",
+  "url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/federal-elections-1998/",
+  "bytes": 26437,
+  "note": "text/html; charset=utf-8"
+ },
+ {
+  "path": "fec_results/1998/federalelections98.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/federalelections98.pdf",
+  "bytes": 27974502,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/1998/FederalElections98_Preface.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/FederalElections98_Preface.pdf",
+  "bytes": 38747,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/1998/FederalElections98_AGuidetoPartyLabels.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/FederalElections98_AGuidetoPartyLabels.pdf",
+  "bytes": 18071,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/1998/FederalElections98_SenateResults.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/FederalElections98_SenateResults.pdf",
+  "bytes": 67957,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/1998/FederalElections98_1998VotesCastfortheSenate.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/FederalElections98_1998VotesCastfortheSenate.pdf",
+  "bytes": 23036,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/1998/FederalElections98_1998VotesCastfortheHouse.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/FederalElections98_1998VotesCastfortheHouse.pdf",
+  "bytes": 24031,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/1998/FederalElections98_1998Primary_andGeneralElectionChart.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/FederalElections98_1998Primary_andGeneralElectionChart.pdf",
+  "bytes": 25696,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2000/page.html",
+  "url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/federal-elections-2000/",
+  "bytes": 25339,
+  "note": "text/html; charset=utf-8"
+ },
+ {
+  "path": "fec_results/2000/federalelections00.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/federalelections00.pdf",
+  "bytes": 46813173,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2000/2000append.xls",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2000append.xls",
+  "bytes": 60928,
+  "note": "application/vnd.ms-excel"
+ },
+ {
+  "path": "fec_results/2000/2000tables.xls",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2000tables.xls",
+  "bytes": 38400,
+  "note": "application/vnd.ms-excel"
+ },
+ {
+  "path": "fec_results/2002/page.html",
+  "url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/federal-elections-2002/",
+  "bytes": 27690,
+  "note": "text/html; charset=utf-8"
+ },
+ {
+  "path": "fec_results/2002/federalelections02.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/federalelections02.pdf",
+  "bytes": 29286006,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2002/2002fedresults.xls",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2002fedresults.xls",
+  "bytes": 764416,
+  "note": "application/vnd.ms-excel"
+ },
+ {
+  "path": "fec_results/2002/FEDERALELECTIONS2002_Preface.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/FEDERALELECTIONS2002_Preface.pdf",
+  "bytes": 40622,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2002/FEDERALELECTIONS2002__2002Tables.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/FEDERALELECTIONS2002__2002Tables.pdf",
+  "bytes": 41132,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2002/FEDERALELECTIONS2002_AGuidetoPartyLabels.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/FEDERALELECTIONS2002_AGuidetoPartyLabels.pdf",
+  "bytes": 17347,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2002/FederalElections2002_Senate.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/FederalElections2002_Senate.pdf",
+  "bytes": 59715,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2002/FederalElections2002_House.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/FederalElections2002_House.pdf",
+  "bytes": 283336,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2002/FederalElections2002_Senate.xlsx",
+  "url": "https://www.fec.gov/resources/cms-content/documents/FederalElections2002_Senate.xlsx",
+  "bytes": 93032,
+  "note": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+ },
+ {
+  "path": "fec_results/2002/FederalElections2002_House.xlsx",
+  "url": "https://www.fec.gov/resources/cms-content/documents/FederalElections2002_House.xlsx",
+  "bytes": 981325,
+  "note": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+ },
+ {
+  "path": "fec_results/2004/page.html",
+  "url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/federal-elections-2004/",
+  "bytes": 26802,
+  "note": "text/html; charset=utf-8"
+ },
+ {
+  "path": "fec_results/2004/2004appendix.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2004appendix.pdf",
+  "bytes": 217677,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2004/2004appendix.xls",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2004appendix.xls",
+  "bytes": 88576,
+  "note": "application/vnd.ms-excel"
+ },
+ {
+  "path": "fec_results/2004/2004congmaps.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2004congmaps.pdf",
+  "bytes": 3295520,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2004/2004congresults.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2004congresults.pdf",
+  "bytes": 591434,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2004/2004congresults.xls",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2004congresults.xls",
+  "bytes": 908800,
+  "note": "application/vnd.ms-excel"
+ },
+ {
+  "path": "fec_results/2004/2004partylabels.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2004partylabels.pdf",
+  "bytes": 100280,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2004/2004pres.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2004pres.pdf",
+  "bytes": 314688,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2004/2004pres.xls",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2004pres.xls",
+  "bytes": 398336,
+  "note": "application/vnd.ms-excel"
+ },
+ {
+  "path": "fec_results/2004/2004presmaps.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2004presmaps.pdf",
+  "bytes": 2727991,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2004/2004tables.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2004tables.pdf",
+  "bytes": 258256,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2004/2004tables.xls",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2004tables.xls",
+  "bytes": 120320,
+  "note": "application/vnd.ms-excel"
+ },
+ {
+  "path": "fec_results/2004/federalelections2004.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/federalelections2004.pdf",
+  "bytes": 6952097,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2004/federalelections2004.xls",
+  "url": "https://www.fec.gov/resources/cms-content/documents/federalelections2004.xls",
+  "bytes": 1377792,
+  "note": "application/vnd.ms-excel"
+ },
+ {
+  "path": "fec_results/2004/2004preface.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2004preface.pdf",
+  "bytes": 200092,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2006/page.html",
+  "url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/federal-elections-2006/",
+  "bytes": 26083,
+  "note": "text/html; charset=utf-8"
+ },
+ {
+  "path": "fec_results/2006/2006congmaps.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2006congmaps.pdf",
+  "bytes": 8916570,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2006/2006house.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2006house.pdf",
+  "bytes": 3130782,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2006/2006partylabels.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2006partylabels.pdf",
+  "bytes": 152763,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2006/2006preface.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2006preface.pdf",
+  "bytes": 237414,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2006/2006senate.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2006senate.pdf",
+  "bytes": 366113,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2006/2006tables.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2006tables.pdf",
+  "bytes": 425927,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2006/federalelections2006.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/federalelections2006.pdf",
+  "bytes": 13744426,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2006/federalelections2006.xls",
+  "url": "https://www.fec.gov/resources/cms-content/documents/federalelections2006.xls",
+  "bytes": 1058816,
+  "note": "application/vnd.ms-excel"
+ },
+ {
+  "path": "fec_results/2006/tables06.xls",
+  "url": "https://www.fec.gov/resources/cms-content/documents/tables06.xls",
+  "bytes": 103424,
+  "note": "application/vnd.ms-excel"
+ },
+ {
+  "path": "fec_results/2006/results06.xls",
+  "url": "https://www.fec.gov/resources/cms-content/documents/results06.xls",
+  "bytes": 993280,
+  "note": "application/vnd.ms-excel"
+ },
+ {
+  "path": "fec_results/2008/page.html",
+  "url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/federal-elections-2008/",
+  "bytes": 26802,
+  "note": "text/html; charset=utf-8"
+ },
+ {
+  "path": "fec_results/2008/2008congmaps.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2008congmaps.pdf",
+  "bytes": 5200222,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2008/2008congresults.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2008congresults.pdf",
+  "bytes": 415253,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2008/2008congresults.xls",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2008congresults.xls",
+  "bytes": 1038848,
+  "note": "application/vnd.ms-excel"
+ },
+ {
+  "path": "fec_results/2008/2008pres.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2008pres.pdf",
+  "bytes": 280480,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2008/2008pres.xls",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2008pres.xls",
+  "bytes": 463872,
+  "note": "application/vnd.ms-excel"
+ },
+ {
+  "path": "fec_results/2008/2008presmaps.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2008presmaps.pdf",
+  "bytes": 2018809,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2008/appendix2008.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/appendix2008.pdf",
+  "bytes": 195407,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2008/appendix2008.xls",
+  "url": "https://www.fec.gov/resources/cms-content/documents/appendix2008.xls",
+  "bytes": 81920,
+  "note": "application/vnd.ms-excel"
+ },
+ {
+  "path": "fec_results/2008/federalelections2008.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/federalelections2008.pdf",
+  "bytes": 7469458,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2008/federalelections2008.xls",
+  "url": "https://www.fec.gov/resources/cms-content/documents/federalelections2008.xls",
+  "bytes": 1581568,
+  "note": "application/vnd.ms-excel"
+ },
+ {
+  "path": "fec_results/2008/partylabels2008.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/partylabels2008.pdf",
+  "bytes": 88204,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2008/preface2008.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/preface2008.pdf",
+  "bytes": 155669,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2008/tables2008.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/tables2008.pdf",
+  "bytes": 115787,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2008/tables2008.xls",
+  "url": "https://www.fec.gov/resources/cms-content/documents/tables2008.xls",
+  "bytes": 104960,
+  "note": "application/vnd.ms-excel"
+ },
+ {
+  "path": "fec_results/2010/page.html",
+  "url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/federal-elections-2010/",
+  "bytes": 26083,
+  "note": "text/html; charset=utf-8"
+ },
+ {
+  "path": "fec_results/2010/2010congmaps.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2010congmaps.pdf",
+  "bytes": 15727845,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2010/2010house.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2010house.pdf",
+  "bytes": 686034,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2010/2010senate.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2010senate.pdf",
+  "bytes": 424984,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2010/federalelections2010.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/federalelections2010.pdf",
+  "bytes": 17578120,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2010/federalelections2010.xls",
+  "url": "https://www.fec.gov/resources/cms-content/documents/federalelections2010.xls",
+  "bytes": 1377792,
+  "note": "application/vnd.ms-excel"
+ },
+ {
+  "path": "fec_results/2010/preface2010.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/preface2010.pdf",
+  "bytes": 139172,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2010/results10.xls",
+  "url": "https://www.fec.gov/resources/cms-content/documents/results10.xls",
+  "bytes": 1271808,
+  "note": "application/vnd.ms-excel"
+ },
+ {
+  "path": "fec_results/2010/tables10.xls",
+  "url": "https://www.fec.gov/resources/cms-content/documents/tables10.xls",
+  "bytes": 137216,
+  "note": "application/vnd.ms-excel"
+ },
+ {
+  "path": "fec_results/2010/tables2010.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/tables2010.pdf",
+  "bytes": 116013,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2010/partylabels2010.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/partylabels2010.pdf",
+  "bytes": 81650,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2012/page.html",
+  "url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/federal-elections-2012/",
+  "bytes": 26809,
+  "note": "text/html; charset=utf-8"
+ },
+ {
+  "path": "fec_results/2012/2012congresults.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2012congresults.pdf",
+  "bytes": 2962944,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2012/2012congresults.xls",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2012congresults.xls",
+  "bytes": 1372672,
+  "note": "application/vnd.ms-excel"
+ },
+ {
+  "path": "fec_results/2012/2012pres.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2012pres.pdf",
+  "bytes": 903875,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2012/2012pres.xls",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2012pres.xls",
+  "bytes": 563200,
+  "note": "application/vnd.ms-excel"
+ },
+ {
+  "path": "fec_results/2012/2012presmaps.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2012presmaps.pdf",
+  "bytes": 6646987,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2012/appendix2012.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/appendix2012.pdf",
+  "bytes": 182518,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2012/appendix2012.xls",
+  "url": "https://www.fec.gov/resources/cms-content/documents/appendix2012.xls",
+  "bytes": 93696,
+  "note": "application/vnd.ms-excel"
+ },
+ {
+  "path": "fec_results/2012/federalelections2012.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/federalelections2012.pdf",
+  "bytes": 25069177,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2012/2012congmaps.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2012congmaps.pdf",
+  "bytes": 14114637,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2012/federalelections2012.xls",
+  "url": "https://www.fec.gov/resources/cms-content/documents/federalelections2012.xls",
+  "bytes": 1827840,
+  "note": "application/vnd.ms-excel"
+ },
+ {
+  "path": "fec_results/2012/partylabels2012.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/partylabels2012.pdf",
+  "bytes": 91414,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2012/preface2012.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/preface2012.pdf",
+  "bytes": 249745,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2012/tables2012.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/tables2012.pdf",
+  "bytes": 572574,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2012/tables2012.xls",
+  "url": "https://www.fec.gov/resources/cms-content/documents/tables2012.xls",
+  "bytes": 296960,
+  "note": "application/vnd.ms-excel"
+ },
+ {
+  "path": "fec_results/2014/page.html",
+  "url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/federal-elections-2014/",
+  "bytes": 26085,
+  "note": "text/html; charset=utf-8"
+ },
+ {
+  "path": "fec_results/2014/2014congmaps.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2014congmaps.pdf",
+  "bytes": 75961273,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2014/2014house.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2014house.pdf",
+  "bytes": 2777859,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2014/2014senate.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/2014senate.pdf",
+  "bytes": 345060,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2014/federalelections2014.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/federalelections2014.pdf",
+  "bytes": 5891188,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2014/federalelections2014.xls",
+  "url": "https://www.fec.gov/resources/cms-content/documents/federalelections2014.xls",
+  "bytes": 1280000,
+  "note": "application/vnd.ms-excel"
+ },
+ {
+  "path": "fec_results/2014/partylabels2014.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/partylabels2014.pdf",
+  "bytes": 22840,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2014/preface2014.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/preface2014.pdf",
+  "bytes": 201654,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2014/tables2014.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/tables2014.pdf",
+  "bytes": 381532,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2014/tables2014.xls",
+  "url": "https://www.fec.gov/resources/cms-content/documents/tables2014.xls",
+  "bytes": 190464,
+  "note": "application/vnd.ms-excel"
+ },
+ {
+  "path": "fec_results/2014/results14.xls",
+  "url": "https://www.fec.gov/resources/cms-content/documents/results14.xls",
+  "bytes": 1156608,
+  "note": "application/vnd.ms-excel"
+ },
+ {
+  "path": "fec_results/2016/page.html",
+  "url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/federal-elections-2016/",
+  "bytes": 24656,
+  "note": "text/html; charset=utf-8"
+ },
+ {
+  "path": "fec_results/2016/federalelections2016.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/federalelections2016.pdf",
+  "bytes": 11855912,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2016/federalelections2016.xlsx",
+  "url": "https://www.fec.gov/resources/cms-content/documents/federalelections2016.xlsx",
+  "bytes": 1549194,
+  "note": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+ },
+ {
+  "path": "fec_results/2018/page.html",
+  "url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/federal-elections-2018/",
+  "bytes": 24623,
+  "note": "text/html; charset=utf-8"
+ },
+ {
+  "path": "fec_results/2018/federalelections2018.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/federalelections2018.pdf",
+  "bytes": 5713334,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2018/federalelections2018.xlsx",
+  "url": "https://www.fec.gov/resources/cms-content/documents/federalelections2018.xlsx",
+  "bytes": 602712,
+  "note": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+ },
+ {
+  "path": "fec_results/2020/page.html",
+  "url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/federal-elections-2020/",
+  "bytes": 24576,
+  "note": "text/html; charset=utf-8"
+ },
+ {
+  "path": "fec_results/2020/federalelections2020.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/federalelections2020.pdf",
+  "bytes": 12531393,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2020/federalelections2020.xlsx",
+  "url": "https://www.fec.gov/resources/cms-content/documents/federalelections2020.xlsx",
+  "bytes": 6251110,
+  "note": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+ },
+ {
+  "path": "fec_results/2022/page.html",
+  "url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/federal-elections-2022/",
+  "bytes": 24607,
+  "note": "text/html; charset=utf-8"
+ },
+ {
+  "path": "fec_results/2022/federalelections2022.pdf",
+  "url": "https://www.fec.gov/resources/cms-content/documents/federalelections2022.pdf",
+  "bytes": 8047121,
+  "note": "application/pdf"
+ },
+ {
+  "path": "fec_results/2022/federalelections2022.xlsx",
+  "url": "https://www.fec.gov/resources/cms-content/documents/federalelections2022.xlsx",
+  "bytes": 3179722,
+  "note": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+ },
+ {
+  "path": "fec_bulk/cn_header_file.csv",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/data_dictionaries/cn_header_file.csv",
+  "bytes": 180,
+  "note": "binary/octet-stream"
+ },
+ {
+  "path": "fec_bulk/weball_header_file.csv",
+  "url": "https://www.fec.gov/files/bulk-downloads/data_dictionaries/weball_header_file.csv",
+  "bytes": 0,
+  "error": "HTTPError: HTTP Error 404: Not Found"
+ },
+ {
+  "path": "fec_bulk/1990/cn90.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/1990/cn90.zip",
+  "bytes": 138119,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/1990/weball90.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/1990/weball90.zip",
+  "bytes": 93572,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/1992/cn92.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/1992/cn92.zip",
+  "bytes": 193954,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/1992/weball92.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/1992/weball92.zip",
+  "bytes": 128393,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/1994/cn94.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/1994/cn94.zip",
+  "bytes": 196774,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/1994/weball94.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/1994/weball94.zip",
+  "bytes": 128733,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/1996/cn96.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/1996/cn96.zip",
+  "bytes": 217193,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/1996/weball96.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/1996/weball96.zip",
+  "bytes": 127676,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/1998/cn98.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/1998/cn98.zip",
+  "bytes": 169409,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/1998/weball98.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/1998/weball98.zip",
+  "bytes": 108660,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/2000/cn00.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/2000/cn00.zip",
+  "bytes": 166844,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/2000/weball00.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/2000/weball00.zip",
+  "bytes": 107797,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/2002/cn02.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/2002/cn02.zip",
+  "bytes": 146625,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/2002/weball02.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/2002/weball02.zip",
+  "bytes": 112278,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/2004/cn04.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/2004/cn04.zip",
+  "bytes": 142800,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/2004/weball04.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/2004/weball04.zip",
+  "bytes": 114547,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/2006/cn06.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/2006/cn06.zip",
+  "bytes": 139291,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/2006/weball06.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/2006/weball06.zip",
+  "bytes": 114900,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/2008/cn08.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/2008/cn08.zip",
+  "bytes": 153850,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/2008/weball08.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/2008/weball08.zip",
+  "bytes": 123944,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/2010/cn10.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/2010/cn10.zip",
+  "bytes": 190211,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/2010/weball10.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/2010/weball10.zip",
+  "bytes": 149485,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/2012/cn12.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/2012/cn12.zip",
+  "bytes": 207053,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/2012/weball12.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/2012/weball12.zip",
+  "bytes": 151707,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/2014/cn14.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/2014/cn14.zip",
+  "bytes": 206265,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/2014/weball14.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/2014/weball14.zip",
+  "bytes": 135851,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/2016/cn16.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/2016/cn16.zip",
+  "bytes": 271705,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/2016/weball16.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/2016/weball16.zip",
+  "bytes": 132262,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/2018/cn18.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/2018/cn18.zip",
+  "bytes": 271951,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/2018/weball18.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/2018/weball18.zip",
+  "bytes": 171196,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/2020/cn20.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/2020/cn20.zip",
+  "bytes": 283545,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/2020/weball20.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/2020/weball20.zip",
+  "bytes": 183085,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/2022/cn22.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/2022/cn22.zip",
+  "bytes": 313237,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/2022/weball22.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/2022/weball22.zip",
+  "bytes": 190724,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/2024/cn24.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/2024/cn24.zip",
+  "bytes": 356337,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/2024/weball24.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/2024/weball24.zip",
+  "bytes": 174290,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/2026/cn26.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/2026/cn26.zip",
+  "bytes": 312931,
+  "note": "application/zip"
+ },
+ {
+  "path": "fec_bulk/2026/weball26.zip",
+  "url": "https://cg-519a459a-0ea3-42c2-b7bc-fa1143481f74.s3-us-gov-west-1.amazonaws.com/bulk-downloads/2026/weball26.zip",
+  "bytes": 199932,
+  "note": "application/zip"
+ },
+ {
+  "path": "cawp/congress_db.html",
+  "url": "https://cawp.rutgers.edu/data/candidates-historic-facts-women-candidates?tab=Congress",
+  "bytes": 0,
+  "error": "HTTPError: HTTP Error 403: Forbidden"
+ },
+ {
+  "path": "cawp/databases.html",
+  "url": "https://cawp.rutgers.edu/data/candidates-cawp-candidate-databases",
+  "bytes": 0,
+  "error": "HTTPError: HTTP Error 403: Forbidden"
+ },
+ {
+  "path": "cawp/2026_list.html",
+  "url": "https://cawp.rutgers.edu/data/candidates-women-candidates-2026?tab=CandidateList",
+  "bytes": 0,
+  "error": "HTTPError: HTTP Error 403: Forbidden"
+ },
+ {
+  "path": "cawp/2026_summary.html",
+  "url": "https://cawp.rutgers.edu/data/candidates-women-candidates-2026?tab=CandidateSummary",
+  "bytes": 0,
+  "error": "HTTPError: HTTP Error 403: Forbidden"
+ },
+ {
+  "path": "cawp/results.html",
+  "url": "https://cawp.rutgers.edu/data/candidates-election-results-and-analysis-0",
+  "bytes": 0,
+  "error": "HTTPError: HTTP Error 403: Forbidden"
+ },
+ {
+  "path": "cawp/files/CONGRESS_MASTER_1990-2024.xlsx",
+  "url": "https://cawp.rutgers.edu/sites/default/files/2025-10/CONGRESS_MASTER_1990-2024.xlsx",
+  "bytes": 364722,
+  "note": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+ },
+ {
+  "path": "cawp/codebook.pdf",
+  "url": "https://cawp.rutgers.edu/sites/default/files/resources/congress_statewide_codebook_external.pdf",
+  "bytes": 641449,
+  "note": "application/pdf"
+ },
+ {
+  "path": "wiki/2022/house/Alabama.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Alabama",
+  "bytes": 90809,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Alaska.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_election_in_Alaska",
+  "bytes": 62857,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Arizona.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Arizona",
+  "bytes": 138603,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Arkansas.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Arkansas",
+  "bytes": 114640,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/California.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_California",
+  "bytes": 541664,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Colorado.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Colorado",
+  "bytes": 195322,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Connecticut.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Connecticut",
+  "bytes": 62937,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Delaware.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_elections",
+  "bytes": 306397,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Florida.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Florida",
+  "bytes": 445465,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Georgia.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Georgia",
+  "bytes": 200061,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Hawaii.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Hawaii",
+  "bytes": 40767,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Idaho.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Idaho",
+  "bytes": 24048,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Illinois.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Illinois",
+  "bytes": 275240,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Indiana.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Indiana",
+  "bytes": 91435,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Iowa.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Iowa",
+  "bytes": 85904,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Kansas.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Kansas",
+  "bytes": 43082,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Kentucky.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Kentucky",
+  "bytes": 60820,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Louisiana.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Louisiana",
+  "bytes": 42117,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Maine.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Maine",
+  "bytes": 44028,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Maryland.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Maryland",
+  "bytes": 187063,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Massachusetts.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Massachusetts",
+  "bytes": 83950,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Michigan.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Michigan",
+  "bytes": 209215,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Minnesota.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Minnesota",
+  "bytes": 112637,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Mississippi.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Mississippi",
+  "bytes": 92729,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Missouri.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Missouri",
+  "bytes": 98167,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Montana.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Montana",
+  "bytes": 63923,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Nebraska.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Nebraska",
+  "bytes": 65845,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Nevada.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Nevada",
+  "bytes": 94998,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/New_Hampshire.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_New_Hampshire",
+  "bytes": 86760,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/New_Jersey.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_New_Jersey",
+  "bytes": 232217,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/New_Mexico.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_New_Mexico",
+  "bytes": 97645,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/New_York.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_New_York",
+  "bytes": 482837,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/North_Carolina.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_North_Carolina",
+  "bytes": 186840,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/North_Dakota.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_election_in_North_Dakota",
+  "bytes": 41292,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Ohio.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Ohio",
+  "bytes": 172617,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Oklahoma.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Oklahoma",
+  "bytes": 76227,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Oregon.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Oregon",
+  "bytes": 162047,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Pennsylvania.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Pennsylvania",
+  "bytes": 223794,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Rhode_Island.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Rhode_Island",
+  "bytes": 72429,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/South_Carolina.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_South_Carolina",
+  "bytes": 125000,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/South_Dakota.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_election_in_South_Dakota",
+  "bytes": 40176,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Tennessee.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Tennessee",
+  "bytes": 120705,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Texas.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Texas",
+  "bytes": 465340,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Utah.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Utah",
+  "bytes": 59945,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Vermont.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_election_in_Vermont",
+  "bytes": 57037,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Virginia.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Virginia",
+  "bytes": 301161,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Washington.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Washington",
+  "bytes": 209172,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/West_Virginia.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_West_Virginia",
+  "bytes": 65153,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Wisconsin.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_Wisconsin",
+  "bytes": 94795,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/house/Wyoming.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_election_in_Wyoming",
+  "bytes": 116411,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/district/2022_Alaska_s_at_large_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2022_Alaska%27s_at-large_congressional_district_special_election",
+  "bytes": 96341,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/district/2022_California_s_22nd_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2022_California%27s_22nd_congressional_district_special_election",
+  "bytes": 28416,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/district/2022_Florida_s_20th_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2022_Florida%27s_20th_congressional_district_special_election",
+  "bytes": 56235,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/district/2022_Indiana_s_2nd_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2022_Indiana%27s_2nd_congressional_district_special_election",
+  "bytes": 17904,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/district/2022_Minnesota_s_1st_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2022_Minnesota%27s_1st_congressional_district_special_election",
+  "bytes": 50014,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/district/2022_Nebraska_s_1st_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2022_Nebraska%27s_1st_congressional_district_special_election",
+  "bytes": 31713,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/district/2022_New_York_s_19th_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2022_New_York%27s_19th_congressional_district_special_election",
+  "bytes": 26950,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/district/2022_New_York_s_23rd_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2022_New_York%27s_23rd_congressional_district_special_election",
+  "bytes": 20920,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/district/2022_Texas_s_34th_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2022_Texas%27s_34th_congressional_district_special_election",
+  "bytes": 19592,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/_overview.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_elections",
+  "bytes": 360609,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Alabama.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Alabama",
+  "bytes": 145335,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Alaska.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Alaska",
+  "bytes": 68765,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Arizona.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Arizona",
+  "bytes": 132564,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Arkansas.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Arkansas",
+  "bytes": 60412,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Colorado.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Colorado",
+  "bytes": 120819,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Connecticut.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Connecticut",
+  "bytes": 41838,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Florida.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Florida",
+  "bytes": 150132,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Georgia.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Georgia",
+  "bytes": 308396,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Hawaii.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Hawaii",
+  "bytes": 25654,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Idaho.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Idaho",
+  "bytes": 45983,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Illinois.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Illinois",
+  "bytes": 97770,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Indiana.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Indiana",
+  "bytes": 77493,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Iowa.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Iowa",
+  "bytes": 122697,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Kansas.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Kansas",
+  "bytes": 75024,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Kentucky.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Kentucky",
+  "bytes": 41249,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Louisiana.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Louisiana",
+  "bytes": 64234,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Maryland.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Maryland",
+  "bytes": 53044,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Missouri.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Missouri",
+  "bytes": 191151,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Nevada.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Nevada",
+  "bytes": 109971,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_New_Hampshire.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_New_Hampshire",
+  "bytes": 90575,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_New_York.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_New_York",
+  "bytes": 82796,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_North_Carolina.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_North_Carolina",
+  "bytes": 160765,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_North_Dakota.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_North_Dakota",
+  "bytes": 47948,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Ohio.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Ohio",
+  "bytes": 264192,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Oklahoma.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Oklahoma",
+  "bytes": 105413,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Oregon.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Oregon",
+  "bytes": 47283,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Pennsylvania.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Pennsylvania",
+  "bytes": 327801,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_South_Carolina.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_South_Carolina",
+  "bytes": 47580,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_South_Dakota.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_South_Dakota",
+  "bytes": 56705,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Utah.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Utah",
+  "bytes": 100504,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Vermont.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Vermont",
+  "bytes": 57313,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Washington.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Washington",
+  "bytes": 67404,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_election_in_Wisconsin.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_Wisconsin",
+  "bytes": 158989,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/senate/2022_United_States_Senate_special_election_in_Oklahoma.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_special_election_in_Oklahoma",
+  "bytes": 94735,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Alabama.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Alabama",
+  "bytes": 202752,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Alaska.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_election_in_Alaska",
+  "bytes": 51289,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Arizona.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Arizona",
+  "bytes": 195517,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Arkansas.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Arkansas",
+  "bytes": 108604,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/California.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_California",
+  "bytes": 689218,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Colorado.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Colorado",
+  "bytes": 203108,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Connecticut.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Connecticut",
+  "bytes": 48777,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Delaware.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_election_in_Delaware",
+  "bytes": 40403,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Florida.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Florida",
+  "bytes": 272274,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Georgia.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Georgia",
+  "bytes": 150736,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Hawaii.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Hawaii",
+  "bytes": 26680,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Idaho.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Idaho",
+  "bytes": 24952,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Illinois.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Illinois",
+  "bytes": 182119,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Indiana.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Indiana",
+  "bytes": 117773,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Iowa.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Iowa",
+  "bytes": 113513,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Kansas.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Kansas",
+  "bytes": 53464,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Kentucky.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Kentucky",
+  "bytes": 50099,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Louisiana.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Louisiana",
+  "bytes": 57587,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Maine.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Maine",
+  "bytes": 41681,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Maryland.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Maryland",
+  "bytes": 160949,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Massachusetts.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Massachusetts",
+  "bytes": 65389,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Michigan.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Michigan",
+  "bytes": 183039,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Minnesota.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Minnesota",
+  "bytes": 106256,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Mississippi.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Mississippi",
+  "bytes": 62806,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Missouri.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Missouri",
+  "bytes": 105552,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Montana.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Montana",
+  "bytes": 101976,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Nebraska.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Nebraska",
+  "bytes": 63038,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Nevada.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Nevada",
+  "bytes": 88130,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/New_Hampshire.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_New_Hampshire",
+  "bytes": 69187,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/New_Jersey.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_New_Jersey",
+  "bytes": 281423,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/New_Mexico.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_New_Mexico",
+  "bytes": 78773,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/New_York.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_New_York",
+  "bytes": 352091,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/North_Carolina.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_North_Carolina",
+  "bytes": 161194,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/North_Dakota.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_election_in_North_Dakota",
+  "bytes": 66599,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Ohio.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Ohio",
+  "bytes": 232401,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Oklahoma.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Oklahoma",
+  "bytes": 43758,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Oregon.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Oregon",
+  "bytes": 162025,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Pennsylvania.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Pennsylvania",
+  "bytes": 253943,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Rhode_Island.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Rhode_Island",
+  "bytes": 24047,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/South_Carolina.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_South_Carolina",
+  "bytes": 83223,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/South_Dakota.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_election_in_South_Dakota",
+  "bytes": 37227,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Tennessee.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Tennessee",
+  "bytes": 127730,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Texas.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas",
+  "bytes": 586461,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Utah.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Utah",
+  "bytes": 68229,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Vermont.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_election_in_Vermont",
+  "bytes": 19680,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Virginia.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Virginia",
+  "bytes": 348289,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Washington.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Washington",
+  "bytes": 265921,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/West_Virginia.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_West_Virginia",
+  "bytes": 61491,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Wisconsin.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Wisconsin",
+  "bytes": 135132,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/house/Wyoming.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_election_in_Wyoming",
+  "bytes": 23975,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/district/2024_California_s_20th_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2024_California%27s_20th_congressional_district_special_election",
+  "bytes": 42133,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/district/2024_Colorado_s_4th_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2024_Colorado%27s_4th_congressional_district_special_election",
+  "bytes": 32627,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/district/2024_New_Jersey_s_10th_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2024_New_Jersey%27s_10th_congressional_district_special_election",
+  "bytes": 28866,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/district/2024_New_York_s_3rd_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2024_New_York%27s_3rd_congressional_district_special_election",
+  "bytes": 49200,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/district/2024_Ohio_s_6th_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2024_Ohio%27s_6th_congressional_district_special_election",
+  "bytes": 14449,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/_overview.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_elections",
+  "bytes": 345307,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Arizona.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Arizona",
+  "bytes": 161807,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Connecticut.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Connecticut",
+  "bytes": 26660,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Delaware.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Delaware",
+  "bytes": 25146,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Florida.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Florida",
+  "bytes": 115821,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Hawaii.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Hawaii",
+  "bytes": 22360,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Indiana.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Indiana",
+  "bytes": 91989,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Maine.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Maine",
+  "bytes": 32956,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Maryland.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Maryland",
+  "bytes": 235407,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Massachusetts.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Massachusetts",
+  "bytes": 52499,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Michigan.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Michigan",
+  "bytes": 215473,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Minnesota.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Minnesota",
+  "bytes": 98734,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Mississippi.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Mississippi",
+  "bytes": 56172,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Missouri.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Missouri",
+  "bytes": 115964,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Montana.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Montana",
+  "bytes": 130917,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Nebraska.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Nebraska",
+  "bytes": 81025,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Nevada.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Nevada",
+  "bytes": 103756,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_New_Jersey.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_New_Jersey",
+  "bytes": 243738,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_New_Mexico.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_New_Mexico",
+  "bytes": 42345,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_New_York.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_New_York",
+  "bytes": 83694,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_North_Dakota.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_North_Dakota",
+  "bytes": 44730,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Ohio.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Ohio",
+  "bytes": 151306,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Pennsylvania.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Pennsylvania",
+  "bytes": 182505,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Rhode_Island.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Rhode_Island",
+  "bytes": 23876,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Tennessee.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Tennessee",
+  "bytes": 80130,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Texas.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Texas",
+  "bytes": 222369,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Utah.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Utah",
+  "bytes": 73199,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Vermont.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Vermont",
+  "bytes": 22907,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Virginia.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Virginia",
+  "bytes": 115272,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Washington.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Washington",
+  "bytes": 61356,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_West_Virginia.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_West_Virginia",
+  "bytes": 93270,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Wisconsin.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Wisconsin",
+  "bytes": 136408,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_election_in_Wyoming.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Wyoming",
+  "bytes": 27973,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/senate/2024_United_States_Senate_special_election_in_Nebraska.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_special_election_in_Nebraska",
+  "bytes": 46913,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Alabama.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Alabama",
+  "bytes": 107378,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Alaska.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_in_Alaska",
+  "bytes": 65355,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Arizona.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Arizona",
+  "bytes": 169095,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Arkansas.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Arkansas",
+  "bytes": 47646,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/California.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_California",
+  "bytes": 36554,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Colorado.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Colorado",
+  "bytes": 144849,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Connecticut.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Connecticut",
+  "bytes": 65655,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Delaware.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_in_Delaware",
+  "bytes": 16098,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Florida.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Florida",
+  "bytes": 614471,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Georgia.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Georgia",
+  "bytes": 159912,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Hawaii.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Hawaii",
+  "bytes": 31419,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Idaho.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Idaho",
+  "bytes": 31904,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Illinois.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Illinois",
+  "bytes": 348397,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Indiana.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Indiana",
+  "bytes": 102339,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Iowa.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Iowa",
+  "bytes": 107356,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Kansas.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Kansas",
+  "bytes": 48147,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Kentucky.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Kentucky",
+  "bytes": 121360,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Louisiana.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Louisiana",
+  "bytes": 69525,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Maine.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Maine",
+  "bytes": 71206,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Maryland.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Maryland",
+  "bytes": 143503,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Massachusetts.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Massachusetts",
+  "bytes": 124311,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Michigan.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Michigan",
+  "bytes": 262229,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Minnesota.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Minnesota",
+  "bytes": 126795,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Mississippi.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Mississippi",
+  "bytes": 44990,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Missouri.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Missouri",
+  "bytes": 111191,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Montana.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Montana",
+  "bytes": 57359,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Nebraska.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Nebraska",
+  "bytes": 67807,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Nevada.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Nevada",
+  "bytes": 94529,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/New_Hampshire.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_Hampshire",
+  "bytes": 85602,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/New_Jersey.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_Jersey",
+  "bytes": 294632,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/New_Mexico.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_Mexico",
+  "bytes": 36567,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/New_York.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_York",
+  "bytes": 469536,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/North_Carolina.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_North_Carolina",
+  "bytes": 228724,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/North_Dakota.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_in_North_Dakota",
+  "bytes": 12128,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Ohio.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Ohio",
+  "bytes": 205974,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Oklahoma.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Oklahoma",
+  "bytes": 59839,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Oregon.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Oregon",
+  "bytes": 62392,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Pennsylvania.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Pennsylvania",
+  "bytes": 282773,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Rhode_Island.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Rhode_Island",
+  "bytes": 21119,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/South_Carolina.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_South_Carolina",
+  "bytes": 90884,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/South_Dakota.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_in_South_Dakota",
+  "bytes": 20360,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Tennessee.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Tennessee",
+  "bytes": 124104,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Texas.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas",
+  "bytes": 591789,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Utah.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Utah",
+  "bytes": 93042,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Vermont.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_in_Vermont",
+  "bytes": 19707,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Virginia.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Virginia",
+  "bytes": 208417,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Washington.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Washington",
+  "bytes": 172668,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/West_Virginia.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_West_Virginia",
+  "bytes": 31841,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Wisconsin.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Wisconsin",
+  "bytes": 127521,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/house/Wyoming.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_in_Wyoming",
+  "bytes": 36139,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/district/2026_California_s_14th_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2026_California%27s_14th_congressional_district_special_election",
+  "bytes": 23867,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/district/2026_California_s_1st_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2026_California%27s_1st_congressional_district_special_election",
+  "bytes": 22750,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/district/2026_Georgia_s_13th_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2026_Georgia%27s_13th_congressional_district_special_election",
+  "bytes": 16929,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/district/2026_Georgia_s_14th_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2026_Georgia%27s_14th_congressional_district_special_election",
+  "bytes": 39425,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/district/2026_New_Jersey_s_11th_congressional_district_special_election.json",
+  "url": "https://en.wikipedia.org/wiki/2026_New_Jersey%27s_11th_congressional_district_special_election",
+  "bytes": 92058,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/_overview.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+  "bytes": 272246,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Alabama.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alabama",
+  "bytes": 68997,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Alaska.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska",
+  "bytes": 111089,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Arkansas.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Arkansas",
+  "bytes": 29879,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Colorado.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Colorado",
+  "bytes": 42467,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Delaware.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Delaware",
+  "bytes": 22924,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Georgia.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia",
+  "bytes": 109306,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Idaho.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Idaho",
+  "bytes": 36835,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Illinois.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Illinois",
+  "bytes": 125103,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Iowa.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Iowa",
+  "bytes": 119787,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Kansas.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Kansas",
+  "bytes": 68142,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Kentucky.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Kentucky",
+  "bytes": 76886,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Louisiana.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Louisiana",
+  "bytes": 82010,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Maine.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Maine",
+  "bytes": 254551,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Massachusetts.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Massachusetts",
+  "bytes": 87262,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Michigan.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Michigan",
+  "bytes": 274814,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Minnesota.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Minnesota",
+  "bytes": 130789,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Mississippi.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Mississippi",
+  "bytes": 31702,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Montana.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Montana",
+  "bytes": 86392,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Nebraska.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Nebraska",
+  "bytes": 68816,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_New_Hampshire.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_New_Hampshire",
+  "bytes": 96623,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_New_Jersey.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_New_Jersey",
+  "bytes": 53783,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_New_Mexico.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_New_Mexico",
+  "bytes": 29752,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_North_Carolina.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_North_Carolina",
+  "bytes": 116449,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Oklahoma.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Oklahoma",
+  "bytes": 44145,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Oregon.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Oregon",
+  "bytes": 21758,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Rhode_Island.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Rhode_Island",
+  "bytes": 24216,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_South_Carolina.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_South_Carolina",
+  "bytes": 142059,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_South_Dakota.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_South_Dakota",
+  "bytes": 35762,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Tennessee.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Tennessee",
+  "bytes": 21043,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Texas.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas",
+  "bytes": 363456,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Virginia.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Virginia",
+  "bytes": 35831,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_West_Virginia.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_West_Virginia",
+  "bytes": 28937,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_election_in_Wyoming.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Wyoming",
+  "bytes": 26221,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_special_election_in_Florida.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_special_election_in_Florida",
+  "bytes": 115883,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/senate/2026_United_States_Senate_special_election_in_Ohio.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_special_election_in_Ohio",
+  "bytes": 107981,
+  "note": ""
+ },
+ {
+  "path": "dataverse/medsl_house/_dataset.json",
+  "url": "doi:10.7910/DVN/IG0UN2",
+  "bytes": 7522,
+  "note": ""
+ },
+ {
+  "path": "dataverse/medsl_house/1976-2024-house.tab",
+  "url": "https://dataverse.harvard.edu/api/access/datafile/13592823?format=original",
+  "bytes": 0,
+  "error": "HTTPError: HTTP Error 400: Bad Request"
+ },
+ {
+  "path": "dataverse/medsl_house/codebook-us-house-1976\u20132024.md",
+  "url": "https://dataverse.harvard.edu/api/access/datafile/12066703",
+  "bytes": 0,
+  "error": "HTTPError: HTTP Error 400: Bad Request"
+ },
+ {
+  "path": "dataverse/medsl_senate/_dataset.json",
+  "url": "doi:10.7910/DVN/PEJ5QU",
+  "bytes": 7222,
+  "note": ""
+ },
+ {
+  "path": "dataverse/medsl_senate/1976-2024-senate-state.csv",
+  "url": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/PEJ5QU/19e17cc9bc2-05615a632744.orig?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%271976-2024-senate-state.csv&response-content-type=text%2Fcomma-separated-values&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261104T140309Z&X-Amz-SignedHeaders=host&X-Amz-Credential=AKIAZT3GWQ6FKBSH5I56%2F20261104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=5fbbb12ed7867c74d33cfdc84a3f8bbd612bc86cfff65f7dbcfcc192fa2d8ca6",
+  "bytes": 530501,
+  "note": "text/comma-separated-values"
+ },
+ {
+  "path": "dataverse/medsl_senate/codebook-us-senate-1976\u20132024.md",
+  "url": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/PEJ5QU/184768e8ea4-63ccb628a42d?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27codebook-us-senate-1976%25E2%2580%25932024.md&response-content-type=text%2Fmarkdown&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261104T140310Z&X-Amz-SignedHeaders=host&X-Amz-Credential=AKIAZT3GWQ6FKBSH5I56%2F20261104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=c8231008ef9c6228ed55c8028351c2b457f2d3c868e2e0bc2d5c8b8fd634de59",
+  "bytes": 3700,
+  "note": "text/markdown"
+ },
+ {
+  "path": "dataverse/medsl_senate/sources-senate.csv",
+  "url": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/PEJ5QU/1771b2e25b0-43d511c60ed0.orig?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27sources-senate.csv&response-content-type=text%2Fcsv&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261104T140310Z&X-Amz-SignedHeaders=host&X-Amz-Credential=AKIAZT3GWQ6FKBSH5I56%2F20261104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=3a914391eaef58bffa35375a46b48c25f087a2faf571b81926d410b51b553f5d",
+  "bytes": 3049,
+  "note": "text/csv"
+ },
+ {
+  "path": "dataverse/_search_primaries.json",
+  "url": "q=%22House+Primary+Election+Results%22&type=dataset&per_page=20",
+  "bytes": 12607,
+  "note": ""
+ },
+ {
+  "path": "dataverse/house_primaries_CXVMSY/_dataset.json",
+  "url": "doi:10.7910/DVN/CXVMSY",
+  "bytes": 6800,
+  "note": ""
+ },
+ {
+  "path": "dataverse/house_primaries_CXVMSY/Codebook.pdf",
+  "url": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/CXVMSY/17625312676-25ec7679a0cd?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Codebook.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261104T140312Z&X-Amz-SignedHeaders=host&X-Amz-Credential=AKIAZT3GWQ6FKBSH5I56%2F20261104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=b078797fd059228eb326681cdbe918c59a8a9c0e56c2641494217d242e4ef713",
+  "bytes": 558216,
+  "note": "application/pdf"
+ },
+ {
+  "path": "dataverse/house_primaries_CXVMSY/house_primary_2012_2018.dta",
+  "url": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/CXVMSY/176254b240e-b9b0346b8d50.orig?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27house_primary_2012_2018.dta&response-content-type=application%2Fx-stata-14&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261104T140313Z&X-Amz-SignedHeaders=host&X-Amz-Credential=AKIAZT3GWQ6FKBSH5I56%2F20261104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=19b5eae65ac37b94fdd504c3936f427dc83261a2278d217adf4834fea386ab4a",
+  "bytes": 878959,
+  "note": "application/x-stata-14"
+ },
+ {
+  "path": "dataverse/house_primaries_26448/_dataset.json",
+  "url": "doi:10.7910/DVN/26448",
+  "bytes": 7357,
+  "note": ""
+ },
+ {
+  "path": "dataverse/house_primaries_26448/change log.txt",
+  "url": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/26448/1768638617f-2724f8a525e1?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27change%2520log.txt&response-content-type=text%2Fplain&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261104T140314Z&X-Amz-SignedHeaders=host&X-Amz-Credential=AKIAZT3GWQ6FKBSH5I56%2F20261104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=a835ce27893ed438aebfa468d269b663189cc6131b84d0aba95be0bd91d10ec4",
+  "bytes": 1718,
+  "note": "text/plain"
+ },
+ {
+  "path": "dataverse/house_primaries_26448/House primary elections (1956-2010) codebook.pdf",
+  "url": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/26448/17686385bbe-16a36d3583e8?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27House%2520primary%2520elections%2520%25281956-2010%2529%2520codebook.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261104T140315Z&X-Amz-SignedHeaders=host&X-Amz-Credential=AKIAZT3GWQ6FKBSH5I56%2F20261104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=695a9e57923495d31c70f297d601d20f17c48fb4868fd64e7b03bfd7f44a87b2",
+  "bytes": 86522,
+  "note": "application/pdf"
+ },
+ {
+  "path": "dataverse/house_primaries_26448/House primary elections (1956-2010) data.dta",
+  "url": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/26448/17686386060-a978ca9d96f2.orig?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27House%2520primary%2520elections%2520%25281956-2010%2529%2520data.dta&response-content-type=application%2Fx-stata-14&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261104T140315Z&X-Amz-SignedHeaders=host&X-Amz-Credential=AKIAZT3GWQ6FKBSH5I56%2F20261104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=2df88b2bb15b0571ae0b0a5f3032544e4c5bfe231f206bf1e5a2bb72dcbfffcd",
+  "bytes": 6016164,
+  "note": "application/x-stata-14"
+ }
+]

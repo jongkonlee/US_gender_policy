@@ -1,0 +1,154 @@
+13:58:53 FEC Federal Elections
+13:58:53   1990 federalelections90.pdf
+13:58:54   1992 federalelections92.pdf
+13:58:54   1994 federalelections94.pdf
+13:58:55   1996 federalelections96.pdf
+13:58:56   1996 FederalElections96_PresidentialGeneralElectionResults.pdf
+13:58:56   1996 FederalElections96_PresidentialPrimaryElectionResults.pdf
+13:58:56   1996 FederalElections96_Preface.pdf
+13:58:56   1996 FederalElections96_GuidetoPartyLabels.pdf
+13:58:57   1996 FederalElections_96__1996_Senate.pdf
+13:58:57   1996 FederalElections96_1996ElectoralandPopularVoteSummary.pdf
+13:58:57   1996 1996GEVotes.pdf
+13:58:57   1996 FederalElections96_1996VotesCastfortheUSSenatebyParty.pdf
+13:58:58   1996 1996POPULARVOTESUMMARY_nOhmtpP.pdf
+13:58:58   1996 FederalElections96_PresidentialPrimaryElectionResults.xlsx
+13:58:58   1996 FederalElections96_PresidentialGeneralElectionResults.xlsx
+13:58:59   1996 FederalElections96_1996Senate.xlsx
+13:58:59   1996 FederalElections96_PrimaryandGeneralVotesforCongress.pdf
+13:58:59   1998 federalelections98.pdf
+13:59:00   1998 FederalElections98_Preface.pdf
+13:59:00   1998 FederalElections98_AGuidetoPartyLabels.pdf
+13:59:00   1998 FederalElections98_SenateResults.pdf
+13:59:00   1998 FederalElections98_1998VotesCastfortheSenate.pdf
+13:59:01   1998 FederalElections98_1998VotesCastfortheHouse.pdf
+13:59:01   1998 FederalElections98_1998Primary_andGeneralElectionChart.pdf
+13:59:01   2000 federalelections00.pdf
+13:59:02   2000 2000append.xls
+13:59:02   2000 2000tables.xls
+13:59:02   2002 federalelections02.pdf
+13:59:02   2002 2002fedresults.xls
+13:59:03   2002 FEDERALELECTIONS2002_Preface.pdf
+13:59:03   2002 FEDERALELECTIONS2002__2002Tables.pdf
+13:59:03   2002 FEDERALELECTIONS2002_AGuidetoPartyLabels.pdf
+13:59:03   2002 FederalElections2002_Senate.pdf
+13:59:03   2002 FederalElections2002_House.pdf
+13:59:04   2002 FederalElections2002_Senate.xlsx
+13:59:04   2002 FederalElections2002_House.xlsx
+13:59:04   2004 2004appendix.pdf
+13:59:05   2004 2004appendix.xls
+13:59:05   2004 2004congmaps.pdf
+13:59:05   2004 2004congresults.pdf
+13:59:06   2004 2004congresults.xls
+13:59:06   2004 2004partylabels.pdf
+13:59:06   2004 2004pres.pdf
+13:59:06   2004 2004pres.xls
+13:59:06   2004 2004presmaps.pdf
+13:59:07   2004 2004tables.pdf
+13:59:07   2004 2004tables.xls
+13:59:07   2004 federalelections2004.pdf
+13:59:08   2004 federalelections2004.xls
+13:59:08   2004 2004preface.pdf
+13:59:08   2006 2006congmaps.pdf
+13:59:08   2006 2006house.pdf
+13:59:09   2006 2006partylabels.pdf
+13:59:09   2006 2006preface.pdf
+13:59:09   2006 2006senate.pdf
+13:59:10   2006 2006tables.pdf
+13:59:10   2006 federalelections2006.pdf
+13:59:10   2006 federalelections2006.xls
+13:59:10   2006 tables06.xls
+13:59:11   2006 results06.xls
+13:59:11   2008 2008congmaps.pdf
+13:59:11   2008 2008congresults.pdf
+13:59:12   2008 2008congresults.xls
+13:59:12   2008 2008pres.pdf
+13:59:12   2008 2008pres.xls
+13:59:12   2008 2008presmaps.pdf
+13:59:12   2008 appendix2008.pdf
+13:59:13   2008 appendix2008.xls
+13:59:13   2008 federalelections2008.pdf
+13:59:13   2008 federalelections2008.xls
+13:59:13   2008 partylabels2008.pdf
+13:59:13   2008 preface2008.pdf
+13:59:14   2008 tables2008.pdf
+13:59:14   2008 tables2008.xls
+13:59:14   2010 2010congmaps.pdf
+13:59:15   2010 2010house.pdf
+13:59:15   2010 2010senate.pdf
+13:59:15   2010 federalelections2010.pdf
+13:59:15   2010 federalelections2010.xls
+13:59:16   2010 preface2010.pdf
+13:59:16   2010 results10.xls
+13:59:16   2010 tables10.xls
+13:59:16   2010 tables2010.pdf
+13:59:16   2010 partylabels2010.pdf
+13:59:17   2012 2012congresults.pdf
+13:59:17   2012 2012congresults.xls
+13:59:18   2012 2012pres.pdf
+13:59:18   2012 2012pres.xls
+13:59:18   2012 2012presmaps.pdf
+13:59:18   2012 appendix2012.pdf
+13:59:18   2012 appendix2012.xls
+13:59:18   2012 federalelections2012.pdf
+13:59:19   2012 2012congmaps.pdf
+13:59:19   2012 federalelections2012.xls
+13:59:19   2012 partylabels2012.pdf
+13:59:20   2012 preface2012.pdf
+13:59:20   2012 tables2012.pdf
+13:59:20   2012 tables2012.xls
+13:59:21   2014 2014congmaps.pdf
+13:59:22   2014 2014house.pdf
+13:59:22   2014 2014senate.pdf
+13:59:22   2014 federalelections2014.pdf
+13:59:23   2014 federalelections2014.xls
+13:59:23   2014 partylabels2014.pdf
+13:59:23   2014 preface2014.pdf
+13:59:23   2014 tables2014.pdf
+13:59:23   2014 tables2014.xls
+13:59:24   2014 results14.xls
+13:59:24   2016 federalelections2016.pdf
+13:59:24   2016 federalelections2016.xlsx
+13:59:25   2018 federalelections2018.pdf
+13:59:25   2018 federalelections2018.xlsx
+13:59:25   2020 federalelections2020.pdf
+13:59:26   2020 federalelections2020.xlsx
+13:59:26   2022 federalelections2022.pdf
+13:59:26   2022 federalelections2022.xlsx
+13:59:26 FEC bulk candidate files
+13:59:27   FAIL https://www.fec.gov/files/bulk-downloads/data_dictionaries/weball_header_file.csv HTTP Error 404: Not Found
+13:59:42 CAWP
+13:59:43   FAIL https://cawp.rutgers.edu/data/candidates-historic-facts-women-candidates?tab=Congress HTTP Error 403: Forbidden
+13:59:43   FAIL https://cawp.rutgers.edu/data/candidates-cawp-candidate-databases HTTP Error 403: Forbidden
+13:59:43   FAIL https://cawp.rutgers.edu/data/candidates-women-candidates-2026?tab=CandidateList HTTP Error 403: Forbidden
+13:59:43   FAIL https://cawp.rutgers.edu/data/candidates-women-candidates-2026?tab=CandidateSummary HTTP Error 403: Forbidden
+13:59:43   FAIL https://cawp.rutgers.edu/data/candidates-election-results-and-analysis-0 HTTP Error 403: Forbidden
+13:59:43 Wikipedia
+14:00:20   2022: 9 district pages
+14:00:26   2022: 34 Senate pages
+14:01:28   2024: 5 district pages
+14:01:32   2024: 33 Senate pages
+14:02:34   2026: 5 district pages
+14:02:43   2026: 35 Senate pages
+14:03:07 Dataverse
+14:03:08   medsl_house 1976-2024-house.tab
+14:03:08   FAIL https://dataverse.harvard.edu/api/access/datafile/13592823?format=original HTTP Error 400: Bad Request
+14:03:08   medsl_house codebook-us-house-1976–2024.md
+14:03:08   FAIL https://dataverse.harvard.edu/api/access/datafile/12066703 HTTP Error 400: Bad Request
+14:03:08   medsl_senate 1976-2024-senate-state.csv
+14:03:09   medsl_senate codebook-us-senate-1976–2024.md
+14:03:10   medsl_senate sources-senate.csv
+14:03:11   house_primaries_CXVMSY Codebook.pdf
+14:03:12   house_primaries_CXVMSY house_primary_2012_2018.dta
+14:03:14   house_primaries_26448 change log.txt
+14:03:14   house_primaries_26448 House primary elections (1956-2010) codebook.pdf
+14:03:15   house_primaries_26448 House primary elections (1956-2010) data.dta
+14:03:16 done: 459 files, 8 problems
+14:03:16   problem: fec_bulk/weball_header_file.csv HTTPError: HTTP Error 404: Not Found
+14:03:16   problem: cawp/congress_db.html HTTPError: HTTP Error 403: Forbidden
+14:03:16   problem: cawp/databases.html HTTPError: HTTP Error 403: Forbidden
+14:03:16   problem: cawp/2026_list.html HTTPError: HTTP Error 403: Forbidden
+14:03:16   problem: cawp/2026_summary.html HTTPError: HTTP Error 403: Forbidden
+14:03:16   problem: cawp/results.html HTTPError: HTTP Error 403: Forbidden
+14:03:16   problem: dataverse/medsl_house/1976-2024-house.tab HTTPError: HTTP Error 400: Bad Request
+14:03:16   problem: dataverse/medsl_house/codebook-us-house-1976–2024.md HTTPError: HTTP Error 400: Bad Request
