@@ -4340,7 +4340,7 @@
  {
   "path": "wiki/people/batch_0000.json",
   "url": "https://en.wikipedia.org/w/api.php",
-  "bytes": 15596,
+  "bytes": 15583,
   "note": ""
  },
  {
@@ -4352,7 +4352,7 @@
  {
   "path": "wiki/people/batch_0002.json",
   "url": "https://en.wikipedia.org/w/api.php",
-  "bytes": 15815,
+  "bytes": 15819,
   "note": ""
  },
  {
@@ -4364,7 +4364,7 @@
  {
   "path": "wiki/people/batch_0004.json",
   "url": "https://en.wikipedia.org/w/api.php",
-  "bytes": 16283,
+  "bytes": 16287,
   "note": ""
  },
  {
