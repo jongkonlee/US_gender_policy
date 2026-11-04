@@ -2800,5 +2800,1529 @@
   "url": "https://dvn-cloud-iqss.s3.amazonaws.com/10.7910/DVN/26448/17686386060-a978ca9d96f2.orig?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27House%2520primary%2520elections%2520%25281956-2010%2529%2520data.dta&response-content-type=application%2Fx-stata-14&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261104T140315Z&X-Amz-SignedHeaders=host&X-Amz-Credential=AKIAZT3GWQ6FKBSH5I56%2F20261104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=2df88b2bb15b0571ae0b0a5f3032544e4c5bfe231f206bf1e5a2bb72dcbfffcd",
   "bytes": 6016164,
   "note": "application/x-stata-14"
+ },
+ {
+  "path": "wiki/1990/overview/1990_United_States_House_of_Representatives_elections.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_House_of_Representatives_elections",
+  "bytes": 240465,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/overview/1990_United_States_Senate_elections.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_elections",
+  "bytes": 176611,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/overview/1992_United_States_House_of_Representatives_elections.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_House_of_Representatives_elections",
+  "bytes": 283464,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/overview/1992_United_States_Senate_elections.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_elections",
+  "bytes": 253475,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/overview/1994_United_States_House_of_Representatives_elections.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_House_of_Representatives_elections",
+  "bytes": 253911,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/overview/1994_United_States_Senate_elections.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_elections",
+  "bytes": 226935,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/overview/1996_United_States_House_of_Representatives_elections.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_House_of_Representatives_elections",
+  "bytes": 272912,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/overview/1996_United_States_Senate_elections.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_elections",
+  "bytes": 267736,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/overview/1998_United_States_House_of_Representatives_elections.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_House_of_Representatives_elections",
+  "bytes": 253595,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/overview/1998_United_States_Senate_elections.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_elections",
+  "bytes": 207580,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/overview/2000_United_States_House_of_Representatives_elections.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_House_of_Representatives_elections",
+  "bytes": 240328,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/overview/2000_United_States_Senate_elections.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_elections",
+  "bytes": 257792,
+  "note": ""
+ },
+ {
+  "path": "wiki/2002/overview/2002_United_States_House_of_Representatives_elections.json",
+  "url": "https://en.wikipedia.org/wiki/2002_United_States_House_of_Representatives_elections",
+  "bytes": 259737,
+  "note": ""
+ },
+ {
+  "path": "wiki/2002/overview/2002_United_States_Senate_elections.json",
+  "url": "https://en.wikipedia.org/wiki/2002_United_States_Senate_elections",
+  "bytes": 245790,
+  "note": ""
+ },
+ {
+  "path": "wiki/2004/overview/2004_United_States_House_of_Representatives_elections.json",
+  "url": "https://en.wikipedia.org/wiki/2004_United_States_House_of_Representatives_elections",
+  "bytes": 248481,
+  "note": ""
+ },
+ {
+  "path": "wiki/2004/overview/2004_United_States_Senate_elections.json",
+  "url": "https://en.wikipedia.org/wiki/2004_United_States_Senate_elections",
+  "bytes": 311680,
+  "note": ""
+ },
+ {
+  "path": "wiki/2006/overview/2006_United_States_House_of_Representatives_elections.json",
+  "url": "https://en.wikipedia.org/wiki/2006_United_States_House_of_Representatives_elections",
+  "bytes": 280928,
+  "note": ""
+ },
+ {
+  "path": "wiki/2006/overview/2006_United_States_Senate_elections.json",
+  "url": "https://en.wikipedia.org/wiki/2006_United_States_Senate_elections",
+  "bytes": 375836,
+  "note": ""
+ },
+ {
+  "path": "wiki/2008/overview/2008_United_States_House_of_Representatives_elections.json",
+  "url": "https://en.wikipedia.org/wiki/2008_United_States_House_of_Representatives_elections",
+  "bytes": 284124,
+  "note": ""
+ },
+ {
+  "path": "wiki/2008/overview/2008_United_States_Senate_elections.json",
+  "url": "https://en.wikipedia.org/wiki/2008_United_States_Senate_elections",
+  "bytes": 309750,
+  "note": ""
+ },
+ {
+  "path": "wiki/2010/overview/2010_United_States_House_of_Representatives_elections.json",
+  "url": "https://en.wikipedia.org/wiki/2010_United_States_House_of_Representatives_elections",
+  "bytes": 343522,
+  "note": ""
+ },
+ {
+  "path": "wiki/2010/overview/2010_United_States_Senate_elections.json",
+  "url": "https://en.wikipedia.org/wiki/2010_United_States_Senate_elections",
+  "bytes": 367227,
+  "note": ""
+ },
+ {
+  "path": "wiki/2012/overview/2012_United_States_House_of_Representatives_elections.json",
+  "url": "https://en.wikipedia.org/wiki/2012_United_States_House_of_Representatives_elections",
+  "bytes": 333338,
+  "note": ""
+ },
+ {
+  "path": "wiki/2012/overview/2012_United_States_Senate_elections.json",
+  "url": "https://en.wikipedia.org/wiki/2012_United_States_Senate_elections",
+  "bytes": 359689,
+  "note": ""
+ },
+ {
+  "path": "wiki/2014/overview/2014_United_States_House_of_Representatives_elections.json",
+  "url": "https://en.wikipedia.org/wiki/2014_United_States_House_of_Representatives_elections",
+  "bytes": 345852,
+  "note": ""
+ },
+ {
+  "path": "wiki/2014/overview/2014_United_States_Senate_elections.json",
+  "url": "https://en.wikipedia.org/wiki/2014_United_States_Senate_elections",
+  "bytes": 344778,
+  "note": ""
+ },
+ {
+  "path": "wiki/2016/overview/2016_United_States_House_of_Representatives_elections.json",
+  "url": "https://en.wikipedia.org/wiki/2016_United_States_House_of_Representatives_elections",
+  "bytes": 282606,
+  "note": ""
+ },
+ {
+  "path": "wiki/2016/overview/2016_United_States_Senate_elections.json",
+  "url": "https://en.wikipedia.org/wiki/2016_United_States_Senate_elections",
+  "bytes": 397759,
+  "note": ""
+ },
+ {
+  "path": "wiki/2018/overview/2018_United_States_House_of_Representatives_elections.json",
+  "url": "https://en.wikipedia.org/wiki/2018_United_States_House_of_Representatives_elections",
+  "bytes": 386873,
+  "note": ""
+ },
+ {
+  "path": "wiki/2018/overview/2018_United_States_Senate_elections.json",
+  "url": "https://en.wikipedia.org/wiki/2018_United_States_Senate_elections",
+  "bytes": 319149,
+  "note": ""
+ },
+ {
+  "path": "wiki/2020/overview/2020_United_States_House_of_Representatives_elections.json",
+  "url": "https://en.wikipedia.org/wiki/2020_United_States_House_of_Representatives_elections",
+  "bytes": 330357,
+  "note": ""
+ },
+ {
+  "path": "wiki/2020/overview/2020_United_States_Senate_elections.json",
+  "url": "https://en.wikipedia.org/wiki/2020_United_States_Senate_elections",
+  "bytes": 389241,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/overview/2022_United_States_House_of_Representatives_elections.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections",
+  "bytes": 406678,
+  "note": ""
+ },
+ {
+  "path": "wiki/2022/overview/2022_United_States_Senate_elections.json",
+  "url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_elections",
+  "bytes": 360609,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/overview/2024_United_States_House_of_Representatives_elections.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections",
+  "bytes": 379206,
+  "note": ""
+ },
+ {
+  "path": "wiki/2024/overview/2024_United_States_Senate_elections.json",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_elections",
+  "bytes": 345257,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/overview/2026_United_States_House_of_Representatives_elections.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections",
+  "bytes": 427043,
+  "note": ""
+ },
+ {
+  "path": "wiki/2026/overview/2026_United_States_Senate_elections.json",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+  "bytes": 272252,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/_overview.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_elections",
+  "bytes": 176611,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_election_in_Alabama.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_election_in_Alabama",
+  "bytes": 3633,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_election_in_Alaska.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_election_in_Alaska",
+  "bytes": 4819,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_election_in_Arkansas.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_election_in_Arkansas",
+  "bytes": 2908,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_election_in_Colorado.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_election_in_Colorado",
+  "bytes": 4591,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_election_in_Delaware.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_election_in_Delaware",
+  "bytes": 48192,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_election_in_Georgia.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_election_in_Georgia",
+  "bytes": 3025,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_election_in_Idaho.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_election_in_Idaho",
+  "bytes": 4650,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_election_in_Illinois.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_election_in_Illinois",
+  "bytes": 7585,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_election_in_Iowa.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_election_in_Iowa",
+  "bytes": 5193,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_election_in_Kansas.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_election_in_Kansas",
+  "bytes": 3170,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_election_in_Kentucky.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_election_in_Kentucky",
+  "bytes": 5263,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_election_in_Louisiana.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_election_in_Louisiana",
+  "bytes": 9848,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_election_in_Maine.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_election_in_Maine",
+  "bytes": 3350,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_election_in_Massachusetts.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_election_in_Massachusetts",
+  "bytes": 5182,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_election_in_Michigan.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_election_in_Michigan",
+  "bytes": 5731,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_election_in_Minnesota.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_election_in_Minnesota",
+  "bytes": 9904,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_election_in_Mississippi.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_election_in_Mississippi",
+  "bytes": 3161,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_election_in_Montana.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_election_in_Montana",
+  "bytes": 7662,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_election_in_Nebraska.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_election_in_Nebraska",
+  "bytes": 12434,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_election_in_New_Hampshire.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_election_in_New_Hampshire",
+  "bytes": 8980,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_election_in_New_Jersey.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_election_in_New_Jersey",
+  "bytes": 17801,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_election_in_New_Mexico.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_election_in_New_Mexico",
+  "bytes": 3109,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_election_in_North_Carolina.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_election_in_North_Carolina",
+  "bytes": 10095,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_election_in_Oklahoma.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_election_in_Oklahoma",
+  "bytes": 5912,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_election_in_Oregon.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_election_in_Oregon",
+  "bytes": 18665,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_election_in_Rhode_Island.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_election_in_Rhode_Island",
+  "bytes": 19547,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_election_in_South_Carolina.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_election_in_South_Carolina",
+  "bytes": 5724,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_election_in_South_Dakota.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_election_in_South_Dakota",
+  "bytes": 3844,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_election_in_Tennessee.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_election_in_Tennessee",
+  "bytes": 39245,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_election_in_Texas.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_election_in_Texas",
+  "bytes": 5610,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_election_in_Virginia.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_election_in_Virginia",
+  "bytes": 4259,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_election_in_West_Virginia.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_election_in_West_Virginia",
+  "bytes": 3229,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_election_in_Wyoming.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_election_in_Wyoming",
+  "bytes": 6094,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_special_election_in_Hawaii.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_special_election_in_Hawaii",
+  "bytes": 7366,
+  "note": ""
+ },
+ {
+  "path": "wiki/1990/senate/1990_United_States_Senate_special_election_in_Indiana.json",
+  "url": "https://en.wikipedia.org/wiki/1990_United_States_Senate_special_election_in_Indiana",
+  "bytes": 9617,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/_overview.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_elections",
+  "bytes": 253475,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_Alabama.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_Alabama",
+  "bytes": 30861,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_Alaska.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_Alaska",
+  "bytes": 7065,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_Arizona.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_Arizona",
+  "bytes": 4791,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_Arkansas.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_Arkansas",
+  "bytes": 5385,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_California.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_California",
+  "bytes": 46077,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_Colorado.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_Colorado",
+  "bytes": 5926,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_Connecticut.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_Connecticut",
+  "bytes": 6659,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_Florida.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_Florida",
+  "bytes": 7450,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_Georgia.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_Georgia",
+  "bytes": 9704,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_Hawaii.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_Hawaii",
+  "bytes": 10013,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_Idaho.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_Idaho",
+  "bytes": 6408,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_Illinois.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_Illinois",
+  "bytes": 11789,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_Indiana.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_Indiana",
+  "bytes": 33056,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_Iowa.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_Iowa",
+  "bytes": 6359,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_Kansas.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_Kansas",
+  "bytes": 6267,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_Kentucky.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_Kentucky",
+  "bytes": 28057,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_Louisiana.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_Louisiana",
+  "bytes": 3963,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_Maryland.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_Maryland",
+  "bytes": 17319,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_Missouri.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_Missouri",
+  "bytes": 3725,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_Nevada.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_Nevada",
+  "bytes": 7237,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_New_Hampshire.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_New_Hampshire",
+  "bytes": 9967,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_New_York.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_New_York",
+  "bytes": 17231,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_North_Carolina.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_North_Carolina",
+  "bytes": 7168,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_North_Dakota.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_North_Dakota",
+  "bytes": 4827,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_Ohio.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_Ohio",
+  "bytes": 6615,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_Oklahoma.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_Oklahoma",
+  "bytes": 3910,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_Oregon.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_Oregon",
+  "bytes": 24328,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_Pennsylvania.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_Pennsylvania",
+  "bytes": 12450,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_South_Carolina.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_South_Carolina",
+  "bytes": 6722,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_South_Dakota.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_South_Dakota",
+  "bytes": 3993,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_Utah.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_Utah",
+  "bytes": 4101,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_Vermont.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_Vermont",
+  "bytes": 7157,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_Washington.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_Washington",
+  "bytes": 30860,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_election_in_Wisconsin.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_election_in_Wisconsin",
+  "bytes": 12429,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_special_election_in_California.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_special_election_in_California",
+  "bytes": 26357,
+  "note": ""
+ },
+ {
+  "path": "wiki/1992/senate/1992_United_States_Senate_special_election_in_North_Dakota.json",
+  "url": "https://en.wikipedia.org/wiki/1992_United_States_Senate_special_election_in_North_Dakota",
+  "bytes": 12733,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/_overview.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_elections",
+  "bytes": 226935,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_election_in_Arizona.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_election_in_Arizona",
+  "bytes": 6841,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_election_in_California.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_election_in_California",
+  "bytes": 31490,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_election_in_Connecticut.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_election_in_Connecticut",
+  "bytes": 7002,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_election_in_Delaware.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_election_in_Delaware",
+  "bytes": 4008,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_election_in_Florida.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_election_in_Florida",
+  "bytes": 12310,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_election_in_Hawaii.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_election_in_Hawaii",
+  "bytes": 6550,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_election_in_Indiana.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_election_in_Indiana",
+  "bytes": 22733,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_election_in_Maine.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_election_in_Maine",
+  "bytes": 16671,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_election_in_Maryland.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_election_in_Maryland",
+  "bytes": 9192,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_election_in_Massachusetts.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_election_in_Massachusetts",
+  "bytes": 23692,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_election_in_Michigan.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_election_in_Michigan",
+  "bytes": 11073,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_election_in_Minnesota.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_election_in_Minnesota",
+  "bytes": 9990,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_election_in_Mississippi.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_election_in_Mississippi",
+  "bytes": 3569,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_election_in_Missouri.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_election_in_Missouri",
+  "bytes": 10804,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_election_in_Montana.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_election_in_Montana",
+  "bytes": 5549,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_election_in_Nebraska.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_election_in_Nebraska",
+  "bytes": 5199,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_election_in_Nevada.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_election_in_Nevada",
+  "bytes": 5811,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_election_in_New_Jersey.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_election_in_New_Jersey",
+  "bytes": 21118,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_election_in_New_Mexico.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_election_in_New_Mexico",
+  "bytes": 5491,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_election_in_New_York.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_election_in_New_York",
+  "bytes": 8766,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_election_in_North_Dakota.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_election_in_North_Dakota",
+  "bytes": 3755,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_election_in_Ohio.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_election_in_Ohio",
+  "bytes": 8033,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_election_in_Pennsylvania.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_election_in_Pennsylvania",
+  "bytes": 11034,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_election_in_Rhode_Island.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_election_in_Rhode_Island",
+  "bytes": 5189,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_election_in_Tennessee.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_election_in_Tennessee",
+  "bytes": 9677,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_election_in_Texas.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_election_in_Texas",
+  "bytes": 9294,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_election_in_Utah.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_election_in_Utah",
+  "bytes": 3949,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_election_in_Vermont.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_election_in_Vermont",
+  "bytes": 7890,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_election_in_Virginia.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_election_in_Virginia",
+  "bytes": 14489,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_election_in_Washington.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_election_in_Washington",
+  "bytes": 33352,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_election_in_West_Virginia.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_election_in_West_Virginia",
+  "bytes": 5046,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_election_in_Wisconsin.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_election_in_Wisconsin",
+  "bytes": 3695,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_election_in_Wyoming.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_election_in_Wyoming",
+  "bytes": 3567,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_special_election_in_Oklahoma.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_special_election_in_Oklahoma",
+  "bytes": 3921,
+  "note": ""
+ },
+ {
+  "path": "wiki/1994/senate/1994_United_States_Senate_special_election_in_Tennessee.json",
+  "url": "https://en.wikipedia.org/wiki/1994_United_States_Senate_special_election_in_Tennessee",
+  "bytes": 8284,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/_overview.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_elections",
+  "bytes": 267736,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_election_in_Alabama.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_election_in_Alabama",
+  "bytes": 12973,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_election_in_Alaska.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_election_in_Alaska",
+  "bytes": 11446,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_election_in_Arkansas.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_election_in_Arkansas",
+  "bytes": 12279,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_election_in_Colorado.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_election_in_Colorado",
+  "bytes": 5488,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_election_in_Delaware.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_election_in_Delaware",
+  "bytes": 12162,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_election_in_Georgia.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_election_in_Georgia",
+  "bytes": 12954,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_election_in_Idaho.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_election_in_Idaho",
+  "bytes": 4926,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_election_in_Illinois.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_election_in_Illinois",
+  "bytes": 12096,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_election_in_Iowa.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_election_in_Iowa",
+  "bytes": 6715,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_election_in_Kansas.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_election_in_Kansas",
+  "bytes": 7005,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_election_in_Kentucky.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_election_in_Kentucky",
+  "bytes": 9547,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_election_in_Louisiana.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_election_in_Louisiana",
+  "bytes": 13906,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_election_in_Maine.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_election_in_Maine",
+  "bytes": 24193,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_election_in_Massachusetts.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_election_in_Massachusetts",
+  "bytes": 10481,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_election_in_Michigan.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_election_in_Michigan",
+  "bytes": 4187,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_election_in_Minnesota.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_election_in_Minnesota",
+  "bytes": 18249,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_election_in_Mississippi.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_election_in_Mississippi",
+  "bytes": 3830,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_election_in_Montana.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_election_in_Montana",
+  "bytes": 7396,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_election_in_Nebraska.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_election_in_Nebraska",
+  "bytes": 8418,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_election_in_New_Hampshire.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_election_in_New_Hampshire",
+  "bytes": 7314,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_election_in_New_Jersey.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_election_in_New_Jersey",
+  "bytes": 20513,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_election_in_New_Mexico.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_election_in_New_Mexico",
+  "bytes": 5254,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_election_in_North_Carolina.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_election_in_North_Carolina",
+  "bytes": 7701,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_election_in_Oklahoma.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_election_in_Oklahoma",
+  "bytes": 5890,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_election_in_Oregon.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_election_in_Oregon",
+  "bytes": 12237,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_election_in_Rhode_Island.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_election_in_Rhode_Island",
+  "bytes": 5738,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_election_in_South_Carolina.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_election_in_South_Carolina",
+  "bytes": 12055,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_election_in_South_Dakota.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_election_in_South_Dakota",
+  "bytes": 15168,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_election_in_Tennessee.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_election_in_Tennessee",
+  "bytes": 5278,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_election_in_Texas.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_election_in_Texas",
+  "bytes": 10747,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_election_in_Virginia.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_election_in_Virginia",
+  "bytes": 14332,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_election_in_West_Virginia.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_election_in_West_Virginia",
+  "bytes": 4072,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_election_in_Wyoming.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_election_in_Wyoming",
+  "bytes": 7638,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_special_election_in_Kansas.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_special_election_in_Kansas",
+  "bytes": 7730,
+  "note": ""
+ },
+ {
+  "path": "wiki/1996/senate/1996_United_States_Senate_special_election_in_Oregon.json",
+  "url": "https://en.wikipedia.org/wiki/1996_United_States_Senate_special_election_in_Oregon",
+  "bytes": 11988,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/_overview.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_elections",
+  "bytes": 207580,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_Alabama.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_Alabama",
+  "bytes": 5634,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_Alaska.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_Alaska",
+  "bytes": 6144,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_Arizona.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_Arizona",
+  "bytes": 5757,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_Arkansas.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_Arkansas",
+  "bytes": 10251,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_California.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_California",
+  "bytes": 28343,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_Colorado.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_Colorado",
+  "bytes": 10774,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_Connecticut.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_Connecticut",
+  "bytes": 8999,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_Florida.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_Florida",
+  "bytes": 9660,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_Georgia.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_Georgia",
+  "bytes": 8589,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_Hawaii.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_Hawaii",
+  "bytes": 6771,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_Idaho.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_Idaho",
+  "bytes": 6495,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_Illinois.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_Illinois",
+  "bytes": 20724,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_Indiana.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_Indiana",
+  "bytes": 35496,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_Iowa.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_Iowa",
+  "bytes": 9055,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_Kansas.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_Kansas",
+  "bytes": 7095,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_Kentucky.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_Kentucky",
+  "bytes": 10504,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_Louisiana.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_Louisiana",
+  "bytes": 4397,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_Maryland.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_Maryland",
+  "bytes": 14408,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_Missouri.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_Missouri",
+  "bytes": 6063,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_Nevada.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_Nevada",
+  "bytes": 16980,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_New_Hampshire.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_New_Hampshire",
+  "bytes": 8099,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_New_York.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_New_York",
+  "bytes": 26532,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_North_Carolina.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_North_Carolina",
+  "bytes": 13587,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_North_Dakota.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_North_Dakota",
+  "bytes": 4461,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_Ohio.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_Ohio",
+  "bytes": 8274,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_Oklahoma.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_Oklahoma",
+  "bytes": 5357,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_Oregon.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_Oregon",
+  "bytes": 10143,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_Pennsylvania.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_Pennsylvania",
+  "bytes": 14857,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_South_Carolina.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_South_Carolina",
+  "bytes": 10045,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_South_Dakota.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_South_Dakota",
+  "bytes": 5767,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_Utah.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_Utah",
+  "bytes": 3860,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_Vermont.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_Vermont",
+  "bytes": 15732,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_Washington.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_Washington",
+  "bytes": 29040,
+  "note": ""
+ },
+ {
+  "path": "wiki/1998/senate/1998_United_States_Senate_election_in_Wisconsin.json",
+  "url": "https://en.wikipedia.org/wiki/1998_United_States_Senate_election_in_Wisconsin",
+  "bytes": 9388,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/_overview.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_elections",
+  "bytes": 257792,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_election_in_Arizona.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_election_in_Arizona",
+  "bytes": 15013,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_election_in_California.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_election_in_California",
+  "bytes": 37169,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_election_in_Connecticut.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_election_in_Connecticut",
+  "bytes": 19314,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_election_in_Delaware.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_election_in_Delaware",
+  "bytes": 10623,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_election_in_Florida.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_election_in_Florida",
+  "bytes": 18826,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_election_in_Hawaii.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_election_in_Hawaii",
+  "bytes": 8460,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_election_in_Indiana.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_election_in_Indiana",
+  "bytes": 24784,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_election_in_Maine.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_election_in_Maine",
+  "bytes": 14474,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_election_in_Maryland.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_election_in_Maryland",
+  "bytes": 15448,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_election_in_Massachusetts.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_election_in_Massachusetts",
+  "bytes": 13813,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_election_in_Michigan.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_election_in_Michigan",
+  "bytes": 13424,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_election_in_Minnesota.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_election_in_Minnesota",
+  "bytes": 16514,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_election_in_Mississippi.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_election_in_Mississippi",
+  "bytes": 42923,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_election_in_Missouri.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_election_in_Missouri",
+  "bytes": 45949,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_election_in_Montana.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_election_in_Montana",
+  "bytes": 12269,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_election_in_Nebraska.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_election_in_Nebraska",
+  "bytes": 11046,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_election_in_Nevada.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_election_in_Nevada",
+  "bytes": 26120,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_election_in_New_Jersey.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_election_in_New_Jersey",
+  "bytes": 66201,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_election_in_New_Mexico.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_election_in_New_Mexico",
+  "bytes": 8147,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_election_in_New_York.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_election_in_New_York",
+  "bytes": 143773,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_election_in_North_Dakota.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_election_in_North_Dakota",
+  "bytes": 5204,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_election_in_Ohio.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_election_in_Ohio",
+  "bytes": 10648,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_election_in_Pennsylvania.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_election_in_Pennsylvania",
+  "bytes": 18608,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_election_in_Rhode_Island.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_election_in_Rhode_Island",
+  "bytes": 10417,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_election_in_Tennessee.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_election_in_Tennessee",
+  "bytes": 28390,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_election_in_Texas.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_election_in_Texas",
+  "bytes": 12628,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_election_in_Utah.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_election_in_Utah",
+  "bytes": 4100,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_election_in_Vermont.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_election_in_Vermont",
+  "bytes": 19482,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_election_in_Virginia.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_election_in_Virginia",
+  "bytes": 11432,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_election_in_Washington.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_election_in_Washington",
+  "bytes": 47795,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_election_in_West_Virginia.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_election_in_West_Virginia",
+  "bytes": 4038,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_election_in_Wisconsin.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_election_in_Wisconsin",
+  "bytes": 8029,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_election_in_Wyoming.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_election_in_Wyoming",
+  "bytes": 5851,
+  "note": ""
+ },
+ {
+  "path": "wiki/2000/senate/2000_United_States_Senate_special_election_in_Georgia.json",
+  "url": "https://en.wikipedia.org/wiki/2000_United_States_Senate_special_election_in_Georgia",
+  "bytes": 18918,
+  "note": ""
+ },
+ {
+  "path": "ssa/names.zip",
+  "url": "https://www.ssa.gov/oact/babynames/names.zip",
+  "bytes": 0,
+  "error": "HTTPError: HTTP Error 403: Forbidden"
  }
 ]

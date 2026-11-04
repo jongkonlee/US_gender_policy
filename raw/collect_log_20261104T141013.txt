@@ -1,0 +1,12 @@
+14:07:52 Wikipedia overview pages
+14:08:11 Wikipedia Senate race pages
+14:08:12   1990: 35 Senate pages
+14:08:32   1992: 36 Senate pages
+14:08:57   1994: 35 Senate pages
+14:09:18   1996: 35 Senate pages
+14:09:36   1998: 34 Senate pages
+14:09:53   2000: 34 Senate pages
+14:10:12 SSA baby names
+14:10:13   FAIL https://www.ssa.gov/oact/babynames/names.zip HTTP Error 403: Forbidden
+14:10:13 done: 253 files, 1 problems
+14:10:13   problem: ssa/names.zip HTTPError: HTTP Error 403: Forbidden
