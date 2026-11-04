@@ -89,7 +89,7 @@ def district_attrs(congress, refresh=False):
         return cached
     caches = {}
     res = districts.build(congress, caches)
-    out = dict(congress=congress, built=dt.datetime.utcnow().isoformat(timespec="seconds") + "Z",
+    out = dict(congress=congress, built=dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
                cd={f"{k[0]}-{k[1]}": v for k, v in res["cd"].items()}, state=res["state"], notes=res["notes"],
                transient=res["transient"])
     # keep values from an older run when a source failed this time
@@ -213,6 +213,7 @@ def build_congress(congress, people, cfg, refresh_bills, refresh_votes, refresh_
     path = billstatus.build_congress(congress, refresh=refresh_bills)
     bills = {b["id"]: b for b in read_jsonl(path)}
     log(f"bills loaded: {len(bills)}")
+    write_qa(congress, bills)
     cls = {}
     for bid, b in bills.items():
         cls[bid] = C.classify_bill(b)
@@ -265,7 +266,7 @@ def build_congress(congress, people, cfg, refresh_bills, refresh_votes, refresh_
                     basis = ["표결 설명"] + info["basis"]
             if not info:
                 continue
-            pol = C.motion_polarity(question)
+            pol = C.motion_polarity(question, " ".join([r.get("desc") or "", r.get("dtl") or "", act or ""]))
             ydir = (info.get("dir") or 0) * pol
             if is_rule:
                 ydir = 0
@@ -311,11 +312,24 @@ def build_congress(congress, people, cfg, refresh_bills, refresh_votes, refresh_
                    url=bill_url(congress, b["t"], b["n"]),
                    rel=[r for r in b.get("rel", []) if r[0] in women][:6], subj=b.get("subj", [])[:12])
         bills_out.append(rec)
-    data = dict(congress=congress, generated=dt.datetime.utcnow().isoformat(timespec="seconds") + "Z",
+    data = dict(congress=congress, generated=dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
                 members=rosters, bills=bills_out, votes=votes_out, notes=dist.get("notes", []))
     write_json(os.path.join(OUT, f"c{congress}.json"), data)
     return dict(c=congress, bills=len(bills_out), votes={ch: len(v) for ch, v in votes_out.items()},
                 members={ch: len(r) for ch, r in rosters.items()}, generated=data["generated"])
+
+
+def write_qa(congress, bills):
+    """Compact copy of every bill's title/subjects/amendments, for checking the classification rules offline."""
+    import gzip
+    p = os.path.join(ROOT, "cache", "qa", f"bills_{congress}.jsonl.gz")
+    os.makedirs(os.path.dirname(p), exist_ok=True)
+    with gzip.open(p, "wt", encoding="utf-8") as f:
+        for b in bills.values():
+            rec = dict(id=b["id"], t=b["t"], n=b["n"], title=b.get("title", ""), titles=b.get("titles", [])[:4], pa=b.get("pa", ""),
+                       subj=b.get("subj", [])[:40], nsubj=len(b.get("subj", [])), ncs=len(b.get("cs", [])), nv=len(b.get("votes", [])),
+                       amdts=[[a.get("num"), a.get("purp") or a.get("desc") or ""] for a in b.get("amdts", [])][:60])
+            f.write(json.dumps(rec, ensure_ascii=False) + "\n")
 
 
 def abortion_timeline():
@@ -329,7 +343,7 @@ def write_index(summaries):
     for s in summaries:
         have[s["c"]] = s
     idx.update(
-        generated=dt.datetime.utcnow().isoformat(timespec="seconds") + "Z",
+        generated=dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         current=current_congress(),
         congresses=[have[c] for c in sorted(have)],
         topics=C.topic_info(), groups=[dict(code=g, label=l) for g, l in C.GROUPS],

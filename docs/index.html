@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>미국 의회 여성정책 트래커</title>
+<meta name="description" content="미국 상·하원 의원의 여성정책 공동발의와 표결을 세부 정책과 의원 특징(성별·인종·농촌 비율·당파 지수 등)별로 비교합니다.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <h1>미국 의회 여성정책 트래커</h1>
+    <p class="sub">여성정책 법안의 공동발의와 표결을 세부 정책별로 정리하고, 의원의 성별·인종·지역구 특징에 따라 비교합니다.</p>
+  </div>
+</header>
+
+<div class="controls wrap" id="controls">
+  <div class="row">
+    <div class="seg" id="chamberSeg" role="group" aria-label="원">
+      <button data-ch="H" class="on">하원</button><button data-ch="S">상원</button>
+    </div>
+    <label class="fld">회기 <select id="congressSel"></select></label>
+    <label class="fld">세부 정책 <select id="topicSel"></select></label>
+    <label class="fld">비교 기준 <select id="cmpSel"></select></label>
+  </div>
+  <div class="row small">
+    <label class="chk"><input type="checkbox" id="withinChk" checked> 정당 안에서 비교</label>
+    <label class="chk"><input type="checkbox" id="commemChk"> 기념 결의안 포함</label>
+    <label class="chk"><input type="checkbox" id="broadChk"> 넓은 범위(돌봄·인신매매) 포함</label>
+    <label class="fld">표결 종류 <select id="vtypeSel">
+      <option value="all">전체</option><option value="final">본회의 통과·재의결</option><option value="amend">수정안</option>
+      <option value="proc">절차(의사규칙·토론 종결 등)</option><option value="nom">인준</option></select></label>
+    <label class="fld">방향 <select id="dirSel">
+      <option value="all">전체</option><option value="1">확대·보호 쪽 법안</option><option value="-1">제한·축소 쪽 법안</option><option value="0">방향 없음</option></select></label>
+  </div>
+  <div class="row search">
+    <input type="search" id="searchBox" placeholder="법안 번호(H.R. 7, S. 1)나 이름·의원 이름으로 찾기">
+  </div>
+</div>
+
+<nav class="tabs wrap" id="tabs" role="tablist">
+  <button data-tab="summary" class="on">요약</button>
+  <button data-tab="bills">법안</button>
+  <button data-tab="votes">표결</button>
+  <button data-tab="members">의원</button>
+  <button data-tab="download">내려받기</button>
+  <button data-tab="about">설명</button>
+</nav>
+
+<main class="wrap" id="main"><p class="muted">자료를 불러오는 중…</p></main>
+
+<div class="panel" id="panel" hidden>
+  <div class="panel-in">
+    <button class="close" id="panelClose" aria-label="닫기">×</button>
+    <div id="panelBody"></div>
+  </div>
+</div>
+
+<footer class="wrap foot" id="foot"></footer>
+<script src="dta.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

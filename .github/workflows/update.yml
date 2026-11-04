@@ -61,6 +61,17 @@ jobs:
             git pull --rebase origin main
             git push origin HEAD:main
           fi
+      - name: save rule-checking copy to the qa-cache branch
+        if: github.event_name != 'push'
+        continue-on-error: true
+        run: |
+          [ -d cache/qa ] || exit 0
+          export GIT_INDEX_FILE=/tmp/qa_index
+          git --work-tree=cache/qa add -f -A .
+          tree=$(git write-tree)
+          commit=$(git commit-tree "$tree" -m "qa copy $(date -u +%FT%TZ)")
+          unset GIT_INDEX_FILE
+          git push -f origin "$commit:refs/heads/qa-cache"
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

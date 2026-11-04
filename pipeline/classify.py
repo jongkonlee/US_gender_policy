@@ -50,11 +50,12 @@ STRONG = {
                          r"partial[- ]birth", r"dismemberment", r"life at conception", r"sanctity of (human )?life", r"\bright to life\b",
                          r"reproductive (freedom|rights|health ?care access|choice|autonomy|health services access)",
                          r"Women'?s Health Protection Act", r"(crisis|resource|support|help) pregnancy center|pregnancy (resource|help|support|care) centers?",
-                         r"mifepristone", r"chemical abortion", r"abortion pills?", r"\bpersonhood\b", r"\bpro-?choice\b"),
+                         r"mifepristone", r"chemical abortion", r"abortion pills?", r"\bpersonhood\b", r"\bpro-?choice\b",
+                         r"\bDobbs\b", r"reproductive health ?care"),
     "repro_contraception": _c(r"contracepti", r"birth control", r"family planning", r"\bTitle X\b"),
     "repro_ivf": _c(r"\bIVF\b", r"in vitro fertili", r"\binfertil", r"fertility (treatment|preservation|care|services|coverage)",
                     r"assisted reproductive", r"\bembryos?\b"),
-    "violence_dv": _c(r"domestic violence", r"dating violence", r"family violence", r"intimate partner", r"violence against women",
+    "violence_dv": _c(r"domestic violence", r"dating violence", r"family violence", r"intimate partner", r"violence against (women|females?|girls)",
                       r"\bVAWA\b", r"\bstalking\b", r"\bbattered\b", r"gender[- ]based violence", r"\bfemicide"),
     "violence_sexual": _c(r"sexual (assault|violence|harassment|misconduct)", r"\brape\b", r"\brapes\b", r"rape kits?",
                           r"sexual assault (kits?|evidence)", r"military sexual trauma", r"\bmetoo\b", r"#metoo"),
@@ -79,15 +80,21 @@ STRONG = {
                        r"\bPCOS\b", r"polycystic ovar", r"gynecolog", r"women.{0,20}(heart|cardiovascular) (health|disease)",
                        r"women in (clinical )?research", r"breast (density|implants?|reconstruction)", r"\bDES daughters"),
     "rights_education_sports": _c(r"\bTitle IX\b", r"women'?s sports", r"girls'? sports", r"women and girls in sports",
+                                  r"(women|girls|female|females)\b.{0,25}\b(sports?|athlet\w*|olympic|teams?)\b",
+                                  r"\b(sports?|athletics)\b.{0,25}\b(women|girls|females?)\b", r"fair play for women",
                                   r"female athletes?", r"girls'? education", r"women'?s (educational )?equity", r"women'?s colleges?",
                                   r"(women|girls) in (STEM|science|technology|engineering|mathematics|math|computing|aviation)"),
     "rights_international": _c(r"global women", r"women'?s global", r"women,? peace,? and security", r"international violence against women",
                                r"\bchild marriage", r"female genital (mutilation|cutting)", r"\bFGM\b", r"Ambassador[- ]at[- ]Large for Global Women",
                                r"(afghan|iranian|ukrainian|uyghur|yazidi|rohingya|haitian|sudanese|congolese) (women|girls)",
                                r"women (and girls )?(in|of) (afghanistan|iran|ukraine|sudan|haiti|congo|gaza|syria|iraq|yemen)"),
-    "broad_care": _c(r"child ?care", r"paid (family |sick |parental )?leave", r"family (and medical )?leave", r"parental leave",
-                     r"\bFMLA\b", r"\bFAMILY Act\b", r"\bWIC\b", r"Women,? Infants,? and Children", r"\bcaregiv"),
-    "broad_trafficking": _c(r"traffick"),
+    "broad_care": _c(r"child ?care", r"child (and|&) (elder|dependent) care", r"dependent care", r"paid (family |sick |parental )?leave",
+                     r"family (and medical )?leave", r"parental leave", r"\bFMLA\b", r"\bFAMILY Act\b", r"\bWIC\b",
+                     r"Women,? Infants,? and Children", r"early (care|childhood) and education"),
+    "broad_trafficking": _c(r"(human|sex|sexual|labor|labour|child|children|minors?|people|persons?|women|girls) traffick",
+                            r"trafficking (victims?|survivors?|in persons|of (women|girls|children|persons|people|minors))",
+                            r"traffick(ed|ing) (women|girls|children|persons|people|minors)", r"anti-?trafficking",
+                            r"Trafficking Victims Protection", r"victims of trafficking", r"trafficking survivors?"),
 }
 # Weak single words: count only after noise phrases are removed
 WEAK = _c(r"\bwomen'?s?\b", r"\bwoman'?s?\b", r"\bgirls?\b", r"\bfemales?\b", r"\bmothers?\b", r"\bpregnan", r"\bsuffrag",
@@ -99,10 +106,13 @@ NOISE = [
         r"gold star (mothers?|wives|families)", r"mothers? against drunk driving", r"\bmother lode\b",
         r"women,? infants,? and children", r"\bWIC\b",
         r"(women|girls) (basketball|soccer|softball|volleyball|hockey|lacrosse|golf|tennis|gymnastics|rowing|swimming)",
+        r"\b(men|boys|fathers|sons|husbands?|brothers) (and|&) (women|girls|mothers|daughters|wives|sisters)\b",
+        r"\b(women|girls|mothers|daughters|wives|sisters) (and|&) (men|boys|fathers|sons|husbands?|brothers)\b",
+        r"fathers,? mothers", r"mothers,? fathers", r"servicemen and servicewomen", r"\bboys and girls clubs?\b",
     )]
 ENV_AREAS = {"Environmental Protection", "Energy", "Agriculture and Food", "Public Lands and Natural Resources",
-             "Water Resources Development", "Transportation and Public Works"}
-ENV_NOISE = re.compile(r"pregnant (women|people|individuals)|women and children|children and pregnant", re.I)
+             "Water Resources Development", "Transportation and Public Works", "Animals"}
+ENV_NOISE = re.compile(r"pregnant (women|people|individuals|sows|animals)|women and children|children and pregnant|\bpregnan\w*", re.I)
 LGBT = re.compile(r"gender identity|sexual orientation|\bLGBT|transgender|\bqueer\b", re.I)
 SPORTS_COMMEM = re.compile(r"\b(team|championships?|champions|NCAA|basketball|soccer|softball|volleyball|hockey|lacrosse|golf|tennis|"
                            r"gymnastics|track and field|rowing|swimming|World Cup|Olympi|Paralympi|athletic program|national title)\b", re.I)
@@ -170,70 +180,91 @@ def _clean(text, pa):
 
 
 def text_topics(text, pa=""):
-    """Topics matched in a piece of text (title, amendment purpose, vote description)."""
-    found, basis = [], []
+    """Topics matched in a piece of text (title, amendment purpose, vote description).
+    Returns (strong, weak, basis): strong = specific phrases, weak = generic words like 'women'."""
+    strong, weak, basis = [], [], []
     raw = text or ""
+    clean = _clean(raw, pa)
     for code in PRIORITY:
         rx = STRONG.get(code)
         if not rx:
             continue
-        src = _clean(raw, pa) if code not in ("broad_care",) else raw
-        m = rx.search(src)
+        m = rx.search(clean if code != "broad_care" else raw)
         if m:
-            found.append(code)
+            strong.append(code)
             basis.append(f"제목 낱말: {m.group(0)}")
-    weak = None
-    if not [c for c in found if not c.startswith("broad")]:
-        m = WEAK.search(_clean(raw, pa))
+    if not [c for c in strong if not c.startswith("broad")]:
+        m = WEAK.search(clean)
         if m:
-            weak = m.group(0)
-            w = weak.lower()
-            code = "health_maternal" if w.startswith(("mother", "pregnan")) else "rights_other"
-            found.append(code)
-            basis.append(f"제목 낱말: {weak}")
-    if LGBT.search(raw) and not WEAK.search(_clean(raw, pa)) and not any(
+            w = m.group(0).lower()
+            if w.startswith(("mother", "pregnan")):
+                strong.append("health_maternal")  # pregnancy / motherhood words are specific enough
+            else:
+                weak.append("rights_other")
+            basis.append(f"제목 낱말: {m.group(0)}")
+    if LGBT.search(raw) and not WEAK.search(clean) and not any(
             STRONG[c].search(raw) for c in ("repro_abortion", "violence_dv", "violence_sexual", "econ_pregnant_workers")):
-        return [], ["성소수자 관련(제외)"]
-    # place international / military context
+        return [], [], ["성소수자 관련(제외)"]
+    found = strong + weak
     if found and pa in INTL_AREA and "rights_international" not in found:
-        found.append("rights_international")
+        strong.append("rights_international")
     if found and pa in MIL_AREA and "rights_military_veterans" not in found and re.search(r"women|female|servicewomen", raw, re.I):
-        found.append("rights_military_veterans")
-    return found, basis
+        strong.append("rights_military_veterans")
+    return strong, weak, basis
 
 
-def direction(topics, text, commem=False):
+INVERT = re.compile(r"\b(to strike|striking|strike the|repeal|remove|eliminat\w+ the|nullif\w+|reverse)\b", re.I)
+RESCIND = re.compile(r"strike the rescission|restor\w* (funding|funds)|prevent.{0,30}cuts", re.I)
+NO_DIR_AREAS = {"Immigration"}
+
+
+def direction(topics, text, commem=False, pa=""):
     if not topics or commem:
         return 0
     t = topics[0]
     s = text or ""
+    inv = bool(INVERT.search(s))
     if t == "repro_abortion":
         minus, plus = AB_MINUS.search(s), AB_PLUS.search(s)
         if minus and not plus:
-            return -1
+            return 1 if inv else -1
         if plus and not minus:
-            return 1
+            return -1 if inv else 1
         return 0
-    if t == "repro_contraception":
-        if re.search(r"(prohibit|terminat|eliminat|defund|withhold).{0,40}Title X|Title X.{0,40}(prohibit|abortion provider)", s, re.I):
-            return -1
-        if CONTRA_PLUS.search(s):
+    if t in ("repro_contraception", "repro_ivf"):
+        if RESCIND.search(s):
             return 1
-    if t == "repro_ivf":
-        if IVF_PLUS.search(s):
+        if re.search(r"(prohibit|terminat|eliminat|defund|withhold|rescind|rescission).{0,60}(Title X|family planning|contracepti)", s, re.I):
+            return 1 if re.search(r"strike|striking", s, re.I) else -1
+        if (CONTRA_PLUS if t == "repro_contraception" else IVF_PLUS).search(s):
             return 1
-        if re.search(r"personhood|life at conception", s, re.I):
+        if t == "repro_ivf" and re.search(r"personhood|life at conception", s, re.I):
             return -1
+        return 0
+    if pa in NO_DIR_AREAS:
         return 0
     if t == "rights_education_sports" and CONTESTED.search(s):
         return 0
     if t == "rights_era":
         return -1 if re.search(r"rescind|oppos|withdraw", s, re.I) else 1
+    if RESCIND.search(s):
+        return 1
     if NEG.search(s) and not POS.search(s):
         return -1
     if POS.search(s) and not NEG.search(s):
         return 1
     return 0
+
+
+def _order(strong, subj, weak):
+    out = []
+    for group in (sorted(strong, key=PRIORITY.index), sorted(subj, key=PRIORITY.index), sorted(weak, key=PRIORITY.index)):
+        for t in group:
+            if t not in out:
+                out.append(t)
+    core = [t for t in out if not t.startswith("broad")]
+    broad = [t for t in out if t.startswith("broad")]
+    return core + broad
 
 
 def classify_bill(b):
@@ -245,7 +276,7 @@ def classify_bill(b):
     is_res = b["t"] in ("hres", "sres", "hconres", "sconres")
     if b["t"] == "hres" and RULE.search(main_title):
         return dict(include=False, rule=True)
-    topics, basis = text_topics(text, pa)
+    strong, weak, basis = text_topics(text, pa)
     subj = b.get("subj") or []
     s_topics = []
     for s in subj:
@@ -256,42 +287,32 @@ def classify_bill(b):
                 break
     n_subj = len(subj)
     subj_ok = (len(s_topics) >= 1 and n_subj <= 10) or (len(s_topics) >= 2 and n_subj <= 25)
-    if subj_ok:
-        for code in s_topics:
-            if code not in topics:
-                topics.append(code)
+    if not subj_ok:
+        s_topics = []
+    else:
         basis.append("주제어: " + ", ".join(x for x in subj if any(rx.search(x) for rx, _ in SUBJ_TOPIC))[:120])
-    b_topics = []
-    for s in subj:
-        for rx, code in SUBJ_BROAD:
-            if rx.search(s) and code not in b_topics:
-                b_topics.append(code)
-    core = [t for t in topics if not t.startswith("broad")]
-    broad = [t for t in topics if t.startswith("broad")]
-    if not core and not broad and b_topics and n_subj <= 10:
-        broad = b_topics
-        basis.append("주제어(넓은 범위): " + ", ".join(b_topics))
-    if not core and not broad:
+    topics = _order(strong, s_topics, weak)
+    if not topics:
         return dict(include=False)
     commem = bool(is_res and (COMMEM.search(main_title) or AWARE.search(main_title)))
-    if commem and SPORTS_COMMEM.search(main_title):
+    if commem and SPORTS_COMMEM.search(main_title) and not re.search(r"title ix|women'?s sports day|girls in sports day", main_title, re.I):
         return dict(include=False, excluded="sports")
-    ordered = sorted(core, key=PRIORITY.index) + sorted(broad, key=PRIORITY.index)
+    core = [t for t in topics if not t.startswith("broad")]
     scope = "core" if core else "broad"
-    d = direction(ordered, text, commem)
-    return dict(include=True, scope=scope, commem=commem, topics=ordered, dir=d, basis=basis[:4])
+    d = direction(topics, text, commem, pa)
+    return dict(include=True, scope=scope, commem=commem, topics=topics, dir=d, basis=basis[:4])
 
 
 def classify_text(text, pa=""):
     """For amendments and vote descriptions: topics + direction, or None."""
     if not text:
         return None
-    topics, basis = text_topics(text, pa)
-    core = [t for t in topics if not t.startswith("broad")]
-    if not core and not topics:
+    strong, weak, basis = text_topics(text, pa)
+    topics = _order(strong, [], weak)
+    if not topics:
         return None
-    ordered = sorted(core, key=PRIORITY.index) + sorted([t for t in topics if t.startswith("broad")], key=PRIORITY.index)
-    return dict(topics=ordered, scope="core" if core else "broad", dir=direction(ordered, text), basis=basis[:3])
+    core = [t for t in topics if not t.startswith("broad")]
+    return dict(topics=topics, scope="core" if core else "broad", dir=direction(topics, text, False, pa), basis=basis[:3])
 
 
 # ---------- votes ----------
@@ -303,8 +324,15 @@ Q_ZERO = re.compile(r"recommit|commit\b|reconsider|point of order|instruct|adjou
                     r"question of consideration|division", re.I)
 
 
-def motion_polarity(question):
+def motion_polarity(question, detail=""):
     q = question or ""
+    if re.fullmatch(r"\s*on the motion\s*", q, re.I):
+        d = detail or ""
+        if re.search(r"waive", d, re.I):
+            return 1
+        if re.search(r"table", d, re.I):
+            return -1
+        return 0
     if Q_MINUS.search(q):
         return -1
     if Q_ZERO.search(q):
