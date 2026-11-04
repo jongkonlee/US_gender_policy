@@ -125,6 +125,8 @@ def _ur2010_state_file(folder, fips):
         return None  # this state has no file for these lines (lines unchanged)
     out = {}
     rows = _csv_rows(txt)
+    hi = next((i for i, r in enumerate(rows[:6]) if "TotalPop" in ",".join(r)), None)
+    rows = rows[hi:] if hi is not None else []  # the files start with a title line
     if not rows or "TotalPop" not in ",".join(rows[0]):
         if len(_UR_FAILS) < 6:
             _UR_FAILS.append(f"{folder}/{fips}: unexpected content {txt[:80]!r}")

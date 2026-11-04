@@ -33,8 +33,8 @@ TOPICS = [
 GROUPS = [("reproduction", "임신"), ("health", "모성·여성 건강"), ("violence", "여성 폭력"),
           ("economy", "일·경제"), ("rights", "성평등·권리"), ("broad", "넓은 범위")]
 PRIORITY = ["repro_abortion", "repro_contraception", "repro_ivf", "violence_dv", "violence_sexual",
-            "econ_pregnant_workers", "econ_pay", "econ_business", "rights_era", "rights_military_veterans",
-            "rights_education_sports", "rights_international", "health_maternal", "health_women",
+            "econ_pregnant_workers", "econ_pay", "econ_business", "rights_era", "rights_education_sports",
+            "rights_military_veterans", "rights_international", "health_maternal", "health_women",
             "broad_care", "broad_trafficking", "rights_other"]
 
 
@@ -81,7 +81,8 @@ STRONG = {
                        r"women in (clinical )?research", r"breast (density|implants?|reconstruction)", r"\bDES daughters"),
     "rights_education_sports": _c(r"\bTitle IX\b", r"women'?s sports", r"girls'? sports", r"women and girls in sports",
                                   r"(women|girls|female|females)\b.{0,25}\b(sports?|athlet\w*|olympic|teams?)\b",
-                                  r"\b(sports?|athletics)\b.{0,25}\b(women|girls|females?)\b", r"fair play for women",
+                                  r"\b(sports?|athletic\w*)\b.{0,45}\b(women|girls|females?)\b", r"fair play for women",
+                                  r"\bmales?\b.{0,40}\b(female|women'?s|girls'?)\b.{0,20}\b(sports?|athletic\w*|teams?)",
                                   r"female athletes?", r"girls'? education", r"women'?s (educational )?equity", r"women'?s colleges?",
                                   r"(women|girls) in (STEM|science|technology|engineering|mathematics|math|computing|aviation)"),
     "rights_international": _c(r"global women", r"women'?s global", r"women,? peace,? and security", r"international violence against women",
@@ -144,7 +145,8 @@ INTL_AREA = {"International Affairs"}
 MIL_AREA = {"Armed Forces and National Security"}
 
 # ---------- direction ----------
-AB_MINUS = _c(r"no (taxpayer|federal|government) funding for abortion", r"prohibit.{0,60}abortion", r"abortion.{0,40}prohibit",
+AB_MINUS = _c(r"no (taxpayer|federal|government) funding for abortion", r"prohibit.{0,120}abortion", r"abortion.{0,40}prohibit",
+              r"(paying for|reimburs\w*|fund\w*|pay for).{0,60}(abortion|travel.{0,30}abortion)",
               r"protect(ing|ion of)? (the )?(unborn|pain[- ]capable|life|children from abortion)", r"born[- ]alive", r"pain[- ]capable",
               r"heartbeat", r"life at conception", r"sanctity of (human )?life", r"right to life", r"partial[- ]birth", r"dismemberment",
               r"defund.{0,40}planned parenthood", r"planned parenthood.{0,40}(defund|terminat|prohibit|eliminat)",
