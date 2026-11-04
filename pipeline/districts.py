@@ -268,11 +268,117 @@ def _acs_table(year, table):
     return h, rows[1:]
 
 
+ACS_BASE = WWW2 + "/programs-surveys/acs/summary_file/{y}/data"
+_ACS_SEQ_CACHE = {}
+
+
+def _acs_needed(year):
+    v = ["B01003_001", "B03002_001", "B03002_003", "B03002_004", "B03002_006", "B03002_012", "B19013_001"]
+    if year >= 2012:
+        v += ["B15003_001", "B15003_022", "B15003_023", "B15003_024", "B15003_025"]
+    else:
+        v += ["B15002_001"] + [f"B15002_{i:03d}" for i in (15, 16, 17, 18, 32, 33, 34, 35)]
+    return v
+
+
+def _first_row(data, name):
+    if name.lower().endswith(".xls"):
+        import xlrd
+        sh = xlrd.open_workbook(file_contents=data).sheet_by_index(0)
+        return sh.row_values(0) if sh.nrows else []
+    import openpyxl
+    wb = openpyxl.load_workbook(io.BytesIO(data), read_only=True)
+    for r in wb.worksheets[0].iter_rows(max_row=1, values_only=True):
+        return list(r)
+    return []
+
+
+def acs_seq(year):
+    """ACS 1-year estimates for 2009-2019 from the sequence-based Summary File (files per state).
+    Returns {'cd': {(st, d): row}, 'state': {st: row}}."""
+    if year in _ACS_SEQ_CACHE:
+        return _ACS_SEQ_CACHE[year]
+    import zipfile
+    base = ACS_BASE.format(y=year)
+    tz = os.path.join(CACHE, "acs", f"{year}_1yr_templates.zip")
+    fetch(f"{base}/{year}_1yr_Summary_FileTemplates.zip", tz, timeout=300)
+    need = set(_acs_needed(year))
+    pos = {}
+    with zipfile.ZipFile(tz) as z:
+        for name in z.namelist():
+            m = re.search(r"seq(?:uence)?[_ ]?(\d+)\.xlsx?$", os.path.basename(name), re.I)
+            if not m:
+                continue
+            seq = int(m.group(1))
+            for j, lab in enumerate(_first_row(z.read(name), name)):
+                mm = re.match(r"^([BC]\d{5}[A-Z]?)_?e?(\d+)$", str(lab or "").strip())
+                if mm:
+                    key = f"{mm.group(1)}_{int(mm.group(2)):03d}"
+                    if key in need:
+                        pos[key] = (seq, j)
+    missing = need - set(pos)
+    if missing:
+        raise RuntimeError(f"ACS {year}: variables not found in templates: {sorted(missing)[:5]}")
+    html = fetch(f"{base}/1_year_seq_by_state/", binary=False)
+    folders = sorted(set(re.findall(r'href="([A-Za-z]+)/"', html)))
+    names = {k.replace(" ", "").lower(): v for k, v in STATE_NAMES.items()}
+    names.update({"districtofcolumbia": "DC", "puertorico": "PR"})
+    seqs = sorted({s for s, _ in pos.values()})
+    cd, stt = {}, {}
+    for folder in folders:
+        st = folder.upper() if len(folder) == 2 else names.get(folder.lower())
+        if not st or st == "US":
+            continue
+        stl = st.lower()
+        try:
+            gtxt = _text(f"{base}/1_year_seq_by_state/{folder}/g{year}1{stl}.csv", f"acs_g{year}1{stl}.csv")
+        except Exception as e:
+            log("ACS geo missing", year, st, e)
+            continue
+        want = {}
+        for r in _csv_rows(gtxt):
+            if len(r) < 5 or r[3] != "00" or r[2] not in ("500", "040"):
+                continue
+            geoid = next((c for c in r if re.match(r"^\d{3}[0-9A-Z]{2,4}US\d+$", c or "")), "")
+            if r[2] == "500" and geoid:
+                k = _cd_key(geoid[-4:-2], geoid[-2:])
+                if k:
+                    want[r[4]] = ("cd", k)
+            elif r[2] == "040":
+                want[r[4]] = ("state", st)
+        vals = {lr: {} for lr in want}
+        for seq in seqs:
+            url = f"{base}/1_year_seq_by_state/{folder}/{year}1{stl}{seq:04d}000.zip"
+            zp = os.path.join(CACHE, "acs", f"{year}1{stl}{seq:04d}000.zip")
+            try:
+                fetch(url, zp, timeout=300)
+            except Exception as e:
+                log("ACS seq missing", year, st, seq, e)
+                continue
+            with zipfile.ZipFile(zp) as z:
+                ef = [n for n in z.namelist() if os.path.basename(n).lower().startswith("e")]
+                if not ef:
+                    continue
+                txt = z.read(ef[0]).decode("latin-1")
+            cols = [(k, j) for k, (s, j) in pos.items() if s == seq]
+            for r in _csv_rows(txt):
+                if len(r) > 5 and r[5] in vals:
+                    for k, j in cols:
+                        if j < len(r):
+                            vals[r[5]][k.replace("_", "_") + "E"] = r[j]
+        for lr, (lvl, key) in want.items():
+            row = _acs_row(vals[lr], year)
+            (cd if lvl == "cd" else stt)[key] = row
+    log(f"ACS {year} (sequence files): {len(cd)} districts, {len(stt)} states")
+    _ACS_SEQ_CACHE[year] = dict(cd=normalize_keys(cd), state=stt)
+    return _ACS_SEQ_CACHE[year]
+
+
 def acs(congress, level):
-    """ACS 1-year estimates from the table-based Summary File (2021 onward)."""
+    """ACS 1-year estimates: table-based Summary File (2021 onward) or sequence files (2009-2019)."""
     year = ACS_YEAR[congress]
     if year < 2021:
-        raise RuntimeError(f"ACS {year}: older sequence-based Summary File not yet supported")
+        return acs_seq(year)["cd" if level == "cd" else "state"]
     vals = {}
     for t in ACS_TABLES + (["b15003"]):
         h, rows = _acs_table(year, t)
@@ -309,8 +415,12 @@ def _acs_row(r, year):
                    asian_nh=round(100 * (f("B03002_006E") or 0) / tot, 1), hisp=round(100 * (f("B03002_012E") or 0) / tot, 1))
     inc = f("B19013_001E")
     out["med_income"] = int(inc) if inc else None
-    base = f("B15003_001E")
-    ba = sum(f(k) or 0 for k in ("B15003_022E", "B15003_023E", "B15003_024E", "B15003_025E"))
+    if year >= 2012:
+        base = f("B15003_001E")
+        ba = sum(f(k) or 0 for k in ("B15003_022E", "B15003_023E", "B15003_024E", "B15003_025E"))
+    else:
+        base = f("B15002_001E")
+        ba = sum(f(f"B15002_{i:03d}E") or 0 for i in (15, 16, 17, 18, 32, 33, 34, 35))
     out["ba_plus"] = round(100 * ba / base, 1) if base else None
     out["acs_year"] = year
     return out
@@ -582,5 +692,5 @@ def build(congress, caches):
         for k in list(cd):
             if k[0] == st:
                 cd[k]["lines_note"] = "census_lines_differ"
-    transient = any("not yet supported" not in n for n in notes)
+    transient = bool(notes)
     return dict(cd=cd, state=stt, notes=notes, transient=transient)
