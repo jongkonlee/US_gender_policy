@@ -287,9 +287,11 @@ function pager(n) {
   return `<div class="pager"><button class="btn" data-page="${S.page - 1}" ${S.page <= 0 ? 'disabled' : ''}>이전</button>
     <span>${S.page + 1} / ${pages}쪽 (${n}건)</span><button class="btn" data-page="${S.page + 1}" ${S.page >= pages - 1 ? 'disabled' : ''}>다음</button></div>`;
 }
-function sortRows(rows, keyfns) {
-  if (!S.sort || !keyfns[S.sort.k]) return rows;
-  const f = keyfns[S.sort.k], s = S.sort.d;
+const TYPE_ORDER = ['hr', 'hjres', 'hconres', 'hres', 's', 'sjres', 'sconres', 'sres'];
+function sortRows(rows, keyfns, def) {
+  const so = S.sort || def;
+  if (!so || !keyfns[so.k]) return rows;
+  const f = keyfns[so.k], s = so.d;
   return rows.slice().sort((a, b) => { const x = f(a), y = f(b); return (x < y ? -1 : x > y ? 1 : 0) * s; });
 }
 function th(k, label, cls) { const on = S.sort && S.sort.k === k ? (S.sort.d > 0 ? ' ▲' : ' ▼') : ''; return `<th class="sortable ${cls || ''}" data-sort="${k}">${label}${on}</th>`; }
@@ -297,9 +299,9 @@ function th(k, label, cls) { const on = S.sort && S.sort.k === k ? (S.sort.d > 0
 function viewBills() {
   const R = roster();
   let B = filteredBills();
-  const keys = { num: b => [b.t, typeof b.n === 'number' ? b.n : 0].join(':').padStart(12, '0'), cs: b => b.cs.filter(c => !c[3]).length,
+  const keys = { num: b => TYPE_ORDER.indexOf(b.t) * 1e6 + (typeof b.n === 'number' ? b.n : 0), cs: b => b.cs.filter(c => !c[3]).length,
     intro: b => b.intro, votes: b => b.votes.length };
-  B = S.sort ? sortRows(B, keys) : B;
+  B = sortRows(B, keys, S.sort || { k: 'num', d: 1 });
   const rows = B.slice(S.page * PAGE, (S.page + 1) * PAGE).map(b => {
     const sp = typeof b.sp === 'number' ? R[b.sp] : null;
     const cnt = { D: 0, R: 0, I: 0 }; b.cs.forEach(c => { if (c[3]) return; const m = typeof c[0] === 'number' ? R[c[0]] : null; if (m) cnt[m.pc === 'D' ? 'D' : m.pc === 'R' ? 'R' : 'I']++; });
@@ -568,7 +570,8 @@ function viewAbout() {
   <h2>주의</h2>
   <ul><li>자동 분류라 잘못 들어가거나 빠진 법안이 있을 수 있습니다. 법안 창의 '분류 근거'를 함께 보세요.</li>
   <li>공동발의 비율은 법안 발의일에 재임 중이던 의원을 분모로 셉니다.</li>
-  <li>대의원(워싱턴 DC·푸에르토리코 등)은 공동발의에는 들어가지만 본회의 표결권이 없고, 당파 지수는 DC만 있습니다.</li></ul>
+  <li>대의원(워싱턴 DC·푸에르토리코 등)은 공동발의에는 들어가지만 본회의 표결권이 없고, 당파 지수는 DC만 있습니다.</li>
+  <li>여성정책 관련 코커스는 공개된 전체 명단을 구할 수 있는 경우만 넣었습니다(119대: 하원 재생산 자유 코커스(옛 Pro-Choice Caucus), 하원 민주당 여성 코커스, 상원 Pro-Life Caucus). 명단은 한 시점의 것이라 회기 중에 떠난 의원은 빠져 있을 수 있습니다.</li></ul>
   <p class="muted">마지막 갱신: ${esc(gen)} · 매일 한 번 GitHub Actions가 자료를 다시 받아 만듭니다. 코드와 자료: <a href="https://github.com/jongkonlee/genderpolitics">github.com/jongkonlee/genderpolitics</a></p></div>`;
 }
 

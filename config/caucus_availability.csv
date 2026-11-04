@@ -1,0 +1,50 @@
+caucus,congress,list_available,source_url,snapshot_date,member_count_on_source,note
+Pro-Choice Caucus (House),111,partial,https://jvictor.schar.gmu.edu/wp-content/uploads/2017/04/membership_111.csv,,,"Caucus ID 231 'Bipartisan Congressional Pro-Choice Caucus'. Academic data (Ringe & Victor; House only; ICPSR IDs; caucus names in Caucuses_111.csv; data page updated 2018-02-08). Not compiled: file could not be downloaded from this environment. Terms: non-commercial research use only, must cite."
+Pro-Choice Caucus (House),112,no,,,,No roster found on official or member pages.
+Pro-Choice Caucus (House),113,no,,,,No roster found on official or member pages.
+Pro-Choice Caucus (House),114,no,,,,No roster found on official or member pages.
+Pro-Choice Caucus (House),115,partial,https://www.webharvest.gov/congress115th/20181221220624/https://houseprochoicecaucus-degette.house.gov/about,2018-12-21,,Caucus site captured in NARA 115th-Congress web harvest; a members page was not confirmed and the archive could not be opened from this environment (rate-limited). Unverified.
+Pro-Choice Caucus (House),116,partial,https://www.webharvest.gov/congress116th/20201123173752/https://houseprochoicecaucus-degette.house.gov/members,2020-11-23,,Members page captured in NARA 116th-Congress web harvest (URL found in search index) but could not be opened from this environment (rate-limited). Content and count unverified.
+Pro-Choice Caucus (House),117,partial,https://sherman.house.gov/prochoicecaucus,2026-11-04,123,"Rep. Brad Sherman's site (page published 2022-08-16, modified 2023-06-07). Names reflect the 117th Congress (c. Aug 2022). Alphabetical list stops at Kathleen Rice (no names after 'Ri'), so it is cut off. All 123 compiled and matched."
+Pro-Choice Caucus (House),118,no,,,,No roster found; archived caucus pages may exist but web archives were not reachable from this environment.
+Pro-Choice Caucus (House),119,yes,https://reproductivefreedom.house.gov/about-the-rfc/members,2026-11-04,161,"Official caucus site; renamed Reproductive Freedom Caucus in the 119th. Page metadata: published 2026-04-20, modified 2026-05-04. One-date list: members who left earlier in the 119th are not shown. All 161 compiled and matched."
+Pro-Life Caucus (House),111,partial,https://jvictor.schar.gmu.edu/wp-content/uploads/2017/04/membership_111.csv,,,"Caucus ID 232 'Bipartisan Congressional Pro-Life Caucus'. Academic data (Ringe & Victor; House only; ICPSR IDs; caucus names in Caucuses_111.csv; data page updated 2018-02-08). Not compiled: file could not be downloaded from this environment. Terms: non-commercial research use only, must cite."
+Pro-Life Caucus (House),112,no,,,,No public roster found.
+Pro-Life Caucus (House),113,no,,,,No public roster found.
+Pro-Life Caucus (House),114,no,,,,No public roster found.
+Pro-Life Caucus (House),115,no,,,,No public roster found.
+Pro-Life Caucus (House),116,no,,,,No public roster found.
+Pro-Life Caucus (House),117,no,,,,No public roster found.
+Pro-Life Caucus (House),118,no,,,,No public roster found.
+Pro-Life Caucus (House),119,no,https://chrissmith.house.gov/biography/congcaucuses.htm,2026-11-04,,No public roster found. Co-chair Chris Smith's caucus page (as of 2026-04-03) lists only his own caucus roles.
+Senate Pro-Life Caucus,111,no,https://www.hydesmith.senate.gov/node/5064,,,Caucus did not exist yet: founded in 2019 by Sen. Steve Daines.
+Senate Pro-Life Caucus,112,no,https://www.hydesmith.senate.gov/node/5064,,,Caucus did not exist yet: founded in 2019 by Sen. Steve Daines.
+Senate Pro-Life Caucus,113,no,https://www.hydesmith.senate.gov/node/5064,,,Caucus did not exist yet: founded in 2019 by Sen. Steve Daines.
+Senate Pro-Life Caucus,114,no,https://www.hydesmith.senate.gov/node/5064,,,Caucus did not exist yet: founded in 2019 by Sen. Steve Daines.
+Senate Pro-Life Caucus,115,no,https://www.hydesmith.senate.gov/node/5064,,,Caucus did not exist yet: founded in 2019 by Sen. Steve Daines.
+Senate Pro-Life Caucus,116,no,,,,No roster found (chair: Daines).
+Senate Pro-Life Caucus,117,no,,,,No roster found (chair: Daines).
+Senate Pro-Life Caucus,118,no,,,,No roster found (chair: Hyde-Smith from 118th). Older versions of the chair's caucus page may be archived; archives were not reachable from this environment.
+Senate Pro-Life Caucus,119,yes,https://www.hydesmith.senate.gov/pro-life-caucus,2026-11-04,21,"Chair Cindy Hyde-Smith's Senate site, heading 'Senate Pro-Life Caucus Members (119th Congress)'. Source prints 'Darline Graham (S.C.)', matched to Lindsey Graham (G000359). All 21 compiled and matched."
+Congressional Caucus for Women's Issues,111,partial,https://jvictor.schar.gmu.edu/wp-content/uploads/2017/04/membership_111.csv,,,"Caucus ID 397 'Congressional Caucus for Women's Issues'. Academic data (Ringe & Victor; House only; ICPSR IDs; caucus names in Caucuses_111.csv; data page updated 2018-02-08). Not compiled: file could not be downloaded from this environment. Terms: non-commercial research use only, must cite."
+Congressional Caucus for Women's Issues,112,no,https://www.nawj.org/uploads/pdf/current_womens_caucus_members.pdf,,68,"Only an unofficial list found: NAWJ PDF 'Women in the House of Representatives 112th Congress' (no source or date shown; 4 leaders + 64 members). Not an accepted source type, so not compiled; use only for cross-checking. It leaves out several women serving at the time (e.g., Ellmers, E.B. Johnson, McCarthy, Richardson, Schwartz)."
+Congressional Caucus for Women's Issues,113,no,,,,"Only leaders are published (WCPI, member press releases); no member roster found."
+Congressional Caucus for Women's Issues,114,no,,,,"Only leaders are published (WCPI, member press releases); no member roster found."
+Congressional Caucus for Women's Issues,115,no,,,,"Only leaders are published (WCPI, member press releases); no member roster found."
+Congressional Caucus for Women's Issues,116,no,,,,"Only leaders are published (WCPI, member press releases); no member roster found."
+Congressional Caucus for Women's Issues,117,no,,,,"Only leaders are published (WCPI, member press releases); no member roster found."
+Congressional Caucus for Women's Issues,118,no,,,,"Only leaders are published (WCPI, member press releases); no member roster found."
+Congressional Caucus for Women's Issues,119,no,,,,"Only leaders are published (WCPI, member press releases); no member roster found."
+Democratic Women's Caucus,111,no,https://democraticwomenscaucus.house.gov/about,,,Per the DWC About page the group began as the Democratic Women's Working Group in the 113th Congress; no roster found.
+Democratic Women's Caucus,112,no,https://democraticwomenscaucus.house.gov/about,,,Same as 111th; no roster found.
+Democratic Women's Caucus,113,no,,,,Democratic Women's Working Group period; no roster found.
+Democratic Women's Caucus,114,no,,,,Democratic Women's Working Group period; no roster found.
+Democratic Women's Caucus,115,no,,,,Democratic Women's Working Group period; no roster found.
+Democratic Women's Caucus,116,partial,https://democraticwomenscaucus.house.gov/about,,,"No roster obtained. The caucus says all House Democratic women are members, so a list could be derived from the member file (not done). Archived members pages could not be checked."
+Democratic Women's Caucus,117,partial,https://democraticwomenscaucus.house.gov/about,,,"No roster obtained. The caucus says all House Democratic women are members, so a list could be derived from the member file (not done). Archived members pages could not be checked."
+Democratic Women's Caucus,118,partial,https://democraticwomenscaucus.house.gov/media/press-releases/democratic-womens-caucus-announces-new-leadership-and-historic-membership,2023-03-22,94,Press release says all 94 Democratic women serving are DWC members but names only the 27 leaders. List derivable by that rule (not done).
+Democratic Women's Caucus,119,yes,https://democraticwomenscaucus.house.gov/members,2026-11-04,97,"Official caucus site (no date on page; includes members who joined mid-119th, e.g., Analilia Mejia, Aisha Wahab, Adelita Grijalva, so likely c. 2026). One-date list: Mikie Sherrill (resigned Nov 2025) and Sheila Cherfilus-McCormick (FL-20) are not on it. Jan 2025 release gave 96 members. All 97 compiled and matched."
+Congressional Pro-Life Women's Caucus (other),111,partial,https://jvictor.schar.gmu.edu/wp-content/uploads/2017/04/membership_111.csv,,,"Listed only, not compiled. Caucus ID 233 in Victor 111th data. Academic data (Ringe & Victor; House only; ICPSR IDs; caucus names in Caucuses_111.csv; data page updated 2018-02-08). Not compiled: file could not be downloaded from this environment. Terms: non-commercial research use only, must cite."
+Congressional Iraqi Women's Caucus (other),111,partial,https://jvictor.schar.gmu.edu/wp-content/uploads/2017/04/membership_111.csv,,,"Listed only, not compiled. Caucus ID 147 in Victor 111th data. Academic data (Ringe & Victor; House only; ICPSR IDs; caucus names in Caucuses_111.csv; data page updated 2018-02-08). Not compiled: file could not be downloaded from this environment. Terms: non-commercial research use only, must cite."
+Black Maternal Health Caucus (other),118,yes,https://blackmaternalhealthcaucus-underwood.house.gov/about-caucus/caucus-members,2026-11-04,122,"Listed only, not compiled. Founded 2019. Members page: 2 chairs + 113 House + 7 Senate; page modified 2024-07-19 (so 118th Congress)."
+Congressional Caucus on Black Women & Girls (other),114-119,no,https://watsoncoleman.house.gov/cbwgcaucus/leadership,2026-11-04,,Listed only. Founded 2016. Caucus pages show only the 3 co-chairs; no member roster found.
