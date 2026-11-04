@@ -4336,5 +4336,83 @@
   "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_special_election_in_Ohio",
   "bytes": 107974,
   "note": ""
+ },
+ {
+  "path": "wiki/people/batch_0000.json",
+  "url": "https://en.wikipedia.org/w/api.php",
+  "bytes": 15596,
+  "note": ""
+ },
+ {
+  "path": "wiki/people/batch_0001.json",
+  "url": "https://en.wikipedia.org/w/api.php",
+  "bytes": 18203,
+  "note": ""
+ },
+ {
+  "path": "wiki/people/batch_0002.json",
+  "url": "https://en.wikipedia.org/w/api.php",
+  "bytes": 15815,
+  "note": ""
+ },
+ {
+  "path": "wiki/people/batch_0003.json",
+  "url": "https://en.wikipedia.org/w/api.php",
+  "bytes": 12661,
+  "note": ""
+ },
+ {
+  "path": "wiki/people/batch_0004.json",
+  "url": "https://en.wikipedia.org/w/api.php",
+  "bytes": 16283,
+  "note": ""
+ },
+ {
+  "path": "wiki/people/batch_0005.json",
+  "url": "https://en.wikipedia.org/w/api.php",
+  "bytes": 11243,
+  "note": ""
+ },
+ {
+  "path": "wiki/people/batch_0006.json",
+  "url": "https://en.wikipedia.org/w/api.php",
+  "bytes": 13558,
+  "note": ""
+ },
+ {
+  "path": "wiki/people/batch_0007.json",
+  "url": "https://en.wikipedia.org/w/api.php",
+  "bytes": 15656,
+  "note": ""
+ },
+ {
+  "path": "wiki/people/batch_0008.json",
+  "url": "https://en.wikipedia.org/w/api.php",
+  "bytes": 12055,
+  "note": ""
+ },
+ {
+  "path": "wiki/people/batch_0009.json",
+  "url": "https://en.wikipedia.org/w/api.php",
+  "bytes": 11350,
+  "note": ""
+ },
+ {
+  "path": "wiki/people/batch_0010.json",
+  "url": "https://en.wikipedia.org/w/api.php",
+  "bytes": 15848,
+  "note": ""
+ },
+ {
+  "path": "wiki/people/batch_0011.json",
+  "url": "https://en.wikipedia.org/w/api.php",
+  "bytes": 13046,
+  "note": ""
+ },
+ {
+  "path": "wiki/people/batch_0012.json",
+  "url": "https://en.wikipedia.org/w/api.php",
+  "bytes": 6557,
+  "note": ""
  }
 ]
