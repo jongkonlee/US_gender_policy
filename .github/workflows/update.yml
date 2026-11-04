@@ -1,0 +1,69 @@
+name: update data and site
+
+on:
+  schedule:
+    - cron: "17 21 * * *"   # every day 06:17 Korea time
+  workflow_dispatch:
+    inputs:
+      congress:
+        description: "Congress numbers separated by spaces (e.g. 118 119), 'all', or empty for the current Congress"
+        required: false
+        default: ""
+      refresh_districts:
+        description: "Recompute district characteristics"
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths: ["docs/**", "!docs/data/**"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: build data
+        if: github.event_name != 'push'
+        env:
+          CONGRESS: ${{ inputs.congress }}
+          REFRESH: ${{ inputs.refresh_districts }}
+        run: |
+          ARGS=""
+          if [ "$CONGRESS" = "all" ]; then ARGS="--all"; elif [ -n "$CONGRESS" ]; then ARGS="--congress $CONGRESS"; fi
+          if [ "$REFRESH" = "true" ]; then ARGS="$ARGS --refresh-districts"; fi
+          python pipeline/build.py $ARGS 2>&1 | tee build.log
+          mkdir -p docs/data && tail -200 build.log > docs/data/build_log.txt
+      - name: commit data
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data data/districts
+          if ! git diff --cached --quiet; then
+            git commit -m "data update $(date -u +%F)"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - id: deployment
+        uses: actions/deploy-pages@v4

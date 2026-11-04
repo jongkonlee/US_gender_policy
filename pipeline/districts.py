@@ -14,28 +14,20 @@ import urllib.parse
 
 from common import CACHE, STATE_ABBR_FIPS, STATE_FIPS, ensure_dir, fetch, log
 
-CENSUS = "https://api.census.gov/data"
+WWW2 = "https://www2.census.gov"
+UR2020 = WWW2 + "/geo/docs/maps-data/data/rel2020/cd-sld/CD{n}_UR_POPAREA.txt"
+UR2010 = WWW2 + "/geo/relfiles/{folder}/{fips}/ur_cd_delim_{fips}.txt"
+UR_STATE_2010 = WWW2 + "/geo/docs/reference/ua/PctUrbanRural_State.txt"
+UR_STATE_2020 = WWW2 + "/geo/docs/reference/ua/State_Urban_Rural_Pop_2020_2010.xlsx"
+ZCTA_CD111 = WWW2 + "/geo/docs/maps-data/data/rel/zcta_cd111_rel_10.txt"
+UA_ZCTA_2010 = WWW2 + "/geo/docs/reference/ua/ua_zcta_rel_10.txt"
+ACS_TABLE = WWW2 + "/programs-surveys/acs/summary_file/{y}/table-based-SF/data/1YRData/acsdt1y{y}-{t}.dat"
 
-# Congress -> (dataset, total, urban, rural); 2010 SF1 "congressional district" = 111th Congress lines.
-RURAL_CD = {
-    111: ("2010/dec/sf1", "P002001", "P002002", "P002005"),
-    112: ("2010/dec/sf1", "P002001", "P002002", "P002005"),
-    113: ("2010/dec/cd113", "P002001", "P002002", "P002005"),
-    114: ("2010/dec/cd113", "P002001", "P002002", "P002005"),
-    115: ("2010/dec/cd115", "P002001", "P002002", "P002005"),
-    116: ("2010/dec/cd116", "P002001", "P002002", "P002005"),
-    117: ("2010/dec/cd116", "P002001", "P002002", "P002005"),  # NC lines changed for 2020: flagged
-    118: ("2020/dec/cd118", "P2_001N", "P2_002N", "P2_003N"),
-    119: ("2020/dec/cd119", "P2_001N", "P2_002N", "P2_003N"),
-    120: ("2020/dec/cd119", "P2_001N", "P2_002N", "P2_003N"),  # states redrawn for 2026: flagged
-}
-RURAL_STATE = {2010: ("2010/dec/sf1", "P002001", "P002002", "P002005"),
-               2020: ("2020/dec/dhc", "P2_001N", "P2_002N", "P2_003N")}
-# district lines that do not match the census file for that Congress
+# district lines that do not match the census file used for that Congress
 LINES_MISMATCH = {117: {"NC"}}
-
+# Congress -> ACS 1-year vintage tabulated on (nearly) the same district lines
 ACS_YEAR = {111: 2009, 112: 2011, 113: 2013, 114: 2015, 115: 2017, 116: 2019, 117: 2021, 118: 2023, 119: 2024, 120: 2024}
-
+US_POP = {2010: 308745538, 2020: 331449281}
 # The Downballot presidential results by congressional district (Google Sheets IDs)
 DKE = {
     "2006": "1l7W130tPRF6dQ4JoqlQJSJexnEg4rZct-7kwDXqgoLE",  # 2008 results, 2006-2010 lines
@@ -77,32 +69,29 @@ STATE_NAMES = {
     "OREGON": "OR", "PENNSYLVANIA": "PA", "RHODE ISLAND": "RI", "SOUTH CAROLINA": "SC", "SOUTH DAKOTA": "SD",
     "TENNESSEE": "TN", "TEXAS": "TX", "UTAH": "UT", "VERMONT": "VT", "VIRGINIA": "VA", "WASHINGTON": "WA",
     "WEST VIRGINIA": "WV", "WISCONSIN": "WI", "WYOMING": "WY",
+    "D.C.": "DC", "D. C.": "DC", "DIST. OF COL.": "DC", "DIST. OF COLUMBIA": "DC", "DISTRICT OF COL.": "DC",
+    "WASHINGTON DC": "DC", "WASHINGTON, D.C.": "DC",
 }
 STATES51 = set(STATE_NAMES.values())
 
 
-def census_get(dataset, get, geo_for, geo_in=None):
-    q = {"get": ",".join(get), "for": geo_for}
-    if geo_in:
-        q["in"] = geo_in
-    key = os.environ.get("CENSUS_API_KEY")
-    if key:
-        q["key"] = key
-    url = f"{CENSUS}/{dataset}?" + urllib.parse.urlencode(q, safe=":*,")
-    tag = re.sub(r"[^A-Za-z0-9]+", "_", dataset + "_" + geo_for + "_" + get[1])[:120]
-    dest = os.path.join(CACHE, "census", tag + ".json")
-    fetch(url, dest)
-    with open(dest, encoding="utf-8") as f:
-        rows = json.load(f)
-    head = rows[0]
-    return [dict(zip(head, r)) for r in rows[1:]]
+def _text(url, tag):
+    dest = os.path.join(CACHE, "census", tag)
+    fetch(url, dest, timeout=300)
+    with open(dest, encoding="utf-8-sig", errors="replace") as f:
+        return f.read()
+
+
+def _csv_rows(txt, delim=","):
+    return list(csv.reader(io.StringIO(txt), delimiter=delim))
 
 
 def _cd_key(state_fips, cd):
     st = STATE_FIPS.get(state_fips)
     if not st:
         return None
-    if cd in ("00", "98", "ZZ") or not cd.isdigit():
+    cd = str(cd).strip()
+    if cd in ("00", "98", "ZZ", "AL") or not cd.isdigit():
         return (st, 0)
     return (st, int(cd))
 
@@ -115,36 +104,195 @@ def normalize_keys(d):
     return {(st, 0 if len(per[st]) == 1 else n): v for (st, n), v in d.items()}
 
 
-def rural_districts(congress):
-    ds, tot, urb, rur = RURAL_CD[congress]
-    rows = census_get(ds, ["NAME", tot, urb, rur], "congressional district:*", "state:*")
+def _ur2010_state_file(folder, fips):
+    url = UR2010.format(folder=folder, fips=fips)
+    try:
+        txt = _text(url, f"ur_{folder}_{fips}.txt")
+    except Exception:
+        return None  # this state has no file for these lines (lines unchanged)
     out = {}
-    for r in rows:
-        k = _cd_key(r["state"], r["congressional district"])
-        if not k or k[1] == 0 and r["congressional district"] == "ZZ":
+    rows = _csv_rows(txt)
+    if not rows or "TotalPop" not in ",".join(rows[0]):
+        return None
+    h = rows[0]
+    i_st, i_cd, i_t, i_r = h.index("State"), h.index("CongressionalDistrict"), h.index("TotalPop"), h.index("RuralPop")
+    for r in rows[1:]:
+        if len(r) <= i_r or not r[i_t].strip().isdigit():
             continue
-        t = float(r[tot] or 0)
-        if t > 0:
-            out[k] = round(100 * float(r[rur] or 0) / t, 2)
+        k = _cd_key(r[i_st].zfill(2), r[i_cd])
+        t = float(r[i_t])
+        if k and t > 0:
+            out[k] = dict(rural=round(100 * float(r[i_r]) / t, 2), pop10=int(t))
+    return out
+
+
+def rural_districts(congress):
+    """{(st, d): {'rural': pct}} for the district lines of a Congress."""
+    if congress >= 118:
+        n = 118 if congress == 118 else 119
+        rows = _csv_rows(_text(UR2020.format(n=n), f"CD{n}_UR_POPAREA.txt"))
+        out = {}
+        for r in rows[1:]:
+            if len(r) < 6 or not r[1].strip().isdigit():
+                continue
+            geoid = r[0].strip()
+            k = _cd_key(geoid[:2], geoid[2:4])
+            t = float(r[1])
+            if k and t > 0:
+                out[k] = dict(rural=round(100 * float(r[4]) / t, 2), ur_src=f"2020 Census, {n}th CD")
+        return normalize_keys(out)
+    if congress >= 113:
+        out = {}
+        folders = ["cdsld13"] + (["cdsld16"] if congress >= 115 else []) + (["cdsld18"] if congress >= 116 else [])
+        for folder in folders:
+            for fips in sorted(STATE_FIPS):
+                if fips in ("60", "66", "69", "78"):
+                    continue
+                res = _ur2010_state_file(folder, fips)
+                if not res:
+                    continue
+                st = STATE_FIPS[fips]
+                for k in [k for k in out if k[0] == st]:
+                    del out[k]  # newer lines replace older ones for this state
+                for k, v in res.items():
+                    v["ur_src"] = f"2010 Census, {folder}"
+                    out[k] = v
+        return normalize_keys(out)
+    return rural_districts_zcta111()
+
+
+def rural_districts_zcta111():
+    """111th-112th lines: no official district file, so estimate from ZCTA pieces (2010 Census):
+    rural population of each ZCTA (total minus urban-area parts) allocated to districts by population."""
+    zurban, zpop = {}, {}
+    rows = _csv_rows(_text(UA_ZCTA_2010, "ua_zcta_rel_10.txt"))
+    h = rows[0]
+    iz, ip, izp = h.index("ZCTA5"), h.index("POPPT"), h.index("ZPOP")
+    for r in rows[1:]:
+        if len(r) <= izp or r[iz] == "99999":
+            continue
+        zurban[r[iz]] = zurban.get(r[iz], 0) + float(r[ip] or 0)
+        zpop[r[iz]] = float(r[izp] or 0)
+    rows = _csv_rows(_text(ZCTA_CD111, "zcta_cd111_rel_10.txt"))
+    h = rows[0]
+    iz, ist, icd, ip = h.index("ZCTA5"), h.index("STATE"), h.index("CD"), h.index("POPPT")
+    tot, rur = {}, {}
+    for r in rows[1:]:
+        if len(r) <= ip:
+            continue
+        k = _cd_key(r[ist].zfill(2), r[icd])
+        if not k:
+            continue
+        p = float(r[ip] or 0)
+        z = r[iz]
+        share_rural = 1.0
+        if zpop.get(z):
+            share_rural = max(0.0, 1 - zurban.get(z, 0) / zpop[z])
+        tot[k] = tot.get(k, 0) + p
+        rur[k] = rur.get(k, 0) + p * share_rural
+    out = {k: dict(rural=round(100 * rur[k] / tot[k], 2), ur_src="2010 Census, ZCTA estimate")
+           for k in tot if tot[k] > 0}
     return normalize_keys(out)
 
 
 def rural_states(congress):
-    ds, tot, urb, rur = RURAL_STATE[2020 if congress >= 118 else 2010]
-    rows = census_get(ds, ["NAME", tot, urb, rur], "state:*")
-    out = {}
+    year = 2020 if congress >= 118 else 2010
+    if year == 2010:
+        rows = _csv_rows(_text(UR_STATE_2010, "PctUrbanRural_State.txt"))
+        h = [x.strip().upper() for x in rows[0]]
+        i_st, i_t, i_r = h.index("STATE"), h.index("POP_ST"), h.index("POP_RURAL")
+        out = {}
+        for r in rows[1:]:
+            if len(r) > i_r and r[i_st].strip().zfill(2) in STATE_FIPS:
+                t = float(r[i_t])
+                out[STATE_FIPS[r[i_st].strip().zfill(2)]] = dict(rural=round(100 * float(r[i_r]) / t, 2), ur_src="2010 Census")
+        return out
+    dest = os.path.join(CACHE, "census", "State_Urban_Rural_Pop_2020_2010.xlsx")
+    fetch(UR_STATE_2020, dest)
+    for name, rows in _rows_from_workbook(dest):
+        res = _parse_state_ur(rows, "2020")
+        if res:
+            return res
+    raise RuntimeError("state urban/rural 2020: layout not recognized")
+
+
+def _parse_state_ur(rows, year):
+    """Find the 2020 total and rural population columns by header text, check against the US total."""
+    hdr_rows = rows[:8]
+    width = max(len(r) for r in rows[:60]) if rows else 0
+    labels = []
+    for j in range(width):
+        lab = " ".join(str(r[j]) for r in hdr_rows if j < len(r) and r[j] is not None).lower()
+        labels.append(lab)
+    srows = {}
     for r in rows:
-        st = STATE_FIPS.get(r["state"])
-        t = float(r[tot] or 0)
-        if st and t > 0:
-            out[st] = round(100 * float(r[rur] or 0) / t, 2)
-    return out
+        cells = [c for c in r if c not in (None, "")]
+        if not cells:
+            continue
+        first = str(cells[0]).strip().upper()
+        st = first if first in STATES51 else STATE_NAMES.get(first)
+        if not st and len(cells) > 1:
+            second = str(cells[1]).strip().upper()
+            st = second if second in STATES51 else STATE_NAMES.get(second)
+        if st and st not in srows:
+            srows[st] = r
+    if len(srows) < 51:
+        return None
+
+    def colsum(j):
+        s = 0.0
+        for r in srows.values():
+            v = _num(r[j]) if j < len(r) else None
+            if v is None:
+                return None
+            s += v
+        return s
+    tot_cols = [j for j in range(width) if year in labels[j] and colsum(j) and abs(colsum(j) - US_POP[int(year)]) / US_POP[int(year)] < 0.01]
+    rur_cols = [j for j in range(width) if year in labels[j] and "rural" in labels[j] and "%" not in labels[j]
+                and "pct" not in labels[j] and "percent" not in labels[j] and colsum(j) and 0.1 < colsum(j) / US_POP[int(year)] < 0.3]
+    if not tot_cols or not rur_cols:
+        return None
+    jt, jr = tot_cols[0], rur_cols[0]
+    log(f"state urban/rural {year}: total col {jt} '{labels[jt][:40]}', rural col {jr} '{labels[jr][:40]}'")
+    return {st: dict(rural=round(100 * _num(r[jr]) / _num(r[jt]), 2), ur_src=f"{year} Census") for st, r in srows.items()}
 
 
-ACS_VARS = ["B01003_001E", "B03002_001E", "B03002_003E", "B03002_004E", "B03002_006E", "B03002_012E", "B19013_001E"]
-EDU_NEW = ["B15003_001E", "B15003_022E", "B15003_023E", "B15003_024E", "B15003_025E"]
-EDU_OLD = ["B15002_001E", "B15002_015E", "B15002_016E", "B15002_017E", "B15002_018E",
-           "B15002_032E", "B15002_033E", "B15002_034E", "B15002_035E"]
+ACS_TABLES = ["b01003", "b03002", "b19013"]
+
+
+def _acs_table(year, table):
+    url = ACS_TABLE.format(y=year, t=table)
+    txt = _text(url, f"acsdt1y{year}-{table}.dat")
+    rows = _csv_rows(txt, "|")
+    h = rows[0]
+    return h, rows[1:]
+
+
+def acs(congress, level):
+    """ACS 1-year estimates from the table-based Summary File (2021 onward)."""
+    year = ACS_YEAR[congress]
+    if year < 2021:
+        raise RuntimeError(f"ACS {year}: older sequence-based Summary File not yet supported")
+    vals = {}
+    for t in ACS_TABLES + (["b15003"]):
+        h, rows = _acs_table(year, t)
+        gi = h.index("GEO_ID")
+        for r in rows:
+            g = r[gi]
+            if level == "cd" and g.startswith("500"):
+                key = _cd_key(g[-4:-2], g[-2:])
+            elif level == "state" and g.startswith("0400000US"):
+                key = STATE_FIPS.get(g[-2:])
+            else:
+                continue
+            if not key:
+                continue
+            d = vals.setdefault(key, {})
+            for j, col in enumerate(h):
+                if "_E" in col and j < len(r):
+                    d[col.replace("_E", "_").upper() + "E"] = r[j]
+    out = {k: _acs_row(v, year) for k, v in vals.items()}
+    return normalize_keys(out) if level == "cd" else out
 
 
 def _acs_row(r, year):
@@ -153,38 +301,19 @@ def _acs_row(r, year):
             v = float(r.get(k))
         except (TypeError, ValueError):
             return None
-        return None if v < 0 else v  # ACS uses negative codes for missing
+        return None if v < 0 else v  # negative = missing
     tot = f("B03002_001E")
     out = dict(pop=f("B01003_001E"))
     if tot:
-        out.update(white_nh=round(100 * f("B03002_003E") / tot, 1), black_nh=round(100 * f("B03002_004E") / tot, 1),
-                   asian_nh=round(100 * f("B03002_006E") / tot, 1), hisp=round(100 * f("B03002_012E") / tot, 1))
+        out.update(white_nh=round(100 * (f("B03002_003E") or 0) / tot, 1), black_nh=round(100 * (f("B03002_004E") or 0) / tot, 1),
+                   asian_nh=round(100 * (f("B03002_006E") or 0) / tot, 1), hisp=round(100 * (f("B03002_012E") or 0) / tot, 1))
     inc = f("B19013_001E")
     out["med_income"] = int(inc) if inc else None
-    if year >= 2012:
-        base = f("B15003_001E")
-        ba = sum(f(k) or 0 for k in EDU_NEW[1:])
-    else:
-        base = f("B15002_001E")
-        ba = sum(f(k) or 0 for k in EDU_OLD[1:])
+    base = f("B15003_001E")
+    ba = sum(f(k) or 0 for k in ("B15003_022E", "B15003_023E", "B15003_024E", "B15003_025E"))
     out["ba_plus"] = round(100 * ba / base, 1) if base else None
     out["acs_year"] = year
     return out
-
-
-def acs(congress, level):
-    year = ACS_YEAR[congress]
-    get = ["NAME"] + ACS_VARS + (EDU_NEW if year >= 2012 else EDU_OLD)
-    if level == "cd":
-        rows = census_get(f"{year}/acs/acs1", get, "congressional district:*", "state:*")
-        out = {}
-        for r in rows:
-            k = _cd_key(r["state"], r["congressional district"])
-            if k:
-                out[k] = _acs_row(r, year)
-        return normalize_keys(out)
-    rows = census_get(f"{year}/acs/acs1", get, "state:*")
-    return {STATE_FIPS[r["state"]]: _acs_row(r, year) for r in rows if r["state"] in STATE_FIPS}
 
 
 # ---------- presidential results ----------
@@ -221,23 +350,24 @@ def state_results(year):
     dest = os.path.join(CACHE, "fec", os.path.basename(url))
     fetch(url, dest)
     nd, nr = NATIONAL[year]
+    best, diag = None, []
     for name, rows in _rows_from_workbook(dest):
         srows = {}
         for r in rows:
             cells = [c for c in r if c not in (None, "")]
             if not cells:
                 continue
-            first = str(cells[0]).strip().upper().rstrip("*").strip()
+            first = re.sub(r"\s+", " ", str(cells[0]).strip().upper().rstrip("*").strip())
             st = first if first in STATES51 else STATE_NAMES.get(first)
             if st and st not in srows:
                 srows[st] = r
-        if len(srows) < 51:
+        diag.append(f"{name}:{len(srows)} states")
+        if len(srows) < 50:
             continue
         width = max(len(r) for r in srows.values())
         sums = []
         for j in range(width):
-            s = 0.0
-            ok = True
+            s, ok = 0.0, True
             for r in srows.values():
                 v = _num(r[j]) if j < len(r) else None
                 if v is None:
@@ -245,13 +375,20 @@ def state_results(year):
                     break
                 s += v
             sums.append(s if ok else None)
-        dcol = [j for j, s in enumerate(sums) if s is not None and abs(s - nd) <= max(5, nd * 0.0005)]
-        rcol = [j for j, s in enumerate(sums) if s is not None and abs(s - nr) <= max(5, nr * 0.0005)]
-        if dcol and rcol:
-            out = {st: (_num(r[dcol[0]]), _num(r[rcol[0]])) for st, r in srows.items()}
-            log(f"FEC {year}: sheet '{name}', D col {dcol[0]}, R col {rcol[0]}")
-            return out
-    raise RuntimeError(f"FEC {year}: no sheet with state totals matching the national totals")
+        for j, s in enumerate(sums):
+            if s is None:
+                continue
+            for k, s2 in enumerate(sums):
+                if s2 is None or k == j:
+                    continue
+                err = abs(s - nd) / nd + abs(s2 - nr) / nr
+                if best is None or err < best[0]:
+                    best = (err, name, j, k, srows)
+    if best and best[0] < 0.01:
+        err, name, j, k, srows = best
+        log(f"FEC {year}: sheet '{name}', D col {j}, R col {k}, {len(srows)} states, total error {err:.5f}")
+        return {st: (_num(r[j]), _num(r[k])) for st, r in srows.items()}
+    raise RuntimeError(f"FEC {year}: no state table matching national totals ({'; '.join(diag)[:300]}; best {best[0] if best else None})")
 
 
 DIST_RE = re.compile(r"^([A-Z]{2})[- ]?(AL|\d{1,2})$")
@@ -262,27 +399,36 @@ def district_results(lines):
     sid = DKE[lines]
     dest = os.path.join(CACHE, "dke", f"dke_{lines}.xlsx")
     fetch(f"https://docs.google.com/spreadsheets/d/{sid}/export?format=xlsx", dest)
-    best = None
+    sheets = []
     for name, rows in _rows_from_workbook(dest):
         parsed = _parse_dke_sheet(rows)
-        if parsed and (best is None or parsed[1] > best[1]):
-            best = (parsed[0], parsed[1], name)
-    if not best:
+        if parsed and len(parsed[0]) >= 400:
+            sheets.append((parsed[1], name, parsed[0]))
+    if not sheets:
         raise RuntimeError(f"Downballot {lines}: no usable sheet")
-    log(f"Downballot {lines}: sheet '{best[2]}', {len(best[0])} districts, score {best[1]}")
-    return normalize_keys(best[0])
+    # vote-count sheets first (exact), then percentage sheets fill in missing years
+    sheets.sort(key=lambda x: -x[0])
+    out, used = {}, []
+    for raw, name, res in sheets:
+        used.append(f"{name}({'votes' if raw else 'pct'})")
+        for k, v in res.items():
+            cur = out.setdefault(k, {})
+            for y, s in v.items():
+                cur.setdefault(y, s)
+    log(f"Downballot {lines}: {len(out)} districts from {', '.join(used)}")
+    return normalize_keys(out)
 
 
-D_NAMES = {"obama", "clinton", "biden", "harris", "kerry"}
+D_NAMES = {"obama", "clinton", "biden", "harris", "kerry", "gore"}
 R_NAMES = {"mccain", "romney", "trump", "bush"}
 PAIR_YEAR = {("obama", "mccain"): 2008, ("obama", "romney"): 2012, ("clinton", "trump"): 2016,
-             ("biden", "trump"): 2020, ("harris", "trump"): 2024, ("kerry", "bush"): 2004}
+             ("biden", "trump"): 2020, ("harris", "trump"): 2024, ("kerry", "bush"): 2004, ("gore", "bush"): 2000}
 
 
 def _parse_dke_sheet(rows):
     hdr = None
     for i, r in enumerate(rows[:15]):
-        if any(str(c).strip().lower() == "district" for c in r if c is not None):
+        if any(str(c).strip().lower() in ("district", "cd") for c in r if c is not None):
             hdr = i
             break
     if hdr is None:
@@ -307,7 +453,8 @@ def _parse_dke_sheet(rows):
                     break
     if not pairs:
         return None
-    dcol = [str(c).strip().lower() if c is not None else "" for c in rows[hdr]].index("district")
+    hcells = [str(c).strip().lower() if c is not None else "" for c in rows[hdr]]
+    dcol = hcells.index("district") if "district" in hcells else hcells.index("cd")
     out = {}
     raw_votes = False
     for r in rows[cand_row + 1:]:
@@ -328,8 +475,7 @@ def _parse_dke_sheet(rows):
             vals[y] = 100 * dv / (dv + rv)
         if vals:
             out[key] = vals
-    score = len(out) * 10 + (5 if raw_votes else 0)
-    return out, score
+    return out, (1 if raw_votes else 0)
 
 
 def lean(shares, years):
@@ -436,4 +582,5 @@ def build(congress, caches):
         for k in list(cd):
             if k[0] == st:
                 cd[k]["lines_note"] = "census_lines_differ"
-    return dict(cd=cd, state=stt, notes=notes)
+    transient = any("not yet supported" not in n for n in notes)
+    return dict(cd=cd, state=stt, notes=notes, transient=transient)
