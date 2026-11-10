@@ -1,26 +1,26 @@
-21:53:44 legislators: 12770 people
-21:53:44 === Congress 119 ===
-21:53:49 listing failed 119 hr Expecting value: line 1 column 1 (char 0)
-21:53:49 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119-hr.zip
-21:54:00 listing failed 119 s Expecting value: line 1 column 1 (char 0)
-21:54:00 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119-s.zip
-21:54:04 listing failed 119 hjres Expecting value: line 1 column 1 (char 0)
-21:54:04 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hjres/BILLSTATUS-119-hjres.zip
-21:54:05 listing failed 119 sjres Expecting value: line 1 column 1 (char 0)
-21:54:05 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/sjres/BILLSTATUS-119-sjres.zip
-21:54:05 listing failed 119 hconres Expecting value: line 1 column 1 (char 0)
-21:54:05 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hconres/BILLSTATUS-119-hconres.zip
-21:54:05 listing failed 119 sconres Expecting value: line 1 column 1 (char 0)
-21:54:05 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/sconres/BILLSTATUS-119-sconres.zip
-21:54:06 listing failed 119 hres Expecting value: line 1 column 1 (char 0)
-21:54:06 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hres/BILLSTATUS-119-hres.zip
-21:54:07 listing failed 119 sres Expecting value: line 1 column 1 (char 0)
-21:54:07 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/sres/BILLSTATUS-119-sres.zip
-21:54:08 bills 119: 19835
-21:54:09 bills loaded: 19835
-21:54:23 women's policy bills: 917 (core 687)
-21:54:25 voteview H119: 674 roll calls, 452 members
-21:54:26 H119: 37 women's policy votes, roster 451
-21:54:27 voteview S119: 915 roll calls, 104 members
-21:54:28 S119: 14 women's policy votes, roster 104
-21:54:28 done [{'c': 119, 'bills': 917, 'votes': {'H': 37, 'S': 14}, 'members': {'H': 451, 'S': 104}, 'generated': '2026-11-09T21:54:28Z'}]
+21:47:12 legislators: 12770 people
+21:47:12 === Congress 119 ===
+21:47:17 listing failed 119 hr Expecting value: line 1 column 1 (char 0)
+21:47:17 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119-hr.zip
+21:47:30 listing failed 119 s Expecting value: line 1 column 1 (char 0)
+21:47:30 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119-s.zip
+21:47:34 listing failed 119 hjres Expecting value: line 1 column 1 (char 0)
+21:47:34 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hjres/BILLSTATUS-119-hjres.zip
+21:47:34 listing failed 119 sjres Expecting value: line 1 column 1 (char 0)
+21:47:34 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/sjres/BILLSTATUS-119-sjres.zip
+21:47:35 listing failed 119 hconres Expecting value: line 1 column 1 (char 0)
+21:47:35 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hconres/BILLSTATUS-119-hconres.zip
+21:47:35 listing failed 119 sconres Expecting value: line 1 column 1 (char 0)
+21:47:35 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/sconres/BILLSTATUS-119-sconres.zip
+21:47:36 listing failed 119 hres Expecting value: line 1 column 1 (char 0)
+21:47:36 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hres/BILLSTATUS-119-hres.zip
+21:47:38 listing failed 119 sres Expecting value: line 1 column 1 (char 0)
+21:47:38 download https://www.govinfo.gov/bulkdata/BILLSTATUS/119/sres/BILLSTATUS-119-sres.zip
+21:47:39 bills 119: 19842
+21:47:39 bills loaded: 19842
+21:47:54 women's policy bills: 918 (core 688)
+21:47:56 voteview H119: 676 roll calls, 452 members
+21:47:56 H119: 37 women's policy votes, roster 451
+21:47:58 voteview S119: 916 roll calls, 104 members
+21:47:58 S119: 14 women's policy votes, roster 104
+21:47:59 done [{'c': 119, 'bills': 918, 'votes': {'H': 37, 'S': 14}, 'members': {'H': 451, 'S': 104}, 'generated': '2026-11-10T21:47:58Z'}]
